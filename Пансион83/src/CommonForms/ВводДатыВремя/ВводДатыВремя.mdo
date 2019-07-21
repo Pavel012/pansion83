@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7de193d3-cdc9-4e39-b0df-c5dd3003e8f5">
+  <name>ВводДатыВремя</name>
+  <synonym>
+    <key>en</key>
+    <value>Input date &amp; time</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Datums- und Zeitangabe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод даты и времени</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

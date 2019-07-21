@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="690d2ec2-8319-4d14-9fd2-021f45798826">
+  <producedTypes>
+    <objectType typeId="91c2f3fb-75e9-4771-9e9d-0dfc4c8542da" valueTypeId="8c9494f7-ca14-49ca-a189-c7f73ce213e1"/>
+    <managerType typeId="dbe5dacb-e421-460d-ac80-0aea00560809" valueTypeId="e366879c-d679-4052-9e46-d2c7ba5ff4be"/>
+  </producedTypes>
+  <name>ChooseDocumentsFromList</name>
+  <synonym>
+    <key>en</key>
+    <value>Choose documents from list</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Dokumente aus der Liste wählen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Выбрать документы из списка</value>
+  </synonym>
+  <defaultForm>DataProcessor.ChooseDocumentsFromList.Form.Form</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="1f343e1d-89a2-4b97-84ac-0c9aad5ecd84">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

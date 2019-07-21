@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2fec634-aa6c-4c96-af98-120c3d4d4837">
+  <name>ReportAppearanceTemplateSpring</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Весна</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - Spring</value>
+  </synonym>
+</mdclass:CommonTemplate>

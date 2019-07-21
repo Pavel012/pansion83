@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40992f10-3706-4c12-808e-2026777468ae">
+  <producedTypes>
+    <refType typeId="bf184296-311f-4dc9-8d94-13058bd650d1" valueTypeId="733cccc9-1401-4ba5-b7f1-70b3cae0faa1"/>
+    <listType typeId="39c37461-a52f-49ac-8a04-43a5ce149f69" valueTypeId="ae153668-ad70-4291-be3a-385dcbf125d4"/>
+    <managerType typeId="0c09247f-39fe-4841-94a2-3a848a8f6b45" valueTypeId="fc86a16e-fefe-44b8-98b4-147129034e4f"/>
+  </producedTypes>
+  <name>ProgramAppearanceStyles</name>
+  <synonym>
+    <key>en</key>
+    <value>Program appearance styles</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Ausgestaltungsstil des Programms</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Стили оформления программы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="0ed2ebb8-d9e8-4218-9f3f-ce594aa4c1ff">
+    <name>Windows</name>
+    <synonym>
+      <key>en</key>
+      <value>Windows</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Windows</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10419d09-0d8e-4d14-9dfc-8e3ffa93a538">
+    <name>Orange</name>
+    <synonym>
+      <key>en</key>
+      <value>Orange</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Orange</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Апельсин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95e974aa-e827-4a78-8a06-a20f3bf05507">
+    <name>Dew</name>
+    <synonym>
+      <key>en</key>
+      <value>Dew</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rosa</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Роса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="119acd1b-96e5-47e3-9315-45d35a59b7fd">
+    <name>Olive</name>
+    <synonym>
+      <key>en</key>
+      <value>Olive</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Olivfarben</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оливковый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

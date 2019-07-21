@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7d7d951-e9ef-49e9-ad2d-4ef893fd3997">
+  <producedTypes>
+    <selectionType typeId="da091caf-15ab-4c29-bbc3-9ba658055d10" valueTypeId="8fc53a34-b3c0-482a-b5b2-7695aa6bacce"/>
+    <listType typeId="369f7aa4-a97c-4799-a0c3-d4b14a917642" valueTypeId="b8ccb755-f25f-437c-92c5-02e9e2b0831d"/>
+    <managerType typeId="4ff3fe49-cd31-4de5-a32f-432add669187" valueTypeId="be814298-1b27-4764-9113-dff3c7e3930f"/>
+    <recordSetType typeId="7a1fb1be-1525-4c6b-b5ca-b6487599f3fd" valueTypeId="7f03b900-fa04-4d34-b2e9-e0248a4d5ad0"/>
+    <recordKeyType typeId="76bf70fa-b77e-432d-b302-1161048c2615" valueTypeId="b3478aed-ad8e-4e32-ab10-04886a89fae3"/>
+    <recordType typeId="29f813a5-add9-49bf-9473-53a7ac5951b4" valueTypeId="e9248939-d32e-4785-9f77-9feffd3e9aa2"/>
+    <recordManagerType typeId="fdaa33ee-9548-4bad-93cb-bbb8e1ba0e63" valueTypeId="fe73bd43-7074-46fc-a847-05403562bd27"/>
+  </producedTypes>
+  <name>ПодарочСертификатСведения</name>
+  <synonym>
+    <key>en</key>
+    <value>Подароч сертификат сведения</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Geschenkgutscheine</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Подарочные сертификаты</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПодарочСертификатСведения.Form.RecordForm</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПодарочСертификатСведения.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9453dcc2-40e7-4706-a1df-b3c9d090208a">
+    <name>BlockDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Block date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Blockierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата блокировки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9968d6f1-d8c0-4593-bd6c-6bfc87e2a383">
+    <name>BlockReason</name>
+    <synonym>
+      <key>en</key>
+      <value>Block reason</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Blockierungsgrund:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Причина блокировки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8fbd374a-4927-409f-8dee-357d63f1e356">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Block author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor der Blockierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор блокировки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="ea241b4e-3cff-4fb9-9769-41ae122c8dfb">
+    <name>BlockAuthor</name>
+    <synonym>
+      <key>en</key>
+      <value>Block author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor der Blockierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор блокировки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="c109841b-31bd-4dc0-84e9-521eda30425d">
+    <name>GiftCertificate</name>
+    <synonym>
+      <key>en</key>
+      <value>Gift certificate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geschenkgutschein</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подарочный сертификат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="03daa276-6352-437a-829e-0987f8e930d1">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="583b04c3-5df6-4295-ada7-a2fc971d4d22">
+    <name>RecordForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eintragsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0385811c-e83f-43b3-976d-2a16bd9a6bd9">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

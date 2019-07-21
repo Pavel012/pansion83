@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58cfce80-3ad3-499b-9b2c-8b51cf3039f7">
+  <producedTypes>
+    <selectionType typeId="e2f7f0d7-17a1-4b84-9449-2a2ba3fd739b" valueTypeId="407a1ee8-9aa4-40f0-9d52-3e46ce1267a6"/>
+    <listType typeId="594c2c71-e2c3-4c31-a9e4-d5e25645193f" valueTypeId="81c26289-b674-4235-bba2-db25bb0f299b"/>
+    <managerType typeId="9117e82e-f2a1-491c-b564-d33ad7303951" valueTypeId="9521f223-4d87-4c95-af74-9fd380cdef98"/>
+    <recordSetType typeId="5ae758cd-0dbc-4655-ad0b-3387e37f0922" valueTypeId="c9dbe9c3-4c26-4315-957e-fb6bc2d8816d"/>
+    <recordKeyType typeId="d6469501-cf48-4cf5-b3cb-f33f25e35807" valueTypeId="9c99e3ef-4f52-4906-9bbc-bda455cc62a1"/>
+    <recordType typeId="cf4aafc9-7560-4c5c-bd07-26ee93e57b38" valueTypeId="45439cb1-c1aa-4e4f-ac60-825b515ca39b"/>
+    <recordManagerType typeId="da99516f-8507-46ef-8c7e-46a99c64f367" valueTypeId="9badc142-8234-4b9c-bdae-2c4b705e6e7c"/>
+  </producedTypes>
+  <name>ИзмСтатусовНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Изм статусов номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value> Änderungsverlauf der Zimmerstatus</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>История изменения статусов номеров</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ИзмСтатусовНомеров.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0501745b-016c-4780-b6be-0aea1305cbb6">
+    <name>RoomStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Room status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status des Zimmers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="48d732f4-8165-4719-9037-acc810ec6153">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="7a655141-3e77-4759-8d52-d0c1449acf74">
+    <name>User</name>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9d4cf84b-2e2b-4c5f-a822-79624e8b00b2">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <comment>Номер</comment>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="16889091-0c87-4272-a9b2-d67740821aa2">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

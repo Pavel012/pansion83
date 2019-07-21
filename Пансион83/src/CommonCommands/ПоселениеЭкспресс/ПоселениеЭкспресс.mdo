@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f11fe554-3fef-4bb7-9452-9cd7829f1c6a">
+  <name>ПоселениеЭкспресс</name>
+  <synonym>
+    <key>en</key>
+    <value>New walk-in</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Walk-in</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поселить &quot;с улицы&quot;</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

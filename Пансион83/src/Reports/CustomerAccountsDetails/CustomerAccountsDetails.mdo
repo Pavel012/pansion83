@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c63d8949-ad88-4fde-90ea-346740f018b7">
+  <producedTypes>
+    <objectType typeId="2e04c169-27b7-438f-bf5b-0517cec92463" valueTypeId="46d29449-1727-4167-8eb3-c23e0a3faa6a"/>
+    <managerType typeId="61360274-2229-4f8e-bf81-518ee5449e85" valueTypeId="d0c53430-97c4-4de1-9bd0-3bda7221d038"/>
+  </producedTypes>
+  <name>CustomerAccountsDetails</name>
+  <synonym>
+    <key>en</key>
+    <value>Customer accounts details</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Detaillierte Bilanz der Verrechnung mit Vertragspartnern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Детальный баланс взаиморасчетов с контрагентами</value>
+  </synonym>
+  <defaultForm>Report.CustomerAccountsDetails.Form.ReportForm</defaultForm>
+  <defaultSettingsForm>Report.CustomerAccountsDetails.Form.SettingsForm</defaultSettingsForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="623940a1-c050-45d9-832b-75f7228b36af">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4df4d624-0eb1-46b4-844f-dae3b8f76335">
+    <name>Customer</name>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="15d0ca7a-8ace-458b-867a-c472ad41d159">
+    <name>Contract</name>
+    <synonym>
+      <key>en</key>
+      <value>Contract</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertrag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="caf82b6e-46e6-40e5-aadc-fd22c71c7b96">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9021c12b-c9fe-4a18-96cc-daf0349c514b">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3459e030-533f-4b3b-a924-d5e46b052dc5">
+    <name>Currency</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e9978d3a-f1f1-4ff1-91f9-7e079578f377">
+    <name>PeriodFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Period from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeitraum ab</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="276f3c7a-ecb2-4e1d-b65a-f6940cdc70cd">
+    <name>PeriodTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Period to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeitraum bis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="df6dee6f-43e1-4424-bcae-ab1fe62a1ee7">
+    <name>ShowCurrentAccountsReceivable</name>
+    <synonym>
+      <key>en</key>
+      <value>Show sales not in settlements</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur Summen zu Verkäufen anzeigen, die nicht durch Protokolle geschlossen sind</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать суммы по продажам не закрытым актами</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="285e544b-f4a9-4d7a-9b15-ecc9d2d86110">
+    <name>ShowAccountsReceivableForecast</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать прогноз продаж по брони</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Show forecast amounts for reservations</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b41e6640-6c97-45c3-9422-6a81e97074d3">
+    <name>GuestGroupCheckInPeriodFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group check-in period from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreisedatum der Gruppen im Zeitraum ab</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заезда групп в периоде с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e007fb40-3737-471c-a925-74f1e38882b2">
+    <name>GuestGroupCheckInPeriodTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group check-in period to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreisedatum der Gruppen im Zeitraum bis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заезда групп в периоде по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eeff7ecb-8411-4e5d-b492-72a4528a2a84">
+    <name>GuestGroupCreateDatePeriodFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group created from date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erstellungsdatum von Gruppen im Zeitraum ab</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания групп в периоде с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="138913de-5f24-407c-b126-267f02eb24d3">
+    <name>GuestGroupCreateDatePeriodTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group created to date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erstellungsdatum von Gruppen im Zeitraum bis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания групп в периоде по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae40752b-ba34-42b4-b01b-165c7613a48e">
+    <name>ShowInPriceAmountsOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Show in-price amounts only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur In-Preis beträgt anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать только суммы по тарифам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d1c3a25-92c4-4d04-bd64-b1adc97301f8">
+    <name>InPriceServicesFolioType</name>
+    <synonym>
+      <key>en</key>
+      <value>In-price services folio type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tariff Dienstleistungen Kontotyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип фолио для услуг по тарифам</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d89ec4c9-ab40-4c5d-b08c-f8851306fd03">
+    <name>Report</name>
+    <synonym>
+      <key>en</key>
+      <value>Report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bericht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Отчеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="56768162-d089-4ba1-9c18-c06ff5decd70">
+    <name>ReportBuilder</name>
+    <synonym>
+      <key>en</key>
+      <value>Report builder</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Generator des Berichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Построитель отчета</value>
+    </synonym>
+    <type>
+      <types>ReportBuilder</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="739c060a-5648-498c-9eb7-32676cbcacf4">
+    <name>QueryText</name>
+    <synonym>
+      <key>en</key>
+      <value>Query text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Text der Anfrage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a54a184-c3ef-4801-908b-e47114e7b239">
+    <name>ReportAppearanceTemplateType</name>
+    <synonym>
+      <key>en</key>
+      <value>Report appearance template type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Vorlage zur Erstellung des Berichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид шаблона оформления отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportAppearanceTemplateTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dd667aaa-f5c8-45b3-be5e-89de1108fffb">
+    <name>ReportDimensionsPlacementOnRowsType</name>
+    <synonym>
+      <key>en</key>
+      <value>Report dimensions placement on rows type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Unterbringung der Gruppierungen der Berichtspalten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размещения группировок строк отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportDimensionsPlacementTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7ccbe646-73dc-4ed5-a9a0-09e2d7471c84">
+    <name>ReportDimensionsPlacementOnColumnsType</name>
+    <synonym>
+      <key>en</key>
+      <value>Report dimensions placement on columns type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Unterbringung der Gruppierungen der Berichtspalten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размещения группировок колонок отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportDimensionsPlacementTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="288bbaf2-e954-4ef3-8cc6-e1b53642a6e1">
+    <name>ReportTotalsPlacementOnRowsType</name>
+    <synonym>
+      <key>en</key>
+      <value>Report totals placement on rows type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Unterbringung der Ergebnisse nach den Zeilengruppierungen des Berichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размещения итогов по группировкам строк отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportTotalsPlacementTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f76abb1f-3cf4-4aa5-8624-e6faace82e9b">
+    <name>ReportTotalsPlacementOnColumnsType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размещения итогов по группировкам колонок отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report totals placement on columns type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportTotalsPlacementTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0dc60709-8f53-41d3-b517-30c228de2232">
+    <name>ReportDimensionAttributesPlacementInRowsType</name>
+    <synonym>
+      <key>en</key>
+      <value>Report row dimension attributes placement type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Unterbringung der Requisiten der Zeilengruppierungen im Bericht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размещения в отчете реквизитов группировок строк</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportDimensionAttributesPlacementTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee18cf08-73a6-4d2e-8bfd-c7c0c1d205a3">
+    <name>ReportDimensionAttributesPlacementInColumnsType</name>
+    <synonym>
+      <key>en</key>
+      <value>Report column dimension attributes placement type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Unterbringung im Bericht der Requisiten der Spaltengruppierungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размещения в отчете реквизитов группировок колонок</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportDimensionAttributesPlacementTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1cdce176-43f3-42f7-aa46-48697369442b">
+    <name>ReportAutoscaleType</name>
+    <synonym>
+      <key>en</key>
+      <value>Report autoscale type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der automatischen Skaleneinstellung des Berichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид автоматического масштабирования отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportAutoscaleTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3ceccfb1-eb68-4227-9585-fdd7e1a901ec">
+    <name>ReportPageOrientation</name>
+    <synonym>
+      <key>en</key>
+      <value>Report page orientation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Orientierung der Berichtsseite</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ориентация страницы отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.PageOrientations</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ff878489-0eee-4d6b-95b8-2359338ffca9">
+    <name>ReportDoNotPutReportHeader</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not put report header to the report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Berichtsüberschrift nicht im Bericht anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не выводить в отчет заголовок отчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a2c32822-0203-49d2-85ff-ec03d06368be">
+    <name>ReportDoNotPutTableHeader</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not put table header to the report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Überschrift der Berichttabelle nicht im Bericht anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не выводить в отчет заголовок таблицы отчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1a674ddd-8d81-4b42-bdd2-8730eb8caf41">
+    <name>ReportDoNotPutDetailRecords</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not put detail rows to the report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Detailzeilen nicht im Bericht anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не выводить в отчет детальные строки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88abd80f-d389-475b-b75f-9e6a1112bcca">
+    <name>ReportDoNotPutTableFooter</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not put table footer to the report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Fußzeile der Berichtstabelle nicht im Bericht anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не выводить в отчет подвал таблицы отчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ebb1b9d-98e6-430f-8499-7d0e199e0557">
+    <name>ReportDoNotPutOveralls</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not put overall totals to the report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gesamtergebnisse nicht im Bericht anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не выводить в отчет общие итоги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1577e8f-e363-4a80-9e05-d73482c306b4">
+    <name>ReportDoNotPutReportFooter</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not put report footer to the report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Berichtsfußzeile nicht im Bericht anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не выводить в отчет подвал отчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="72fe9a11-bf3f-4c1e-862d-3721349ae43b">
+    <name>ReportColumnOverrides</name>
+    <synonym>
+      <key>en</key>
+      <value>Report column overrides</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Neudefinition der Spalten des Berichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переопределения колонок отчета</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f852a3ed-02b5-4f6b-958b-fea62f23715f">
+    <name>ReportForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form des Berichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5f2d4fb-4e7f-4e87-99a0-03b827006277">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f79a3282-9103-4a3e-af0d-913c210cb5ad">
+    <name>ReportTemplate</name>
+    <synonym>
+      <key>en</key>
+      <value>Report template</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Muster des Berichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="3eea26b9-3c39-429c-bbc7-b18a903494f1">
+    <name>DefaultSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Default settings</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

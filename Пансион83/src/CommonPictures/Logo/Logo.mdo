@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dc2627f-cf15-4b3a-8dda-d713dd95cf2b">
+  <name>Logo</name>
+  <synonym>
+    <key>en</key>
+    <value>Program logo</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Program logo</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Лого программы</value>
+  </synonym>
+</mdclass:CommonPicture>

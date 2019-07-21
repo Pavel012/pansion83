@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5e96843-de84-436e-b99e-dc30ab8a2037">
+  <name>AttentionMedium</name>
+  <synonym>
+    <key>en</key>
+    <value>Attention</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Attention</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Внимание </value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+    <y>4</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

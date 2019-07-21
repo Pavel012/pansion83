@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eba93649-b563-4021-b423-084b8e4e8069">
+  <producedTypes>
+    <objectType typeId="84202047-d2f3-4dce-827a-85c3be4635a5" valueTypeId="917c8beb-261c-429c-abd0-cfacf658db53"/>
+    <refType typeId="7f166164-fc02-4bde-a4f7-727882c6733c" valueTypeId="952d7d74-b423-4605-8631-0ef846a37d76"/>
+    <selectionType typeId="f6ba13be-d49a-4f94-99ff-2c98507a6feb" valueTypeId="53a5c49a-8fc2-4655-9260-39d39538c30b"/>
+    <listType typeId="e7456899-ab38-4173-bf44-317ad8387d36" valueTypeId="c4624bfc-ad2c-4e09-9575-3875f7f11fe8"/>
+    <managerType typeId="e89266c5-c787-487e-84d9-3a8afc459743" valueTypeId="7c3793eb-6e8d-4fe3-a324-59ba69509627"/>
+  </producedTypes>
+  <name>ТипыНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zimmertypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номеров</value>
+  </synonym>
+  <inputByString>Catalog.ТипыНомеров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыНомеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Гостиницы</owners>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыНомеров.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ТипыНомеров.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ТипыНомеров.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыНомеров.Form.ChoiceForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ТипыНомеров.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <auxiliaryChoiceForm>Catalog.ТипыНомеров.Form.tcChoiceForm</auxiliaryChoiceForm>
+  <attributes uuid="94667015-8810-458a-bb03-ee58160864da">
+    <name>NumberOfBedsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of beds per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd91c27a-7a60-4607-98f3-eaecb68ba12e">
+    <name>NumberOfPersonsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество гостей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1f73383-8b45-4bf0-bdda-148a1efcd129">
+    <name>NumberOfAdults</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of adults</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Erwachsene Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество взрослых гостей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="88ceec77-5cbf-433b-9c80-48c7b02b1efe">
+    <name>NumberOfChildren</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of children</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von der Kinder Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество детей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79bcbbb6-4764-4a15-ab69-0176eb1458bf">
+    <name>NumberOfBabies</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of babies</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Babys Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество младенцев в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2160309c-823b-4df6-bfa9-4fd9b4546d9a">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0aa3b0aa-c4ef-44ec-8f2d-dda8a98c7918">
+    <name>IsVirtual</name>
+    <synonym>
+      <key>en</key>
+      <value>Is virtual room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Virtueller Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный тип номера</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91a0ca60-13c6-45cb-bb87-5b7552046a47">
+    <name>DoesNotAffectRoomRevenueStatistics</name>
+    <synonym>
+      <key>en</key>
+      <value>Does not affect room revenue statistics</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Keinen Einfluss auf die Statistiken Belegung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не влияет на статистику загрузки НФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="680f678d-8ad1-4c41-939a-4d451fc9eae9">
+    <name>StopSale</name>
+    <synonym>
+      <key>en</key>
+      <value>Stop sale</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aus dem Verkauf genommen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Снят с продажи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3bb86b4-9788-4578-b04e-266e7aaaf691">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da938eba-f30c-4f46-8f07-f95a519dd466">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05fc0242-a702-4224-968c-67643ad8ba95">
+    <name>Photo</name>
+    <synonym>
+      <key>en</key>
+      <value>Room photo</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Foto des Zimmers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фото номера</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b7f45af4-ab06-4fd2-8111-973250347004">
+    <name>RoomTypePictureLink</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type hotel WEB-site picture link</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Link zum Bild mit dem Zimmertyp auf der Гостиница-Seite</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Линк на картинку типа номера на сайте гостиницы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="deb2fde3-a266-4587-8ce0-1701522556de">
+    <name>RoomTypeInfoLink</name>
+    <synonym>
+      <key>en</key>
+      <value>About room type hotel WEB-site page link</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Link zur Seite mit der Beschreibung des Zimmertyps auf der Гостиница-Seite</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Линк на страницу с описанием типа номера на сайте гостиницы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="286f4ac9-95ff-41a7-b0e7-3bb371a20ec1">
+    <name>LimitedRooms</name>
+    <synonym>
+      <key>en</key>
+      <value>Limited rooms</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zu wenig Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Мало номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>On-line reservation module shows &quot;Only N rooms left!&quot; warning 
+starting from this quantity of vacant rooms</value>
+    </toolTip>
+    <toolTip>
+      <key>de</key>
+      <value>Ab der angegebenen Anzahl an freien Zimmern
+im Modul der Online-Reservierung erscheint die Warnung: &quot;Es sind nur N Zimmer geblieben!&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Начиная с указанного количества свободных номеров 
+в модуле on-line бронирования появляется предупреждение: &quot;Осталоcь только N номеров!&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a4c08e3-1289-4d98-962f-74cc0e119d8e">
+    <name>RoomsReserv</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms reserv</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerreserve</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fc9d768-3353-49ad-9452-d72078f4033f">
+    <name>AccommodationType</name>
+    <synonym>
+      <key>en</key>
+      <value>Accommodation type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Unterbringungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размещения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРазмещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19495094-1443-476d-ab48-1401121176d8">
+    <name>BaseRoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type to write rooms off</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aus dem Zimmertyp abschreiben</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Списывать из типа номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="67fe1351-189a-4c47-a113-6ec44d112f09">
+    <producedTypes>
+      <objectType typeId="fbf5277e-f975-48f2-945f-7ff5e9d60646" valueTypeId="468a6d9f-0e4d-4e2a-9bfe-cb3e87fd7370"/>
+      <rowType typeId="ce2b8f34-426f-4e37-80ae-b745ad403808" valueTypeId="31c1bc24-e149-4763-8b0d-37351e5214c5"/>
+    </producedTypes>
+    <name>StopSalePeriods</name>
+    <synonym>
+      <key>en</key>
+      <value>Stop sale periods</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeiträume der Entnahme aus dem Verkauf</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Периоды снятия с продажи</value>
+    </synonym>
+    <attributes uuid="421db8cd-bccd-4dfe-b711-18f5327426e9">
+      <name>PeriodFrom</name>
+      <synonym>
+        <key>en</key>
+        <value>Period from</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zeitraum ab</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Период с</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="700088bb-1fbf-443b-bf2d-715dd1dacc51">
+      <name>PeriodTo</name>
+      <synonym>
+        <key>en</key>
+        <value>Period to</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zeitraum bis</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Период по</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="d2c8f5d6-92ba-41ad-857f-760bdc32c9d8">
+      <name>Remarks</name>
+      <synonym>
+        <key>en</key>
+        <value>Remarks</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Anmerkungen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Примечания</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4920d012-a0a8-493d-93c3-90264270b96c">
+      <name>StopSale</name>
+      <synonym>
+        <key>en</key>
+        <value>Stop sale</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Aus dem Verkauf genommen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Снят с продаж</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="d3d0a3a3-61ef-4d29-90fc-9daf166aac4c">
+      <name>StopInternetSale</name>
+      <synonym>
+        <key>en</key>
+        <value>Stop internet sale only</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Nur aus dem Internetverkauf genommen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Снят только с интернет продаж</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6f09b47d-0a24-4d3b-8c57-48257cf2bc0d">
+    <producedTypes>
+      <objectType typeId="3a386a65-ff92-4bd6-b7ef-655185b831f1" valueTypeId="127802d6-ea0b-489a-a4a2-ec7e8f4272ba"/>
+      <rowType typeId="87935bd8-f8cf-4f1a-b756-00f33ca602ba" valueTypeId="cf00bcd9-a539-4836-a160-cb24f1a8285f"/>
+    </producedTypes>
+    <name>AccommodationTypesAllowed</name>
+    <synonym>
+      <key>en</key>
+      <value>Accommodation types allowed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erlaubte Unterbringungstypen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешенные виды размещения</value>
+    </synonym>
+    <attributes uuid="9a82b48e-bbe7-4066-9fa7-74ab20262a73">
+      <name>AccommodationType</name>
+      <synonym>
+        <key>en</key>
+        <value>Accommodation type</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Typ der Unterbringungen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Вид размещения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыРазмещения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4eba7ec8-fef5-4383-8006-c23b099fb1b6">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9c6be69e-5269-4423-82ed-5a72f41f9b69">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ec6df5e4-0b38-4410-a917-e1890557449f">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eac897be-db6a-45be-adc8-5da1f6ff68fc">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a848d68-c7b6-4ab0-a8df-00bd3dd85b6a">
+    <name>StopSaleForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Stop sale form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular für das Herausnehmen aus dem Verkauf</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма снятия с продажи</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0dedbeb-b5d2-4149-9536-68074ac74df3">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Auswahlformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09e18005-efdf-4655-9572-e6478876e456">
+    <name>tcChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Thin client room type choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Feinauswahl des Zimmertyps</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тонкая форма выбора типа номера</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

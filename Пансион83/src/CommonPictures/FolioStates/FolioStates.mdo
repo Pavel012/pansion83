@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f64d491-fde2-4e74-86cc-6184c4124da8">
+  <name>FolioStates</name>
+  <synonym>
+    <key>en</key>
+    <value>Folio states</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Folio states</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния фолио</value>
+  </synonym>
+  <transparentPixel>
+    <x>15</x>
+    <y>4</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

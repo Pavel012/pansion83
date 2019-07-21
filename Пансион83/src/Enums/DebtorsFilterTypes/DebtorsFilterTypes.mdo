@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0be8f69e-2eb7-44ee-a455-a3b6aebb1eee">
+  <producedTypes>
+    <refType typeId="7c0ab478-f399-4b42-a0a0-fb7d920b371a" valueTypeId="2fef983a-39fa-44de-be42-44aad94706e2"/>
+    <listType typeId="52d4eef4-6910-45cb-9905-9f8750b025c1" valueTypeId="3a34e778-a81f-4a81-b958-517f1e016256"/>
+    <managerType typeId="696564b9-1964-4895-b409-71bf4d5f0378" valueTypeId="bd093aa7-b679-4241-afda-0c22129e1f44"/>
+  </producedTypes>
+  <name>DebtorsFilterTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Debtors filter types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Art für die Auswahl von Schuldnern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отбора должников</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="217b6b20-aa34-4390-b0a6-ef3957ea1c77">
+    <name>All</name>
+    <synonym>
+      <key>en</key>
+      <value>Show all debtors</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Alle Schuldner anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать всех должников</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84d0ba45-1f74-4788-ab36-5f6a1861d88a">
+    <name>NoDecisionYet</name>
+    <synonym>
+      <key>en</key>
+      <value>Show debts without decision yet</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schuldner anzeigen, zu denen noch keine Entscheidung getroffen wurde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать должников по которым еще не принято решение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31bded92-dcae-420f-a659-9a5439f9e4ad">
+    <name>ThereIsDecision</name>
+    <synonym>
+      <key>en</key>
+      <value>Show debts where decision was already taken</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schuldner anzeigen, zu denen bereits eine Entscheidung getroffen wurde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать должников по которым уже было принято решение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

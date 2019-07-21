@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="921ea1b5-4fcf-459f-8dac-752627f90fd6">
+  <producedTypes>
+    <refType typeId="1d26002d-601e-4571-a923-af7828691dec" valueTypeId="8db2c37d-da03-4775-b8ce-99fee13e8cab"/>
+    <listType typeId="0e1f0786-7d4c-471d-bbf9-384ac56edfc3" valueTypeId="0b6e4377-9a32-43ad-87d5-0b0d9af9043c"/>
+    <managerType typeId="fcf79013-8157-4e14-8173-33310248aa84" valueTypeId="a0673881-16bd-4170-af10-4b24a28804cb"/>
+  </producedTypes>
+  <name>DoorLockSystems</name>
+  <synonym>
+    <key>en</key>
+    <value>Door lock systems</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Systeme elektronischer Schlösser</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Системы электронных замков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="8f850cf7-5f38-4015-bf7d-9f738aed8465">
+    <name>VingCardVision</name>
+    <synonym>
+      <key>en</key>
+      <value>Norweq &quot;VingCard Vision&quot;</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Norweq &quot;VingCard Vision&quot;</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Norweq &quot;VingCard Vision&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebd1f6a6-d874-414a-9a83-a5585a96190f">
+    <name>VingCardDavinci</name>
+    <synonym>
+      <key>en</key>
+      <value>Norweq &quot;VingCard Davinci&quot;</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Norweq &quot;VingCard Davinci&quot;</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Norweq &quot;VingCard Davinci&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe5e78d9-2348-4801-b0e4-206851604010">
+    <name>VingCard2100</name>
+    <synonym>
+      <key>en</key>
+      <value>Norweq &quot;VingCard 2100&quot;</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Norweq &quot;VingCard 2100&quot;</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Norweq &quot;VingCard 2100&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06672d53-7986-44fb-b3f9-f9ccda8924e2">
+    <name>VingCard2800</name>
+    <synonym>
+      <key>en</key>
+      <value>Norweq &quot;VingCard 2800&quot;</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Norweq &quot;VingCard 2800&quot;</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Norweq &quot;VingCard 2800&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf40becc-51a4-4646-bed4-abcab8de9185">
+    <name>OnityHT22</name>
+    <synonym>
+      <key>en</key>
+      <value>Onity HT22</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Onity HT22</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Onity HT22</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6bc283b-75f4-46bb-a845-359ecd61a888">
+    <name>OnityHT24</name>
+    <synonym>
+      <key>en</key>
+      <value>Onity HT24</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Onity HT24</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Onity HT24</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88b15466-9fb7-4451-8416-1c364ee8012b">
+    <name>OnityHT28</name>
+    <synonym>
+      <key>en</key>
+      <value>Onity HT28</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Onity HT28</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Onity HT28</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc48171d-2cee-4d24-9229-924cd76dd918">
+    <name>SaltoHotel</name>
+    <synonym>
+      <key>en</key>
+      <value>Salto Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Salto Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Salto Гостиница</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfe16840-4b20-4538-8011-51620039c592">
+    <name>InhovaMagnetic</name>
+    <synonym>
+      <key>en</key>
+      <value>InHova Magnetic Cards</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>InHova Magnetic Cards</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>InHova Magnetic Cards</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="084be4e4-c0f4-45fa-ae72-444fdd8d9836">
+    <name>InhovaProximity</name>
+    <synonym>
+      <key>en</key>
+      <value>InHova Proximity Cards</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>InHova Proximity Cards</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>InHova Proximity Cards</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e9bf0fb-d9fe-49ee-a481-98ba4059dcbd">
+    <name>Cisa</name>
+    <synonym>
+      <key>en</key>
+      <value>Cisa</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Cisa</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Cisa</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69891d98-e1fd-4ca5-8914-85e14ff39b35">
+    <name>TimeLox2300</name>
+    <synonym>
+      <key>en</key>
+      <value>TimeLox 2300</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>TimeLox 2300</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>TimeLox 2300</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cdfe583-94b8-4420-9d04-b9719e52b0da">
+    <name>KabaIlco</name>
+    <synonym>
+      <key>en</key>
+      <value>Kaba Ilco</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kaba Ilco</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Kaba Ilco</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92564497-0029-4cb9-9438-d2450d00fa3e">
+    <name>Adel</name>
+    <synonym>
+      <key>en</key>
+      <value>Adel Interface System (AIS)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Adel Interface System (AIS)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Adel Interface System (AIS)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55332cab-ed40-4ec2-b379-45dfaa019831">
+    <name>Orbita</name>
+    <synonym>
+      <key>en</key>
+      <value>Orbita</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Laufbahn</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Орбита</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b615b7e1-c7ae-43a4-bb07-a889704d059e">
+    <name>Motolong</name>
+    <synonym>
+      <key>en</key>
+      <value>Motolong</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Motolong</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Motolong</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="116db3a2-8012-4a5e-b44b-692c98a60f0f">
+    <name>Xeeder</name>
+    <synonym>
+      <key>en</key>
+      <value>Xeeder Гостиница Lock System</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Xeeder Гостиница Lock System</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Xeeder Гостиница Lock System</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24723bc1-8b7d-4950-9dbf-c158616dfc74">
+    <name>OmniTec</name>
+    <synonym>
+      <key>en</key>
+      <value>OmniTec</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>OmniTec</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>OmniTec</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66d14048-aa95-4f8f-be65-1df019102228">
+    <name>KabaSaflok</name>
+    <synonym>
+      <key>en</key>
+      <value>Kaba saflok</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kaba saflok</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Kaba saflok</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

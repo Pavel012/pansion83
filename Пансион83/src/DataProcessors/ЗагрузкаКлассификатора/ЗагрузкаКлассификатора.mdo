@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1e01cbe-4520-4c58-a291-daa285399d98">
+  <producedTypes>
+    <objectType typeId="b6b09f6c-365f-44fb-af6b-622a6df2bedd" valueTypeId="d8b71a3c-3f72-4cd6-8b5c-fd126913cb6c"/>
+    <managerType typeId="423bca26-04ab-4a5a-bb93-e81c7aaa0c38" valueTypeId="9022b3c5-ed2a-4e0c-984f-429bae2ca4c1"/>
+  </producedTypes>
+  <name>ЗагрузкаКлассификатора</name>
+  <synonym>
+    <key>en</key>
+    <value>Load address classifier for Russia</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Load address classifier for Russia</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка классификатора адресов Российской Федерации</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаКлассификатора.Form.LoadClassifiersForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="f551a79e-3c4d-4503-b82d-e024aedbd805">
+    <name>LoadClassifiersForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Load classifiers form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Load classifiers form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки классификаторов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e89b4946-aac2-420a-aa33-979ba18682c6">
+    <name>RegionsListRu</name>
+    <synonym>
+      <key>en</key>
+      <value>Regions list for Russia</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Regions list for Russia</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список регионов РФ</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

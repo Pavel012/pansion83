@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6de97a37-b59a-420c-9c0f-83d7ceb6d763">
+  <producedTypes>
+    <objectType typeId="0df6152b-7986-40d8-a809-3af5ba1a5dc1" valueTypeId="d12e8067-8bed-4302-9a8a-93baabe3443f"/>
+    <refType typeId="f690903a-c7c6-4b62-b5e0-62d60eb9d29d" valueTypeId="4b7b8006-ecc1-4717-8df5-8a3a389ac205"/>
+    <selectionType typeId="ee9ee3fe-3b18-4d7b-8e5e-c8a6b52c3a46" valueTypeId="59842f7a-0ab9-4d5d-8c32-a7c6a145e7c1"/>
+    <listType typeId="49b6950e-3659-42a6-a26e-ce16659df26c" valueTypeId="3abc288f-44ad-444e-b46e-400826ab668f"/>
+    <managerType typeId="e4968ae9-b20a-46f7-aa1d-298c394f9798" valueTypeId="74d23d3c-c08c-4252-9856-4edb722a29a7"/>
+  </producedTypes>
+  <name>СтатусБрониРесурсов</name>
+  <synonym>
+    <key>en</key>
+    <value>Статус брони ресурсов</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der Ressourcenreservierung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы брони ресурсов</value>
+  </synonym>
+  <inputByString>Catalog.СтатусБрониРесурсов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусБрониРесурсов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатусБрониРесурсов.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтатусБрониРесурсов.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.СтатусБрониРесурсов.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатусБрониРесурсов.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="f0f4e151-92ed-4ae6-9a33-6d0a7393d51c">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19b73317-0fba-4284-9958-5bf925d4084a">
+    <name>IsActive</name>
+    <synonym>
+      <key>en</key>
+      <value>Is active</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54b6a6b3-65b6-448d-8beb-185f2fcfbc82">
+    <name>IsGuaranteed</name>
+    <synonym>
+      <key>en</key>
+      <value>Is guaranteed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>garantierte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантированная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c0e3a7e-fd26-4eaf-b32f-51db614aca73">
+    <name>DoCharging</name>
+    <synonym>
+      <key>en</key>
+      <value>Do charging</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять услуги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1166a60b-7ed7-4127-bbca-29bb0d6224ed">
+    <name>DoNotChargeForecastServices</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not charge forecast services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungen nicht in die Verkaufsprognose anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не начислять услуги в прогноз продаж</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="661fb3ab-017c-4642-a052-ac42a3fb7389">
+    <name>ServicesAreDelivered</name>
+    <synonym>
+      <key>en</key>
+      <value>Services are delivered</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erbrachte Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги оказаны</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9407e63-3379-4a66-b817-7ef786c3f0c2">
+    <name>Color</name>
+    <synonym>
+      <key>en</key>
+      <value>Color in the room graph</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Farbe in der Karte der Auslastung des Zimmerfonds </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет в карте загрузки НФ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51fe839e-046d-4caa-b0bc-9e3a3dd9bb27">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0f15f63-e7d0-4c11-a647-f03119efd404">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e57404d5-5349-4a12-81bb-45377f9d80ba">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73abd5ad-b4b3-45d1-b60f-8f6a5dd9a7fa">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4add8cfc-222b-4921-9f74-d1db4a12d2c9">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

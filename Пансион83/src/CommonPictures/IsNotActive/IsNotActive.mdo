@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deb18602-9c04-434c-b790-b919a487695a">
+  <name>IsNotActive</name>
+  <synonym>
+    <key>en</key>
+    <value>Is not active</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Is not active</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Не действует</value>
+  </synonym>
+  <transparentPixel>
+    <x>8</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

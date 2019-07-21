@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad865c5-cc25-40d3-bcb9-824ea2c040d1">
+  <producedTypes>
+    <refType typeId="1831d163-c7e7-42fc-a69c-d7650fc46b88" valueTypeId="6fca2587-b2e9-4cd5-a49c-6461a6d66f97"/>
+    <listType typeId="65a26ceb-e7d7-4414-982f-8bdec9db3ef9" valueTypeId="3cf7c4f2-9b9e-4d52-9246-b04defb7b528"/>
+    <managerType typeId="67eb6581-738e-4c66-9d48-e110b1b73bd8" valueTypeId="aacb9ba2-79bd-4d05-b21a-d7ca81678dc1"/>
+  </producedTypes>
+  <name>DiscountAmountRoundTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Discount amount round types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Rundungsarten für die Preisnachlasssumme</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды округления суммы скидки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d771f852-006d-4dee-8053-ced101dbf20f">
+    <name>Up</name>
+    <synonym>
+      <key>en</key>
+      <value>Up (always to the client favor)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nach oben (immer zugunsten des Kunden)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вверх (всегда в пользу клиента)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b10f64f1-6dd6-49a4-a7cb-078b7a31b294">
+    <name>Down</name>
+    <synonym>
+      <key>en</key>
+      <value>Down (always to the hotel favor)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nach oben (immer zugunsten des Hotels)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вверх (всегда в пользу гостиницы)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4c9bcc4-a650-47e1-9dfe-5e0173882914">
+    <name>Math</name>
+    <synonym>
+      <key>ru</key>
+      <value>По правилам округления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>By mathematics rules</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

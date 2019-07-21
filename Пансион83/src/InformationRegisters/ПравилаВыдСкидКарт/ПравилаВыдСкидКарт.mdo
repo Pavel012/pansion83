@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc946cff-164b-4a38-b92d-a4e64bc9a19b">
+  <producedTypes>
+    <selectionType typeId="979dd607-6c16-464b-8970-cd68642c9c28" valueTypeId="f0e1e63e-881e-4612-841c-1767f3672393"/>
+    <listType typeId="293ee149-2676-42be-aee2-2063a380cb94" valueTypeId="e305dbd5-d769-4a5b-b103-72f2af783ee9"/>
+    <managerType typeId="6de324c0-2edd-48d2-b354-375ce3fbc64b" valueTypeId="f0248331-7199-493d-b50d-5ec70315e3a5"/>
+    <recordSetType typeId="6b9f517e-ab05-4867-8745-7e7ec9d6f56b" valueTypeId="a04c7a9f-c833-4038-b0c6-935115566023"/>
+    <recordKeyType typeId="5e58a30f-45d7-4fea-9e63-d55450e472f4" valueTypeId="2068fddf-bdac-43ac-b7fb-2279a225572c"/>
+    <recordType typeId="0158b95a-c241-4f70-a5bd-a7fbdc3103f3" valueTypeId="da631238-2c3a-41d0-a751-455b2606f7d1"/>
+    <recordManagerType typeId="e0d941c2-a226-467d-9944-7814e2e9aead" valueTypeId="1f3ba9c2-1b10-4870-b7d8-9cafee395d33"/>
+  </producedTypes>
+  <name>ПравилаВыдСкидКарт</name>
+  <synonym>
+    <key>en</key>
+    <value>Правила выд скид карт</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Regeln für die Ausgabe von Diskontkarten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Правила выдачи дисконтных карт</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПравилаВыдСкидКарт.Form.RecordForm</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПравилаВыдСкидКарт.Form.ListForm</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="807f276e-d4fa-428c-9ca5-6b5956df654e">
+    <name>DiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="9c1ac25e-ddbd-494e-87e5-3cf6745b3ea4">
+    <name>ClientType</name>
+    <synonym>
+      <key>en</key>
+      <value>Client type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kundentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип клиента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="492208cf-4733-404e-8764-324d0b7ea9a1">
+    <name>ValidFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Date valid from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt ab</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="5a2ee538-fc61-4082-ad86-9a298d59d7b4">
+    <name>ValidTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Date valid to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt bis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="558c553c-f56f-427b-ad27-4df11bc2846c">
+    <name>Notification</name>
+    <synonym>
+      <key>en</key>
+      <value>Notification text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Text der Benachrichtigung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст уведомления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6fa42dd8-dd9f-4287-ba64-631bf6dc83cd">
+    <name>ExternalAlgorithm</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount card issue rule external algorithm</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externer Algorithmus der Bestimmung der Notwendigkeit der Ausgabe einer Diskontkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний алгоритм определения необходимости выдачи дисконтной карты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеОбработки</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Specify special conditions used to accumulate client statistics. 
+Call program developer for detailed information.</value>
+    </toolTip>
+    <toolTip>
+      <key>de</key>
+      <value>Wird verwendet, wenn bei der Berechnung einer Statistik zum Gast nicht alle seine Unterbringungen gewählt werden, sondern nur solche, die bestimmten Bedingungen entsprechen. Eine ausführliche Beschreibung von möglichen Bedingungen ist beim Entwickler erhältlich.</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Используются, если необходимо при подсчете 
+статистики по клиенту отбирать не все его проживания, 
+а только те, которые удовлетворяют каким-либо условиям. 
+За подробным описанием возможных условий обращайтесь
+к компании разработчику.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bebf80e2-b7d7-4771-b21a-a2b12de8eb36">
+    <name>UseResourcesPayedAsIndividual</name>
+    <synonym>
+      <key>en</key>
+      <value>Use resources payed as individual only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verwenden Sie Ressourcen als individuelle bezahlt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать только ресурсы оплаченные в качестве частного лица</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c5bd324-cde5-437e-8021-fd62188a5c65">
+    <name>UseResourcesPayedByRackRates</name>
+    <synonym>
+      <key>en</key>
+      <value>Use resources payed by rack rates only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzen Sie Ressourcen, die von Standardpreise bezahlt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать только ресурсы оплаченные по базовым тарифам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5ba5d453-3f70-4064-8757-b6ed8b27d3a0">
+    <name>AccumulatingDiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Accumulating discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des kumulativen Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип накопительной скидки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.AccumulatingDiscountTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ea3e441f-d925-4648-a00a-c48851f2b67f">
+    <name>ResourceFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource value range from (>=)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bereich der Ressourcenwerte ab (>=)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон значений ресурсов с (>=)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="72f814b1-3a40-43c6-b75f-a45a28c0b5fe">
+    <name>ResourceTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource value range to (&lt;)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bereich der Ressourcenwerte bis (&lt;)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон значений ресурсов по (&lt;)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="99446f9e-878a-40ec-b775-6f8a26b79a49">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="773ac9fb-c676-4700-b42e-c29c4c3f750c">
+    <name>RecordForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eintragsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

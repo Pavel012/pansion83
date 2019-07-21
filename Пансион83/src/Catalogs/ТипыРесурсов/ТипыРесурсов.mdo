@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72b48af4-7988-4930-b607-c73d9babc55c">
+  <producedTypes>
+    <objectType typeId="eee33c51-571c-4f44-bcb1-7649b79028e9" valueTypeId="af8dae37-45f9-4f57-8de1-8556088fab40"/>
+    <refType typeId="068ce69f-3c70-4a49-93ef-bf2299d389f0" valueTypeId="705ff351-bb83-4f8b-8755-b8cf4599c84a"/>
+    <selectionType typeId="4530b62a-f372-4cd8-a7d7-5e8a569f5d3c" valueTypeId="fe5dc411-f4be-4f86-b8d8-60d99dd405e2"/>
+    <listType typeId="f5d3b8b1-9d2d-43da-8f67-2c766186732a" valueTypeId="b40a58af-8749-42d4-bf3d-07cbdf126c5b"/>
+    <managerType typeId="cc8df938-e780-451f-a09f-5b1ac346f85d" valueTypeId="751fd520-37f4-4faa-9570-7e6cc1090e5d"/>
+  </producedTypes>
+  <name>ТипыРесурсов</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы ресурсов</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Ressourcentypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ресурсов</value>
+  </synonym>
+  <inputByString>Catalog.ТипыРесурсов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыРесурсов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыРесурсов.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ТипыРесурсов.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ТипыРесурсов.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыРесурсов.Form.ListForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ТипыРесурсов.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="d5585fe2-c21c-4f15-b62d-86baf406ea56">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="12ff26d1-a5bb-486e-9823-f263fa82bbe2">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f15bebaf-9691-408f-9cd8-ea3d9ad863f5">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a002f10a-3f48-43ef-9a64-009a5151d352">
+    <name>TemplateFolio</name>
+    <synonym>
+      <key>en</key>
+      <value>Template folio</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenkonto - Vorlage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет - шаблон</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d85ce601-bd77-41a6-b7f0-fe503b11f32f">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a162c642-d3a5-4d6e-a161-c9c3e6d72353">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6084cc88-40dc-4276-9713-f0e6e5d9e639">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c3914301-8570-4496-9946-2fc9e22c6406">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="724f9f9f-3345-458d-a356-216d56a8b62f">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="14defd3f-ddfe-40f8-82ba-e9c632333921">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

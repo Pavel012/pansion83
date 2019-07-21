@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c82f4adb-21ba-4dbf-b92c-78bf139f4a49">
+  <name>РедактированиеИстории</name>
+  <synonym>
+    <key>en</key>
+    <value>Rights to edit documents and catalogs change history</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Redaktionsrechte für Änderungsverläufe der Dokumente und Verzeichnisse</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Права на редактирование истории изменений документов и справочников</value>
+  </synonym>
+</mdclass:Role>

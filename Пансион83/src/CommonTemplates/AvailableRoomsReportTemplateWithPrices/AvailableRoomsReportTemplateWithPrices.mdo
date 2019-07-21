@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fb44c65-8c40-43b7-b38c-52bfd6ea2f4e">
+  <name>AvailableRoomsReportTemplateWithPrices</name>
+  <synonym>
+    <key>en</key>
+    <value>Available rooms report template with prices</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Макет справки о наличии номеров с ценами</value>
+  </synonym>
+</mdclass:CommonTemplate>

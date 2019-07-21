@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7765ebfe-c7a3-4126-ae6c-29857a14685c">
+  <producedTypes>
+    <selectionType typeId="b8c91cbc-ce7c-431a-87e4-c2b09bbacf59" valueTypeId="16a4b1ec-8d08-431e-b2c1-9f88f2a8041a"/>
+    <listType typeId="12db9d33-fa47-40cf-b56a-34e128fa0531" valueTypeId="65923869-b199-4e07-899b-4c896b3dafea"/>
+    <managerType typeId="abba4e69-f385-464c-aaeb-ca266b2c982c" valueTypeId="47a98205-c37d-4bba-9cc3-1b40e4912dac"/>
+    <recordSetType typeId="9e9585dc-55d9-4993-b39c-797467672098" valueTypeId="d0c4803f-2dae-4e61-86f9-77ca3bdf4b82"/>
+    <recordKeyType typeId="80106e64-b878-431d-adbc-a4fcf13102a9" valueTypeId="67302864-acab-4b99-b496-4fde09640d1c"/>
+    <recordType typeId="d68a3c71-6c45-4199-9bfa-da2a31d55671" valueTypeId="c779103d-016c-4496-8996-98f670bac8bf"/>
+    <recordManagerType typeId="9ae27503-dda0-4fc4-8664-b9547b0a5656" valueTypeId="50d88d5e-704b-4cd3-8952-64586a97f3b3"/>
+  </producedTypes>
+  <name>ТарифыУтвержд</name>
+  <synonym>
+    <key>en</key>
+    <value>Active room rates</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gültige Anordnungen zu Tarifen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Действующие приказы по тарифам</value>
+  </synonym>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1a4db166-7dc9-458e-9452-4797ebccffb0">
+    <name>SetRoomRatePrices</name>
+    <synonym>
+      <key>en</key>
+      <value>Set room rate prices</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Befehl zur Bearbeitung der Preise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ об изменении цен</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриказТариф</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="840d9e24-0e49-4ad5-af0f-eecf23bb35fb">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9410407b-6e91-4587-a6ad-1c27e04ebac4">
+    <name>RoomRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Room rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tarif</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тарифы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="df5a7b5f-a0d9-4abb-98a1-8b4c8bc3d427">
+    <name>CalendarDayType</name>
+    <synonym>
+      <key>en</key>
+      <value>Calendar day type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kalendertagestyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дня календаря</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипДневногоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2e1ccd3d-eb98-4e43-b114-32c708a87002">
+    <name>PriceTag</name>
+    <synonym>
+      <key>en</key>
+      <value>Price tag</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preiseigenschaft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Признак цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПризнакЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

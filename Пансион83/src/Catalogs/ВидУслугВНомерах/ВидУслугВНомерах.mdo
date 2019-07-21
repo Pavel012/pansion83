@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77f904dd-408f-4aea-bedd-ad34c77ab0b2">
+  <producedTypes>
+    <objectType typeId="fd47f18a-d5eb-4a58-b4fa-47e1b7e014c6" valueTypeId="f4a30e07-ae57-4d77-9929-1d39739bc97e"/>
+    <refType typeId="d716fc04-4579-4eff-857d-48b4b0392703" valueTypeId="8bcdcb8d-9016-4e5e-a843-168cea089b11"/>
+    <selectionType typeId="6a350356-337a-470e-8d90-1c90de3bfedd" valueTypeId="fb0f7475-99dc-486a-b066-13c019a214b4"/>
+    <listType typeId="3c0e5c7b-4f97-45db-9baf-fc31293152cd" valueTypeId="b51f4c1b-7c24-41f6-ba20-ab99d842571b"/>
+    <managerType typeId="3bc3ee20-eb13-4c14-b2f6-2dc2053bc507" valueTypeId="a85c74e6-ab38-403b-871d-7f8e25ae8e2b"/>
+  </producedTypes>
+  <name>ВидУслугВНомерах</name>
+  <synonym>
+    <key>en</key>
+    <value>Вид услуг в номерах</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen zusätzlicher Dienstleistungen in Zimmern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды доп. услуг в номерах</value>
+  </synonym>
+  <inputByString>Catalog.ВидУслугВНомерах.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидУслугВНомерах.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидУслугВНомерах.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.ВидУслугВНомерах.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидУслугВНомерах.Form.ChoiceForm</defaultChoiceForm>
+  <attributes uuid="42dbdeef-8cbe-4a82-b644-d04e09cd4a82">
+    <name>InterfaceType</name>
+    <synonym>
+      <key>en</key>
+      <value>Interface type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schnittstellentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип интерфейса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.InterfaceTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e9648d0-278e-4bee-a1e2-e71caf6f83d2">
+    <name>TurnOnParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Turn on driver command parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Parameter des Befehls zum Einschalten eines Dienstes</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры команды включения услуги</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="98c4e4c5-1cdb-405f-826a-4e996b1d6687">
+    <name>TurnOffParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Turn off driver command parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Parameter des Befehls zum Ausschalten eines Dienstes</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры команды выключения услуги</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d4896b8-02a8-4c2a-9d9b-7c7608ce0d20">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d152002-b8a8-4082-b882-cc7ed4f41c42">
+    <name>ManualCancelIsForbidden</name>
+    <synonym>
+      <key>en</key>
+      <value>Manual cancel is forbidden</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Manueller Abbruch verboten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная отмена запрещена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b7d7c0b-174b-4fbe-b4d8-8e98a35ab409">
+    <name>RefusalReason</name>
+    <synonym>
+      <key>en</key>
+      <value>Refusal reason</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ablehnungsgrund</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14048295-926b-4d36-920e-6fc7615c6990">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1b56c8ac-fd3c-4dd8-ad66-5373f659511e">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82d2b325-ef61-4e69-ab2e-f1e4fb7e6758">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="634b7041-dd24-4f8e-a2af-e03de92ac02d">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2ad2409-e6ae-4bf8-92b6-30d7945b6bd7">
+  <producedTypes>
+    <objectType typeId="8908b4ac-0401-4676-9178-6590a0b31109" valueTypeId="5ecb9745-d11b-4569-9d70-376b08720efd"/>
+    <refType typeId="ab3eaabe-cf74-4208-b987-08a48c65df3d" valueTypeId="ec6e7fad-436f-4dc9-b043-30ea20e6beeb"/>
+    <selectionType typeId="ecd41112-f343-4995-bfcf-5f5c94748e57" valueTypeId="6a8aefc2-9018-431f-b443-a35476f98991"/>
+    <listType typeId="d9f258d5-a29a-4d52-8a28-7768c96b366e" valueTypeId="0f698bbd-031f-4569-9e29-7eb37e60378b"/>
+    <managerType typeId="ce776758-7da3-43d7-84e9-3c0f1b5ff338" valueTypeId="4b9fdae0-8354-474a-888a-e0d13943d566"/>
+  </producedTypes>
+  <name>ЕдИзмерения</name>
+  <synonym>
+    <key>en</key>
+    <value>Measurement units</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Maßeinheiten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <inputByString>Catalog.ЕдИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2adc66ba-8d61-4e21-ad00-565235c64461">
+      <name>Gram</name>
+      <description>г.</description>
+      <code xsi:type="core:StringValue">
+        <value>163</value>
+      </code>
+    </items>
+    <items id="4038c215-6bf5-4f7c-80d5-c99bb332cd77">
+      <name>Kilogram</name>
+      <description>кг.</description>
+      <code xsi:type="core:StringValue">
+        <value>166</value>
+      </code>
+    </items>
+    <items id="bd763dd5-dac2-4a70-9998-d4675753bf0a">
+      <name>Litre</name>
+      <description>л.</description>
+      <code xsi:type="core:StringValue">
+        <value>112</value>
+      </code>
+    </items>
+    <items id="9e6a06a4-d405-4a56-ad88-b9502b07a5b4">
+      <name>Megabyte</name>
+      <description>мбайт.</description>
+      <code xsi:type="core:StringValue">
+        <value>257</value>
+      </code>
+    </items>
+    <items id="6e010bbf-7468-4002-aba3-37c953fab622">
+      <name>Minute</name>
+      <description>мин.</description>
+      <code xsi:type="core:StringValue">
+        <value>355</value>
+      </code>
+    </items>
+    <items id="a2382a68-f142-461b-991c-9b451ba75d82">
+      <name>Mililitre</name>
+      <description>мл.</description>
+      <code xsi:type="core:StringValue">
+        <value>111</value>
+      </code>
+    </items>
+    <items id="2455116c-8e84-4536-b111-46a247f185fb">
+      <name>Night</name>
+      <description>сут.</description>
+      <code xsi:type="core:StringValue">
+        <value>359</value>
+      </code>
+    </items>
+    <items id="a3d234ea-8cc5-451a-8ea4-b865c08ffbe1">
+      <name>Pack</name>
+      <description>упак.</description>
+      <code xsi:type="core:StringValue">
+        <value>778</value>
+      </code>
+    </items>
+    <items id="d508807d-6120-4a9a-87ff-54d35638f16c">
+      <name>Hour</name>
+      <description>ч.</description>
+      <code xsi:type="core:StringValue">
+        <value>356</value>
+      </code>
+    </items>
+    <items id="896f118f-e4b4-45bd-aeb9-0b40ec677dbb">
+      <name>Man</name>
+      <description>чел.</description>
+      <code xsi:type="core:StringValue">
+        <value>792</value>
+      </code>
+    </items>
+    <items id="4f186da0-6626-4971-a89b-2926a96f9f82">
+      <name>ManDay</name>
+      <description>чел. дн.</description>
+      <code xsi:type="core:StringValue">
+        <value>540</value>
+      </code>
+    </items>
+    <items id="8925a870-9105-4aab-85d1-ae54d2b205f2">
+      <name>Piece</name>
+      <description>шт.</description>
+      <code xsi:type="core:StringValue">
+        <value>796</value>
+      </code>
+    </items>
+  </predefined>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultListForm>Catalog.ЕдИзмерения.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ЕдИзмерения.Form.ListForm</defaultChoiceForm>
+  <forms uuid="766d8b1b-dfc5-4492-912e-1903400fb097">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

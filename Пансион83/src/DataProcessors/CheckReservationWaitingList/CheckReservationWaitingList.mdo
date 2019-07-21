@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82ba393f-438d-4883-9ebb-73862ddbe403">
+  <producedTypes>
+    <objectType typeId="a70bd303-a933-4744-a974-3eedc2d1e264" valueTypeId="b8dd8c70-b9ff-4cd9-b6ff-20fd2bce19d9"/>
+    <managerType typeId="9b0310ce-20ce-48ea-bd96-2d66b1c6984a" valueTypeId="5c5025e2-65b5-4279-a90c-bbbf7ef3b42d"/>
+  </producedTypes>
+  <name>CheckReservationWaitingList</name>
+  <synonym>
+    <key>en</key>
+    <value>Check reservation waiting list</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Blatt mit erwarteten Buchungen überprüfen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить лист ожидания брони</value>
+  </synonym>
+  <defaultForm>DataProcessor.CheckReservationWaitingList.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="3940d0d3-099c-41d5-a39a-3fac2c27047e">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fcda249f-4106-4db1-a650-ccf879a355e9">
+    <name>ReservationDepartment</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation department</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abteilung des Reservierungsdienstes</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел службы бронирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Отделы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6f900edb-a46e-4409-af20-5233239942bd">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1e3242dc-f2bc-4114-8cf5-0646cb3f611a">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

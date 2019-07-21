@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6abaae9-9627-4597-8237-deaebf997f22">
+  <producedTypes>
+    <objectType typeId="f9bbf5ea-8886-4e01-81b5-73c5d9330682" valueTypeId="a1abc58a-3585-4b27-8ef0-7ad1d6fa026c"/>
+    <refType typeId="7b4b4daa-8289-4d35-8700-6485e80be478" valueTypeId="2d0264f1-9035-42bf-a8cc-d9b8e745c572"/>
+    <selectionType typeId="d23a4926-402d-4a8b-a7a8-b358a0bc194a" valueTypeId="db9f05b9-acf4-43f7-a266-71debd65beaa"/>
+    <listType typeId="00cb208e-99bd-48c7-b069-41724eec118a" valueTypeId="f7e717e5-2064-4e4a-a9c7-b1b56f1a33c8"/>
+    <managerType typeId="9577815a-67d0-454e-8167-d48bf628b95b" valueTypeId="82be0439-3182-4428-853e-4c868657b863"/>
+  </producedTypes>
+  <name>КредитныеКарты</name>
+  <synonym>
+    <key>en</key>
+    <value>Кредитные карты</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kreditkarten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Кредитные карты</value>
+  </synonym>
+  <inputByString>Catalog.КредитныеКарты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КредитныеКарты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <codeLength>12</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КредитныеКарты.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.КредитныеКарты.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.КредитныеКарты.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="74f095c3-8736-4309-8481-9dbe01c25530">
+    <name>CardOwner</name>
+    <synonym>
+      <key>en</key>
+      <value>Card owner</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Karteninhaber</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец карты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ee906f6-2364-435f-8a90-a13e382d062f">
+    <name>CardType</name>
+    <synonym>
+      <key>en</key>
+      <value>Card type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kartentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип карты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКредитныхКарт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9e3e3be-bdca-438c-8336-db7f32cb86d0">
+    <name>CardNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Card number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kartennummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>19</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31c676cc-338a-4582-826b-d12fe5b111f3">
+    <name>CardHolder</name>
+    <synonym>
+      <key>en</key>
+      <value>Card holder</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Name auf der Karte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя на карте</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eaef4154-da6e-4500-af98-a58048108664">
+    <name>CardValidTillDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Valid till date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gültigkeitsdauer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ade4aba9-54cb-45f6-8ad7-45a3357be328">
+    <name>CardSecurityCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Card Security Code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>CSС (CVV, CVC)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>CSС (CVV, CVC) Код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c75a0215-673c-471a-9210-dea65c392f9b">
+    <name>CardIssuer</name>
+    <synonym>
+      <key>en</key>
+      <value>Card issuer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Karte ausgestellt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Карта выдана</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d7c44a2-1237-436f-833b-17fac00b2099">
+    <name>CardDataEnc</name>
+    <synonym>
+      <key>en</key>
+      <value>Card data encrypted</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verschlüsselte Kartendaten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Зашифрованные данные карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c4e0c5eb-366c-4be2-be02-2165ddf5b2fe">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="888bf171-eb8f-4178-b790-c000307dd22a">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a95224a-baed-457d-a330-990dd0846639">
+    <name>CreateDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Create date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Erfassung im Programm</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации в программе</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c7c42c81-92ec-424a-a3dd-dc6c0c6c4e70">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8fa283df-f23d-4a24-9484-cd9e78902355">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a490824-2b28-4e13-8edf-75c8406f0bdb">
+  <producedTypes>
+    <refType typeId="5fa9e359-a28f-49fc-8d03-80dde4316425" valueTypeId="1dd8a7e7-72c2-49f5-86cf-d8e70fd85965"/>
+    <listType typeId="832ba918-c6d4-447b-9f4b-aaa838596bc3" valueTypeId="5908eda3-e362-4581-9e38-92f7adc911a6"/>
+    <managerType typeId="7f1a1193-d627-48a9-bb7a-5673dd2c7a59" valueTypeId="f6e52722-0b70-42f0-b168-b151d11ac1ae"/>
+  </producedTypes>
+  <name>CopiesPerPage</name>
+  <synonym>
+    <key>en</key>
+    <value>Copies per page</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Exemplare auf der Seite</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Экземпляров на странице</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="23b8723f-f45f-4105-bb0b-a46a10136796">
+    <name>One</name>
+    <synonym>
+      <key>en</key>
+      <value>One copy</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eine Ausfertigung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Один экземпляр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e78120c-8f33-4989-997d-2c5543f7cf24">
+    <name>Two</name>
+    <synonym>
+      <key>en</key>
+      <value>Two copies</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zwei Ausfertigungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Два экземпляра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e3c8540-1fd5-4617-ac71-0e254eed567a">
+    <name>Auto</name>
+    <synonym>
+      <key>en</key>
+      <value>Auto</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Auto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

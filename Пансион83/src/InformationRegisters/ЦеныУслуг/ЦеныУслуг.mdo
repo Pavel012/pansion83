@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df529e6b-77c0-48b6-918b-ec9d14c4f094">
+  <producedTypes>
+    <selectionType typeId="c1aaf04f-f6b9-4009-9446-717b9713fe03" valueTypeId="bd991bc1-43c2-4192-a259-386a331c9b08"/>
+    <listType typeId="e2e40992-7ba9-450e-ae0d-fee643ed7a78" valueTypeId="039d85bc-ce7b-4301-a76d-bd658e2d9b7b"/>
+    <managerType typeId="beb76b69-2248-4af7-8419-78923499847e" valueTypeId="acd57793-7393-4136-9420-5df201a8e5ab"/>
+    <recordSetType typeId="ceb00d72-1f79-401c-9b5b-9c67d15bdd6b" valueTypeId="29594223-cb83-48b4-a0dc-c43824bbed0b"/>
+    <recordKeyType typeId="5c09341e-72ba-4efb-a8fa-cafe4dd5ef4b" valueTypeId="a4d65656-35de-4a53-b619-0459b9b23834"/>
+    <recordType typeId="9e6ca05e-ca6f-41e4-870b-0718bfe90922" valueTypeId="a755be52-ff7b-408d-81fc-330a91265170"/>
+    <recordManagerType typeId="e2a74d04-6f46-4b4f-b2ed-b524593a86e2" valueTypeId="a8b06930-10bf-4f1c-8ea2-97797722746f"/>
+  </producedTypes>
+  <name>ЦеныУслуг</name>
+  <synonym>
+    <key>en</key>
+    <value>Цены услуг</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Preise der Dienstleistungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Цены услуг</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ЦеныУслуг.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b072a4cc-c171-450e-812f-bebbe9f2799b">
+    <name>Price</name>
+    <synonym>
+      <key>en</key>
+      <value>Price</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cc8b0b3b-5cef-442d-b500-e386ac33dc8d">
+    <name>Currency</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e76fd365-1c09-456d-af41-1cba0dd1874b">
+    <name>VATRate</name>
+    <synonym>
+      <key>en</key>
+      <value>VAT Rate %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rate MwSt. %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС %</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкаНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d25207f0-630d-46c3-bc83-8945b8a3ec3f">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="44939153-5bb1-497f-a25a-e890612b24d4">
+    <name>Service</name>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="efab84d5-2602-4032-8917-d6baa6e763b6">
+    <name>ClientType</name>
+    <synonym>
+      <key>en</key>
+      <value>Client type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kundentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип клиента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="dee54b7a-f605-4a07-a640-6b2ab1a5ce7d">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="212f15eb-61f2-4968-8be8-e104b458ccca">
+    <name>CopyPricesWizard</name>
+    <synonym>
+      <key>en</key>
+      <value>Copy service prices wizard</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Master für Kopieren von Preisen für Dienste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер копирования цен услуг</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

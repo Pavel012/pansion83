@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f45f9f2f-21af-4128-8022-d7c0d952c55b">
+  <producedTypes>
+    <objectType typeId="026130da-702f-4640-b7e6-3195dfa7ca7a" valueTypeId="7121a2aa-d772-4ac6-8351-ac9f902fc3bd"/>
+    <refType typeId="c2f6f6a7-8aa7-44eb-8fa2-da4452cfd899" valueTypeId="fb715bb9-e628-491e-b328-493521dc2164"/>
+    <selectionType typeId="c7a4fdf2-1f53-4715-85a2-486ba522f39f" valueTypeId="b1f3e84a-0a0e-4cbd-8ab0-ba9c2f883b71"/>
+    <listType typeId="b5a4cfb8-e4fd-4bb0-84c2-0ab5d2a7946f" valueTypeId="8fd16afd-15a2-4e92-8bc4-f9500a5249d2"/>
+    <managerType typeId="ea500c63-cdab-40b5-9970-18680a397d2c" valueTypeId="5375215e-ba9e-47a5-a015-e897014b4071"/>
+  </producedTypes>
+  <name>Обработки</name>
+  <synonym>
+    <key>en</key>
+    <value>Обработки</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bearbeitungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки</value>
+  </synonym>
+  <inputByString>Catalog.Обработки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Обработки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ac411d63-1400-4da6-a41b-8bc9290e99d9">
+      <name>ExportForeignersDataToPVSOVD</name>
+      <description>Выгрузка данных иностранных гостей в АИС ПВС ОВД РФ'</description>
+      <code xsi:type="core:NumberValue">
+        <value>305</value>
+      </code>
+    </items>
+    <items id="ca79f9ed-c238-4abd-99a4-fd06267167de">
+      <name>ExportForeignersDataToUFMSRu</name>
+      <description>Выгрузка данных иностранных гостей в УФМС РФ'</description>
+      <code xsi:type="core:NumberValue">
+        <value>300</value>
+      </code>
+    </items>
+    <items id="f7147642-5919-47b2-9a81-172a068e8280">
+      <name>ExportRoomInventoryBalances</name>
+      <description>Выгрузка остатков свободных номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>270</value>
+      </code>
+    </items>
+    <items id="ebb18efe-f505-48e1-8fd5-c895f2ef77a3">
+      <name>DoExchangePlanNodeDataExchange</name>
+      <description>Выполнить обмен данными с узлом плана обмена'</description>
+      <code xsi:type="core:NumberValue">
+        <value>980</value>
+      </code>
+    </items>
+    <items id="4303f9e9-ca37-46bd-a8a8-7d64d0624573">
+      <name>LoadEMailReservations</name>
+      <description>Загрузка резервирований по данным E-Mail сообщений с сайта гостиницы'</description>
+      <code xsi:type="core:NumberValue">
+        <value>280</value>
+      </code>
+    </items>
+    <items id="9b9ef2b4-33b6-4410-84c9-d4068b099676">
+      <name>LoadPhoneCalls</name>
+      <description>Загрузка телефонных разговоров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>400</value>
+      </code>
+    </items>
+    <items id="3430bdd4-de8e-4862-bd1a-1a8ac213f722">
+      <name>ProcessFinishedResourceReservations</name>
+      <description>Обработать завершенную бронь ресурсов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>250</value>
+      </code>
+    </items>
+    <items id="d257ac51-e6aa-430e-b623-2efdd4a81501">
+      <name>SendGuestGroupNotifications</name>
+      <description>Отправить уведомления по группам гостей'</description>
+      <code xsi:type="core:NumberValue">
+        <value>810</value>
+      </code>
+    </items>
+    <items id="bf3bbeac-c818-4598-9615-3c67fafe5d2d">
+      <name>ClearDatabase</name>
+      <description>Очистить базу данных</description>
+      <code xsi:type="core:NumberValue">
+        <value>990</value>
+      </code>
+    </items>
+    <items id="bb508f56-4a66-448c-b701-2248ecb81c16">
+      <name>DoNightAuditPrecheck</name>
+      <description>Подготовка к ночному аудиту</description>
+      <code xsi:type="core:NumberValue">
+        <value>510</value>
+      </code>
+    </items>
+    <items id="b98a4e5f-fb0b-4d4b-b4e0-3b3d5c0ce3b6">
+      <name>CheckReservationWaitingList</name>
+      <description>Проверить лист ожидания брони'</description>
+      <code xsi:type="core:NumberValue">
+        <value>820</value>
+      </code>
+    </items>
+    <items id="ed0fc32a-f746-403b-9d3e-7c45bcd5392c">
+      <name>CheckIfReservationsWerePayedInTime</name>
+      <description>Проверить поступление оплаты по брони'</description>
+      <code xsi:type="core:NumberValue">
+        <value>205</value>
+      </code>
+    </items>
+    <items id="c54c5ec5-dbf7-4dae-bc10-8d2567dee32b">
+      <name>CheckLoadOfPhoneCalls</name>
+      <description>Проверка загрузки телефонных разговоров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>410</value>
+      </code>
+    </items>
+    <items id="6149e05a-a601-4a65-8d85-0cf598c9e2d6">
+      <name>LoadCurrencyRatesForTomorrow</name>
+      <description>Регламентная процедура загрузки курсов валют на завтра'</description>
+      <code xsi:type="core:NumberValue">
+        <value>100</value>
+      </code>
+    </items>
+    <items id="9ad091e5-2c3c-47c0-b2ca-7640a740b701">
+      <name>DisableNoShowReservations</name>
+      <description>Снять просроченную бронь</description>
+      <code xsi:type="core:NumberValue">
+        <value>200</value>
+      </code>
+    </items>
+    <items id="9a84f9fd-75db-491d-8cf5-d862c030928d">
+      <name>ReleaseExpiredRoomAllotments</name>
+      <description>Снять просроченные остатки по квотам номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>210</value>
+      </code>
+    </items>
+    <items id="05623051-854c-47a7-a330-08bee4c06b5c">
+      <name>ManageHasRoomBlocks</name>
+      <description>Управление флагом &quot;Есть блокировки&quot; у номеров в Номерном фонде'</description>
+      <code xsi:type="core:NumberValue">
+        <value>260</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Обработки.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.Обработки.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.Обработки.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Обработки.Form.ChoiceForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.Обработки.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="e827c2b8-1dbf-4860-8410-03dee4d1c4e9">
+    <name>IsExternal</name>
+    <synonym>
+      <key>en</key>
+      <value>Is external data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externe Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обработка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="761445b7-6e8e-4af6-8226-c257ffe5762c">
+    <name>Processing</name>
+    <synonym>
+      <key>en</key>
+      <value>Processing</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеОбработки</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f55069c9-ecad-469b-9294-bdd3633dd690">
+    <name>StaticParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Static processing parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Statistische Bearbeitungsparameter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статические параметры обработки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39c98a36-f5c1-489c-a813-2f95c0577273">
+    <name>DynamicParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Dynamic processing parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dynamische Parameter der Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Динамические параметры обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7163655c-93a5-4cd8-afb5-993b23208ae8">
+    <name>PermissionGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Permission group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rechtepaket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Набор прав</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборПрав</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aaaea53c-4c37-4800-85bd-6f1454ad4862">
+    <name>Key</name>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled job key</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schlüssel der Wartungsaufgabe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ регламентного задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0dfb3f2-6724-4f4b-ba55-94ab455a8412">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee2908cc-4f57-4f38-a79e-b1e947848f44">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="632d59d4-152c-4bfc-be36-509c787cb26a">
+    <producedTypes>
+      <objectType typeId="386ffb8b-8b83-488c-b9cf-747c331ff82e" valueTypeId="36017d5d-38f4-41af-822d-d50d92f2e1ce"/>
+      <rowType typeId="09ba1f51-d181-43f6-862c-059edf47c582" valueTypeId="7a10acfc-ec9f-4295-a0f0-c7bc2faa0082"/>
+    </producedTypes>
+    <name>PermissionGroups</name>
+    <synonym>
+      <key>en</key>
+      <value>Permission groups</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rechtepaket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы прав</value>
+    </synonym>
+    <attributes uuid="0ce8df1b-6190-42a9-8985-cb91d902389b">
+      <name>PermissionGroup</name>
+      <synonym>
+        <key>en</key>
+        <value>Permission group</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Rechtepaket</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Набор прав</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаборПрав</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e1d99ae3-9783-4103-9745-1937a2199f61">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="89e51a59-e875-4cbd-9619-5a4cd23cbe79">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b8e197c-a415-44cb-a2de-d3b6bcb508a8">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb7abebb-5134-4f67-aa12-d447f59d92a3">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Choice form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ebf367c6-d109-4bee-8953-1e91c5e8944e">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

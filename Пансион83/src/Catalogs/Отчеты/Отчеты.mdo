@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd41dfa8-63b0-4b90-a12f-d51343df6965">
+  <producedTypes>
+    <objectType typeId="369292cb-f15d-4da4-a485-fe72a9e8ab77" valueTypeId="5e95242d-a51d-48cc-934e-2025cfeb8735"/>
+    <refType typeId="1b63b593-c33c-4a3c-9643-382666e7454f" valueTypeId="104df1f8-0fc6-4b27-ac91-e521c322b7ea"/>
+    <selectionType typeId="fd3ea7f0-f86c-424e-ab56-893fe387797e" valueTypeId="48b29e7a-2086-4466-a5c3-98a6da7290d4"/>
+    <listType typeId="91fc7b20-487d-4e22-bd32-2091e4058ebb" valueTypeId="9ff8e3bc-8dbe-45b7-8ba2-a2f938459937"/>
+    <managerType typeId="0e9b2fa2-d4b7-46a6-960d-1a5eb3d5e52b" valueTypeId="ce43d5b0-ad84-4226-a996-e22eda8aefdc"/>
+  </producedTypes>
+  <name>Отчеты</name>
+  <synonym>
+    <key>en</key>
+    <value>Отчеты</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Berichte</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <inputByString>Catalog.Отчеты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Отчеты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="de8e2028-9579-49f7-b9cd-0399307b79c8">
+      <name>AccommodationAnnulations</name>
+      <description>EN='Accommodation annulations audit'; RU='Аудит аннуляций размещений'</description>
+      <code xsi:type="core:NumberValue">
+        <value>792</value>
+      </code>
+    </items>
+    <items id="91a8d32f-ff67-4e95-9b1a-844c87982991">
+      <name>AccountsReceivable</name>
+      <description>EN='Accounts receivable'; RU='Бухгалтерская реализация услуг'</description>
+      <code xsi:type="core:NumberValue">
+        <value>410</value>
+      </code>
+    </items>
+    <items id="f7e27952-bdb0-4662-aafa-0dc097c9e7ef">
+      <name>AccumulatingDiscountResources</name>
+      <description>EN='Accumulating discount resources'; RU='Ресурсы накопительных скидок'</description>
+      <code xsi:type="core:NumberValue">
+        <value>910</value>
+      </code>
+    </items>
+    <items id="26204494-0e38-4488-b6c6-fe2b43b9641a">
+      <name>AgentSalesPercents</name>
+      <description>EN='Agent sales percents'; RU='Проценты продаж по агентам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>550</value>
+      </code>
+    </items>
+    <items id="3c7e9bfb-d2f8-4a11-a10c-123749b03c41">
+      <name>ChargeTransfers</name>
+      <description>EN='Charge transfers'; RU='Перемещения начислений'</description>
+      <code xsi:type="core:NumberValue">
+        <value>158</value>
+      </code>
+    </items>
+    <items id="5e651050-9c83-4f32-a899-89b1cb78f526">
+      <name>ChargesStorno</name>
+      <description>EN='Charges storno audit'; RU='Аудит сторно начислений'</description>
+      <code xsi:type="core:NumberValue">
+        <value>796</value>
+      </code>
+    </items>
+    <items id="9b003454-6486-47f6-b79c-b7b27f847101">
+      <name>CheckCustomerGuests</name>
+      <description>EN='Check customer guests'; RU='Сверка начислений по гостям от контрагентов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>168</value>
+      </code>
+    </items>
+    <items id="dc7f5f9f-8595-4299-bd05-d59ea0d32648">
+      <name>CheckCustomerServices</name>
+      <description>EN='Check customer services'; RU='Сверка начислений по контрагентам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>167</value>
+      </code>
+    </items>
+    <items id="b3616bd5-d70d-43ac-afc3-1819a076648e">
+      <name>CheckInPlanning</name>
+      <description>EN='Check-in planning'; RU='Планирование заездов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>595</value>
+      </code>
+    </items>
+    <items id="f54b8652-5d3a-4aec-85b1-6688b91798bb">
+      <name>CleaningTask</name>
+      <description>EN='Cleaning task'; RU='Задание на уборку'</description>
+      <code xsi:type="core:NumberValue">
+        <value>230</value>
+      </code>
+    </items>
+    <items id="bead25d1-7f53-4b78-add0-9a68193845e8">
+      <name>IdentificationCardsAudit</name>
+      <description>EN='Client identification cards audit'; RU='Аудит выданных карт идентификации клиентов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>791</value>
+      </code>
+    </items>
+    <items id="5c3597a3-8b34-466e-8d0d-0c1fd35daa3e">
+      <name>CurrentAccountsReceivable</name>
+      <description>EN='Current accounts receivable'; RU='Текущая реализация услуг'</description>
+      <code xsi:type="core:NumberValue">
+        <value>420</value>
+      </code>
+    </items>
+    <items id="718458db-4cc4-446a-9c8b-e436175621ba">
+      <name>CustomerAccountsDetails</name>
+      <description>EN='Customer accounts details'; RU='Детальный баланс взаиморасчетов с контрагентами'</description>
+      <code xsi:type="core:NumberValue">
+        <value>720</value>
+      </code>
+    </items>
+    <items id="b0d3ca46-8eba-4780-969b-fcbab1bbc12a">
+      <name>CustomerAccounts</name>
+      <description>EN='Customer accounts'; RU='Баланс взаиморасчетов с контрагентами'</description>
+      <code xsi:type="core:NumberValue">
+        <value>710</value>
+      </code>
+    </items>
+    <items id="ae5005e1-f1cf-4a59-a951-5eee6049b3dd">
+      <name>CustomerGuests</name>
+      <description>EN='Customer guests by guest groups'; RU='Сводка по гостям от контрагентов по группам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>161</value>
+      </code>
+    </items>
+    <items id="af308943-264e-4cb4-a3c0-9da4a0ef9fb4">
+      <name>CustomerGuestsPercents</name>
+      <description>EN='Customer guests percents'; RU='Проценты продаж по гостям от контрагентов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>527</value>
+      </code>
+    </items>
+    <items id="6aa6f8a9-3209-45c0-ac48-e39ecc84a9f2">
+      <name>CustomerGuestsTurnovers</name>
+      <description>EN='Customer guests turnovers'; RU='Обороты продаж по гостям от контрагентов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>522</value>
+      </code>
+    </items>
+    <items id="44d23058-e4e9-48aa-9d0c-318c390d752b">
+      <name>CustomerGuestsWithServices</name>
+      <description>EN='Customer guests with services'; RU='Гости от контрагентов с услугами'</description>
+      <code xsi:type="core:NumberValue">
+        <value>159</value>
+      </code>
+    </items>
+    <items id="e7cd7798-9a4f-48e5-810c-a2cb6c5caa16">
+      <name>CustomerSales</name>
+      <description>EN='Customer sales by guest groups'; RU='Продажи по гостям оплачиваемым контрагентами по группам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>160</value>
+      </code>
+    </items>
+    <items id="163867d1-7192-44f4-bbb1-9d0607b5d0b1">
+      <name>CustomerSalesForecast</name>
+      <description>EN='Customer sales forecast'; RU='Прогноз продаж по контрагентам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>521</value>
+      </code>
+    </items>
+    <items id="9e0876f3-d275-4631-b2aa-b6f4b5d8bb40">
+      <name>CustomerSalesPercents</name>
+      <description>EN='Customer sales percents'; RU='Проценты продаж по контрагентам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>525</value>
+      </code>
+    </items>
+    <items id="893ad5e6-8a76-4e20-aa91-43191d618c0d">
+      <name>CustomerSalesTurnovers</name>
+      <description>EN='Customer sales turnovers'; RU='Обороты продаж по контрагентам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>520</value>
+      </code>
+    </items>
+    <items id="5732e4d3-86e0-41f5-8484-844871db7c61">
+      <name>CustomerSalesWithServices</name>
+      <description>EN='Customer sales with services'; RU='Сводка по оказанным контрагентам услугам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>165</value>
+      </code>
+    </items>
+    <items id="c6e71dfa-7626-4545-8e1a-4b243fe6c72c">
+      <name>Debtors</name>
+      <description>EN='Debtors'; RU='Должники'</description>
+      <code xsi:type="core:NumberValue">
+        <value>130</value>
+      </code>
+    </items>
+    <items id="a8081945-4993-468f-80d7-6df1a79ca78a">
+      <name>DepositTransfers</name>
+      <description>EN='Deposit transfers'; RU='Перемещения депозитов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>157</value>
+      </code>
+    </items>
+    <items id="cb6b5262-d655-4693-86f2-7e4bf89fd592">
+      <name>EmployeeActionsAudit</name>
+      <description>EN='Employee actions audit'; RU='Аудит действий пользователей'; DE='Mitarbeiter Aktionen Prüfungs'</description>
+      <code xsi:type="core:NumberValue">
+        <value>971</value>
+      </code>
+    </items>
+    <items id="e68d328e-dd1a-4f10-8b58-668b906fdb29">
+      <name>EmployeeOperationsHistory</name>
+      <description>EN='Employee operations history'; RU='Протокол выполнения работ персоналом'</description>
+      <code xsi:type="core:NumberValue">
+        <value>320</value>
+      </code>
+    </items>
+    <items id="181046b0-0e50-4ac5-be3d-aa70863fc2ea">
+      <name>EmployeeOperationsTurnovers</name>
+      <description>EN='Employee operations turnovers'; RU='Обороты по работам персонала'</description>
+      <code xsi:type="core:NumberValue">
+        <value>310</value>
+      </code>
+    </items>
+    <items id="39d0a968-c9f6-44b0-bd99-f83d363a1611">
+      <name>EmployeeOperationTasksTurnovers</name>
+      <description>EN='Employee room operation tasks turnovers'; RU='Обороты по заданиям на выполнение работ в номерах'</description>
+      <code xsi:type="core:NumberValue">
+        <value>597</value>
+      </code>
+    </items>
+    <items id="bbcb3487-9497-4894-afb2-99759b4f5bff">
+      <name>EmployeeWorkingTimeSchedule</name>
+      <description>EN='Employee working time schedule'; RU='График рабочего времени сотрудников'</description>
+      <code xsi:type="core:NumberValue">
+        <value>330</value>
+      </code>
+    </items>
+    <items id="fea0bb5c-d560-41bc-bac6-ece3813347e6">
+      <name>ExpectedCheckInForToday</name>
+      <description>EN='Expected check in for today'; RU='Планируемый заезд на сегодня'</description>
+      <code xsi:type="core:NumberValue">
+        <value>110</value>
+      </code>
+    </items>
+    <items id="9570d620-5adb-44a2-9a9d-9c0c6567017f">
+      <name>ExpectedCheckInForTomorrow</name>
+      <description>EN='Expected check in for tomorrow'; RU='Планируемый заезд на завтра'</description>
+      <code xsi:type="core:NumberValue">
+        <value>115</value>
+      </code>
+    </items>
+    <items id="3124d591-6807-4b9c-b38b-16ddc0b33678">
+      <name>ExpectedCheckInOrderedByRooms</name>
+      <description>EN='Expected check in ordered by rooms'; RU='Планируемый заезд отсортированный по номерам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>117</value>
+      </code>
+    </items>
+    <items id="b059d0db-ac4f-45c4-9b8b-b0eb5d95268b">
+      <name>ExpectedCheckOutForToday</name>
+      <description>EN='Expected check out for today'; RU='Планируемый выезд до конца дня'</description>
+      <code xsi:type="core:NumberValue">
+        <value>120</value>
+      </code>
+    </items>
+    <items id="488aa487-ad9b-4eaf-84fd-5e640de8f645">
+      <name>ExpectedCheckOutForTomorrow</name>
+      <description>EN='Expected check out for tomorrow'; RU='Планируемый выезд на завтра'</description>
+      <code xsi:type="core:NumberValue">
+        <value>135</value>
+      </code>
+    </items>
+    <items id="32600af3-fa3f-4c02-903f-6820f8b7ce4d">
+      <name>ExpectedCheckInTotals</name>
+      <description>EN='Expected check-in with totals by guest groups, dates and room types'; RU='Планируемый заезд с итогами по группам, датам заезда и типам номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>195</value>
+      </code>
+    </items>
+    <items id="32f46c03-a25f-4b9a-9e0f-147f097e5268">
+      <name>ExpectedGuestGroups</name>
+      <description>EN='Expected guest groups'; RU='Планируемые группы'</description>
+      <code xsi:type="core:NumberValue">
+        <value>240</value>
+      </code>
+    </items>
+    <items id="db8853d1-cb24-4978-b5b9-0f227b4932aa">
+      <name>ForeignerRegistryJournal</name>
+      <description>EN='Foreigner citizen registry journal'; RU='Журнал регистрации иностранных граждан'</description>
+      <code xsi:type="core:NumberValue">
+        <value>200</value>
+      </code>
+    </items>
+    <items id="e766b56f-2a01-47cc-bcad-25f043c4f9ec">
+      <name>GeoSalesTurnovers</name>
+      <description>EN='Geo sales turnovers'; RU='Обороты продаж по регионам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>530</value>
+      </code>
+    </items>
+    <items id="087a7499-a36b-4c41-8f40-20bdb6eef06b">
+      <name>GiftCertificates</name>
+      <description>EN='Gift certificates'; RU='Подарочные сертификаты'; DE='Geschenkgutscheine'</description>
+      <code xsi:type="core:NumberValue">
+        <value>970</value>
+      </code>
+    </items>
+    <items id="9b3bfcd0-38dc-472a-9a4b-c2bc1ced6707">
+      <name>GuestsCheckedInToday</name>
+      <description>EN='Guests checked in today'; RU='Фактический заезд за сегодня'</description>
+      <code xsi:type="core:NumberValue">
+        <value>105</value>
+      </code>
+    </items>
+    <items id="f2bcc26a-a5f7-41e8-ab40-ef001647acb6">
+      <name>GuestsInBlockedRooms</name>
+      <description>EN='Guests in blocked rooms'; RU='Гости в заблокированных номерах'</description>
+      <code xsi:type="core:NumberValue">
+        <value>799</value>
+      </code>
+    </items>
+    <items id="f070111b-0a6a-428b-b522-e1874bc84b78">
+      <name>HotelProductSalesTurnovers</name>
+      <description>EN='Гостиница product sales turnovers'; RU='Обороты продаж путевок'</description>
+      <code xsi:type="core:NumberValue">
+        <value>580</value>
+      </code>
+    </items>
+    <items id="fb194c5f-7ec2-4d84-86ba-7263f48bc3a0">
+      <name>HotelProductSales</name>
+      <description>EN='Гостиница product sales'; RU='Продажи путевок'</description>
+      <code xsi:type="core:NumberValue">
+        <value>582</value>
+      </code>
+    </items>
+    <items id="4afd3707-b35c-4318-9e40-06bc37031872">
+      <name>HotelProductTotalSales</name>
+      <description>EN='Гостиница product total sales'; RU='Полные продажи путевок'</description>
+      <code xsi:type="core:NumberValue">
+        <value>581</value>
+      </code>
+    </items>
+    <items id="70a69a6d-de78-4685-bdf1-0a27603033d3">
+      <name>HotelProductsIssuedButNotSold</name>
+      <description>EN='Гостиница products issued but not sold'; RU='Отгруженные но не проданные путевки'</description>
+      <code xsi:type="core:NumberValue">
+        <value>585</value>
+      </code>
+    </items>
+    <items id="1b6d15ef-e1e3-4aaa-8ff5-1118526ca9b8">
+      <name>HotelProductsRegister</name>
+      <description>EN='Гостиница products register'; RU='Реестр использованных бланков путевок'</description>
+      <code xsi:type="core:NumberValue">
+        <value>586</value>
+      </code>
+    </items>
+    <items id="d88c5581-c378-4efe-bd11-78dbe8922499">
+      <name>InvoiceAccounts</name>
+      <description>EN='Invoice accounts'; RU='Взаиморасчеты по счетам-требованиям'</description>
+      <code xsi:type="core:NumberValue">
+        <value>730</value>
+      </code>
+    </items>
+    <items id="c27e018f-7368-4879-8513-45d219be39bc">
+      <name>IssuedHotelProducts</name>
+      <description>EN='Issued hotel products'; RU='Отгруженные путевки'</description>
+      <code xsi:type="core:NumberValue">
+        <value>584</value>
+      </code>
+    </items>
+    <items id="e0a42995-778a-4940-b83e-8af4247d9df0">
+      <name>ChangedAccommodations</name>
+      <description>EN='List of changed accommodations'; RU='Список измененных размещений'</description>
+      <code xsi:type="core:NumberValue">
+        <value>850</value>
+      </code>
+    </items>
+    <items id="0ba45142-2c3b-4885-af80-045def7ac0ef">
+      <name>LostProfits</name>
+      <description>EN='Lost profits'; RU='Упущенная прибыль'</description>
+      <code xsi:type="core:NumberValue">
+        <value>605</value>
+      </code>
+    </items>
+    <items id="f96dc8b5-93de-4ded-ba10-fd022a64c045">
+      <name>OccupancyForecast</name>
+      <description>EN='Occupancy forecast'; RU='Прогноз загрузки'</description>
+      <code xsi:type="core:NumberValue">
+        <value>235</value>
+      </code>
+    </items>
+    <items id="cfd8d44e-f39e-4c1e-8ca1-bc2f27575079">
+      <name>CustomerAccountsOperational</name>
+      <description>EN='Operational customer accounts'; RU='Оперативный баланс взаиморасчетов с контрагентами'</description>
+      <code xsi:type="core:NumberValue">
+        <value>740</value>
+      </code>
+    </items>
+    <items id="fa463849-1979-4d6e-b216-674a55b93a41">
+      <name>PaymentAnnulations</name>
+      <description>EN='Payment annulations audit'; RU='Аудит аннуляций платежей'</description>
+      <code xsi:type="core:NumberValue">
+        <value>794</value>
+      </code>
+    </items>
+    <items id="a013929e-c6f0-4f72-8480-c61a1923c63a">
+      <name>PaymentServices</name>
+      <description>EN='Payments distribution to services charged'; RU='Распределение платежей по начисленным услугам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>750</value>
+      </code>
+    </items>
+    <items id="b87f4ad0-4a97-413b-86c4-df62c057e865">
+      <name>PaymentsTurnovers</name>
+      <description>EN='Payments turnovers'; RU='Обороты по платежам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>570</value>
+      </code>
+    </items>
+    <items id="e0984edf-8257-45e9-b95a-859648ee306c">
+      <name>Payments</name>
+      <description>EN='Payments'; RU='Платежи'</description>
+      <code xsi:type="core:NumberValue">
+        <value>155</value>
+      </code>
+    </items>
+    <items id="d07c5f29-aeb7-4fa0-88dd-55153a6fde0b">
+      <name>PhoneCalls</name>
+      <description>EN='Phone calls'; RU='Телефонные разговоры'</description>
+      <code xsi:type="core:NumberValue">
+        <value>920</value>
+      </code>
+    </items>
+    <items id="38d35834-8fca-434f-90a6-f0c66bb7d660">
+      <name>PriceList</name>
+      <description>EN='Price list'; RU='Прайс-лист'</description>
+      <code xsi:type="core:NumberValue">
+        <value>190</value>
+      </code>
+    </items>
+    <items id="6348378c-f224-4c3a-97a9-4d6c45c5ff3b">
+      <name>ReservationAnnulations</name>
+      <description>EN='Reservation annulations audit'; RU='Аудит аннуляций брони'</description>
+      <code xsi:type="core:NumberValue">
+        <value>793</value>
+      </code>
+    </items>
+    <items id="a8f2b8c8-e908-4146-8786-a10741ff72f5">
+      <name>ReservationWaitingList</name>
+      <description>EN='Reservation waiting list'; RU='Лист ожидания брони'</description>
+      <code xsi:type="core:NumberValue">
+        <value>300</value>
+      </code>
+    </items>
+    <items id="15db8c6a-d76f-49c6-a40f-b34c3765415b">
+      <name>ReservationsHistory</name>
+      <description>EN='Reservations history'; RU='История бронирования номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>220</value>
+      </code>
+    </items>
+    <items id="5a9a64cb-e9ab-44c2-b4e0-37823afa7345">
+      <name>ReservationsNoShow</name>
+      <description>EN='Reservations noshow'; RU='Незаезд по брони'</description>
+      <code xsi:type="core:NumberValue">
+        <value>227</value>
+      </code>
+    </items>
+    <items id="b7ee21f7-8776-4630-a256-4eeeeeb8a77e">
+      <name>ReservationsPlanFact</name>
+      <description>EN='Reservations plan/fact analysis'; RU='План/фактный анализ брони'</description>
+      <code xsi:type="core:NumberValue">
+        <value>590</value>
+      </code>
+    </items>
+    <items id="758b11aa-e473-49a2-bf01-305330a6d562">
+      <name>ResourceReservationsHistory</name>
+      <description>EN='Resource reservations history'; RU='История бронирования ресурсов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>225</value>
+      </code>
+    </items>
+    <items id="524c0e96-48ed-4c2f-8433-e794dd96556b">
+      <name>ResourceSalesForecast</name>
+      <description>EN='Resource sales forecast'; RU='Планируемые продажи ресурсов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>145</value>
+      </code>
+    </items>
+    <items id="8312a48d-1a37-42ad-a153-46453caa1797">
+      <name>ResourceSalesPercents</name>
+      <description>EN='Resource sales percents'; RU='Проценты по продажам ресурсов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>516</value>
+      </code>
+    </items>
+    <items id="a5e338ff-9689-4260-a3f6-314e33415a8b">
+      <name>ResourceSalesTurnovers</name>
+      <description>EN='Resource sales turnovers'; RU='Обороты по продажам ресурсов'</description>
+      <code xsi:type="core:NumberValue">
+        <value>515</value>
+      </code>
+    </items>
+    <items id="c4791a6f-1269-4be0-8ee6-9f3ec81e2f85">
+      <name>RevenueTurnovers</name>
+      <description>EN='Revenue turnovers'; RU='Доходность и загрузка'</description>
+      <code xsi:type="core:NumberValue">
+        <value>600</value>
+      </code>
+    </items>
+    <items id="fcc026ad-4be4-45c5-bb6c-50e2ef30cc9a">
+      <name>RoomBlocksHistory</name>
+      <description>EN='Room blocks history'; RU='История блокировок номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>180</value>
+      </code>
+    </items>
+    <items id="c4064af9-ce20-4288-b4a3-1cbde45c5ef8">
+      <name>RoomFoldersSalesTurnovers</name>
+      <description>EN='Room folders sales turnovers'; RU='Обороты по продажам групп номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>540</value>
+      </code>
+    </items>
+    <items id="ea4703ce-a8fd-47b7-b67c-ed20e70d5afe">
+      <name>RoomInventory</name>
+      <description>EN='Room inventory'; RU='Загрузка номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>125</value>
+      </code>
+    </items>
+    <items id="97079bdb-d914-4dc9-9aef-0b5022080ec0">
+      <name>RoomQuotaSales</name>
+      <description>EN='Room quota sales'; RU='Продажи квот номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>170</value>
+      </code>
+    </items>
+    <items id="6a2afd82-dfaa-430d-afba-fd5411a10714">
+      <name>RoomSalesTurnovers</name>
+      <description>EN='Room sales turnovers'; RU='Обороты по продажам номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>510</value>
+      </code>
+    </items>
+    <items id="2671f0f6-dd79-42e6-a6ef-20758e1e5023">
+      <name>RoomServices</name>
+      <description>EN='Room services'; RU='Услуги на номера'</description>
+      <code xsi:type="core:NumberValue">
+        <value>930</value>
+      </code>
+    </items>
+    <items id="24cb21fc-40b2-4056-9d61-2a17ce82708d">
+      <name>RoomStatusChangeHistory</name>
+      <description>EN='Room status change history'; RU='История изменения статусов номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>340</value>
+      </code>
+    </items>
+    <items id="149a8274-1de3-4fa8-bf96-ad244b4bc3b8">
+      <name>RoomTypesSalesTurnovers</name>
+      <description>EN='Room types sales turnovers'; RU='Обороты по продажам типов номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>545</value>
+      </code>
+    </items>
+    <items id="15895f23-257c-440e-8c1c-9b33bc60a30b">
+      <name>RoomsOccupationHistory</name>
+      <description>EN='Rooms occupation history'; RU='История заселения номеров'</description>
+      <code xsi:type="core:NumberValue">
+        <value>100</value>
+      </code>
+    </items>
+    <items id="84af11fb-e790-49f1-8efe-49f4d5acba30">
+      <name>RosstatForeignersQuarterly</name>
+      <description>EN='ROSSTAT - Foreigners by trip purposes - Quarterly'; RU='РОССТАТ - Сведения о кол-ве иностранных граждан по целям визита - Квартальная'</description>
+      <code xsi:type="core:NumberValue">
+        <value>820</value>
+      </code>
+    </items>
+    <items id="fa4745f7-afc1-4926-afce-c216ba8d33da">
+      <name>RosstatForm1Quarterly</name>
+      <description>EN='ROSSTAT - Form 1 - Quarterly'; RU='РОССТАТ - Форма №1 (КСР) - Квартальная'</description>
+      <code xsi:type="core:NumberValue">
+        <value>810</value>
+      </code>
+    </items>
+    <items id="677f3339-ac82-41f9-a8fd-15fb2100f87d">
+      <name>RosstatForm1Year</name>
+      <description>EN='ROSSTAT - Form 1 - Year'; RU='РОССТАТ - Форма №1 (КСР) - Годовая'</description>
+      <code xsi:type="core:NumberValue">
+        <value>825</value>
+      </code>
+    </items>
+    <items id="aa11288a-9f61-4077-ac25-f62c56f24140">
+      <name>RosstatForm8VESServices</name>
+      <description>EN='ROSSTAT - Form 8 - VES (Services)'; RU='РОССТАТ - Форма №8 - ВЭС (Услуги)'</description>
+      <code xsi:type="core:NumberValue">
+        <value>830</value>
+      </code>
+    </items>
+    <items id="2334b4fe-98ac-4244-801b-d9df9238f4aa">
+      <name>SafetySystemEventsAudit</name>
+      <description>EN='Safety system events audit'; RU='Аудит событий системы безопасности'</description>
+      <code xsi:type="core:NumberValue">
+        <value>797</value>
+      </code>
+    </items>
+    <items id="4970105b-dbec-453b-82a6-c44ea7d46a08">
+      <name>ServiceSalesTurnovers</name>
+      <description>EN='Service sales turnovers'; RU='Обороты продаж услуг'</description>
+      <code xsi:type="core:NumberValue">
+        <value>560</value>
+      </code>
+    </items>
+    <items id="cd3d0bf8-13a2-42bf-aca6-b2e2118b84a9">
+      <name>ServicesRegistration</name>
+      <description>EN='Services registration'; RU='Фактически зарегистрированные услуги'</description>
+      <code xsi:type="core:NumberValue">
+        <value>940</value>
+      </code>
+    </items>
+    <items id="3c32372e-15dc-41ba-a0c0-5f09c7b06fd9">
+      <name>ServicesSalesForecast</name>
+      <description>EN='Services sales forecast'; RU='Планируемое оказание услуг'</description>
+      <code xsi:type="core:NumberValue">
+        <value>140</value>
+      </code>
+    </items>
+    <items id="4350e13d-559c-4e7d-b87d-c0f0a245a409">
+      <name>ServicesSales</name>
+      <description>EN='Services sales'; RU='Сводка по оказанным услугам'</description>
+      <code xsi:type="core:NumberValue">
+        <value>150</value>
+      </code>
+    </items>
+    <items id="e6765104-98eb-44ed-8cd6-0aa3c53fbe09">
+      <name>SMSBeingSent</name>
+      <description>EN='SMS being sent'; RU='Отправленные СМС'</description>
+      <code xsi:type="core:NumberValue">
+        <value>960</value>
+      </code>
+    </items>
+    <items id="d768cbfd-cb5a-4e8b-bcdb-061255c6fd6f">
+      <name>StateOfAllRooms</name>
+      <description>EN='State of all rooms'; RU='Шахматка'</description>
+      <code xsi:type="core:NumberValue">
+        <value>210</value>
+      </code>
+    </items>
+    <items id="fb625bbd-8ee2-4389-ad85-9815a4ec88de">
+      <name>SummaryIndexes</name>
+      <description>EN='Summary indexes'; RU='Сводные показатели'</description>
+      <code xsi:type="core:NumberValue">
+        <value>501</value>
+      </code>
+    </items>
+    <items id="33bc348a-d406-40ed-9691-e5073a03576a">
+      <name>Messages</name>
+      <description>EN='Tasks'; RU='Задачи'; DE='Aufgaben'</description>
+      <code xsi:type="core:NumberValue">
+        <value>950</value>
+      </code>
+    </items>
+    <items id="26a115f8-1be9-4cd6-93f6-433a09f85047">
+      <name>VacantRooms</name>
+      <description>EN='Vacant rooms'; RU='Свободные номера'</description>
+      <code xsi:type="core:NumberValue">
+        <value>107</value>
+      </code>
+    </items>
+    <items id="be60ff27-6a91-486d-8c94-0a0fdec6cbbd">
+      <name>AccommodationChangeRoomAudit</name>
+      <description>EN='Сhange room in accommodations audit'; RU='Аудит замен номеров комнат в размещениях'</description>
+      <code xsi:type="core:NumberValue">
+        <value>798</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Отчеты.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.Отчеты.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.Отчеты.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Отчеты.Form.ChoiceForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.Отчеты.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="6761bfa1-12e7-445d-9ebd-6c207380193a">
+    <name>IsExternal</name>
+    <synonym>
+      <key>en</key>
+      <value>Is external report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externer Bericht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний отчет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="88460dd0-aac3-4c49-99df-28e83d5ae70d">
+    <name>Report</name>
+    <synonym>
+      <key>en</key>
+      <value>Report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bericht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеОбработки</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7cb2005-7be5-403c-954e-54dd456dcb70">
+    <name>StaticParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Static report parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Statistische Berichtparameter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статические параметры отчета</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1af40b7b-b3ac-4b77-99a7-d1f6f894ac8d">
+    <name>DynamicParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Dynamic report parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dynamische Parameter des Berichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Динамические параметры отчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07af9dfa-d405-4057-b964-d660fb767a16">
+    <name>IsPackage</name>
+    <synonym>
+      <key>en</key>
+      <value>Is reports package</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist das Berichtepaket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это пакет отчетов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e1d0dd4-8b6d-4973-a018-53db0f50f0de">
+    <name>PermissionGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Permission group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rechtepaket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Набор прав</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборПрав</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f919d6c-ae0d-4501-88b7-9022d1b4461b">
+    <name>Key</name>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled job key</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schlüssel der Wartungsaufgabe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ регламентного задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d623a2f4-db0e-4e15-a71c-a1e494bc7888">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="422442e0-f403-4129-a307-63cd39b7e715">
+    <name>ReportHeaderText</name>
+    <synonym>
+      <key>en</key>
+      <value>Report header text (report description is used if left blank)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Text Überschrift des Berichts (falls leer, dann wird der Name des Berichts verwendet)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст заголовка отчета (если пустой, то используется наименование отчета)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7af2c596-35e4-434b-9dc6-181fb98cd6a6">
+    <name>ExternalTemplate</name>
+    <synonym>
+      <key>en</key>
+      <value>External template</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externes Design</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний макет</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30edcad0-b178-41b8-b359-a1ad1d6bd61e">
+    <name>ExternalTemplateFileName</name>
+    <synonym>
+      <key>en</key>
+      <value>External template file name</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Name der Datei des externen Designs</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла внешнего макета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5656a46-eb7d-4599-9a5c-41361e2c755e">
+    <name>ExternalTemplateFileLoadTime</name>
+    <synonym>
+      <key>en</key>
+      <value>External template file load date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit des Ladens der externen Design-Datei</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время загрузки файла внешнего макета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b094911d-c01c-4b48-840e-74cfc80cd6bb">
+    <name>ExternalTemplateFileLastChangeTime</name>
+    <synonym>
+      <key>en</key>
+      <value>External template file last change date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit der letzten Änderung der externen Designdatei</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время последнего изменения файла внешнего макета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="024f2227-d1a0-4f43-aed5-e91f9b4a2d60">
+    <name>DefaultSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Report default settings</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungen des Berichts als Standard-Einstellungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки отчета по умолчанию</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27acc7bd-a248-4799-aef6-6c27a7aee596">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3cf2398f-62f7-4a74-9102-21fdcb86e9f4">
+    <producedTypes>
+      <objectType typeId="91697db4-29f1-4d56-a304-b749a3480283" valueTypeId="26217664-02e3-48e4-a3cb-34b80192e32d"/>
+      <rowType typeId="10d00690-a725-401f-9f43-c5aacbc87551" valueTypeId="4df2bade-12df-4a8e-98b5-3ff1a1d9e92e"/>
+    </producedTypes>
+    <name>Package</name>
+    <synonym>
+      <key>en</key>
+      <value>Package</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Paket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет</value>
+    </synonym>
+    <attributes uuid="47227472-a564-4918-951e-16e10acbca96">
+      <name>IsActive</name>
+      <synonym>
+        <key>en</key>
+        <value>Is active</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Gilt</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Действует</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="94ab09ab-27b9-4e01-a1f2-3e56df4d6b45">
+      <name>Report</name>
+      <synonym>
+        <key>en</key>
+        <value>Report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Bericht</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Отчет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Отчеты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="44100767-749a-4353-a546-46d90bc1481f">
+      <name>DoNotUseParentReportAttributes</name>
+      <synonym>
+        <key>en</key>
+        <value>Do not use parent report attributes</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Die Parameter des Elternberichts nicht nutzen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Не использовать параметры родительского отчета</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5af05a09-ebcd-49e4-84e1-1b52699391a7">
+      <name>ReportDoNotPutReportHeader</name>
+      <synonym>
+        <key>en</key>
+        <value>Do not put report header to the report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Die Berichtsüberschrift nicht im Bericht anzeigen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Не выводить в отчет заголовок отчета</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf1a06fb-51c4-4788-b518-ee52ff84ec1b">
+      <name>ReportDoNotPutTableHeader</name>
+      <synonym>
+        <key>en</key>
+        <value>Do not put table header to the report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Die Überschrift der Berichttabelle nicht im Bericht anzeigen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Не выводить в отчет заголовок таблицы отчета</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="60945ec9-de96-46f2-92bc-fd36fe7d935e">
+      <name>ReportDoNotPutDetailRecords</name>
+      <synonym>
+        <key>en</key>
+        <value>Do not put detail rows to the report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Detailzeilen nicht im Bericht anzeigen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Не выводить в отчет детальные строки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a5caaf9a-56ac-4dd4-a0fa-36a88bc88dca">
+      <name>ReportDoNotPutTableFooter</name>
+      <synonym>
+        <key>en</key>
+        <value>Do not put table footer to the report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Die Fußzeile der Berichtstabelle nicht im Bericht anzeigen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Не выводить в отчет подвал таблицы отчета</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0dc26606-82fa-4310-97f9-27ec4a0f2e2f">
+      <name>ReportDoNotPutOveralls</name>
+      <synonym>
+        <key>en</key>
+        <value>Do not put overall totals to the report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Gesamtergebnisse nicht im Bericht anzeigen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Не выводить в отчет общие итоги</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0a936e8a-603c-4ccb-877c-644336e36b4c">
+      <name>ReportDoNotPutReportFooter</name>
+      <synonym>
+        <key>en</key>
+        <value>Do not put report footer to the report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Die Berichtsfußzeile nicht im Bericht anzeigen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Не выводить в отчет подвал отчета</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46356887-9d95-4cef-8ae5-606ace3c38e7">
+      <name>ReportPutHorizontalPageBreakBefore</name>
+      <synonym>
+        <key>en</key>
+        <value>Report put horizontal page break before this report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Vor der Erstellung des Berichts den Seitentrenner einsetzen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Вставить разделитель страниц перед формированием этого отчета</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4d695a64-217a-4e9f-a989-e250512bcf8e">
+    <producedTypes>
+      <objectType typeId="dd8fb5af-f6b2-414c-9818-8b9613b0ea0f" valueTypeId="f54cb195-5d61-4edb-b068-549917895f0a"/>
+      <rowType typeId="1c95ab7f-5178-4647-b218-6309434f48ac" valueTypeId="99eb8ca0-10af-4d2c-9f0e-bbc8d46c28cb"/>
+    </producedTypes>
+    <name>PermissionGroups</name>
+    <synonym>
+      <key>en</key>
+      <value>Permission groups</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rechtepaket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы прав</value>
+    </synonym>
+    <attributes uuid="37f81b21-b01e-4af4-8c5e-50aeb4c94f24">
+      <name>PermissionGroup</name>
+      <synonym>
+        <key>en</key>
+        <value>Permission group</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Rechtepaket</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Набор прав</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаборПрав</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6695cab4-2796-4c3a-818b-ae9e83ecf0b6">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="29aaf594-25ae-40bc-9440-137f31f9aedc">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="079d82ee-00e3-464d-a416-6b29a9dcb8b3">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d644788d-fd11-48ef-ba71-7a07323c4219">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Choice form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3135adf-7326-4e9a-a480-fad10fe01841">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

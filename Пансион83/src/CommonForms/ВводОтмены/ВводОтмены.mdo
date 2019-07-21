@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f831021-7156-4aee-8c54-f185dc0a2322">
+  <name>ВводОтмены</name>
+  <synonym>
+    <key>en</key>
+    <value>Ввод отмены</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Eingabe des Aktionsabbruchtyps</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод типа отмены действия</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

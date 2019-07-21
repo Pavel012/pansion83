@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cea1cd30-39a1-4687-99e5-a76b559abc93">
+  <name>PDF</name>
+  <synonym>
+    <key>en</key>
+    <value>PDF</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>PDF</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>PDF</value>
+  </synonym>
+  <transparentPixel>
+    <x>2</x>
+    <y>11</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

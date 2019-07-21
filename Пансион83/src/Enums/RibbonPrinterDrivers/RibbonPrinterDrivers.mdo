@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2f346d9-b3f2-47fc-b239-21bfd5a44ce0">
+  <producedTypes>
+    <refType typeId="b7c54883-79bc-41d8-83e9-27f1e173425a" valueTypeId="572a527c-e9a8-494a-a37d-9ec79aca624d"/>
+    <listType typeId="9ab1b237-93e8-47e1-98b2-375d15f5bc0c" valueTypeId="839f8c11-23a1-4403-b0bc-e1162ff4b909"/>
+    <managerType typeId="0f62ba48-a3ad-43e9-b61e-75d2b557fd09" valueTypeId="9f6b9d4a-2580-4dca-9e6d-a30bd939c27d"/>
+  </producedTypes>
+  <name>RibbonPrinterDrivers</name>
+  <synonym>
+    <key>en</key>
+    <value>Ribbon printer drivers</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Treiber Banddrucker</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Драйверы ленточных принтеров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="77e7eb59-5567-47f4-9f60-e3d63b5aacd8">
+    <name>Atol</name>
+    <synonym>
+      <key>en</key>
+      <value>Atol: Ribbon Printer Driver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Atol: Kassenbondruckertreiber</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Атол: Драйвер Принтера Чеков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fae45bf-37b3-4576-b74e-ef96e18476a4">
+    <name>Intermec</name>
+    <synonym>
+      <key>en</key>
+      <value>Intermec: Ribbon Printer Driver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Intermec: Ribbon Printer Driver</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Intermec: Ribbon Printer Driver</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

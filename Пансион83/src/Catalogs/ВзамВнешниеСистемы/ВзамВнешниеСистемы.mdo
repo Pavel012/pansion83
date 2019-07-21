@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89862cb1-6bd3-431b-96ad-8b1c12c19a9c">
+  <producedTypes>
+    <objectType typeId="3ceeecd8-7b25-4e37-8a02-268d2624c5cf" valueTypeId="4b2f9a91-0260-462b-9d37-c7cc36c94e9c"/>
+    <refType typeId="90c264ff-a5c2-4831-9ac5-9957e1d77ee2" valueTypeId="0355be62-9875-4897-8f12-1cd8d1d3cfa6"/>
+    <selectionType typeId="7e980c8e-9f51-4693-a278-e3d0af318510" valueTypeId="a0802bf8-b235-4b7e-9708-483eceee4d31"/>
+    <listType typeId="7242c361-c788-4256-8493-93a9ff285912" valueTypeId="4ef535b3-96bf-4745-93b1-103271a0b9dc"/>
+    <managerType typeId="92ed1d98-ade8-49c7-8c85-9f5791c864a5" valueTypeId="b9dac6e8-b1e0-4ef6-ba7f-17a5263d8fc6"/>
+  </producedTypes>
+  <name>ВзамВнешниеСистемы</name>
+  <synonym>
+    <key>en</key>
+    <value>Взам внешние системы</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kommunikationen mit externen Systemen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействия с внешними системами</value>
+  </synonym>
+  <inputByString>Catalog.ВзамВнешниеСистемы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВзамВнешниеСистемы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>36</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВзамВнешниеСистемы.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ВзамВнешниеСистемы.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ВзамВнешниеСистемы.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ВзамВнешниеСистемы.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="28ce4ae6-f15e-4a14-9757-8541cf1fec3b">
+    <name>InteractionID</name>
+    <synonym>
+      <key>en</key>
+      <value>Interaction ID</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kommunikations-ID</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ID взаимодействия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>38</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b59d995-d2c9-4a84-909f-179ebf33de6f">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2cecf911-c368-40a2-92b9-1ccf0a73810c">
+    <name>Parameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Interaction parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kommunikationsparameter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры взаимодействия</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1cddab62-f2d9-4ae2-b127-9f3c8e19a83f">
+    <name>IsActive</name>
+    <synonym>
+      <key>en</key>
+      <value>Is active</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="acc4b699-6ea5-4ee0-b540-04d186a706fb">
+    <name>ActiveFromDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Active from date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt ab dem Datum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует начиная с даты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7b79e688-b159-47e2-977e-96f6379219f8">
+    <name>ActiveToDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Active to date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt bis zum Datum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует по дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9a3a67c-8453-48f6-b630-4fca353b148b">
+    <name>ActiveDays</name>
+    <synonym>
+      <key>en</key>
+      <value>Days when active from current date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Tagen ab dem Arbeitsdatum, an denen gilt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во дней, когда действует, от рабочей даты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3c5265a-f714-4f1e-bef0-409a1afd45d9">
+    <name>Login</name>
+    <synonym>
+      <key>en</key>
+      <value>External system login</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzer des externen Systems</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь внешней системы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="002a3631-8a33-4b3b-8ace-1bcaef7f0f57">
+    <name>Password</name>
+    <synonym>
+      <key>en</key>
+      <value>External system password</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Passwort des Nutzers eines externen Systems</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя внешней системы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5ad85f2-4f9d-41a2-928c-cc1d5731c6c0">
+    <name>SessionID</name>
+    <synonym>
+      <key>en</key>
+      <value>Session ID</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sitzungs-ID</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ID сессии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>38</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5332a8b6-2c33-4d1e-aadf-43e8a0769761">
+    <name>SessionStartTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Session start time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit des Sitzungsbeginns</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8e64a70-25da-49a7-a3f6-3a18cee8aab5">
+    <name>SessionLastActivityTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Session last activity time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit der letzten Kommunikation während der Sitzung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время последнего взаимодействия в сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7afde96d-8ff2-4997-a34b-1f37637d8226">
+    <name>SessionTimeout</name>
+    <synonym>
+      <key>en</key>
+      <value>Session timeout in minutes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sitzungsdauer in Minuten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время жизни сессии in minutes</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25536799-1585-48f0-b610-bd680e0a7f06">
+    <name>FullSynchronizationTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Time to do full synchronization</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit der vollständigen Synchronisation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время проведения полной синхронизации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>en</key>
+      <value>DF=HH:mm</value>
+    </format>
+    <format>
+      <key>de</key>
+      <value>DF=HH:mm</value>
+    </format>
+    <format>
+      <key>ru</key>
+      <value>DF=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>en</key>
+      <value>DF=HH:mm</value>
+    </editFormat>
+    <editFormat>
+      <key>de</key>
+      <value>DF=HH:mm</value>
+    </editFormat>
+    <editFormat>
+      <key>ru</key>
+      <value>DF=HH:mm</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T04:00:00</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf047240-d157-4365-b5bd-4c46f2c7f3c4">
+    <name>LastFullSynchronizationTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Time of last full synchronization</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit der letzten vollständigen Synchronisation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время проведения последней полной синхронизации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6845d4c-6727-4326-8e7e-5cb94a050edc">
+    <name>IsByCheckInPeriods</name>
+    <synonym>
+      <key>en</key>
+      <value>Synchronization is by check-in periods</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Synchronisation nach Anreisen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация по заездам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f0e8872-e0ff-4597-94cc-7ff4b1b2b048">
+    <name>IsByAllotments</name>
+    <synonym>
+      <key>en</key>
+      <value>Synchronization is by allotments</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Synchronisation nach Kontingenten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация по квотам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13419749-0434-4747-ba48-f171915c21af">
+    <name>WSHost</name>
+    <synonym>
+      <key>en</key>
+      <value>Web-services server host address</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Hostadresse der Web-Dienste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес хоста web-служб</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="638f3ac0-95ea-4650-9b54-1a91b12da1b5">
+    <name>Allotment</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms allotment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerquote</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Квота номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КвотаНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36332bf5-faa0-4662-aadd-dd976c017b3b">
+    <name>DebugMode</name>
+    <synonym>
+      <key>en</key>
+      <value>Debug mode</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsmodus</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отладки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="376c1b31-9fad-4ac8-9272-51d9a62636ba">
+    <name>UseClient</name>
+    <synonym>
+      <key>en</key>
+      <value>Use client as a customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verwenden Sie den Client als Kunde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать клиента в качестве заказчика</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fb4d030e-6f0c-4615-84c8-45c9c05bca22">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d69b1a5a-818d-440b-a7f8-7c9cd89ab8b7">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34cdea78-3ea7-4bcd-883c-616a764ce2f5">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

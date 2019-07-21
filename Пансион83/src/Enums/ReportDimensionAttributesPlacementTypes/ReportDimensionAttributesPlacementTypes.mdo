@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea3c9312-f903-4ee7-b69a-ef4ad3572e6d">
+  <producedTypes>
+    <refType typeId="44caf8d8-2d5d-43b2-94bb-427dcaa3394c" valueTypeId="dcd42d51-a471-48ef-8588-ae23ee1cdf6a"/>
+    <listType typeId="8099025d-2d19-4151-8a82-ecd57cf66251" valueTypeId="43d6fd4e-c65b-43d5-ab7c-e095524cca9f"/>
+    <managerType typeId="dd8e9b94-1e40-4dba-92c4-776a5cd7a314" valueTypeId="578c56cd-839b-4efe-ab90-eb26d4c4d9cc"/>
+  </producedTypes>
+  <name>ReportDimensionAttributesPlacementTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Report dimension attributes placement types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Unterbringungstypen der Berichtgruppierungsrequisite</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды размещения реквизитов группировок отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="7c079b41-e2cf-4317-849d-934d768447da">
+    <name>Together</name>
+    <synonym>
+      <key>en</key>
+      <value>Together</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zusammen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вместе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="422826f0-d2ec-42f6-98b0-a0d251a62c55">
+    <name>WithDimensions</name>
+    <synonym>
+      <key>en</key>
+      <value>With dimensions</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zusammen mit Abmaßen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вместе с измерениями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="259b4cac-c852-4f4b-85e6-780f4f35d0ce">
+    <name>Separately</name>
+    <synonym>
+      <key>en</key>
+      <value>Separately</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Separat</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отдельно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

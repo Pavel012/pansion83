@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44dcdb11-1435-4667-afe0-72dd074d0f70">
+  <name>ВебДоступ</name>
+  <synonym>
+    <key>en</key>
+    <value>Веб доступ</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Web-Reservierung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Web-бронирование</value>
+  </synonym>
+</mdclass:Role>

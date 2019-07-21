@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d541b15-4dd5-4185-899e-678c2cceea88">
+  <producedTypes>
+    <objectType typeId="fbe33afe-f472-4b82-98ea-4fe7ad71b8f2" valueTypeId="3ff6c05b-dd3c-4c9e-8fa4-8111dcdff4d9"/>
+    <refType typeId="0f2671d6-635c-4309-bf6f-5cf60c526457" valueTypeId="88c46e0e-f8dd-4d7f-a87d-ba736ae5e53e"/>
+    <selectionType typeId="86e8f564-fd8f-4a9e-8d63-cbafb7ac6037" valueTypeId="4a25c010-98c6-4c3f-9b53-4fa0b5bf8408"/>
+    <listType typeId="17977da3-e74a-4613-9197-e1a747941cd7" valueTypeId="b6d16c5b-00c9-415e-a07c-2144fbb6524a"/>
+    <managerType typeId="f17c812c-4165-460a-a9b9-f69d90956182" valueTypeId="f701fa21-0d1c-416a-a8f0-abf80e2b927d"/>
+  </producedTypes>
+  <name>ПричиныВыполненияОпераций</name>
+  <synonym>
+    <key>en</key>
+    <value>Причины выполнения операций</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gründe für die Ausführung der Grundoperationen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Причины выполнения типовых операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныВыполненияОпераций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныВыполненияОпераций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ПричиныВыполненияОпераций.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ПричиныВыполненияОпераций.Form.ListForm</defaultChoiceForm>
+  <auxiliaryListForm>Catalog.ПричиныВыполненияОпераций.Form.tcListForm</auxiliaryListForm>
+  <auxiliaryChoiceForm>Catalog.ПричиныВыполненияОпераций.Form.tcListForm</auxiliaryChoiceForm>
+  <forms uuid="e1ad27fe-048b-4bfe-98c0-4c87b4b035fe">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="08dbc5c6-e400-4ec0-a9bb-8c49fbd5b804">
+    <name>tcListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

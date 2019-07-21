@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfde3e33-20ac-4820-b641-39b2e8061845">
+  <producedTypes>
+    <objectType typeId="d8bab4df-ac4a-4c76-9a31-577c25597ae3" valueTypeId="ff970ab7-fcc3-4e4d-ab8c-1ea85efdb909"/>
+    <refType typeId="70663797-2a99-44aa-97e0-7dba978f46aa" valueTypeId="9a0cf1d1-2b2a-4df9-bfbd-7431c1af2a94"/>
+    <selectionType typeId="83e521f4-bc91-4ac3-a266-b6884c271ec5" valueTypeId="cc3b73d4-4192-4e14-8670-056906561ddd"/>
+    <listType typeId="4de54911-161d-4f66-8c58-1c7ce894d3ae" valueTypeId="c23c3688-9bc4-468b-8f8d-6fe3be88d507"/>
+    <managerType typeId="f571838d-4c18-4062-a513-2f7ac4d9ba17" valueTypeId="8f7155d9-7d5a-4044-9fda-3ad79423f95a"/>
+  </producedTypes>
+  <name>ИзмЦены</name>
+  <synonym>
+    <key>en</key>
+    <value>Set price tag ranges </value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Befehl zur Bearbeitung der Spannweite der Preiseigenschaften</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Приказ об изменении диапазонов признаков цены</value>
+  </synonym>
+  <inputByString>Document.ИзмЦены.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИзмЦены.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.ИзмЦены.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Document.ИзмЦены.Form.ListForm</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ПриказыИзмЦены</registerRecords>
+  <registerRecords>InformationRegister.ДиапазонЦены</registerRecords>
+  <attributes uuid="34c7481f-22ad-4096-957a-d6d03f044893">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ca88995-385c-4d05-bade-a40949392094">
+    <name>PriceTagType</name>
+    <synonym>
+      <key>en</key>
+      <value>Price tag type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Preiseigenschaft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип признака цены</value>
+    </synonym>
+    <type>
+      <types>EnumRef.PriceTagTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56eba685-28ff-432c-b897-7460396c3f8f">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a618ac33-6ee4-45eb-8186-2d13b775ef0f">
+    <name>RoomRatesApproved</name>
+    <synonym>
+      <key>en</key>
+      <value>Ranges are approved</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bereiche sind bestätigt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазоны утверждены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5ccd4c6-1ac2-43a3-875c-285ccb6f1032">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d7c1cc51-bb0e-413d-9605-55b3334fdbf0">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c0a2060-0155-4d10-a6c5-ca0ea1ec165d">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="8d728965-9464-4e1d-9d16-3a6ebfb99f1d">
+    <producedTypes>
+      <objectType typeId="46675d9e-39d7-462a-834b-0e71cb5d569b" valueTypeId="a7cbdbb3-5fb2-4292-9ebb-688f55ac96e2"/>
+      <rowType typeId="da3982c5-19b0-4133-8140-b890822ec614" valueTypeId="ef714ed3-4b8b-4872-85b5-664b32db569e"/>
+    </producedTypes>
+    <name>PriceTagRanges</name>
+    <synonym>
+      <key>en</key>
+      <value>Price tag ranges</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preismerkmalbereiche</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазоны признака цены</value>
+    </synonym>
+    <attributes uuid="51fca38d-787d-4db4-bb0e-728546de4c4b">
+      <name>StartValue</name>
+      <synonym>
+        <key>en</key>
+        <value>Start value</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Ausgangswert</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Начальное значение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+    </attributes>
+    <attributes uuid="2351ee35-ca19-4a9b-8993-8f5a25828806">
+      <name>EndValue</name>
+      <synonym>
+        <key>en</key>
+        <value>End value</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Endwert</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Конечное значение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="d4556ccd-2199-48e5-b0a7-df7012024fe5">
+      <name>PriceTag</name>
+      <synonym>
+        <key>en</key>
+        <value>Price tag</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Preiseigenschaft</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Признак цены</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПризнакЦены</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

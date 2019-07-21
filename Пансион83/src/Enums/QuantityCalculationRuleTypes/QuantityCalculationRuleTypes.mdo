@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66d2bf1b-345c-4635-9c11-94ddbae410cc">
+  <producedTypes>
+    <refType typeId="a16e9549-bac1-4b43-867a-3ef5de41f24b" valueTypeId="fcf4d728-efaf-4daa-9f89-128363377bf5"/>
+    <listType typeId="af5f27fb-1af9-4835-a1b6-2ffe791e079b" valueTypeId="4f36bb54-fc3d-4882-8da0-4b1781373112"/>
+    <managerType typeId="f2d0ae0b-51af-4b49-b2bb-abbae6ecc7ac" valueTypeId="1263b943-796e-4f35-95b1-f080fecfda40"/>
+  </producedTypes>
+  <name>QuantityCalculationRuleTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Accommodation quantity calculation rule types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Berechnungsarten der Aufenthaltsmenge</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчета количества проживания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="43c28238-080e-4b08-b128-5d72e23a0a72">
+    <name>Accommodation</name>
+    <synonym>
+      <key>en</key>
+      <value>Accommodation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aufenthalt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Проживание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbac7439-97dc-40bf-84b9-64d18aaeebbb">
+    <name>ReferenceHourTransfers</name>
+    <synonym>
+      <key>en</key>
+      <value>Reference hour transfers</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übergänge über die Berechnungsstunde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переходы через расчетный час</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9de6413-7dfa-41d7-8dd0-a03c23b9ba83">
+    <name>Breakfast</name>
+    <synonym>
+      <key>en</key>
+      <value>Breakfast</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Frühstück</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Завтрак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73a14aa8-69c5-441e-b759-a5fbb55546b6">
+    <name>Monthly</name>
+    <synonym>
+      <key>en</key>
+      <value>Monthly</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Monatlich</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Помесячно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="275944d7-7688-4507-9df7-3f4e7dd3857e">
+    <name>NumberOfDays</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of days</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tageszahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Число дней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48f6deb7-ffa3-4ca0-8a66-3a5f909027ae">
+    <name>OneTimeCharge</name>
+    <synonym>
+      <key>en</key>
+      <value>One time charge</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einmalige Gebühr</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разовый сбор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50334531-e5f4-43ef-b723-b22a24b1e04d">
+    <name>Reservation</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rücklage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Резервирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1c3cba7-d9e7-4efe-9fee-6da829cf35c8">
+    <name>LateCheckOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Late check-out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Späte Abreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Поздний выезд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="462d6874-c0de-4412-bfb6-f64e44e4fd7a">
+    <name>EarlyCheckIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Early check-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Frühe Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ранний заезд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd100e66-789e-4a6d-a436-03ea1bb61714">
+    <name>BreakfastEarlyCheckIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Early check-in breakfast</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Frühstück bei der frühen Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Завтрак в ранний заезд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42e66d29-7299-469c-a58a-ec78fe696d32">
+    <name>HotelProduct</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница product</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Reisecheck</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Путевка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11245ca6-999c-4af8-aadf-cefda4f7bd1b">
+    <name>Int</name>
+    <synonym>
+      <key>en</key>
+      <value>Int number of periods</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ganze Zahl der Zeiträume</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Целое число периодов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d7e7785-5d7a-40f6-8df9-fcbe2d265da8">
+    <name>Precise</name>
+    <synonym>
+      <key>en</key>
+      <value>Precise number of periods</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Genaue Anzahl der Zeiträume</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Точное число периодов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bc43759-642a-4226-9b6e-c39db5aef0c9">
+    <name>Round</name>
+    <synonym>
+      <key>en</key>
+      <value>Rounded number of periods</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gerundete Anzahl von Zeiträumen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Округленное число периодов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab841980-7e20-4ea4-bcc9-718878b75409">
+    <name>Full</name>
+    <synonym>
+      <key>en</key>
+      <value>Full number of periods</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vollständige Anzahl von Zeiträumen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Полное число периодов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="177a7b15-0814-4bd7-9742-3384f80f4629">
+    <name>External</name>
+    <synonym>
+      <key>en</key>
+      <value>External algorithm</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externer Algorithmus</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний алгоритм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc2a4f40-7119-4ec1-9a30-4643e3f40f1e">
+    <name>Hostel</name>
+    <synonym>
+      <key>en</key>
+      <value>Hostel</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wohnheim</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Общежитие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

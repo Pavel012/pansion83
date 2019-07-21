@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ddccab8-dc90-420c-b438-2de756972a80">
+  <producedTypes>
+    <refType typeId="c2b640c4-9975-4006-a1c5-822f22545b9c" valueTypeId="10259898-1954-4436-9fc2-3d03c686f3d4"/>
+    <listType typeId="8b7b65cc-65b8-40d0-8cb5-4d0f1f496662" valueTypeId="379c712f-8878-467e-b46e-f6745104ad64"/>
+    <managerType typeId="2837b2a0-e9ff-43ea-8737-07c044e5d2db" valueTypeId="3201f34d-0746-4e1d-8988-2cb515d3ad17"/>
+  </producedTypes>
+  <name>SalutationTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Salutation types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Anrede typen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы приветствий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fd99b69f-b6e6-4c6d-84e0-71ca413391b0">
+    <name>LastName</name>
+    <synonym>
+      <key>en</key>
+      <value>Last name</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nachname</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0797643d-5234-4b42-b0f3-ae6f178a5e3b">
+    <name>FirstName</name>
+    <synonym>
+      <key>en</key>
+      <value>First name</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vorname</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

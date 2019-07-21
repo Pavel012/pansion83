@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="937eab72-d2f8-4c4a-b0b2-9f0a0eac0820">
+  <producedTypes>
+    <selectionType typeId="3ffd6a9a-2661-4819-9d0e-5ab0a377cec5" valueTypeId="ff48c012-e86c-414a-8cd7-572e1abacc3e"/>
+    <listType typeId="7ee8bfa8-9ea6-44f7-98c1-d965ab23ccbf" valueTypeId="3eb468c5-df18-49c0-80cc-ab6b5284b0fd"/>
+    <managerType typeId="b5a249f1-44be-4e7d-aa46-cfa1cc14346c" valueTypeId="013b8e3e-64e6-4537-9780-298b6192b3c1"/>
+    <recordSetType typeId="f0a0e235-8f8a-4f77-9f6a-41c137fb18d1" valueTypeId="e595730a-40c1-42b3-8f17-5f5259e8ab93"/>
+    <recordKeyType typeId="2f142ff6-186c-4690-9a1c-98ea69933095" valueTypeId="c062bbc6-7284-4b1d-9bc9-36d71fb1e70a"/>
+    <recordType typeId="4344d5c8-f89d-40f6-835d-ecc44762d5bc" valueTypeId="64a7d02c-f148-4678-bf23-3ca650e580c5"/>
+    <recordManagerType typeId="9b50eb34-d377-4ab9-b32a-10d69b3d5887" valueTypeId="ac4d84df-b1ac-4784-ab4d-e0b8aabe73bf"/>
+  </producedTypes>
+  <name>СотрРеквНеизм</name>
+  <synonym>
+    <key>en</key>
+    <value>Сотр рекв неизм</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Nichtzuvervielfältigende Requisiten der Mitarbeiter</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Нереплицируемые реквизиты сотрудников</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c875bf40-9dd9-4309-afa1-5f0fbce1bb42">
+    <name>Workstation</name>
+    <synonym>
+      <key>en</key>
+      <value>Workstation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Arbeitsplatz</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="929fbba4-e244-455c-8ba4-0df004983b6a">
+    <name>PermissionGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Permission group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rechtepaket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Набор прав</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборПрав</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="a77ec31e-212d-4586-923d-28b45b9eb37e">
+    <name>Employee</name>
+    <synonym>
+      <key>en</key>
+      <value>Employee</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mitarbeiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

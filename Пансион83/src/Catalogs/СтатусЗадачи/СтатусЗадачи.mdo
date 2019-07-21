@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51a31acd-24fb-4445-a887-4d834a611827">
+  <producedTypes>
+    <objectType typeId="b0f1b3a5-51a3-4bc9-90bf-b7f58104a7d5" valueTypeId="501a44ab-76ce-445c-9434-8c6bd7321f41"/>
+    <refType typeId="ac63c7ee-9c39-4420-9a42-b9e0ff5bbb5e" valueTypeId="b3e932b2-d31f-4c15-95d3-3f451b6b17f8"/>
+    <selectionType typeId="00889563-90a6-48d0-9cee-687ade3191e8" valueTypeId="d4a11c58-bb46-4c13-8e14-86d69a13c940"/>
+    <listType typeId="193af9ca-dfa1-4d05-a50f-f284d743ea4a" valueTypeId="30ee1696-af2c-4e68-8806-acdbdcc711e7"/>
+    <managerType typeId="9869240f-d700-48c3-9a19-3203d1b64396" valueTypeId="d568fa99-e0fe-472d-a511-f939487e6aa1"/>
+  </producedTypes>
+  <name>СтатусЗадачи</name>
+  <synonym>
+    <key>en</key>
+    <value>Task statuses</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der Aufgaben</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </synonym>
+  <inputByString>Catalog.СтатусЗадачи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусЗадачи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатусЗадачи.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтатусЗадачи.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.СтатусЗадачи.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатусЗадачи.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="0c4945c2-6143-42f6-b968-33659e8275b8">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea6513fc-a2ef-4f48-a349-cdbb39b4aa66">
+    <name>IsClosed</name>
+    <synonym>
+      <key>en</key>
+      <value>Is closed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>bearbeitet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b24c0b00-0497-4bac-8f96-7aa1424a060b">
+    <name>Color</name>
+    <synonym>
+      <key>en</key>
+      <value>Message color</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Farbe der Mitteilung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет сообщения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="426710dd-a113-4bd5-bfb6-231faca5a7ce">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="386553af-7761-44e1-91f4-1cf476144470">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d83555dc-4294-41ce-855b-c0832ebf1637">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="494e0770-4202-44c7-aa08-5a93f7da8aed">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

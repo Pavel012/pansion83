@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="314d26a8-7b4b-4a8f-90f7-e5901b9381ea">
+  <producedTypes>
+    <objectType typeId="2b945d15-532d-48b0-a8e6-39554c643094" valueTypeId="b80d1933-4912-4415-8eba-491f0dc07ac0"/>
+    <refType typeId="13c74351-96b7-436e-8b44-15092ed06333" valueTypeId="cf2d4538-e508-465b-8db5-6f611de077e9"/>
+    <selectionType typeId="73de2436-f40d-48b0-b380-a166e79f8d17" valueTypeId="9245f4cc-f02b-41cb-9c05-5d769c7d4338"/>
+    <listType typeId="c3e67698-775e-4d29-b82a-85e114ff901d" valueTypeId="c629bb54-1959-41e7-96a5-1f9676e316fb"/>
+    <managerType typeId="1c0195ff-c0e6-4c6c-88d2-e7ea4e3fbf57" valueTypeId="e1316062-88fe-4767-811f-52887d40db14"/>
+  </producedTypes>
+  <name>НомернойФонд</name>
+  <synonym>
+    <key>en</key>
+    <value>Номерной фонд</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zimmerbestand</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Номерной фонд</value>
+  </synonym>
+  <inputByString>Catalog.НомернойФонд.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>9</levelCount>
+  <owners>Catalog.Гостиницы</owners>
+  <descriptionLength>25</descriptionLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НомернойФонд.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.НомернойФонд.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.НомернойФонд.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.НомернойФонд.Form.ФормаСписка</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.НомернойФонд.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <auxiliaryChoiceForm>Catalog.НомернойФонд.Form.ФормаУпрСписка</auxiliaryChoiceForm>
+  <attributes uuid="8715f502-5359-402e-9bcb-008c3ac6ecc7">
+    <name>Этаж</name>
+    <synonym>
+      <key>en</key>
+      <value>Этаж</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Etage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Этаж</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9742426-cadd-4a73-8d47-dea4f353c876">
+    <name>Сортировка</name>
+    <synonym>
+      <key>en</key>
+      <value>Сортировка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a57f8f48-059d-442a-9491-cdc5fe57e45b">
+    <name>ТипНомера</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип номера</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e95d58a5-45e1-413c-b458-67c736970038">
+    <name>КолМестВНомере</name>
+    <synonym>
+      <key>en</key>
+      <value>Кол мест в номере</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac03c227-7b61-483b-833a-9e9700d4a4db">
+    <name>КолГостей</name>
+    <synonym>
+      <key>en</key>
+      <value>Кол гостей</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество гостей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86ac6557-8587-4554-8272-a7a8e5194345">
+    <name>ДатаВводаЭкспл</name>
+    <synonym>
+      <key>en</key>
+      <value>Дата ввода экспл</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Inbetriebnahme des Zimmers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ввода номера в эксплуатацию</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc2e1169-d45a-4927-8360-1adb53f6119a">
+    <name>ДатаВыводаЭкспл</name>
+    <synonym>
+      <key>en</key>
+      <value>Дата вывода экспл</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Entnahme des Zimmers aus dem Betrieb</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывода номера из эксплуатации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e87a3db0-f47d-4027-ae92-0a9a3e34e91b">
+    <name>Фирма</name>
+    <synonym>
+      <key>en</key>
+      <value>Фирма</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed27ecd9-a7e3-4422-b236-9e112db969fa">
+    <name>Секция</name>
+    <synonym>
+      <key>en</key>
+      <value>Секция</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sektion der Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Секция номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СекцииНомерногоФонда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9da496fa-b0c2-4bb7-9c65-b6ce43a40722">
+    <name>СтатусНомера</name>
+    <synonym>
+      <key>en</key>
+      <value>Статус номера</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status des Zimmers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de617821-cc50-4a40-b9d0-7c9c53c5e07d">
+    <name>ЕстьБлокировки</name>
+    <synonym>
+      <key>en</key>
+      <value>Есть блокировки</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Blockierungen vorhanden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Есть блокировки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e5f16e9-a395-459a-b4b7-09f0f0005b2a">
+    <name>СнятСПродажи</name>
+    <synonym>
+      <key>en</key>
+      <value>Снят с продажи</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aus dem Verkauf genommen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Снят с продажи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="976d56b1-2420-49f6-b2d8-05b215f4a3c3">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89530b4a-e2c7-4c69-9616-c63dce4c0a6d">
+    <name>ВиртуальныйНомер</name>
+    <synonym>
+      <key>en</key>
+      <value>Is virtual room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Virtuelles Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный номер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="971ce0d0-190d-4297-83c5-959daf76e6e2">
+    <name>СвойстваНомера</name>
+    <synonym>
+      <key>en</key>
+      <value>Свойства номера</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bezeichnungen der Zimmermerkmale</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Наименования свойств номера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="384bd5aa-2357-486d-990b-41640fc36daf">
+    <name>Photo1</name>
+    <synonym>
+      <key>en</key>
+      <value>Photo 1</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Foto 1</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фото 1</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61ce0a69-107f-44f5-9b8c-96a46ef011da">
+    <name>Photo2</name>
+    <synonym>
+      <key>en</key>
+      <value>Photo 2</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Foto 2</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фото 2</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a2783da-61d3-4b79-87e6-fb429a3feae1">
+    <name>Питание</name>
+    <synonym>
+      <key>en</key>
+      <value>Питание</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Essen Ort</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Место питания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ресурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="47342c37-8da9-4a91-a2fc-5d04eeee7230">
+    <producedTypes>
+      <objectType typeId="78d5ee50-5ec9-4599-9976-cc92f0a64327" valueTypeId="442365c9-afb4-4921-a1ca-1a436cc2b71b"/>
+      <rowType typeId="2fca0616-662e-4fec-b67a-8ae498e2d8f1" valueTypeId="42e8fc87-b849-4d05-aad3-0010d4999941"/>
+    </producedTypes>
+    <name>ПериодыСнятияСПродажи</name>
+    <synonym>
+      <key>en</key>
+      <value>Периоды снятия с продажи</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeiträume der Entnahme aus dem Verkauf</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Периоды снятия с продажи</value>
+    </synonym>
+    <attributes uuid="0d3efb3e-a9e2-4cc5-bdc6-94e89b62b17c">
+      <name>ПериодС</name>
+      <synonym>
+        <key>en</key>
+        <value>Период С</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zeitraum ab</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Период с</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="fc750c82-d214-4e8f-8379-10dcdb2e31c5">
+      <name>ПериодПо</name>
+      <synonym>
+        <key>en</key>
+        <value>Период по</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zeitraum bis</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Период по</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="65003611-cf6e-497e-9516-2176ebb38971">
+      <name>Примечание</name>
+      <synonym>
+        <key>en</key>
+        <value>Примечание</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Anmerkungen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Примечания</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86efabe1-76f6-4096-94f1-29eb1b2a34de">
+      <name>СнятСПродажи</name>
+      <synonym>
+        <key>en</key>
+        <value>Снят с продажи</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Aus dem Verkauf genommen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Снят с продаж</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c0f2c65f-c0c4-4a22-8c1d-635fdb09cb3b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f302db5-2156-4f60-969c-f186a34e5973">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма группы</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41344e83-dec6-4d83-b7be-2a0892f250a1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4919cc23-c045-4376-a304-ce03ddf8d92e">
+    <name>ФормаПодбора</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма подбора</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zusammenstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="766ce66f-282b-4fe6-9075-bc10f5e37026">
+    <name>ФормаСпискаСлужбыНомеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка службы номеров</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular für Zimmerdienst</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка службы номеров</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83b1bc4a-3557-405f-8cfe-4a0223db3df9">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dd9d3c4d-2def-4dbe-828d-4e7d6a8fc848">
+    <name>ФормаСнятияСПродажи</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма снятия с продажи</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular für das Herausnehmen aus dem Verkauf</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма снятия с продажи</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="839d828b-968a-4748-aebc-75208002f582">
+    <name>ФормаУпрСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

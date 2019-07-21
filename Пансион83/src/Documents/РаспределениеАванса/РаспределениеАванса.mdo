@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="132a1c9d-cfcb-48b6-9f96-03dd30c0d6d8">
+  <producedTypes>
+    <objectType typeId="10724990-1ae6-421c-8c0f-94a74a02c879" valueTypeId="4d224323-ecd2-4af8-8ca4-9638161f9428"/>
+    <refType typeId="8a7fdf59-e319-465b-b3d3-7e05624f5aec" valueTypeId="51344b4b-b948-4f1e-adef-73ed30dfe1a5"/>
+    <selectionType typeId="d6abde10-814c-42f7-bd42-8663d7780b86" valueTypeId="805de43f-d7c6-416f-9326-53c59e437084"/>
+    <listType typeId="3cffc3bd-e85e-49c9-96c4-dfc592010e2f" valueTypeId="9a660b8e-d18d-4e24-9a67-ad35e21b3fa8"/>
+    <managerType typeId="9a3541cb-ab80-4acc-a7a7-0fa433c7f59c" valueTypeId="fbf2d004-a5a5-4a5b-9139-9de0a9ad28ff"/>
+  </producedTypes>
+  <name>РаспределениеАванса</name>
+  <synonym>
+    <key>en</key>
+    <value>Advance distribution</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verrechnung des Vorschusses</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение аванса</value>
+  </synonym>
+  <inputByString>Document.РаспределениеАванса.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.Контрагенты</basedOn>
+  <basedOn>Document.СчетНаОплату</basedOn>
+  <basedOn>Catalog.Договора</basedOn>
+  <basedOn>Document.ПлатежКонтрагента</basedOn>
+  <basedOn>Document.Платеж</basedOn>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РаспределениеАванса.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>DocumentJournal.ЖурналВзаиморасчетов.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>DocumentJournal.ЖурналВзаиморасчетов.Form.ListForm</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыПоСчетам</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыКонтрагенты</registerRecords>
+  <attributes uuid="88951fb3-ca5a-4794-a8e5-ba43c7df01ca">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ae462db-3f18-4162-8c9f-dfcfd7cbdd6a">
+    <name>Фирма</name>
+    <synonym>
+      <key>en</key>
+      <value>Фирма</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c046b8f-fb43-4861-aaeb-6a9c204e9719">
+    <name>AccountingCustomer</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент в бухгалтерии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4afad33-e7dc-45d9-9f50-cbd3601dc5ca">
+    <name>AccountingContract</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting contract</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertrag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Договор в бухгалтерии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42c2be07-dced-4966-88bd-bf8a0c94e924">
+    <name>AccountingCurrency</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währung der gegenseitigen Abrechnungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта взаиморасчетов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d8adb81-6745-41ec-8493-910d4185e75b">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1fcbfeb7-c457-48eb-89b9-37aacb3c04a1">
+    <name>SumAdvance</name>
+    <synonym>
+      <key>en</key>
+      <value>Sum of advance</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe der Anzahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма аванса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3540a4a9-27f8-446a-aee2-be4e05ed9d22">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3bd5004-c044-4116-b4c7-944f4800626c">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b9f0fb9-07eb-400d-ac1b-9055f96eee5f">
+    <name>OperationType</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Operation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.AdvanceDistributionTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11ccb908-443c-4075-a357-ae19ca816363">
+    <name>Payment</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Платеж</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Платеж</types>
+      <types>DocumentRef.ПлатежКонтрагента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b4781eae-077b-4963-93d3-2e4b197d7eea">
+    <name>ExternalCode</name>
+    <synonym>
+      <key>en</key>
+      <value>External system code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im externen System</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код во внешней системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5153f5a1-39f9-4c64-b295-28aaede301d3">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular &quot;Vorschusszuteilung&quot;</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа &quot;Распределение аванса&quot;</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="df037532-4d56-4fb1-bbb1-71a398699646">
+    <producedTypes>
+      <objectType typeId="d1a06c3b-f485-48e8-8e34-90bd79ae3a69" valueTypeId="a36782da-c96c-4125-9d89-45296b8ba52c"/>
+      <rowType typeId="3327dd6d-984e-43af-8011-72df441766eb" valueTypeId="15237227-4ec1-4c3f-acc1-c4268579d68a"/>
+    </producedTypes>
+    <name>GuestGroups</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest groups</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gästegruppen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группы гостей</value>
+    </synonym>
+    <attributes uuid="9a300430-e837-46a5-9b5e-d5f6f4b95d6a">
+      <name>Invoice</name>
+      <synonym>
+        <key>en</key>
+        <value>Pro-Forma Invoice</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Pro-Forma Rechnung</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Счет на оплату</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.СчетНаОплату</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="671172f4-d64f-497e-8a1f-51dd17826227">
+      <name>AccountingContract</name>
+      <synonym>
+        <key>en</key>
+        <value>Contract</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Vertrag</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Договора</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="c2b5eb97-4f1c-4a77-9480-5a303fa864f9">
+      <name>GuestGroup</name>
+      <synonym>
+        <key>en</key>
+        <value>Guest group</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Gruppe Gäste</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Группа гостей</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыГостей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="679c4a9b-9234-4386-bb83-911be1ce351a">
+      <name>Сумма</name>
+      <synonym>
+        <key>en</key>
+        <value>Sum in customer accounting currency</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Summe in der Währung der gegenseitigen Abrechnung mit dem Partner</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма в валюте взаиморасчетов с контрагентом</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="4cda61a5-72ce-4e75-964f-721bd41a5bab">
+      <name>Balance</name>
+      <synonym>
+        <key>en</key>
+        <value>Balance by invoice</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Bilanz zur Rechnung</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Баланс по счету</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

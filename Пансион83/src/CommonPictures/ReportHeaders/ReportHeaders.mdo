@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a04b345-3b80-439b-85df-c32b7b713498">
+  <name>ReportHeaders</name>
+  <synonym>
+    <key>en</key>
+    <value>Report headers</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Report headers</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Заголовки отчета</value>
+  </synonym>
+</mdclass:CommonPicture>

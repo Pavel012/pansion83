@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3df30eb-72cd-44f1-81fe-0a1aaaa3982e">
+  <producedTypes>
+    <objectType typeId="51b3ac32-b470-4da6-8156-2aa1ea3cffab" valueTypeId="e2e94897-5bf1-44db-aaf3-c2615dac376c"/>
+    <refType typeId="1d3a87ce-6c9b-4e38-a2e4-994d38e2dbf4" valueTypeId="60d7b2bb-055b-46c0-8ae6-73a006f39b68"/>
+    <selectionType typeId="4e6945ba-cc9b-4c06-af26-bfe1c038f9b3" valueTypeId="2e5be08c-b252-4331-a0e0-260bf67ef08e"/>
+    <listType typeId="2cbc1cca-9e9e-4498-8f7a-4257c7273375" valueTypeId="7b9dd67c-9b1d-4dec-b505-fe85f21dfdaa"/>
+    <managerType typeId="c2b7f9b3-13d3-4cf2-8818-cc982bb57bd2" valueTypeId="cf662e80-1f09-4eaf-affe-c7d1fc3bc7ca"/>
+  </producedTypes>
+  <name>ШаблоныРазмещения</name>
+  <synonym>
+    <key>en</key>
+    <value>Шаблоны размещения</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Vorlagen für die Unterbringung der Gäste</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны размещения гостей</value>
+  </synonym>
+  <inputByString>Catalog.ШаблоныРазмещения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШаблоныРазмещения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Catalog.ШаблоныРазмещения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ШаблоныРазмещения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ШаблоныРазмещения.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="00311046-41aa-4c60-aed3-f9223acf56ec">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="482d1e50-4a8c-4960-bf7e-2e82fc94802b">
+    <name>КоличествоВзрослых</name>
+    <synonym>
+      <key>en</key>
+      <value>Количество взрослых</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Erwachsene Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество взрослых гостей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5b7fb77-4c7f-4873-90b7-6ac5d20695d3">
+    <name>КоличествоДетей</name>
+    <synonym>
+      <key>en</key>
+      <value>Количество детей</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von der Kinder Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество детей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0697c0d5-be16-4452-8df1-47f26d734d48">
+    <name>КоличествоМладенцев</name>
+    <synonym>
+      <key>en</key>
+      <value>Количество младенцев</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Babys Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество младенцев в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee279000-5a36-4695-96af-6de0c3622342">
+    <name>Примечания</name>
+    <synonym>
+      <key>en</key>
+      <value>Примечания</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fa7d3717-a05d-45d0-bc44-ce7da2bfd4b3">
+    <producedTypes>
+      <objectType typeId="37c3f259-31eb-4640-a895-240a355a9561" valueTypeId="07a8fbec-2a8f-4ec5-aaa7-7ebcaecc8912"/>
+      <rowType typeId="d3e6b69d-7bac-449c-a790-96376fde7d51" valueTypeId="6a606bb7-8c25-47fd-9c72-a6713a7ed2ab"/>
+    </producedTypes>
+    <name>ВидыРазмещений</name>
+    <synonym>
+      <key>en</key>
+      <value>Виды размещений</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Unterbringungstypen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Виды размещений</value>
+    </synonym>
+    <attributes uuid="4226b0ab-8436-4da9-b5af-671bd715c08c">
+      <name>ВидРазмещения</name>
+      <synonym>
+        <key>en</key>
+        <value>Вид размещения</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Typ der Unterbringungen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Вид размещения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыРазмещения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fb9236b5-3ae8-4c6f-ab07-400c70c7ca27">
+    <producedTypes>
+      <objectType typeId="5519f3b3-7985-4ac2-8114-667f016f9670" valueTypeId="9d7f4ea6-376d-4f21-b5d8-4b72b05ae354"/>
+      <rowType typeId="35a93f06-acbf-42cc-9f58-e75c4b9e604d" valueTypeId="67e4d680-a633-4a62-806b-bf4298955964"/>
+    </producedTypes>
+    <name>ТипыНомеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Типы номеров</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertypen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Типы номеров</value>
+    </synonym>
+    <attributes uuid="5a92e496-5b2b-49ec-82a2-d0574a81f722">
+      <name>ТипНомера</name>
+      <synonym>
+        <key>en</key>
+        <value>Тип номера</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zimmertyp</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Тип номера</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыНомеров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="50b45596-a791-4542-bd33-f4cf0a50857f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96021fa6-d54f-4ae8-8f65-091f7e25332f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

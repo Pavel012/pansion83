@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ca12361-f401-4c3d-9ede-e02d5f7b2ac7">
+  <name>КартаНомерногоФонда</name>
+  <synonym>
+    <key>en</key>
+    <value>Rooms gantt chart</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Karte des Zimmerbestandes</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Карта номерного фонда</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Female</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

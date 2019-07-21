@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24f0d48e-2008-44ba-acc4-f06cce98c87c">
+  <producedTypes>
+    <refType typeId="090b542b-8373-454f-a217-ed67cc17698e" valueTypeId="86e90215-c132-48e1-ab72-417025779857"/>
+    <listType typeId="26eb1843-074b-4201-a10e-dbe9aaa474e2" valueTypeId="14502554-d078-4077-ab6e-71414182c3e9"/>
+    <managerType typeId="361e592e-8f40-4a3c-9a20-af843c9accbe" valueTypeId="4373ccb5-a558-4862-a312-e93f8085854c"/>
+  </producedTypes>
+  <name>TextPlacements</name>
+  <synonym>
+    <key>en</key>
+    <value>Text placements</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Platzierung des Textes</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение текста</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="0176bad7-418d-4b9c-9693-cee255d30404">
+    <name>Auto</name>
+    <synonym>
+      <key>en</key>
+      <value>Auto</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Auto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb13ee1c-88fb-4763-85fe-86cfe1f8f6a3">
+    <name>Block</name>
+    <synonym>
+      <key>en</key>
+      <value>Block</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eingeben</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забивать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="998efcf4-2e37-4e30-afd3-51003fdbcfdb">
+    <name>Cut</name>
+    <synonym>
+      <key>en</key>
+      <value>Cut</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abschneiden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обрезать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6163e5af-4ea8-4f15-838e-2b98ce4f8833">
+    <name>Wrap</name>
+    <synonym>
+      <key>en</key>
+      <value>Wrap</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übertragen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переносить</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5ee4c35-bcf4-4592-8eb8-cd427fe3aba0">
+  <producedTypes>
+    <refType typeId="8269b301-2365-47f8-9829-30cbf1b0ef1e" valueTypeId="7cfb1c8c-4e69-465e-ab35-9e4bf192b0c2"/>
+    <listType typeId="35e4e05f-5cf7-4bd9-a8e6-773ea9ba4d15" valueTypeId="92703b44-f4b6-49cd-bc2d-ff0ae9072c4b"/>
+    <managerType typeId="0ff98139-1f02-4b86-8516-0cc130676169" valueTypeId="fb33bfa9-da7e-4f9b-9737-ec5b117a3a8b"/>
+  </producedTypes>
+  <name>BarCodeTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Bar code types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Strichcodetypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы штрихкодов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="14cd6cca-c5f0-4a0e-aee5-b2539a636d76">
+    <name>Code39</name>
+    <synonym>
+      <key>en</key>
+      <value>Code 39</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code 39</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Code 39</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

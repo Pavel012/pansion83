@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b963b01-441e-4d1f-931b-1eefe0397748">
+  <producedTypes>
+    <objectType typeId="0df11fb3-ce6f-4fae-a7b7-050fc3ec2f0e" valueTypeId="18a7f830-da54-4299-8901-b894e4f806b1"/>
+    <refType typeId="27e29b20-d92f-45b5-a0b7-1b00bd0c1532" valueTypeId="f1507f5f-d7bb-402a-92a4-880023e10671"/>
+    <selectionType typeId="2ec6a387-f718-4dc8-9e34-191a1b28dacf" valueTypeId="6ae55262-ccc9-4572-ae88-82d818fbf97d"/>
+    <listType typeId="8903ab2f-218f-4516-b8fb-434f936dbe3f" valueTypeId="3dbe1eb3-3142-4cfb-bf41-de527c94a587"/>
+    <managerType typeId="893a6ccd-437d-4777-9053-4f457a35d9ed" valueTypeId="80ee67ca-6cd1-43fe-82b8-845beefde28d"/>
+  </producedTypes>
+  <name>Календари</name>
+  <synonym>
+    <key>en</key>
+    <value>Календари</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kalender</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Календари</value>
+  </synonym>
+  <inputByString>Catalog.Календари.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Календари.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="426653b8-14ea-40a4-af09-f37a6fd7c470">
+      <name>RoundTheClock</name>
+      <description>24*7*365</description>
+      <code xsi:type="core:StringValue">
+        <value>247  </value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Календари.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.Календари.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.Календари.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Календари.Form.ListForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.Календари.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="9a6f1d28-9ce7-4af1-8ff1-ee57d93d3fa0">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f70a3dd3-1c85-428e-8ffd-3c39e5b9fa7f">
+    <name>IsPerPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Apply calendar day types by length of stay to the whole accommodation period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anwenden der Tagestypen nach Übernachtungsdauer auf den gesamten Übernachtungszeitraum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Применять типы дней по продолжительности проживания ко всему периоду проживания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e879d632-2629-4953-b564-bd00898e8e04">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0940242-2d4e-4c4e-adc0-9fe2b408d4dd">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="46789e4f-3ebf-48df-8553-66707d00b7e3">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Liste </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a465b64-17c2-4197-a1c2-c51a15997492">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30c7eb5e-f339-4a83-8ba7-c785aa0ac6c6">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5394860-1337-438e-8d75-18223bdd20e5">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93d3d4fb-b85b-4b27-b116-e525845cc894">
+  <name>Adult</name>
+  <synonym>
+    <key>en</key>
+    <value>Adult</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Erwachsen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Взрослый</value>
+  </synonym>
+</mdclass:CommonPicture>

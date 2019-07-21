@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13338649-e738-4529-acd3-f38a549a8510">
+  <producedTypes>
+    <objectType typeId="aaba0c84-32b2-4d60-8824-39f0fd5a2058" valueTypeId="9de557ad-de4c-450a-85b0-41e261e90089"/>
+    <refType typeId="f88e8eaa-4aac-4679-acff-2c98a6b050ea" valueTypeId="07bd12eb-7be2-46d2-84c2-cdaa3855c576"/>
+    <selectionType typeId="a8e04a0a-2c89-4271-b3d7-010f4fe8ef31" valueTypeId="00b9b39d-9cd8-40c1-84b9-f63a80124da8"/>
+    <listType typeId="d5f74c95-75d2-431b-b995-709a6cfc6892" valueTypeId="6e18caec-c18d-4570-b449-4ccf5aa635e2"/>
+    <managerType typeId="8964aa7a-0e3b-49f9-8399-fc994486ef4f" valueTypeId="bbeba5d0-75fe-4167-98dc-a8de4618d3b7"/>
+  </producedTypes>
+  <name>ВводНачОстатков</name>
+  <synonym>
+    <key>en</key>
+    <value>Ввод нач остатков</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Eingabe von Anfangsbeständen aus summarischen Preisnachlässen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод нач. остатков по нак. скидкам</value>
+  </synonym>
+  <inputByString>Document.ВводНачОстатков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВводНачОстатков.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.ВводНачОстатков.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Document.ВводНачОстатков.Form.ListForm</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.НакопитСкидки</registerRecords>
+  <attributes uuid="2537be60-046a-42a0-818a-bc19f7e5d2fb">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a87ee7a-e5a6-4973-9f7f-b3637e451368">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d84f20a-9c67-4140-bae6-b63eaed01e5b">
+    <name>DiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29ec272c-e69f-47ad-a390-2aa073184062">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e16e30fe-633e-4e79-bdb9-4ee137fece19">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="391807cd-e167-4a5a-846f-cadfe51bd655">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ad3bb267-6192-4d5c-83dc-159cb59dc74d">
+    <producedTypes>
+      <objectType typeId="cc1be9e1-da80-47fb-9511-56f91b9fb958" valueTypeId="b792cd85-63ca-4e31-82db-5794870a2cee"/>
+      <rowType typeId="48a0132d-92f5-4558-824c-7761f7b7873f" valueTypeId="601a5ab3-700b-47c7-bcbd-4343971daed9"/>
+    </producedTypes>
+    <name>Balances</name>
+    <synonym>
+      <key>en</key>
+      <value>Balances</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ursprüngliche Restbestände</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Нач. остатки</value>
+    </synonym>
+    <attributes uuid="bcab8fc4-a578-4671-bb2c-91ee8b51b1aa">
+      <name>DiscountDimension</name>
+      <synonym>
+        <key>en</key>
+        <value>Discount dimension</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Messung des Preisnachlasses</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение скидки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДисконтныеКарты</types>
+        <types>CatalogRef.Договора</types>
+        <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="ab9096bd-9852-46ff-ba19-5275021bcff5">
+      <name>Resource</name>
+      <synonym>
+        <key>en</key>
+        <value>Resource</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Ressource</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Ресурс</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="4738e827-b135-4e43-b72f-655e2f22fee8">
+      <name>Bonus</name>
+      <synonym>
+        <key>en</key>
+        <value>Bonus</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Bonus</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Бонус</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

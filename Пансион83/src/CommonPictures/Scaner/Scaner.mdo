@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="082fa112-b62a-453a-97da-0ffe28344165">
+  <name>Scaner</name>
+  <synonym>
+    <key>en</key>
+    <value>Scaner</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Scaner</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сканер</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

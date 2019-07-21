@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="160416aa-ec1e-4d32-9820-1c7bf15b2393">
+  <producedTypes>
+    <refType typeId="ca48f56c-9d4d-4670-9481-0258ebe6d737" valueTypeId="5132b5f4-1425-4646-8f25-de112f285f71"/>
+    <listType typeId="e7cced7e-091d-41b7-9be4-71efcd169f89" valueTypeId="b07fae41-9802-45f4-8b7e-bb277e345299"/>
+    <managerType typeId="489e2277-e5cd-4b97-a36a-6286e3f98664" valueTypeId="8f1afc17-c334-42f4-99b6-ebb28c79dbbd"/>
+  </producedTypes>
+  <name>CancelActionTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Cancel action types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typ des Vorgangsabbruchs</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы отмены действий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="695bc2f7-95d6-4cc8-87d0-4a394e178cc2">
+    <name>EmployeeFault</name>
+    <synonym>
+      <key>en</key>
+      <value>Employee fault</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Fehler des Mitarbeiters</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка сотрудника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f14d642-e81c-47a2-8755-61872cc84ce3">
+    <name>ClientRefusal</name>
+    <synonym>
+      <key>en</key>
+      <value>Client refusal</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Absage des Kunden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ клиента</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

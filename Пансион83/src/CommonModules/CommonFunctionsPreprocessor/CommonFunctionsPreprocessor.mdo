@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f12fb0ea-2886-4d00-84de-cf8a2bfa8ca5">
+  <name>CommonFunctionsPreprocessor</name>
+  <synonym>
+    <key>en</key>
+    <value>Common functions (preprocessor instructions)</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Allgemeine Funktionen (enthalten Anweisungen des Präprozessors)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Функции общего назначения (содержат инструкции препроцессора)</value>
+  </synonym>
+  <global>true</global>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

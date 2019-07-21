@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cbde3c6-ec5f-46fa-9801-15d56811f695">
+  <producedTypes>
+    <refType typeId="d3d4608d-a5b9-4de3-88ed-0297ea8d47d8" valueTypeId="742a8d81-244f-4e6b-9816-f263deb10739"/>
+    <listType typeId="307352ec-0747-4054-9af0-f194a5c17e51" valueTypeId="77b95fe9-ad03-4fa7-bc5b-bff94772253d"/>
+    <managerType typeId="b79e744f-c6df-48ab-86d2-074d242afc49" valueTypeId="f241ffcf-69dd-45c9-b386-61c283b536ca"/>
+  </producedTypes>
+  <name>КтоПлатит1</name>
+  <synonym>
+    <key>en</key>
+    <value>Кто платит1</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Wer zahlt</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Кто платит</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7dc293b4-fc62-49e4-8836-cb6108d15577">
+    <name>Guest</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gast</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd3dfa68-0065-4b20-8636-59ebd276bdfd">
+    <name>Customer</name>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="329ab686-0d36-4d77-bd25-73d2847e3f71">
+    <name>ChargingRules</name>
+    <synonym>
+      <key>en</key>
+      <value>Charging rules</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anrechnungsregeln</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Правила начисления</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

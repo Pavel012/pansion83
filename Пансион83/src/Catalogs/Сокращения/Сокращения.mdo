@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08383bbb-c7e2-40fb-bfeb-70caecccb6a0">
+  <producedTypes>
+    <objectType typeId="a56ec6d0-d3a2-47fa-8d17-6ee1d713826f" valueTypeId="9a6dc45d-2cf9-4ab9-bc0e-6df2dbfb07bc"/>
+    <refType typeId="0d01e88b-a48f-441f-855b-81815c989234" valueTypeId="3a759cd1-18ad-4cb4-8049-ec1744efed21"/>
+    <selectionType typeId="42b4e603-293d-4884-aa52-b5b86d2e0b1f" valueTypeId="60ea967d-4614-4e33-b176-25ef11843ddf"/>
+    <listType typeId="ec31ff37-e930-4b05-b8a9-17462bb871cf" valueTypeId="1128d216-1663-4a49-bb42-929b6fadc779"/>
+    <managerType typeId="83d792f7-d69b-43aa-b940-c2e3e3cbe682" valueTypeId="f57e0110-792e-4c47-ab78-47e5d1ebfbb3"/>
+  </producedTypes>
+  <name>Сокращения</name>
+  <synonym>
+    <key>en</key>
+    <value>Сокращения</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Abkürzungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сокращения</value>
+  </synonym>
+  <inputByString>Catalog.Сокращения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>52</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Сокращения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Сокращения.Form.ФормаСписка</defaultChoiceForm>
+  <forms uuid="5a3bef42-236c-4e50-8664-5c781099a9d6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

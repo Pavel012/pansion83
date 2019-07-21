@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af7b1897-6002-4f15-be39-9430234c9f19">
+  <name>УпрСерверныеФункции</name>
+  <synonym>
+    <key>en</key>
+    <value>Server side functions for thin client</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Server side functions for thin client</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Серверные функции для тонкого клиента</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

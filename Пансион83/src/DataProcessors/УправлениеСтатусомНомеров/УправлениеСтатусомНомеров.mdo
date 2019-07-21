@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06ddd55e-3774-4568-991f-757d656e35fa">
+  <producedTypes>
+    <objectType typeId="f773e65d-d4a0-4955-b223-d8716e95783f" valueTypeId="bf15dd44-f85f-4779-a3bb-719caf64e025"/>
+    <managerType typeId="bfe10f16-24d9-4922-84bf-67d6aee311d5" valueTypeId="281771bb-2fae-4778-8edc-83600f6b4b2f"/>
+  </producedTypes>
+  <name>УправлениеСтатусомНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Управление статусом номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verwaltung von Status belegter Zimmer</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление статусами занятых номеров</value>
+  </synonym>
+  <defaultForm>DataProcessor.УправлениеСтатусомНомеров.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="7a1030de-cea2-400c-ba82-1b61eae781f4">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fe9fea36-1b4d-483b-b457-3274a425ae79">
+    <name>RoomStatusAfterEarlyCheckIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Room status after early check-in (before 06:00) </value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der Zimmer nach früher (bis 06:00) Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус номеров после раннего (до 06:00) заезда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="617cfe23-7996-4395-931c-37df459d4343">
+    <name>OccupiedDirtyRoomStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Occupied-dirty room status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der belegten / ungereinigten Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус занятых/грязных номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="00c1b5c1-38ed-4953-9c13-09aada3787be">
+    <name>EarlyCheckInTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Early check-in time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit der frühen Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время раннего заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b218f541-cd62-493f-a6d7-401b61918558">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="84d59b47-bfa0-450c-99fe-be59ceb6cb33">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

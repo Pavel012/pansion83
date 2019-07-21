@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e382887e-40e3-447e-bb06-0d5dfe92329c">
+  <name>ОчистаБазы</name>
+  <synonym>
+    <key>en</key>
+    <value>Clear database</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Löschung der Datenbank</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка базы данных</value>
+  </synonym>
+  <methodName>CommonModule.РеглЗадания.cmClearDatabase</methodName>
+  <key>ClearDatabase</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>2</restartCountOnFailure>
+  <restartIntervalOnFailure>300</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

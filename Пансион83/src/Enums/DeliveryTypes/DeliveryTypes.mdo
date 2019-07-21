@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58f95263-c07c-4a1f-b68a-e5250a236438">
+  <producedTypes>
+    <refType typeId="6abc14b3-c37f-4da6-aa72-fac0f0b71d8e" valueTypeId="3718702d-7645-48fd-8800-2a299f213f60"/>
+    <listType typeId="e1a8537c-af8f-4ae4-8af3-92455690c44e" valueTypeId="23f6ffce-7123-455a-b546-29d2a8a293aa"/>
+    <managerType typeId="6db74305-cc31-4405-925f-a3fa58038b26" valueTypeId="0ff021c6-f10a-4203-ab6d-1f973f1121f6"/>
+  </producedTypes>
+  <name>DeliveryTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Delivery types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Lieferarte</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды доставки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="df6b5feb-626f-4bfb-8d4d-aef54f80da59">
+    <name>SMS</name>
+    <synonym>
+      <key>en</key>
+      <value>SMS</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SMS</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>СМС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2faefc34-5465-4723-b88b-83c5da0d6448">
+    <name>EMail</name>
+    <synonym>
+      <key>en</key>
+      <value>E-mail</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>E-mail</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>E-mail</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c268a9bc-e5d6-4b0e-8231-54aed32c1ace">
+    <name>Both</name>
+    <synonym>
+      <key>en</key>
+      <value>SMS &amp; E-Mail</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SMS und E-Mail</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>SMS и E-Mail</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

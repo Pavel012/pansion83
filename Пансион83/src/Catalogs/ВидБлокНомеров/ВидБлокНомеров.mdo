@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fa6a66d-97b0-44ee-9ef4-76fda0948d0d">
+  <producedTypes>
+    <objectType typeId="798a303b-8043-4463-b55d-7838cc584668" valueTypeId="d17c2ec4-f8fa-4cd0-ac6a-6710fcbdbd46"/>
+    <refType typeId="b029a66c-bb57-4b89-a024-bd2759480640" valueTypeId="47b9de23-436c-4aae-a951-a494aad09c3e"/>
+    <selectionType typeId="ba34795b-824d-489a-a4d5-9e7299f11f3a" valueTypeId="5b09c5e9-114c-4163-b1d8-328d50c37136"/>
+    <listType typeId="fb4be7b9-a218-4b0b-ad15-512d84127d9a" valueTypeId="34e898af-c1c2-4702-9808-e820afd4d4b7"/>
+    <managerType typeId="8a89cc32-894e-4118-b977-256cf5c30eb6" valueTypeId="9b2d7fa0-b3a1-459d-ba5b-79e970e70392"/>
+  </producedTypes>
+  <name>ВидБлокНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Вид блок номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zimmerblockierungstypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды блокировки номеров</value>
+  </synonym>
+  <inputByString>Catalog.ВидБлокНомеров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидБлокНомеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидБлокНомеров.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ВидБлокНомеров.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ВидБлокНомеров.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидБлокНомеров.Form.ListForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ВидБлокНомеров.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="67846ed3-69b2-406a-b082-94e8c23d0916">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5dc542ba-c154-41c4-8c8e-50b88bc4046e">
+    <name>IsRoomRepair</name>
+    <synonym>
+      <key>en</key>
+      <value>Is room repair</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist die Renovierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это ремонт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad641d81-2193-407f-96f5-8cbc7cfac68b">
+    <name>AddToRoomsRentedInSummaryIndexes</name>
+    <synonym>
+      <key>en</key>
+      <value>Add to rooms rented when calculating total rooms occupation persent in summary indexes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zur Anzahl von verkauften Zimmern bei der Berechnung der Gesamtauslastung in zusammenfassenden Kennzahlen hinzufügen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять к числу проданных номеров при расчете общего процента загрузки в сводных показателях</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1d44734-32c1-4ebe-9bd9-9fc760d1beaa">
+    <name>Color</name>
+    <synonym>
+      <key>en</key>
+      <value>Color in the room graph</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Farbe in der Karte der Auslastung des Zimmerfonds </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет в карте загрузки НФ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e1248fa-ab57-4795-8a94-4390b02d75fa">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea466fec-04b8-4970-bf04-f6efaf23f485">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b4ee8924-f55e-453f-aa02-516577e0ccb3">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed3985d8-26b5-4fa6-b895-5c46c403d611">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e93c9d7a-39e6-40cf-8aeb-891538f1d6d6">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e302f88d-72e4-424f-9be6-29779955efb6">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

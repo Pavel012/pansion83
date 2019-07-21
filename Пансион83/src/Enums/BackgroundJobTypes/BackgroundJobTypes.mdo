@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e93aa549-8df2-4d57-a04f-48b8f2f4ece7">
+  <producedTypes>
+    <refType typeId="1982a18d-19bd-419e-b4ff-ccc980509865" valueTypeId="87fc8561-8c00-487f-af3f-53a88be3244e"/>
+    <listType typeId="bd26d5ca-0ad8-4445-ab8b-c0f5cc8bb747" valueTypeId="d5a92c05-dc94-4c16-8625-f2bf9b535e72"/>
+    <managerType typeId="108d1c90-1759-4e14-860a-a01c908ee3ed" valueTypeId="10ff6cd7-86ba-4dba-bf65-a9e759fde3c8"/>
+  </producedTypes>
+  <name>BackgroundJobTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Background job types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen von Hintergrundaufgabe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы фоновых заданий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="dd08d833-a638-465f-a2a0-c7350a8d808f">
+    <name>Processing</name>
+    <synonym>
+      <key>en</key>
+      <value>Processing</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c942456-7ccb-41ae-bf37-a78ac2c45975">
+    <name>Report</name>
+    <synonym>
+      <key>en</key>
+      <value>Report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bericht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

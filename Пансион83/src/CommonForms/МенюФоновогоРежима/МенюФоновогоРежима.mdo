@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8d39976-07ff-48bf-93e7-c2f55aa15f3a">
+  <name>МенюФоновогоРежима</name>
+  <synonym>
+    <key>en</key>
+    <value>Background mode Main menu</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Hauptmenü des Hintergrundmodus</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Главное меню фонового режима</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

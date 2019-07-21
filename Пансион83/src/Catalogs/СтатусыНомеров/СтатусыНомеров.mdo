@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dab79cd9-2eb4-41fa-ab11-f45fb04cb988">
+  <producedTypes>
+    <objectType typeId="a1c0d915-f6ca-4e87-b02c-e6a6d989b5a7" valueTypeId="78d462e9-4748-4b2c-8116-5b1cc57c3407"/>
+    <refType typeId="62b35e5a-d791-47d6-9747-f3de683ebbc5" valueTypeId="941a7b0f-e4bf-49a8-aa9b-e5f0f27deedc"/>
+    <selectionType typeId="36cd9965-2b1c-4159-a7cf-dcea3d93ffac" valueTypeId="e7fb3687-cafa-492c-b508-f1414ca98984"/>
+    <listType typeId="e33932b1-ae28-4e5b-8654-6c6071d2ba87" valueTypeId="e61e925e-eb41-45e4-8831-2755216d2377"/>
+    <managerType typeId="e5591c20-a7ae-45ed-8689-fb8cee329f57" valueTypeId="ea7a51be-22c4-4c25-a804-568743c5e88b"/>
+  </producedTypes>
+  <name>СтатусыНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Статусы номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der Zimmer</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы номеров</value>
+  </synonym>
+  <inputByString>Catalog.СтатусыНомеров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусыНомеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатусыНомеров.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтатусыНомеров.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.СтатусыНомеров.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатусыНомеров.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="6e55497d-cdea-4a40-a590-c30aef66e117">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80285c02-595d-4391-96e3-5d60e0bc3803">
+    <name>RoomStatusIcon</name>
+    <synonym>
+      <key>en</key>
+      <value>Room status icon</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerstatus-Icon</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Иконка статуса номеров</value>
+    </synonym>
+    <type>
+      <types>EnumRef.RoomStatusesIcons</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4509700-1715-4836-a6ed-0ae0ad9d435c">
+    <name>CheckInIsForbidden</name>
+    <synonym>
+      <key>en</key>
+      <value>Check-in is forbidden to rooms with this status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Belegung der Zimmer mit diesem Status ist verboten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение в номера с этим статусом запрещено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="250fa9d5-6909-402d-91a0-635f0fb8c5fa">
+    <name>Operation</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Arbeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Работы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="369dbdc8-c071-473a-910b-86ed8416694f">
+    <name>NextRoomStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Next room status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Folgender Status des Zimmers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Следующий статус номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e67cc899-1d6b-41e7-835d-092ecc116114">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c22a6a4d-f390-4e95-bf17-51c777d0a7e0">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6206cad7-3972-4bc3-9f08-7e6555717123">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3963776d-a5a4-472e-a1dc-eef12886702a">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="67bdd8a7-a804-4baa-9419-e1db2a7c8af7">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3458d443-b148-499c-8a8e-1afdc14893f8">
+  <producedTypes>
+    <objectType typeId="d7a918e7-8d79-4f83-8b48-e5eb8b625e97" valueTypeId="07295253-0afc-4f21-9941-776861a0949e"/>
+    <refType typeId="12ba7b97-f38c-4cbc-8e7f-2a0c871282c5" valueTypeId="d06ccc1f-33b2-468c-bca3-ac5b20e9a41e"/>
+    <selectionType typeId="f359b7a9-6366-4b93-9c61-92fefb9336ce" valueTypeId="d3040805-3058-46f4-b3c7-891129a64846"/>
+    <listType typeId="6d83390a-3268-4440-b27a-67695d18d3f8" valueTypeId="dc649459-9f70-4888-9125-aab476ed1d13"/>
+    <managerType typeId="32f2cc79-b133-4943-a355-e5afdde05505" valueTypeId="55646bc6-3a22-4c5e-b3c3-b09e8f4440a7"/>
+  </producedTypes>
+  <name>ТипыУслуг</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы услуг</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen von Dienstleistungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы услуг</value>
+  </synonym>
+  <inputByString>Catalog.ТипыУслуг.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыУслуг.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ТипыУслуг.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыУслуг.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="9cfe1e4b-30ec-4f4d-9523-8df309ecc29c">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2da6e8e-8456-4bdf-a971-f801f436dd62">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa992536-ad83-48ba-8658-3aca06de108e">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c7310a2-48f0-40c1-9d95-a6df705c2132">
+    <name>ActualAmountIsChargedExternally</name>
+    <synonym>
+      <key>en</key>
+      <value>Actual amount is charged by external system</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die tatsächliche Summe der Abrechnungen kommt aus dem externen System</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фактическая сумма начислений приходит из внешней системы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3a578f4-260b-40ca-abfd-de990b42054c">
+    <name>RevenueSegment</name>
+    <synonym>
+      <key>en</key>
+      <value>Revenue segment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einnahmensektor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент выручки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.RevenueSegments</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="06c1fc85-e1c8-4190-b825-f4e19ed5105f">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

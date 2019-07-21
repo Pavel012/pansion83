@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e446d264-e779-4c08-a9ff-089508d9bb81">
+  <name>УправлениеФлагомБлокировки</name>
+  <synonym>
+    <key>en</key>
+    <value>Manage &quot;Has room blocks&quot; flag for the rooms</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verwaltung der Fahne &quot;Es gibt Blockierungen&quot; bei Zimmern im Zimmerfond</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление флагом &quot;Есть блокировки&quot; у номеров в Номерном фонде</value>
+  </synonym>
+  <methodName>CommonModule.РеглЗадания.cmManageHasRoomBlocks</methodName>
+  <key>ManageHasRoomBlocks</key>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

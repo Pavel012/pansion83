@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c31fcd5-8d15-4aba-9695-220211855d10">
+  <name>Paste</name>
+  <synonym>
+    <key>en</key>
+    <value>Paste</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Einsetzen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Вставить</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bdc8680-34c0-4f05-8160-fa7be5e0fb30">
+  <producedTypes>
+    <selectionType typeId="5e24dfc6-0ed7-4207-b3dd-8c61e8c7ae92" valueTypeId="a2a496af-7522-4232-bf7b-15db6037dc03"/>
+    <listType typeId="6c1c1fa5-7446-4339-a6af-6cbc8a1305de" valueTypeId="cbf669c9-827c-46bd-8976-8a85b44ca599"/>
+    <managerType typeId="318515aa-5e3f-42a7-a0c0-3b6926d972a0" valueTypeId="0861cb4c-0bfa-4fbc-b81c-11d0df0181c6"/>
+    <recordSetType typeId="0eac58b6-2004-4899-9fc1-d559f9ef5a51" valueTypeId="ce22e313-8ca2-4de7-88d5-27cd1b9ef4c3"/>
+    <recordKeyType typeId="d9850cfa-829c-4a5f-a623-de0533cacd3b" valueTypeId="9836739d-1651-4cad-bc22-7232f1f85ad5"/>
+    <recordType typeId="ad052e3a-d7db-450b-b27f-8bbe2b6d0418" valueTypeId="b2f9dedc-d22c-4271-a55c-2a1f5fbc860f"/>
+    <recordManagerType typeId="ce98d5bd-967f-40d1-970e-28d375fde58c" valueTypeId="4aed1464-7f34-4f80-8c07-5d20f7784526"/>
+  </producedTypes>
+  <name>Скидки</name>
+  <synonym>
+    <key>en</key>
+    <value>Скидки</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Preisnachlässe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки</value>
+  </synonym>
+  <defaultListForm>InformationRegister.Скидки.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4b9e6e55-f069-454b-98e9-602c6ead437f">
+    <name>Discount</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preisnachlass %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d530df7e-97ea-4b0a-b43c-7f97b161688e">
+    <name>DiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="57375b9e-1858-4575-b57b-310dcb358a19">
+    <name>ServiceGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Service group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Набор услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="df12c319-b9d6-49c1-8d77-0f42200c624e">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="14b238d6-b936-4151-b2e5-32de84547ff7">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

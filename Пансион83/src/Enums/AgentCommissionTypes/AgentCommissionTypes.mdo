@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac438c86-2a72-49e0-aa52-db65b66e4e0d">
+  <producedTypes>
+    <refType typeId="d9b62139-3c5d-4d2b-b3a6-77e27eb7bdb8" valueTypeId="353eb7a8-1263-4221-9536-06f5a81b5b76"/>
+    <listType typeId="f4be4abc-b322-4821-8dd0-c0507e09e123" valueTypeId="13e8156a-e60d-4731-a3df-b7b3412fffe2"/>
+    <managerType typeId="fd9bb62e-36bd-4462-bc55-7bb199b7397c" valueTypeId="6fb813ba-c23e-460c-9262-536add5b17b4"/>
+  </producedTypes>
+  <name>AgentCommissionTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Agent commission types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kommissionsarten für Vertreter</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды комиссий агентам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f86e5a6a-a499-4ed2-a1a1-fdf4868db51a">
+    <name>Percent</name>
+    <synonym>
+      <key>en</key>
+      <value>% Percent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>% Prozent</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>% Процент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60d0dd85-3dd2-4277-b359-3b503e20a861">
+    <name>FirstDayPercent</name>
+    <synonym>
+      <key>en</key>
+      <value>First day %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ersten Tag %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>% За 1-ый день</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

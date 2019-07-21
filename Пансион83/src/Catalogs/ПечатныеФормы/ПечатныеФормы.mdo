@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0826cdfb-89fc-447b-8483-a3fa94dae81d">
+  <producedTypes>
+    <objectType typeId="cb1ded8e-1c0a-447c-ae43-50494b1b0a38" valueTypeId="8dc01bd7-8965-4c1f-88cc-978ac1b86487"/>
+    <refType typeId="650b1fc0-9425-49db-bb8e-33386e787397" valueTypeId="150d83ff-7872-485c-b851-429287764a04"/>
+    <selectionType typeId="cd109a90-3900-4fc2-a1a1-5eec6368326d" valueTypeId="3aeb4094-cef3-479e-8b49-d2a168bf7066"/>
+    <listType typeId="94322229-0d61-4402-ac82-7826a6bde017" valueTypeId="1da72909-4120-4b87-99b4-4b19ae3b8d01"/>
+    <managerType typeId="ef48bb4e-0f25-4d4c-8e62-c63478613803" valueTypeId="bd2c3c79-8dce-442b-a88a-ae4f0a1b2138"/>
+  </producedTypes>
+  <name>ПечатныеФормы</name>
+  <synonym>
+    <key>en</key>
+    <value>Печатные формы</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Druckformulare der Objekte</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Печатные формы объектов</value>
+  </synonym>
+  <inputByString>Catalog.ПечатныеФормы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПечатныеФормы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeSeries>WithinSubordination</codeSeries>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="448ff63f-3294-4ef1-9e43-a7235768af3c">
+      <name>AccommodationPrintGuestForm2Forms5</name>
+      <description>EN = 'Print 2 guest registration forms N5 on 1 page'; RU = 'Распечатать 2 анкеты гостя по форме №5 на одной странице'</description>
+      <code xsi:type="core:StringValue">
+        <value>67   </value>
+      </code>
+    </items>
+    <items id="7cb7cbd9-0626-4acd-98fc-2ba5bb3f436a">
+      <name>AccommodationPrintGuestCardForm4G</name>
+      <description>EN = 'Print 4G guest card'; RU = 'Распечатать карту гостя по форме 4Г'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="86ee1a3c-9c12-49f4-ad5d-04cef980ae3b">
+      <name>AccommodationPrintGuestsCardsForm4G</name>
+      <description>EN = 'Print 4G guests cards for all guests in guest group'; RU = 'Распечатать карты гостей по форме 4Г для всех гостей из группы'</description>
+      <code xsi:type="core:StringValue">
+        <value>28   </value>
+      </code>
+    </items>
+    <items id="79686b2f-f4d5-40b6-8260-f8ce98a32f0d">
+      <name>IssueHotelProductsPrintBillOfShipment</name>
+      <description>EN = 'Print bill of products shipment'; RU = 'Распечатать накладную на отгрузку путевок'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="47f2fa74-b4f0-47ea-b311-2e974b35bd68">
+      <name>FolioPrintChargeDe</name>
+      <description>en = 'Print charge details (DE)'; de = 'Print charge details (DE)'; ru = 'Распечатать детали начисления (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>198  </value>
+      </code>
+    </items>
+    <items id="c7a51ec9-408f-46f3-a949-64f8a034fe91">
+      <name>FolioPrintChargeEn</name>
+      <description>en = 'Print charge details (EN)'; de = 'Print charge details (EN)'; ru = 'Распечатать детали начисления (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>195  </value>
+      </code>
+    </items>
+    <items id="85d200aa-da88-4f1c-b1af-8252077e3abf">
+      <name>FolioPrintChargeRu</name>
+      <description>en = 'Print charge details (RU)'; de = 'Print charge details (RU)'; ru = 'Распечатать детали начисления (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>190  </value>
+      </code>
+    </items>
+    <items id="0d9041e8-2552-47a9-b36b-58620d51219a">
+      <name>ResourceReservationPrintConfirmationEn</name>
+      <description>EN = 'Print event order (EN)'; RU = 'Распечатать заказ на мероприятие (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>15   </value>
+      </code>
+    </items>
+    <items id="4bb79aa8-33c1-4aac-b280-617dd35525eb">
+      <name>ResourceReservationPrintConfirmationRu</name>
+      <description>EN = 'Print event order (RU)'; RU = 'Распечатать заказ на мероприятие (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="3b32210b-f196-4c6f-8351-4a2da9c12191">
+      <name>ResourceReservationPrintConfirmationByDaysEn</name>
+      <description>EN = 'Print event order by days (EN)'; RU = 'Распечатать заказ на мероприятие по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="158b2866-14fc-4fe5-823d-c0fdd4c14531">
+      <name>ResourceReservationPrintConfirmationByDaysRu</name>
+      <description>EN = 'Print event order by days (RU)'; RU = 'Распечатать заказ на мероприятие по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="a74c52cd-daf9-439a-a5e6-15d4dc21a903">
+      <name>ForeignerRegistryRecordPrintForeignerCardForm</name>
+      <description>EN = 'Print foreigner card form'; RU = 'Распечатать карточку учета проживания иностранного гражданина'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="9257440a-89fa-46ea-834e-7c0a21a3cafd">
+      <name>ForeignerRegistryRecordPrintArrivalSheetForm</name>
+      <description>EN = 'Print foreigner registration arrival sheet form'; RU = 'Распечатать адресный листок прибытия иностранца'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="ebb9bb6e-7abd-4e39-a0fb-9dd8debf2085">
+      <name>ForeignerRegistryRecordPrintNotificationForm</name>
+      <description>EN = 'Print foreigner registration notification form'; RU = 'Распечатать уведомление о регистрации иностранца'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="c17cdd41-4008-4b5d-b223-c7e7982451d0">
+      <name>AccommodationPrintGuestApplicationForm</name>
+      <description>EN = 'Print guest application form'; RU = 'Распечатать заявление гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="d5ac177f-d878-4449-95be-36972488dd0d">
+      <name>AccommodationPrintGuestCardFreeForm</name>
+      <description>EN = 'Print guest card'; RU = 'Распечатать карту гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="7689724a-ab54-488c-947e-e50e257e73aa">
+      <name>AccommodationPrintGuestCertificateForm</name>
+      <description>EN = 'Print guest certificate form'; RU = 'Распечатать свидетельство о регистрации гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="7a2e1af5-8dc4-49c6-8065-c14cedd5247d">
+      <name>AccommodationPrintGuestCertificateForms</name>
+      <description>EN = 'Print guest certificate forms for all guests in the guest group'; RU = 'Распечатать свидетельства о регистрации гостя для всех гостей из группы'</description>
+      <code xsi:type="core:StringValue">
+        <value>53   </value>
+      </code>
+    </items>
+    <items id="3e87c04b-41f2-4743-b821-4e123eafbca5">
+      <name>AccommodationPrintArrivalSheetForm</name>
+      <description>EN = 'Print guest registration arrival sheet form'; RU = 'Распечатать адресный листок прибытия гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>70   </value>
+      </code>
+    </items>
+    <items id="6d6a0c89-98a7-40ec-83e4-208efffc009f">
+      <name>AccommodationPrintGuestFormForm1G</name>
+      <description>EN = 'Print guest registration form N1-G'; RU = 'Распечатать анкету гостя по форме №1-Г'</description>
+      <code xsi:type="core:StringValue">
+        <value>35   </value>
+      </code>
+    </items>
+    <items id="4e56d9e3-fb7b-4780-913b-88925b3875fc">
+      <name>AccommodationPrintGuestFormForm5</name>
+      <description>EN = 'Print guest registration form N5'; RU = 'Распечатать анкету гостя по форме №5'</description>
+      <code xsi:type="core:StringValue">
+        <value>37   </value>
+      </code>
+    </items>
+    <items id="b2c357ae-576b-4905-a23e-0e45bcf2981d">
+      <name>AccommodationPrintGuestFormFreeForm</name>
+      <description>EN = 'Print guest registration form'; RU = 'Распечатать анкету гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="afd82296-5cfa-46de-9634-94895164fcc7">
+      <name>AccommodationPrintGuestsFormsFreeForm</name>
+      <description>EN = 'Print guest registration forms for all guests in group'; RU = 'Распечатать анкеты всех гостей в группе'</description>
+      <code xsi:type="core:StringValue">
+        <value>33   </value>
+      </code>
+    </items>
+    <items id="a5d453a1-6306-47ec-85e5-8dc5532be113">
+      <name>AccommodationPrintGuestsFormsForm1G</name>
+      <description>EN = 'Print guest registration N1-G forms for all guests in guest group'; RU = 'Распечатать анкеты гостей по форме №1-Г для всех гостей в группе'</description>
+      <code xsi:type="core:StringValue">
+        <value>36   </value>
+      </code>
+    </items>
+    <items id="f9fa3199-d193-46db-a1a1-cb480269ed11">
+      <name>AccommodationPrintGuestsFormsForm5</name>
+      <description>EN = 'Print guest registration N5 forms for all guests in guest group'; RU = 'Распечатать анкеты гостей по форме №5 для всех гостей в группе'</description>
+      <code xsi:type="core:StringValue">
+        <value>38   </value>
+      </code>
+    </items>
+    <items id="725b5fd0-7d23-4c23-91e8-404a40ec6aee">
+      <name>AccommodationPrintGuestsCardsFreeForm</name>
+      <description>EN = 'Print guests cards for all guests in guest group'; RU = 'Распечатать карты гостей для всех гостей из группы'</description>
+      <code xsi:type="core:StringValue">
+        <value>23   </value>
+      </code>
+    </items>
+    <items id="82254063-66b0-4b5e-a955-bbc77b37babd">
+      <name>AccommodationPrintHotelProduct</name>
+      <description>EN = 'Print hotel product from accommodation'; RU = 'Распечатать путевку по размещению'</description>
+      <code xsi:type="core:StringValue">
+        <value>80   </value>
+      </code>
+    </items>
+    <items id="0dfbe2bc-ca3e-44f4-8999-7d4c8a8ed1f7">
+      <name>FolioPrintHotelProduct</name>
+      <description>en = 'Print hotel product from folio'; de = 'Print hotel product from folio'; ru = 'Распечатать путевку по лицевому счету'</description>
+      <code xsi:type="core:StringValue">
+        <value>180  </value>
+      </code>
+    </items>
+    <items id="e1016937-4cbc-40ef-9248-66f5a430c93f">
+      <name>AccommodationPrintGuestGroupHotelProducts</name>
+      <description>EN = 'Print hotel products for guest group from accommodation'; RU = 'Распечатать путевки по группе гостей из размещения'</description>
+      <code xsi:type="core:StringValue">
+        <value>85   </value>
+      </code>
+    </items>
+    <items id="159b6679-048a-47a6-ba06-d23ffcd09527">
+      <name>InvoicePrintPaymentOrder</name>
+      <description>EN = 'Print invoice payment order'; RU = 'Распечатать платежное поручение по счету-требованию'</description>
+      <code xsi:type="core:StringValue">
+        <value>140  </value>
+      </code>
+    </items>
+    <items id="345ac98c-3e32-4b03-b0df-4159a40e05f5">
+      <name>IssueHotelProductsPrintHotelProductsLog</name>
+      <description>EN = 'Print log of issued hotel products'; RU = 'Распечатать реестр использованных бланков путевок и курсовок'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="4c58b39d-821d-469c-9aa5-62255bef5a9a">
+      <name>SMSDeliveryPrintReceivers</name>
+      <description>EN = 'Print message receivers list'; RU = 'Распечатать список получателей сообщений'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="d108b0ba-5fb2-4a62-9e80-52a1bcd9de8b">
+      <name>ResourceReservationPrintResources</name>
+      <description>EN = 'Print reservation resources list'; RU = 'Распечатать список ресурсов брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="ce610d86-44a1-4a0c-b496-7d1bdade1640">
+      <name>ResourceReservationPrintPaymentOrder</name>
+      <description>EN = 'Print resource reservation payment order'; RU = 'Распечатать платежное поручение по брони ресурсов'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="5e0223d9-e2b7-4dd4-a624-16a65fa6ccad">
+      <name>SetRoomRatePricesPrintOrder</name>
+      <description>EN = 'Print set room rate prices order'; RU = 'Распечатать приказ об изменении цен тарифа'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="00e698fd-de06-4fb2-af94-36314245ba61">
+      <name>AccommodationPrintStateOfRoom</name>
+      <description>EN = 'Print state of room choosen in accommodation'; RU = 'Распечатать шахматку по выбранному в размещении номеру'</description>
+      <code xsi:type="core:StringValue">
+        <value>90   </value>
+      </code>
+    </items>
+    <items id="723d518b-50fb-4660-b8c3-9c7eeb7085c0">
+      <name>ClientPrintGuestAccommodationHistory</name>
+      <description>en='Client print guest accommodation history';de='Client print guest accommodation history';ru='Распечатать историю проживания гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="4f239216-4649-41d3-9fff-4191de3e2a89">
+      <name>SettlementPrint7GEn</name>
+      <description>en='Customer accounts validation form (EN)';de='Customer accounts validation form (EN)';ru='Печать акта сверки взаиморасчетов по форме 7-Г (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>008  </value>
+      </code>
+    </items>
+    <items id="ca1f92bb-1fdb-487c-bfe7-e35394ce9620">
+      <name>SettlementPrint7GRu</name>
+      <description>en='Customer accounts validation form (RU)';de='Customer accounts validation form (RU)';ru='Печать акта сверки взаиморасчетов по форме 7-Г (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>007  </value>
+      </code>
+    </items>
+    <items id="6742cfa4-9b60-4a42-a79a-824f6277f323">
+      <name>InvoicePrintInvoiceDe</name>
+      <description>en='Detailed invoice (DE)';de='Detailed invoice (DE)';ru='Детальный счет-требования (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>014  </value>
+      </code>
+    </items>
+    <items id="fbdff514-8cbd-4f36-b6da-0525eb4a22a0">
+      <name>InvoicePrintInvoiceEn</name>
+      <description>en='Detailed invoice (EN)';de='Detailed invoice (EN)';ru='Детальный счет-требования (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>015  </value>
+      </code>
+    </items>
+    <items id="fe51b4ec-0901-4285-9180-167d1db3f86e">
+      <name>InvoicePrintInvoiceRu</name>
+      <description>en='Detailed invoice (RU)';de='Detailed invoice (RU)';ru='Детальный счет-требования (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>010  </value>
+      </code>
+    </items>
+    <items id="bb6e1589-debf-4c8c-9e2a-add7772f313c">
+      <name>InvoicePrintHotelProductsGroupAllDe</name>
+      <description>en='Invoice for products grp. all services (DE)';de='Invoice for products grp. services (DE)';ru='Счет-треб. по путевкам с групп. всех услуг (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>254  </value>
+      </code>
+    </items>
+    <items id="66b0d2b0-23cc-4f38-b165-e5afa1676054">
+      <name>InvoicePrintHotelProductsGroupAllEn</name>
+      <description>en='Invoice for products grp. all services (EN)';de='Invoice for products grp. services (EN)';ru='Счет-треб. по путевкам с групп. всех услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>255  </value>
+      </code>
+    </items>
+    <items id="1c565d7e-3007-49d9-8fc8-99f6c9073959">
+      <name>InvoicePrintHotelProductsGroupAllRu</name>
+      <description>en='Invoice for products grp. all services (RU)';de='Invoice for products grp. services (RU)';ru='Счет-треб. по путевкам с групп. всех услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>250  </value>
+      </code>
+    </items>
+    <items id="b23b722a-e993-4567-8dfe-882b4bcc9cd1">
+      <name>InvoicePrintHotelProductsGroupByServiceDe</name>
+      <description>en='Invoice for products grp. by srv. (DE)';de='Invoice for products grp. by srv. (DE)';ru='Счет-треб. по путевкам с групп. услуг (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>264  </value>
+      </code>
+    </items>
+    <items id="85b52fb0-15ee-41b0-9cd9-0c6c95b2158a">
+      <name>InvoicePrintHotelProductsGroupByServiceEn</name>
+      <description>en='Invoice for products grp. by srv. (EN)';de='Invoice for products grp. by srv. (EN)';ru='Счет-треб. по путевкам с групп. услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>265  </value>
+      </code>
+    </items>
+    <items id="36245df2-16df-4c01-b56b-fa97cc268205">
+      <name>InvoicePrintHotelProductsGroupByServiceRu</name>
+      <description>en='Invoice for products grp. by srv. (RU)';de='Invoice for products grp. by srv. (RU)';ru='Счет-треб. по путевкам с групп. услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>260  </value>
+      </code>
+    </items>
+    <items id="f3781b88-ed01-4e8f-9127-3c66cbcf8149">
+      <name>InvoicePrintHotelProductsGroupInPriceDe</name>
+      <description>en='Invoice for products grp. in price srv. (DE)';de='Invoice for products grp. in price srv. (DE)';ru='Счет-треб. по путевкам с гр. по тарифу (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>244  </value>
+      </code>
+    </items>
+    <items id="78a8caa6-f07e-4f3f-8d09-fd4c067cbfbc">
+      <name>InvoicePrintHotelProductsGroupInPriceEn</name>
+      <description>en='Invoice for products grp. in price srv. (EN)';de='Invoice for products grp. in price srv. (EN)';ru='Счет-треб. по путевкам с гр. по тарифу (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>245  </value>
+      </code>
+    </items>
+    <items id="e67d620e-499d-41b0-9af0-ea004c24a700">
+      <name>InvoicePrintHotelProductsGroupInPriceRu</name>
+      <description>en='Invoice for products grp. in price srv. (RU)';de='Invoice for products grp. in price srv. (RU)';ru='Счет-треб. по путевкам с гр. по тарифу (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>240  </value>
+      </code>
+    </items>
+    <items id="b93eace3-7870-4381-9fa2-2d0bf956c868">
+      <name>InvoicePrintInvoiceGroupAllDe</name>
+      <description>en='Invoice grouping all services (DE)';de='Invoice grouping all services (DE)';ru='Счет-треб. с группировкой всех услуг (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>054  </value>
+      </code>
+    </items>
+    <items id="55604727-2ecf-4dd7-a745-215e5bbd9edf">
+      <name>InvoicePrintInvoiceGroupAllEn</name>
+      <description>en='Invoice grouping all services (EN)';de='Invoice grouping all services (EN)';ru='Счет-треб. с группировкой всех услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>055  </value>
+      </code>
+    </items>
+    <items id="a93df51e-4995-47f9-973f-01df6aca8398">
+      <name>InvoicePrintInvoiceGroupAllRu</name>
+      <description>en='Invoice grouping all services (RU)';de='Invoice grouping all services (RU)';ru='Счет-треб. с группировкой всех услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>050  </value>
+      </code>
+    </items>
+    <items id="877d91f8-1e5d-4ef6-b2e5-e5c1ac42c5c2">
+      <name>InvoicePrintInvoiceGroupInPriceDe</name>
+      <description>en='Invoice grouping in price services (DE)';de='Invoice grouping in price services (DE)';ru='Счет-треб. с групп. услуг по тарифу (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>044  </value>
+      </code>
+    </items>
+    <items id="d0a1c4c3-23ea-44fc-ad92-d5650917495e">
+      <name>InvoicePrintInvoiceGroupInPriceEn</name>
+      <description>en='Invoice grouping in price services (EN)';de='Invoice grouping in price services (EN)';ru='Счет-треб. с групп. услуг по тарифу (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>045  </value>
+      </code>
+    </items>
+    <items id="94e00001-30d1-4155-b123-f95ced378b8e">
+      <name>InvoicePrintInvoiceGroupInPriceRu</name>
+      <description>en='Invoice grouping in price services (RU)';de='Invoice grouping in price services (RU)';ru='Счет-треб. с групп. услуг по тарифу (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>040  </value>
+      </code>
+    </items>
+    <items id="ee6479f8-79d3-4787-b25f-325f4cfa7b0c">
+      <name>InvoicePrintInvoiceGroupByServiceDe</name>
+      <description>en='Invoice grouping services (DE)';de='Invoice grouping services (DE)';ru='Счет-треб. с групп. услуг (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>114  </value>
+      </code>
+    </items>
+    <items id="119f9477-b9ce-454d-9fbe-68098a196017">
+      <name>InvoicePrintInvoiceGroupByServiceEn</name>
+      <description>en='Invoice grouping services (EN)';de='Invoice grouping services (EN)';ru='Счет-треб. с групп. услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>115  </value>
+      </code>
+    </items>
+    <items id="519765b0-c39c-45b2-88da-4b96eb67e16a">
+      <name>InvoicePrintInvoiceGroupByServiceRu</name>
+      <description>en='Invoice grouping services (RU)';de='Invoice grouping services (RU)';ru='Счет-треб. с групп. услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>110  </value>
+      </code>
+    </items>
+    <items id="f4d598a8-a7f6-4220-a19b-6691ce9180d5">
+      <name>InvoicePrintInvoiceGroupPerClientDe</name>
+      <description>en='Invoice grouping services per client (DE)';de='Invoice grouping services per client (DE)';ru='Счет-треб. с групп. услуг по клиентам (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>107  </value>
+      </code>
+    </items>
+    <items id="378f552b-3864-48d8-a4ef-8e7b4818d24d">
+      <name>InvoicePrintInvoiceGroupPerClientEn</name>
+      <description>en='Invoice grouping services per client (EN)';de='Invoice grouping services per client (EN)';ru='Счет-треб. с групп. услуг по клиентам (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>105  </value>
+      </code>
+    </items>
+    <items id="bb870fa0-3a59-4cab-bb9d-1427015922c1">
+      <name>InvoicePrintInvoiceGroupPerClientRu</name>
+      <description>en='Invoice grouping services per client (RU)';de='Invoice grouping services per client (RU)';ru='Счет-треб. с групп. услуг по клиентам (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>100  </value>
+      </code>
+    </items>
+    <items id="986025a2-3e4d-4643-b7a5-1d25e0fe90d9">
+      <name>InvoicePrintInvoiceGroupAllPerDayDe</name>
+      <description>en='Invoice grp. all services per days (DE)';de='Invoice grp. all services per days (DE)';ru='Счет-треб. с групп. всех услуг по дням (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>034  </value>
+      </code>
+    </items>
+    <items id="92fdea5b-76b3-45b4-87c2-eb092b40c208">
+      <name>InvoicePrintInvoiceGroupAllPerDayEn</name>
+      <description>en='Invoice grp. all services per days (EN)';de='Invoice grp. all services per days (EN)';ru='Счет-треб. с групп. всех услуг по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>035  </value>
+      </code>
+    </items>
+    <items id="b671f5a6-b5ee-49f2-a75b-c172b388dd9e">
+      <name>InvoicePrintInvoiceGroupAllPerDayRu</name>
+      <description>en='Invoice grp. all services per days (RU)';de='Invoice grp. all services per days (RU)';ru='Счет-треб. с групп. всех услуг по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>030  </value>
+      </code>
+    </items>
+    <items id="0463a404-c68c-4de3-bcdc-63de5ce15f35">
+      <name>InvoicePrintInvoiceGroupAllPerClientDe</name>
+      <description>en='Invoice grp. all srv. per client (DE)';de='Invoice grp. all srv. per client (DE)';ru='Счет-треб. с групп. всех услуг по клиентам (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>094  </value>
+      </code>
+    </items>
+    <items id="3ca1d1bc-0de5-4954-9537-de3dc34ad691">
+      <name>InvoicePrintInvoiceGroupAllPerClientEn</name>
+      <description>en='Invoice grp. all srv. per client (EN)';de='Invoice grp. all srv. per client (EN)';ru='Счет-треб. с групп. всех услуг по клиентам (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>095  </value>
+      </code>
+    </items>
+    <items id="06d8b9f1-d162-44dd-8b80-d4e1b4ec51ae">
+      <name>InvoicePrintInvoiceGroupAllPerClientRu</name>
+      <description>en='Invoice grp. all srv. per client (RU)';de='Invoice grp. all srv. per client (RU)';ru='Счет-треб. с групп. всех услуг по клиентам (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>090  </value>
+      </code>
+    </items>
+    <items id="8debc2d2-613d-4890-b7d8-8548921ec119">
+      <name>InvoicePrintInvoiceGroupAllPerClientPerDayDe</name>
+      <description>en='Invoice grp. all srv. per client/days (DE)';de='Invoice grp. all srv. per client/days (DE)';ru='Счет-треб. с гр. всех услуг по клиентам/дням (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>074  </value>
+      </code>
+    </items>
+    <items id="c2c69a50-55b1-4216-b331-5fe93acd73bc">
+      <name>InvoicePrintInvoiceGroupAllPerClientPerDayEn</name>
+      <description>en='Invoice grp. all srv. per client/days (EN)';de='Invoice grp. all srv. per client/days (EN)';ru='Счет-треб. с гр. всех услуг по клиентам/дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>075  </value>
+      </code>
+    </items>
+    <items id="249719ad-f01b-4eb1-8298-96a58baaa6b4">
+      <name>InvoicePrintInvoiceGroupAllPerClientPerDayRu</name>
+      <description>en='Invoice grp. all srv. per client/days (RU)';de='Invoice grp. all srv. per client/days (RU)';ru='Счет-треб. с гр. всех услуг по клиентам/дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>070  </value>
+      </code>
+    </items>
+    <items id="f1c7846e-cbd2-4999-ae0c-d4d920e6ead8">
+      <name>InvoicePrintInvoiceGroupInPricePerClientDe</name>
+      <description>en='Invoice grp. in price per client (DE)';de='Invoice grp. in price per client (DE)';ru='Счет-треб. с групп. усл. по тарифу по клиентам (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>084  </value>
+      </code>
+    </items>
+    <items id="7d43a433-96e9-49a3-b767-598d62cd035f">
+      <name>InvoicePrintInvoiceGroupInPricePerClientEn</name>
+      <description>en='Invoice grp. in price per client (EN)';de='Invoice grp. in price per client (EN)';ru='Счет-треб. с групп. усл. по тарифу по клиентам (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>085  </value>
+      </code>
+    </items>
+    <items id="323f8f20-6e47-48b1-9722-02a24ba50fb0">
+      <name>InvoicePrintInvoiceGroupInPricePerClientRu</name>
+      <description>en='Invoice grp. in price per client (RU)';de='Invoice grp. in price per client (RU)';ru='Счет-треб. с групп. усл. по тарифу по клиентам (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>080  </value>
+      </code>
+    </items>
+    <items id="12f55a7a-e358-4015-9ac1-615b70bce501">
+      <name>InvoicePrintInvoiceGroupInPricePerClientPerDayDe</name>
+      <description>en='Invoice grp. in price per client/days (DE)';de='Invoice grp. in price per client/days (DE)';ru='Счет-треб. с грп. по тарифу по клиен./дням (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>064  </value>
+      </code>
+    </items>
+    <items id="2299e050-e8b8-4d10-8fb8-7683680c93f0">
+      <name>InvoicePrintInvoiceGroupInPricePerClientPerDayEn</name>
+      <description>en='Invoice grp. in price per client/days (EN)';de='Invoice grp. in price per client/days (EN)';ru='Счет-треб. с грп. по тарифу по клиен./дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>065  </value>
+      </code>
+    </items>
+    <items id="58dc8c96-b388-4ab7-9ea2-494f1a6673eb">
+      <name>InvoicePrintInvoiceGroupInPricePerClientPerDayRu</name>
+      <description>en='Invoice grp. in price per client/days (RU)';de='Invoice grp. in price per client/days (RU)';ru='Счет-треб. с грп. по тарифу по клиен./дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>060  </value>
+      </code>
+    </items>
+    <items id="2aaeaf04-e00f-43aa-924a-1f87874ae7be">
+      <name>InvoicePrintInvoiceGroupInPricePerDayDe</name>
+      <description>en='Invoice grp. in price serv. per days (DE)';de='Invoice grp. in price serv. per days (DE)';ru='Счет-треб. с групп. услуг по тарифу по дням (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>024  </value>
+      </code>
+    </items>
+    <items id="72cb0cdd-280f-47f2-8fa7-12c72e70d555">
+      <name>InvoicePrintInvoiceGroupInPricePerDayEn</name>
+      <description>en='Invoice grp. in price serv. per days (EN)';de='Invoice grp. in price serv. per days (EN)';ru='Счет-треб. с групп. услуг по тарифу по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>025  </value>
+      </code>
+    </items>
+    <items id="910a73ed-2497-49c7-b675-f6b47f177c7e">
+      <name>InvoicePrintInvoiceGroupInPricePerDayRu</name>
+      <description>en='Invoice grp. in price serv. per days (RU)';de='Invoice grp. in price serv. per days (RU)';ru='Счет-треб. с групп. услуг по тарифу по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>020  </value>
+      </code>
+    </items>
+    <items id="58839c66-eb8c-49a0-acaf-141797361f67">
+      <name>AccommodationPrintGuestsForms2Forms5</name>
+      <description>en='Print 2 guest N5 forms on 1 page for group';de='Print 2 guest N5 forms on 1 page for group';ru='Распеч. по 2 анкеты №5 на стр. для всей группы'</description>
+      <code xsi:type="core:StringValue">
+        <value>68   </value>
+      </code>
+    </items>
+    <items id="cd2a4829-4b88-4c79-8313-ee054f894f98">
+      <name>ReservationPrintGuestsForms2Forms5</name>
+      <description>en='Print 2 guest N5 forms on 1 page for group';de='Print 2 guest N5 forms on 1 page for group';ru='Распеч. по 2 анкеты №5 на стр. для всей группы'</description>
+      <code xsi:type="core:StringValue">
+        <value>68   </value>
+      </code>
+    </items>
+    <items id="0abf0565-6955-48e1-ac4c-03a25a160b26">
+      <name>ReservationPrintGuestForm2Forms5</name>
+      <description>en='Print 2 reg. forms N5 on 1 page from res.';de='Print 2 reg. forms N5 on 1 page from res.';ru='Распеч. 2 анкеты по форме №5 на 1 стр. из брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>67   </value>
+      </code>
+    </items>
+    <items id="4964fce4-bc18-4c1a-bbf0-2e699eba860a">
+      <name>ReservationPrintGuestsCardsForm4G</name>
+      <description>en='Print 4G guest cards for res. guest group';de='Print 4G guest cards for res. guest group';ru='Распечатать карты гостей по форме 4Г по группе бр.'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="c81b890b-4cd4-42e1-9504-2b8ae35e0c9b">
+      <name>ContractPrintDetailedBalances</name>
+      <description>EN='Print contract detailed balances'; RU='Детальный баланс взаиморасчетов по договору'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="ccdcd3f8-dcff-48c2-a0fd-773fdacdb9b7">
+      <name>ReservationPrintCurrentDocConfirmationWithServicesDe</name>
+      <description>en='Print cur. res. confirm. with services (DE)';de='Print cur. res. confirm. with services (DE)';ru='Распечатать подтв. тек. брони с услугами (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>23   </value>
+      </code>
+    </items>
+    <items id="d45914a3-b9a3-45c4-98f4-5823dcc561e0">
+      <name>ReservationPrintCurrentDocConfirmationWithServicesEn</name>
+      <description>en='Print cur. res. confirm. with services (EN)';de='Print cur. res. confirm. with services (EN)';ru='Распечатать подтв. тек. брони с услугами (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>18   </value>
+      </code>
+    </items>
+    <items id="f22f0076-5bbd-4c90-ba30-3ff329589292">
+      <name>ReservationPrintCurrentDocConfirmationWithServicesRu</name>
+      <description>en='Print cur. res. confirm. with services (RU)';de='Print cur. res. confirm. with services (RU)';ru='Распечатать подтв. тек. брони с услугами (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>13   </value>
+      </code>
+    </items>
+    <items id="001ea178-2646-41ff-9636-c0edb010ac4b">
+      <name>ReservationPrintCurrentDocConfirmationDe</name>
+      <description>en='Print current reservation confirmation (DE)';de='Print current reservation confirmation (DE)';ru='Распечатать подтверждение текущей брони (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>21   </value>
+      </code>
+    </items>
+    <items id="5891324a-c84c-4af0-9791-9a615a5f607b">
+      <name>ReservationPrintCurrentDocConfirmationEn</name>
+      <description>en='Print current reservation confirmation (EN)';de='Print current reservation confirmation (EN)';ru='Распечатать подтверждение текущей брони (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>16   </value>
+      </code>
+    </items>
+    <items id="d0eadc55-b3b4-4c12-8af2-3adac2313e15">
+      <name>ReservationPrintCurrentDocConfirmationRu</name>
+      <description>en='Print current reservation confirmation (RU)';de='Print current reservation confirmation (RU)';ru='Распечатать подтверждение текущей брони (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>11   </value>
+      </code>
+    </items>
+    <items id="b6c152fb-5299-4869-8d79-b41908302fa9">
+      <name>CustomerPaymentPrintCustomerPaymentEn</name>
+      <description>EN='Print customer payment (EN)'; RU='Печать платежа от контрагента (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>15   </value>
+      </code>
+    </items>
+    <items id="125f8e59-d928-4eec-befa-14f38e7ad12d">
+      <name>CustomerPaymentPrintCustomerPaymentRu</name>
+      <description>EN='Print customer payment (RU)'; RU='Печать платежа от контрагента (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="266726d8-2ca1-48bc-b254-1bb9f37bd72f">
+      <name>CustomerPrintCustomerSales</name>
+      <description>en='Print customer sales per guest groups';de='Print customer sales per guest groups';ru='Печать сверки взаиморасчетов с контрагентом'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="86633ada-77a2-49b3-9cae-8f5892247f32">
+      <name>CustomerPrintDetailedBalances</name>
+      <description>en='Print detailed customer balances';de='Print detailed customer balances';ru='Детальный баланс взаиморасчетов с контрагентом'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="83f23ad8-00d5-481f-aae1-00cb465a62a2">
+      <name>OperationSchedulePrintEmployees</name>
+      <description>en='Print employee totals';de='Print employee totals';ru='Печать итогов по сотрудникам'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="7e010225-003f-4363-8143-beedc3de1e17">
+      <name>ReservationPrintExpressCheckInInvitationDe</name>
+      <description>en='Print express check-in invitation (DE)';de='Print Express Check-in-Einladung (DE)';ru='Распечатать приглашение на экспресс-заселение (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>118  </value>
+      </code>
+    </items>
+    <items id="8ba1d649-bf49-450f-8f2d-ace62f217b13">
+      <name>ReservationPrintExpressCheckInInvitationEn</name>
+      <description>en='Print express check-in invitation (EN)';de='Print Express Check-in-Einladung (EN)';ru='Распечатать приглашение на экспресс-заселение (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>115  </value>
+      </code>
+    </items>
+    <items id="6cee9d9b-3aa2-4126-a212-dcbbd7fdd831">
+      <name>ReservationPrintExpressCheckInInvitationRu</name>
+      <description>en='Print express check-in invitation (RU)';de='Print Express Check-in-Einladung (RU)';ru='Распечатать приглашение на экспресс-заселение (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>110  </value>
+      </code>
+    </items>
+    <items id="9284a93c-dbf3-43cf-9020-103dc1bc3e55">
+      <name>FolioPrintExternalClientDe</name>
+      <description>en='Print external client folio (DE)'; de='Print external client folio (DE)'; ru='Печать счета стороннему посетителю (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>88   </value>
+      </code>
+    </items>
+    <items id="a00bf498-512e-48d2-86dc-3b3ce6450303">
+      <name>FolioPrintExternalClientEn</name>
+      <description>en='Print external client folio (EN)'; de='Print external client folio (EN)'; ru='Печать счета стороннему посетителю (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>85   </value>
+      </code>
+    </items>
+    <items id="2f0e07dc-1039-4e7c-82c6-8caaddfec23f">
+      <name>FolioPrintExternalClientRu</name>
+      <description>en='Print external client folio (RU)'; de='Print external client folio (RU)'; ru='Печать счета стороннему посетителю (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>80   </value>
+      </code>
+    </items>
+    <items id="55990651-76d6-47ae-8321-4e5ee0f15e46">
+      <name>FolioPrintFolioDe</name>
+      <description>en='Print folio (DE)'; de='Print folio (DE)'; ru='Печать счета (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>18   </value>
+      </code>
+    </items>
+    <items id="fe64bfc3-1ce0-4bc2-ab00-6337c0ebbce4">
+      <name>FolioPrintFolioEn</name>
+      <description>en='Print folio (EN)'; de='Print folio (EN)'; ru='Печать счета (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>15   </value>
+      </code>
+    </items>
+    <items id="886eb106-cf28-46b3-b426-c694aa760b4a">
+      <name>FolioPrintFolioRu</name>
+      <description>en='Print folio (RU)'; de='Print folio (RU)'; ru='Печать счета (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="24ba57f2-4fea-4d3a-bd7f-43c3c31a2035">
+      <name>FolioPrintClientListDe</name>
+      <description>en='Print folio clients list (DE)'; de='Print folio clients list (DE)'; ru='Печать лицевого счета по клиентам (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>118  </value>
+      </code>
+    </items>
+    <items id="09dc0a51-1132-4804-952d-7b1e7443c2da">
+      <name>FolioPrintClientListEn</name>
+      <description>en='Print folio clients list (EN)'; de='Print folio clients list (EN)'; ru='Печать лицевого счета по клиентам (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>115  </value>
+      </code>
+    </items>
+    <items id="b56f003b-27e6-4027-bb6a-5a737fd39540">
+      <name>FolioPrintClientListRu</name>
+      <description>en='Print folio clients list (RU)'; de='Print folio clients list (RU)'; ru='Печать лицевого счета по клиентам (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>110  </value>
+      </code>
+    </items>
+    <items id="bad7d878-9858-497c-a808-ba7d5973db0d">
+      <name>FolioPrintFolioGroupAllPerDayDe</name>
+      <description>en='Print folio grouping all per days (DE)'; de='Print folio grouping all per days (DE)'; ru='Печать счета с группировкой всех услуг по дням (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>38   </value>
+      </code>
+    </items>
+    <items id="77450b1b-8136-4603-8e67-3d3293049884">
+      <name>FolioPrintFolioGroupAllPerDayEn</name>
+      <description>en='Print folio grouping all per days (EN)'; de='Print folio grouping all per days (EN)'; ru='Печать счета с группировкой всех услуг по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>35   </value>
+      </code>
+    </items>
+    <items id="42c3ef88-4448-4e29-8a11-bf9fafa3e2f2">
+      <name>FolioPrintFolioGroupAllPerDayRu</name>
+      <description>en='Print folio grouping all per days (RU)'; de='Print folio grouping all per days (RU)'; ru='Печать счета с группировкой всех услуг по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="18ccab46-e399-4117-b1d6-80cbd4b1a207">
+      <name>FolioPrintFolioGroupAllDe</name>
+      <description>en='Print folio grouping all services (DE)'; de='Print folio grouping all services (DE)'; ru='Печать счета с группировкой всех услуг (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>58   </value>
+      </code>
+    </items>
+    <items id="c6905336-b98a-45b4-b008-3427ca3f5100">
+      <name>FolioPrintFolioGroupAllEn</name>
+      <description>en='Print folio grouping all services (EN)'; de='Print folio grouping all services (EN)'; ru='Печать счета с группировкой всех услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>55   </value>
+      </code>
+    </items>
+    <items id="f72c923b-3fc0-4efc-93ab-1b991b15d3a5">
+      <name>FolioPrintFolioGroupAllRu</name>
+      <description>en='Print folio grouping all services (RU)'; de='Print folio grouping all services (RU)'; ru='Печать счета с группировкой всех услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="f976860b-978b-4431-b580-0ebe77abb66f">
+      <name>FolioPrintFolioGroupInPricePerDayDe</name>
+      <description>en='Print folio grouping in price per days (DE)';de='Print folio grouping in price per days (DE)';ru='Печать счета с гр. усл. по тарифу по дням (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>28   </value>
+      </code>
+    </items>
+    <items id="5b96e8f3-3319-46f5-80b5-96555bf1929d">
+      <name>FolioPrintFolioGroupInPricePerDayEn</name>
+      <description>en='Print folio grouping in price per days (EN)';de='Print folio grouping in price per days (EN)';ru='Печать счета с гр. усл. по тарифу по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="242dacb1-b11f-4cfa-8c07-430f50bdf375">
+      <name>FolioPrintFolioGroupInPricePerDayRu</name>
+      <description>en='Print folio grouping in price per days (RU)';de='Print folio grouping in price per days (RU)';ru='Печать счета с гр. усл. по тарифу по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="aa8ed758-9fb6-42fd-b396-4e10c8b86a31">
+      <name>FolioPrintFolioGroupInPriceDe</name>
+      <description>en='Print folio grouping in price services (DE)'; de='Print folio grouping in price services (DE)'; ru='Печать фолио с групп. услуг по тарифу (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>48   </value>
+      </code>
+    </items>
+    <items id="298203a5-5e15-463e-8b05-edfe56a2521d">
+      <name>FolioPrintFolioGroupInPriceEn</name>
+      <description>en='Print folio grouping in price services (EN)'; de='Print folio grouping in price services (EN)'; ru='Печать фолио с групп. услуг по тарифу (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>45   </value>
+      </code>
+    </items>
+    <items id="63abba4b-8913-462a-aeec-c793e7b9d1bb">
+      <name>FolioPrintFolioGroupInPriceRu</name>
+      <description>en='Print folio grouping in price services (RU)'; de='Print folio grouping in price services (RU)'; ru='Печать фолио с групп. услуг по тарифу (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="b6def577-17dd-4cdd-acff-69320fbbc15a">
+      <name>FolioPrintFolioGroupByServiceDe</name>
+      <description>en='Print folio grouping rows by services (DE)'; de='Print folio grouping rows by services (DE)'; ru='Печать счета с групп. строк по услугам (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>68   </value>
+      </code>
+    </items>
+    <items id="796c9609-a2a3-41be-882c-759a50dfbd88">
+      <name>FolioPrintFolioGroupByServiceEn</name>
+      <description>en='Print folio grouping rows by services (EN)'; de='Print folio grouping rows by services (EN)'; ru='Печать счета с групп. строк по услугам (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>65   </value>
+      </code>
+    </items>
+    <items id="a1152d6e-49af-4471-855f-489235cc03e9">
+      <name>FolioPrintFolioGroupByServiceRu</name>
+      <description>en='Print folio grouping rows by services (RU)'; de='Print folio grouping rows by services (RU)'; ru='Печать счета с групп. строк по услугам (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>60   </value>
+      </code>
+    </items>
+    <items id="67fb0415-d7ec-40fd-a00e-03539de8630b">
+      <name>ReservationPrintConfirmationWithServicesDe</name>
+      <description>en='Print group confirm. with services (DE)';de='Print group confirm. with services (DE)';ru='Распечатать подтвержд. брони с услугами на группу (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>22   </value>
+      </code>
+    </items>
+    <items id="cbf07178-b706-40da-91a7-21336922f9bf">
+      <name>ReservationPrintConfirmationWithServicesEn</name>
+      <description>en='Print group confirm. with services (EN)';de='Print group confirm. with services (EN)';ru='Распечатать подтвержд. брони с услугами на группу (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>17   </value>
+      </code>
+    </items>
+    <items id="430d69cd-81a8-4e87-ae0b-8268bc6e7366">
+      <name>ReservationPrintConfirmationWithServicesRu</name>
+      <description>en='Print group confirm. with services (RU)';de='Print group confirm. with services (RU)';ru='Распечатать подтвержд. брони с услугами на группу (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>12   </value>
+      </code>
+    </items>
+    <items id="b2b0178f-7b8f-412d-a919-8b78fad8ef52">
+      <name>ReservationPrintCancellationDe</name>
+      <description>en='Print group reservation cancellation (DE)';de='Print group reservation cancellation (DE)';ru='Распечатать аннуляцию брони на группу гостей (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>88   </value>
+      </code>
+    </items>
+    <items id="bba2ea75-e578-4e25-9a18-c6a2ab3517e3">
+      <name>ReservationPrintCancellationEn</name>
+      <description>en='Print group reservation cancellation (EN)';de='Print group reservation cancellation (EN)';ru='Распечатать аннуляцию брони на группу гостей (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>86   </value>
+      </code>
+    </items>
+    <items id="79e1c956-926c-4998-b8d6-959ce909d5b4">
+      <name>ReservationPrintCancellationRu</name>
+      <description>en='Print group reservation cancellation (RU)';de='Print group reservation cancellation (RU)';ru='Распечатать аннуляцию брони на группу гостей (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>84   </value>
+      </code>
+    </items>
+    <items id="cbfc50ba-88bb-4522-b0b2-a8773a428691">
+      <name>ReservationPrintGuestsCardsFreeForm</name>
+      <description>en='Print guest cards for res. group';de='Print guest cards for res. group';ru='Распечатать карты гостей по группе брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="688b0914-5c27-4f68-9536-4e398e9ef391">
+      <name>ReservationPrintConfirmationDe</name>
+      <description>en='Print guest group confirmation (DE)';de='Print guest group confirmation (DE)';ru='Распечатать подтверждение брони на группу гостей (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>19   </value>
+      </code>
+    </items>
+    <items id="0b2eb1bc-f2a0-4014-b972-2654e57e4c4c">
+      <name>ReservationPrintConfirmationEn</name>
+      <description>en='Print guest group confirmation (EN)';de='Print guest group confirmation (EN)';ru='Распечатать подтверждение брони на группу гостей (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>15   </value>
+      </code>
+    </items>
+    <items id="50e20ee3-8646-44d2-bc40-f62e7d84e73a">
+      <name>ReservationPrintConfirmationRu</name>
+      <description>en='Print guest group confirmation (RU)';de='Print guest group confirmation (RU)';ru='Распечатать подтверждение брони на группу гостей (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="384ff7a2-d5f7-477a-865f-71e63b1bd08c">
+      <name>ReservationPrintGuestGroupRooms</name>
+      <description>en='Print guest group rooms list';de='Print guest group rooms list';ru='Распечатать список номеров группы'</description>
+      <code xsi:type="core:StringValue">
+        <value>32   </value>
+      </code>
+    </items>
+    <items id="47c83c38-379c-42c9-ae59-eaae581114dc">
+      <name>ReservationPrintGuestFormForm5</name>
+      <description>en='Print guest registration form N5 from res.';de='Print guest registration form N5 from res.';ru='Распечатать анкету гостя по форме №5 из брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>37   </value>
+      </code>
+    </items>
+    <items id="1a340a4e-bd1c-4ab4-bf7d-ffaa150c263d">
+      <name>ReservationPrintGuestGroupHotelProducts</name>
+      <description>en='Print hotel prod. for guest group from res.';de='Print hotel prod. for guest group from res.';ru='Распечатать путевки по группе гостей из брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>85   </value>
+      </code>
+    </items>
+    <items id="7f0ef975-9301-43ec-8850-1cae5a1574e2">
+      <name>ReservationPrintHotelProduct</name>
+      <description>en='Print hotel product from reservation';de='Print hotel product from reservation';ru='Распечатать путевку по брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>80   </value>
+      </code>
+    </items>
+    <items id="bf192c70-fc58-4567-9984-b486533bd897">
+      <name>SettlementPrintHotelProducts</name>
+      <description>en='Print hotel products way-bill';de='Print hotel products way-bill';ru='Печать накладной по путевкам'</description>
+      <code xsi:type="core:StringValue">
+        <value>120  </value>
+      </code>
+    </items>
+    <items id="1f43b93e-a739-4051-8ec6-4488f91edf39">
+      <name>FolioPrintPropertyDamageDe</name>
+      <description>en='Print hotel property damage list (DE)'; de='Print hotel property damage list (DE)'; ru='Печать акта о порче гостиничного имущества (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>98   </value>
+      </code>
+    </items>
+    <items id="8e4471e9-6449-4de7-81f9-48452a4bd232">
+      <name>FolioPrintPropertyDamageEn</name>
+      <description>en='Print hotel property damage list (EN)'; de='Print hotel property damage list (EN)'; ru='Печать акта о порче гостиничного имущества (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>95   </value>
+      </code>
+    </items>
+    <items id="1cb4a8d4-487d-4d38-b697-d777fc670257">
+      <name>FolioPrintPropertyDamageRu</name>
+      <description>en='Print hotel property damage list (RU)'; de='Print hotel property damage list (RU)'; ru='Печать акта о порче гостиничного имущества (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>90   </value>
+      </code>
+    </items>
+    <items id="0e03aee4-4427-447c-bd8e-bce0663e1a58">
+      <name>CustomerPrintOperationalBalances</name>
+      <description>en='Print operational customer balances with active reservations';ru='Оперативный баланс взаиморасчетов с контрагентом с учетом действующей брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="e673a7a9-4f64-4fef-a303-2a0edfbb5710">
+      <name>OperationSchedulePrintOperationsByRooms</name>
+      <description>en='Print operations by rooms';de='Print operations by rooms';ru='Печать работ по номерам'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="b552e61e-7c31-4b32-a3aa-49c015ff567a">
+      <name>OperationSchedulePrintOperationsByEmployees</name>
+      <description>en='Print operations grouping by employees';de='Print operations grouping by employees';ru='Печать работ с группировкой по сотрудникам'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="8c2956ab-bf84-4682-aef4-a63659132663">
+      <name>OperationSchedulePrintOperationsByOperations</name>
+      <description>en='Print operations grouping by operations';de='Print operations grouping by operations';ru='Печать работ с группировкой по работам'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="c844550b-c466-4dc6-8bd8-ce160d0a8553">
+      <name>FolioPrint3GForm</name>
+      <description>en='Print payment 3-G form'; de='Print payment 3-G form'; ru='Печать формы 3-Г по платежу'</description>
+      <code xsi:type="core:StringValue">
+        <value>150  </value>
+      </code>
+    </items>
+    <items id="2dd0a396-0741-4e28-83fa-644d5ab932ac">
+      <name>CashRegisterPrintXReport</name>
+      <description>en='Print program X-Report';de='Print program X-Report';ru='Печать X-Отчета программы'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="da973f80-fb72-424c-a0fe-11203e0cfd21">
+      <name>ReservationPrintGuestsFormsForm5</name>
+      <description>en='Print reg. N5 forms for all res. group';de='Print reg. N5 form for res. group';ru='Распеч. анкеты по форме №5 для всей заброн. группы'</description>
+      <code xsi:type="core:StringValue">
+        <value>38   </value>
+      </code>
+    </items>
+    <items id="d92a93d2-0ebe-4bd2-8206-d5ea4a3e663f">
+      <name>ReservationPrintPaymentOrder</name>
+      <description>en='Print reservation payment order';de='Print reservation payment order';ru='Распечатать платежное поручение по брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="baabd498-3276-4750-a244-693860713a38">
+      <name>ReservationPrintRooms</name>
+      <description>en='Print reservation rooms list';de='Print reservation rooms list';ru='Распечатать список номеров брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="a6b0b736-7073-403e-bb62-4bd26add44e4">
+      <name>SetRoomQuotaPrintRoomQuotaSales</name>
+      <description>en='Print room quota sales report';de='Print room quota sales report';ru='Печать отчета по продажам квот номеров'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="8ac3cbfb-63f9-4993-a161-21dd8cbac184">
+      <name>SettlementPrintSettlementEn</name>
+      <description>EN='Print settlement (EN)'; RU='Печать акта (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>015  </value>
+      </code>
+    </items>
+    <items id="0eee8a23-a26f-47e0-b224-69c003daae2d">
+      <name>SettlementPrintSettlementRu</name>
+      <description>EN='Print settlement (RU)'; RU='Печать акта (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>010  </value>
+      </code>
+    </items>
+    <items id="c68a02e8-8489-48e3-a395-8834861c633e">
+      <name>SettlementPrintSettlementGroupAllEn</name>
+      <description>EN='Print settlement grouping all services (EN)'; RU='Печать акта с группировкой всех услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>055  </value>
+      </code>
+    </items>
+    <items id="2e926e25-b127-432f-99ee-666aaf53aeed">
+      <name>SettlementPrintSettlementGroupAllRu</name>
+      <description>EN='Print settlement grouping all services (RU)'; RU='Печать акта с группировкой всех услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>050  </value>
+      </code>
+    </items>
+    <items id="ce630c89-a84e-4dbd-b73a-45b9fc123bde">
+      <name>SettlementPrintSettlementGroupAllPerDayEn</name>
+      <description>EN='Print settlement grouping all services per days (EN)'; RU='Печать акта с группировкой всех услуг по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>035  </value>
+      </code>
+    </items>
+    <items id="b238b4b2-6ced-4ca6-bbd2-49985f408c3e">
+      <name>SettlementPrintSettlementGroupAllPerDayRu</name>
+      <description>EN='Print settlement grouping all services per days (RU)'; RU='Печать акта с группировкой всех услуг по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>030  </value>
+      </code>
+    </items>
+    <items id="17dba49f-395a-4875-8b93-dfbc0097b6a6">
+      <name>SettlementPrintSettlementGroupAllPerFolioEn</name>
+      <description>EN='Print settlement grouping all services per folio (EN)'; RU='Печать акта с группировкой всех услуг по фолио (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>095  </value>
+      </code>
+    </items>
+    <items id="0dc97a92-f76a-4b1c-9f9b-b1b0bea31fa8">
+      <name>SettlementPrintSettlementGroupAllPerFolioRu</name>
+      <description>EN='Print settlement grouping all services per folio (RU)'; RU='Печать акта с группировкой всех услуг по фолио (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>090  </value>
+      </code>
+    </items>
+    <items id="e33597ca-2873-4d8c-935e-c89bbc3220cd">
+      <name>SettlementPrintSettlementGroupAllPerFolioPerDayEn</name>
+      <description>EN='Print settlement grouping all services per folio per days (EN)'; RU='Печать акта с группировкой всех услуг по фолио по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>075  </value>
+      </code>
+    </items>
+    <items id="4dfb2aaa-3752-43c3-850b-e69c31239921">
+      <name>SettlementPrintSettlementGroupAllPerFolioPerDayRu</name>
+      <description>EN='Print settlement grouping all services per folio per days (RU)'; RU='Печать акта с группировкой всех услуг по фолио по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>070  </value>
+      </code>
+    </items>
+    <items id="eb019d87-a30b-4c83-91bb-8efbe21d16a5">
+      <name>SettlementPrintSettlementGroupInPriceEn</name>
+      <description>EN='Print settlement grouping in price services (EN)'; RU='Печать акта с группировкой услуг по тарифу (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>045  </value>
+      </code>
+    </items>
+    <items id="bda457d9-3e84-4885-812f-7ff77d7c9be8">
+      <name>SettlementPrintSettlementGroupInPriceRu</name>
+      <description>EN='Print settlement grouping in price services (RU)'; RU='Печать акта с группировкой услуг по тарифу (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>040  </value>
+      </code>
+    </items>
+    <items id="2d14b7ab-e508-4ee1-9ea6-a5c660867aed">
+      <name>SettlementPrintSettlementGroupInPricePerDayEn</name>
+      <description>EN='Print settlement grouping in price services per days (EN)'; RU='Печать акта с группировкой услуг по тарифу по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>025  </value>
+      </code>
+    </items>
+    <items id="c96923e2-a4c5-4d6d-a3c5-95897a89fb26">
+      <name>SettlementPrintSettlementGroupInPricePerDayRu</name>
+      <description>EN='Print settlement grouping in price services per days (RU)'; RU='Печать акта с группировкой услуг по тарифу по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>020  </value>
+      </code>
+    </items>
+    <items id="ea3edcb8-1551-416e-99d5-252a4b015d2a">
+      <name>SettlementPrintSettlementGroupInPricePerFolioEn</name>
+      <description>EN='Print settlement grouping in price services per folio (EN)'; RU='Печать акта с группировкой услуг по тарифу по фолио (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>085  </value>
+      </code>
+    </items>
+    <items id="04ce50a4-1ad5-4dbf-8737-360e315de8f1">
+      <name>SettlementPrintSettlementGroupInPricePerFolioRu</name>
+      <description>EN='Print settlement grouping in price services per folio (RU)'; RU='Печать акта с группировкой услуг по тарифу по фолио (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>080  </value>
+      </code>
+    </items>
+    <items id="9b73de44-7a4c-4df2-9e63-62ed0bc40369">
+      <name>SettlementPrintSettlementGroupInPricePerFolioPerDayEn</name>
+      <description>EN='Print settlement grouping in price services per folio per days (EN)'; RU='Печать акта с группировкой услуг по тарифу по фолио по дням (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>065  </value>
+      </code>
+    </items>
+    <items id="7ca393c5-8d69-4b96-bf8e-709f01cd0ccd">
+      <name>SettlementPrintSettlementGroupInPricePerFolioPerDayRu</name>
+      <description>EN='Print settlement grouping in price services per folio per days (RU)'; RU='Печать акта с группировкой услуг по тарифу по фолио по дням (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>060  </value>
+      </code>
+    </items>
+    <items id="14379fad-e49e-490a-a800-c037ac953225">
+      <name>SettlementPrintSettlementGroupByServiceEn</name>
+      <description>EN='Print settlement grouping services (EN)'; RU='Печать акта с группировкой услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>115  </value>
+      </code>
+    </items>
+    <items id="a4d2aec5-809d-4f4f-8ff2-4af769d0e012">
+      <name>SettlementPrintSettlementGroupByServiceRu</name>
+      <description>EN='Print settlement grouping services (RU)'; RU='Печать акта с группировкой услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>110  </value>
+      </code>
+    </items>
+    <items id="0edf856d-b189-4012-980b-7ce7b1d14804">
+      <name>SettlementPrintSettlementGroupPerFolioEn</name>
+      <description>EN='Print settlement grouping services per folio (EN)'; RU='Печать акта с группировкой услуг по фолио (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>105  </value>
+      </code>
+    </items>
+    <items id="df6d4e6c-7bf1-487c-a749-d56a9e04855e">
+      <name>SettlementPrintSettlementGroupPerFolioRu</name>
+      <description>EN='Print settlement grouping services per folio (RU)'; RU='Печать акта с группировкой услуг по фолио (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>100  </value>
+      </code>
+    </items>
+    <items id="71cdaf41-a0ac-44cf-aaba-4097fa99768c">
+      <name>ContractPrintBalances</name>
+      <description>en='Print short contract balances';de='Print short contract balances';ru='Краткий баланс взаиморасчетов по договору'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="4db79cf0-4989-4ac8-a89f-d7b748263a9c">
+      <name>CustomerPrintBalances</name>
+      <description>en='Print short customer balances';de='Print short customer balances';ru='Краткий баланс взаиморасчетов с контрагентом'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="a84be4ba-4b52-449a-8295-5502eccf5055">
+      <name>ReservationPrintStateOfRoom</name>
+      <description>en='Print state of room choosen in reservation';de='Print state of room choosen in reservation';ru='Распечатать шахматку по выбранному в брони номеру'</description>
+      <code xsi:type="core:StringValue">
+        <value>90   </value>
+      </code>
+    </items>
+    <items id="ef4756ed-43cd-49be-a592-b2a533677828">
+      <name>SettlementPrintVATInvoiceGroupAll</name>
+      <description>EN='Print VAT invoice grouping all services into accommodation'; RU='Печать счета фактуры с группировкой всех услуг в проживание'</description>
+      <code xsi:type="core:StringValue">
+        <value>210  </value>
+      </code>
+    </items>
+    <items id="a63fcbbe-2269-409f-b08f-0c6d636f25f0">
+      <name>SettlementPrintVATInvoiceGroupAllPerDay</name>
+      <description>EN='Print VAT invoice grouping all services per days into accommodation'; RU='Печать счета-фактуры с группировкой всех услуг по дням в проживание'</description>
+      <code xsi:type="core:StringValue">
+        <value>220  </value>
+      </code>
+    </items>
+    <items id="397efc09-9fea-477a-8490-6d6c2d786716">
+      <name>SettlementPrintVATInvoiceGroupAllPerFolioPerDay</name>
+      <description>EN='Print VAT invoice grouping all services per folio per days'; RU='Печать счета-фактуры с группировкой всех услуг по фолио по дням'</description>
+      <code xsi:type="core:StringValue">
+        <value>270  </value>
+      </code>
+    </items>
+    <items id="9e617b62-d6ae-411b-8c42-aa6baf7ac3b3">
+      <name>SettlementPrintVATInvoiceGroupAllPerFolio</name>
+      <description>EN='Print VAT invoice grouping all services per folio'; RU='Печать счета-фактуры с группировкой всех услуг по фолио'</description>
+      <code xsi:type="core:StringValue">
+        <value>290  </value>
+      </code>
+    </items>
+    <items id="c8d53bda-f4dd-4085-abe2-46e1f8c91a97">
+      <name>SettlementPrintVATInvoiceGroupByService</name>
+      <description>EN='Print VAT invoice grouping by services'; RU='Печать счета фактуры с группировкой по услугам'</description>
+      <code xsi:type="core:StringValue">
+        <value>250  </value>
+      </code>
+    </items>
+    <items id="66eb8000-02d4-489b-842d-5d8bafdcb018">
+      <name>SettlementPrintVATInvoiceGroupInPrice</name>
+      <description>EN='Print VAT invoice grouping in price services into accommodation'; RU='Печать счета-фактуры с группировкой услуг по тарифу в проживание'</description>
+      <code xsi:type="core:StringValue">
+        <value>230  </value>
+      </code>
+    </items>
+    <items id="7e7144fa-d73f-4aaf-b1e8-20fce9721ee6">
+      <name>SettlementPrintVATInvoiceGroupInPricePerDay</name>
+      <description>EN='Print VAT invoice grouping in price services per days into acc.'; RU='Печать счета-фактуры с группировкой услуг по тарифу по дням в проживание'</description>
+      <code xsi:type="core:StringValue">
+        <value>240  </value>
+      </code>
+    </items>
+    <items id="e9fe38d4-076d-4e42-b74f-e370b7a2f736">
+      <name>SettlementPrintVATInvoiceGroupInPricePerFolioPerDay</name>
+      <description>EN='Print VAT invoice grouping in price services per folio per days'; RU='Печать счета-фактуры с группировкой услуг по тарифу по фолио по дням'</description>
+      <code xsi:type="core:StringValue">
+        <value>260  </value>
+      </code>
+    </items>
+    <items id="2530282c-ccfe-4f6e-a0a7-81e9a22b88de">
+      <name>SettlementPrintVATInvoiceGroupInPricePerFolio</name>
+      <description>EN='Print VAT invoice grouping in price services per folio'; RU='Печать счета-фактуры с группировкой услуг по тарифу по фолио'</description>
+      <code xsi:type="core:StringValue">
+        <value>280  </value>
+      </code>
+    </items>
+    <items id="25ced4dc-fafe-4d4a-8493-58aac119d32e">
+      <name>SettlementPrintVATInvoiceGroupPerFolio</name>
+      <description>EN='Print VAT invoice grouping services per folio'; RU='Печать счета-фактуры с группировкой услуг по фолио'</description>
+      <code xsi:type="core:StringValue">
+        <value>300  </value>
+      </code>
+    </items>
+    <items id="2fea8a4e-29df-4448-af5d-a1a7a94173a9">
+      <name>SettlementPrintVATInvoice</name>
+      <description>EN='Print VAT invoice'; RU='Печать счета-фактуры'</description>
+      <code xsi:type="core:StringValue">
+        <value>200  </value>
+      </code>
+    </items>
+    <items id="06fcd69e-a8f2-4eb4-995e-ca8a861de6dc">
+      <name>ReturnFormsSet</name>
+      <description>en='Return and annulation forms set'; de='Return and annulation forms set'; ru='Набор форм для возвратов и аннулирований'</description>
+      <code xsi:type="core:StringValue">
+        <value>100  </value>
+      </code>
+    </items>
+    <items id="d671d334-4722-4bd1-bbfc-1b28b3b8efaf">
+      <name>InvoicePrintShortInvoiceGroupAllDe</name>
+      <description>en='Short invoice grouping all services (DE)';de='Short invoice grouping all services (DE)';ru='Краткий счет-треб. с групп. всех услуг (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>057  </value>
+      </code>
+    </items>
+    <items id="940de86d-67fd-4d91-8d71-bbae2543eea1">
+      <name>InvoicePrintShortInvoiceGroupAllEn</name>
+      <description>en='Short invoice grouping all services (EN)';de='Short invoice grouping all services (EN)';ru='Краткий счет-треб. с групп. всех услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>059  </value>
+      </code>
+    </items>
+    <items id="ec778abf-2195-4413-a1f9-93a2ab10d15d">
+      <name>InvoicePrintShortInvoiceGroupAllRu</name>
+      <description>en='Short invoice grouping all services (RU)';de='Short invoice grouping all services (RU)';ru='Краткий счет-треб. с групп. всех услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>058  </value>
+      </code>
+    </items>
+    <items id="2b831a52-26c9-4988-95dd-3d27a17a5968">
+      <name>InvoicePrintShortInvoiceGroupByServiceDe</name>
+      <description>en='Short invoice grouping by services (DE)';de='Short invoice grouping by services (DE)';ru='Краткий счет-треб. с группировкой услуг (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>117  </value>
+      </code>
+    </items>
+    <items id="138c6181-8de3-4691-9deb-965f35fd29cf">
+      <name>InvoicePrintShortInvoiceGroupByServiceEn</name>
+      <description>en='Short invoice grouping by services (EN)';de='Short invoice grouping by services (EN)';ru='Краткий счет-треб. с группировкой услуг (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>119  </value>
+      </code>
+    </items>
+    <items id="e426b24b-ffde-4c0e-9d8d-9d0980e2d166">
+      <name>InvoicePrintShortInvoiceGroupByServiceRu</name>
+      <description>en='Short invoice grouping by services (RU)';de='Short invoice grouping by services (RU)';ru='Краткий счет-треб. с группировкой услуг (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>118  </value>
+      </code>
+    </items>
+    <items id="27b4d9c3-cad8-4fb3-87eb-75ed313a6412">
+      <name>InvoicePrintShortInvoiceGroupInPriceDe</name>
+      <description>en='Short invoice grp. in price services (DE)';de='Short invoice grp. in price services (DE)';ru='Краткий счет-треб. с групп. услуг по тарифу (DE)'</description>
+      <code xsi:type="core:StringValue">
+        <value>047  </value>
+      </code>
+    </items>
+    <items id="10eac859-ef17-45d2-b1f6-ee67d39cd890">
+      <name>InvoicePrintShortInvoiceGroupInPriceEn</name>
+      <description>en='Short invoice grp. in price services (EN)';de='Short invoice grp. in price services (EN)';ru='Краткий счет-треб. с групп. услуг по тарифу (EN)'</description>
+      <code xsi:type="core:StringValue">
+        <value>049  </value>
+      </code>
+    </items>
+    <items id="a8e4fb17-1681-4209-aefb-ab98f0bd80c1">
+      <name>InvoicePrintShortInvoiceGroupInPriceRu</name>
+      <description>en='Short invoice grp. in price services (RU)';de='Short invoice grp. in price services (RU)';ru='Краткий счет-треб. с групп. услуг по тарифу (RU)'</description>
+      <code xsi:type="core:StringValue">
+        <value>048  </value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПечатныеФормы.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ПечатныеФормы.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ПечатныеФормы.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ПечатныеФормы.Form.ChoiceForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ПечатныеФормы.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="f2485938-1280-4e39-a04f-c4ddda74a244">
+    <name>ObjectType</name>
+    <synonym>
+      <key>en</key>
+      <value>Object type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Objekttyp:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f14cb08-c359-457b-ac09-01d1039b96af">
+    <name>Language</name>
+    <synonym>
+      <key>en</key>
+      <value>Language</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sprache</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Локализация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb8338a7-0f6c-405e-a9e1-9d89fc1eb7f5">
+    <name>Report</name>
+    <synonym>
+      <key>en</key>
+      <value>Report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bericht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Отчеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2185507-ac41-4bee-ba03-1f87e3ad0424">
+    <name>ExternalProcessing</name>
+    <synonym>
+      <key>en</key>
+      <value>External processing</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externe Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0a38118-32ec-43bf-9cc4-1eb446de8716">
+    <name>ExternalTemplate</name>
+    <synonym>
+      <key>en</key>
+      <value>External template</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externes Design</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний макет</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a330b5ea-21b6-4e50-9486-fc8a2bf36216">
+    <name>ExternalTemplateFileName</name>
+    <synonym>
+      <key>en</key>
+      <value>External template file name</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Name der Datei des externen Designs</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла внешнего макета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3869bf92-f603-4084-9516-fabf95d521be">
+    <name>ExternalTemplateFileLoadTime</name>
+    <synonym>
+      <key>en</key>
+      <value>External template file load date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit des Ladens der externen Design-Datei</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время загрузки файла внешнего макета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="122f271c-3af9-4d71-be16-d7323771ba4f">
+    <name>ExternalTemplateFileLastChangeTime</name>
+    <synonym>
+      <key>en</key>
+      <value>External template file last change date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit der letzten Änderung der externen Designdatei</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время последнего изменения файла внешнего макета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95dae3e3-3a18-4f88-9468-6e3a20085465">
+    <name>Parameter</name>
+    <synonym>
+      <key>en</key>
+      <value>Parameter</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Parameter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93ed1d17-fd37-4cae-b0b0-7ab4c2070d99">
+    <name>FormText</name>
+    <synonym>
+      <key>en</key>
+      <value>Form text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Text auf dem Formular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст на форме</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f99d82bd-6d30-4c49-8650-69f2bc023a2e">
+    <name>AutomaticallyPrintOnFirstObjectWrite</name>
+    <synonym>
+      <key>en</key>
+      <value>Print form automatically on first object write</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Automatischer Formulardruck beim erstmaligen Eintrag des Objekts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическая печать формы при первой записи объекта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca7949ce-189a-4303-9eee-bb9a5339d2e9">
+    <name>PrintFormPreview</name>
+    <synonym>
+      <key>en</key>
+      <value>Print form preview</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beispiel des gedruckten Formulars</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пример печатной формы</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ac6660e-608b-4d65-85a8-b42a3c964b79">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0f291b3-c13c-4879-81ec-77ad520c7dc9">
+    <name>IsDefault</name>
+    <synonym>
+      <key>en</key>
+      <value>Is default form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist das Standardformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это форма по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b16dded-3801-4c1a-b33e-880c1762fc1e">
+    <name>IsActive</name>
+    <synonym>
+      <key>en</key>
+      <value>Is active</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="65c62ab9-1a30-475e-9190-5067eef34c56">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f1ae720-62ed-4572-87d0-ce3b6c64f1e7">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6707abac-c2c4-4c9c-86ff-086b8a4fe3d0">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c6578598-f8ee-45d0-83a8-c69d218080d8">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Choice form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d800e5dc-d34a-4ddc-8720-60c6355e8647">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

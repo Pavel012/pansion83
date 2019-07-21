@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2cdaeac-3cb2-4a29-bb63-c3e7cc56616e">
+  <producedTypes>
+    <objectType typeId="1aa1bca4-e069-45ab-bb5a-aa943af1e039" valueTypeId="ad63ead2-60c8-4577-bb6c-be4cd71f0223"/>
+    <refType typeId="a21deae9-95af-4652-b6ca-7d59bad483b7" valueTypeId="1cc62cde-ad51-47e1-bb35-01c17f444409"/>
+    <selectionType typeId="77da3cb4-31f7-4304-93e7-04d835e61427" valueTypeId="9312bb32-ac9b-48f4-a6a7-757e83ce011c"/>
+    <listType typeId="2735c133-952e-48b4-807f-1476464dbea6" valueTypeId="c9bc2e86-4481-423d-ad1f-0283bbb6da36"/>
+    <managerType typeId="c596bd36-0041-4324-a6f3-a15856952716" valueTypeId="530635ae-3d57-433a-8b9e-3d062654f5ee"/>
+  </producedTypes>
+  <name>Отделы</name>
+  <synonym>
+    <key>en</key>
+    <value>Отделы</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Abteilungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Отделы</value>
+  </synonym>
+  <inputByString>Catalog.Отделы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Отделы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Отделы.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Отделы.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="8280c86e-fc4f-45bd-9f58-4123491a90fb">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7b37dcd-883b-4791-856d-849eb0687f10">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f75188e6-ffae-4a55-a262-16c373f03a99">
+    <name>HeadOfDepartment</name>
+    <synonym>
+      <key>en</key>
+      <value>Head of department</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abteilungsleiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель отдела</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc2d01a7-7a75-4cb0-8d19-e8474d984110">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4a07b129-576e-4ac7-9108-0953fdf64ff1">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da5a1abd-8d26-49f7-b043-699ec5c85342">
+  <producedTypes>
+    <selectionType typeId="a79e62f2-432d-4016-b409-3bf18ab02c00" valueTypeId="e8b4435a-25ee-43d0-80e2-75f31cd7cbfe"/>
+    <listType typeId="7075753a-2d10-4fb2-b0c4-c2e83060134a" valueTypeId="7b893f80-451d-488c-a1cb-59a8a32de1b6"/>
+    <managerType typeId="0d66a357-aba9-444e-9eda-9907e4203a1c" valueTypeId="7b0910ab-88eb-4303-ba23-91ba37d7fc1b"/>
+    <recordSetType typeId="b3e781df-621b-40c6-9620-b5593104f1a2" valueTypeId="8cea28a2-dad4-424d-8e88-e576cb696f16"/>
+    <recordKeyType typeId="3a7a2d44-5166-4b80-ab6b-1d0ae1b6ab1f" valueTypeId="cb18c987-4a70-4be4-b006-77b4f0889316"/>
+    <recordType typeId="38898fc8-0933-4c37-a72e-799c076989fd" valueTypeId="27f3c639-7d14-4019-8128-d97e4833a3ec"/>
+    <recordManagerType typeId="4f5133fb-f838-47a2-9499-95e277917ed0" valueTypeId="ff4c01a2-ac43-41db-b1e7-b2037860a0d2"/>
+  </producedTypes>
+  <name>РесурсыНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Ресурсы номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Änderungsverlauf Zimmerbestandrequisiten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>История изменений ресурсов номерного фонда</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РесурсыНомеров.Form.ListForm</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d06b7a8e-6878-4585-90c8-e3128a65f0b6">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a213558-1664-43ea-aa52-86194a6456ae">
+    <name>RoomQuota</name>
+    <synonym>
+      <key>en</key>
+      <value>Room allotment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerquote</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Квота номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КвотаНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1722842e-48af-4fcf-b801-9f76b6fe7afb">
+    <name>RoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="07836e61-8e35-4c4c-be20-e5bccafc60cf">
+    <name>Date</name>
+    <synonym>
+      <key>en</key>
+      <value>Date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="091cd5ee-23c4-4f35-a937-0011abf1ccaf">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

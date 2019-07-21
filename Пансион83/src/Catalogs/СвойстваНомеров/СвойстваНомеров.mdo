@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fda4fabb-75ac-4bb0-a05b-63ff58d5c359">
+  <producedTypes>
+    <objectType typeId="0a25a54a-1e7b-4b42-8510-c1022d7800f5" valueTypeId="71ceef65-4cce-40ea-99e6-83e4eeb1af6d"/>
+    <refType typeId="ed70f39d-1d14-4af5-ae4b-c1f2d8127367" valueTypeId="ea9b9ed3-392a-4844-94d1-df4c317190e4"/>
+    <selectionType typeId="4e436a8a-2cbb-4485-a8ce-7051ca51153a" valueTypeId="1fc782c8-bd4b-4db1-a552-5957c947be5c"/>
+    <listType typeId="828d23f1-5340-49d2-a869-61205606582d" valueTypeId="2ae9d732-7655-4a32-9ddf-a9d09416afbe"/>
+    <managerType typeId="34d91664-1751-4625-b192-e0de53ac2817" valueTypeId="93bb6e2c-d9da-4dd4-a125-df6dbf365c8e"/>
+  </producedTypes>
+  <name>СвойстваНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Свойства номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Eigenschaften der Zimmer</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номеров</value>
+  </synonym>
+  <inputByString>Catalog.СвойстваНомеров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СвойстваНомеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СвойстваНомеров.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.СвойстваНомеров.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.СвойстваНомеров.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.СвойстваНомеров.Form.ListForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.СвойстваНомеров.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="68494829-b116-43d8-89c9-8f113d20b0f3">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25b0d12f-58d8-49e3-ba73-e5aa5fd818ad">
+    <name>ShowInPropertiesList</name>
+    <synonym>
+      <key>en</key>
+      <value>Show in the list of room's properties on the rooms list forms</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>In der Liste der Zimmermerkmale in der Zimmerliste anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в списке свойств номера в списках номеров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="acec8081-d2ee-4c04-a393-b8342cc1e12c">
+    <name>KeepRoomsWithoutProperty</name>
+    <synonym>
+      <key>en</key>
+      <value>Show rooms without this property when filtering</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bei der Auswahl Zimmer ohne dieses Merkmal anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать номера без данного свойства при отборах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bda2433d-3436-404a-82f4-df099320dd31">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10832239-c994-4a6f-acbe-add1933c3da2">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="585e33a5-8d10-4f4b-839f-cc7bcfe4f863">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1cde3da9-ca22-4fa5-8665-df75868cd032">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e482011e-c963-4bf3-ac26-81baa6145db9">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df639e2f-3762-49a7-a2ba-f99bfe626344">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de3e50ca-810f-4c82-a253-715ce33765fc">
+  <producedTypes>
+    <selectionType typeId="1da7a0d4-34d7-401c-ace8-23c4fe370071" valueTypeId="0767d8e0-bd21-4de0-9dbc-aa566ab698df"/>
+    <listType typeId="9c36a42b-200b-433b-aa54-a7c17d7d0659" valueTypeId="e1f63b54-765f-4df4-90c2-3d01fb82c4d2"/>
+    <managerType typeId="74fc1ab2-948c-4b3e-8cd7-e339391c837b" valueTypeId="a257f839-8111-4f26-9f50-d52de3f5ca21"/>
+    <recordSetType typeId="23f27071-cd5b-4b97-98b2-139752b29d50" valueTypeId="0d138b0e-0d15-4078-b640-80c9057774e8"/>
+    <recordKeyType typeId="8b0240fc-6ed4-4247-aba0-c8d8a5e618de" valueTypeId="2ebc9394-85e0-4121-ad9a-ea99f4b20c1c"/>
+    <recordType typeId="bef206a8-6708-4407-b732-26b508ee46d9" valueTypeId="9f4eec45-8e1b-4715-93bf-29fdd43e0cd0"/>
+    <recordManagerType typeId="abe56d70-995d-4ea5-b95a-a5e821793eb2" valueTypeId="10958f69-2e5f-452d-9ce3-209f6210317f"/>
+  </producedTypes>
+  <name>ХарактеристикаУслуг</name>
+  <synonym>
+    <key>en</key>
+    <value>Характеристика услуг</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Charakteristiken der Dienstleistungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики услуг</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9d665e39-3f5a-45f1-a34b-c0c4f1df43ea">
+    <name>ServiceCharacteristicValue</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение характеристики</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Characteristic value</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыХарактеристикУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="95174bae-4bc8-49cf-8170-cbd00bb4f277">
+    <name>Service</name>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="538d11dd-b68c-4dcc-8533-7b3368752210">
+    <name>ServiceCharacteristic</name>
+    <synonym>
+      <key>en</key>
+      <value>Service characteristic</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Charakteristik der Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика услуги</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыХарактеристикУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

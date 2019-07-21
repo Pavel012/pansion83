@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f631d1ab-fce0-46b4-893e-a792678455ff">
+  <name>PartiallyPaid</name>
+  <synonym>
+    <key>en</key>
+    <value>Partially paid</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Partially paid</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Частично оплачен</value>
+  </synonym>
+</mdclass:CommonPicture>

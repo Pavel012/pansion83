@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcb5d9ab-0e04-44d0-97aa-496bb88b8c41">
+  <producedTypes>
+    <selectionType typeId="28d85b2a-f96b-474f-9737-93415b4cc29c" valueTypeId="f600476e-d091-4683-badc-364075fdd3d3"/>
+    <listType typeId="1568c96c-2f24-4c3f-ba0b-57969350e675" valueTypeId="dfbe8720-9473-4406-b840-8d8f3969c56b"/>
+    <managerType typeId="a34e8bc5-5474-466f-9483-7335a746d09d" valueTypeId="9156ca32-f1a0-4c3f-bb19-5fed68e36cc7"/>
+    <recordSetType typeId="153ab403-ea36-4598-a8c7-0195735c1cfe" valueTypeId="48b872b4-1a52-482a-a7b3-7be84de9debe"/>
+    <recordKeyType typeId="6e4c9a43-6b19-4c5b-8c9f-d5284f185a07" valueTypeId="8f208dc8-ef83-4e82-aa23-e2d532ce812a"/>
+    <recordType typeId="611284b2-292f-4796-81e5-dcb5ae8ba687" valueTypeId="bf064be3-4e83-4625-90b5-463baf001c8e"/>
+  </producedTypes>
+  <name>ОборотыРаботыПерсонал</name>
+  <synonym>
+    <key>en</key>
+    <value>Обороты работы персонал</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Umsätze aus den vom Personal ausgeführten Arbeiten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Обороты по выполненным персоналом работам</value>
+  </synonym>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="67f90077-c65c-4ce6-a141-95f88fb63c1c">
+    <name>Count</name>
+    <synonym>
+      <key>en</key>
+      <value>Operations count</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zähler der Arbeiten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик работ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="864131df-1245-41bf-a121-b10dc44eadc5">
+    <name>Duration</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation duration in minutes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dauer der Arbeiten in Minuten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность работы в минутах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e4ca35c8-b1bf-40cd-8e50-4488fd0b8b7b">
+    <name>RoomSpace</name>
+    <synonym>
+      <key>en</key>
+      <value>Room space</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerfläche</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь номера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0c39d042-fd60-4038-ba18-f9b51f8859da">
+    <name>NumberOfPersons</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenanzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество человек</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="fb9d2a9a-47a2-4826-990c-a30f46339fd2">
+    <name>Quantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Article quantity in pieces, grams or milliliters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl der Nomenklatur in Stück, Gramm oder Milliliter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество номенклатуры в штуках, граммах или миллилитрах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="a0afe6ea-afc6-4f85-83ed-7c98550464d9">
+    <name>OperationStartTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation start time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit des Arbeitsbeginns</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="99810623-e2b0-427d-bf34-6b5abb1a3a4c">
+    <name>OperationEndTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation end time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit der Arbeitsbeendigung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e511cda4-56d5-44eb-8927-f3efc8083664">
+    <name>PBXStartCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation start code for phone PBX system</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code des Arbeitsbeginns für die Telefonstation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код начала работы для телефонной АТС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b7e6c7a9-3e32-48af-a27a-70d8a87923c0">
+    <name>PBXEndCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation end code for phone PBX system</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code der Arbeitsbeendigung für die Telefonstation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код окончания работы для телефонной АТС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="acad4b4e-9e01-4b68-97a2-90acaa58d87e">
+    <name>IsPerPerson</name>
+    <synonym>
+      <key>en</key>
+      <value>Is per person (guest)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Pro Person (Gast)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>На каждого человека (гостя)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="81795761-3e37-4911-8154-44cf299670da">
+    <name>IsPerRoomSpaceUnit</name>
+    <synonym>
+      <key>en</key>
+      <value>Is per room space unit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Pro Einheit der Zimmerfläche</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>На единицу площади номера</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="45aa13b3-5ee9-44a0-9164-31952bec2884">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="bc12d74f-8c6c-4104-b748-9a7fc0f5593c">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="ee825f64-0eda-48b8-a136-2995137c0d4e">
+    <name>Employee</name>
+    <synonym>
+      <key>en</key>
+      <value>Employee</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mitarbeiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="af0839ba-429e-491c-85ac-b3125ba49688">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bf9de210-73f9-4b1b-bc8c-088367e32ec5">
+    <name>RoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="68505809-f02b-47c5-9db3-b8e4332a5f19">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8d6f39e2-b532-45ac-88b8-aa8ce2d485e1">
+    <name>Operation</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Arbeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Работы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9e5b4f03-ee13-4163-b015-99a6a2ccff16">
+    <name>Article</name>
+    <synonym>
+      <key>en</key>
+      <value>Article</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nomenklatur</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2dce90ce-8908-4178-a726-e5b11f093934">
+    <name>Unit</name>
+    <synonym>
+      <key>en</key>
+      <value>Unit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Maßeinheit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

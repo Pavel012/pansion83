@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5978670b-53db-463d-9824-b96448922f43">
+  <name>SubsystemReservation</name>
+  <synonym>
+    <key>en</key>
+    <value>Subsystem reservation</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Subsystem reservation</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема Бронирование</value>
+  </synonym>
+</mdclass:CommonPicture>

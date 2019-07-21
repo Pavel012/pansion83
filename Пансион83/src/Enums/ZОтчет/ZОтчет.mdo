@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60d49dfe-c094-4a39-bd10-6e7d91b85b15">
+  <producedTypes>
+    <refType typeId="d613b954-cbc2-4102-9e45-ad702d86b421" valueTypeId="c5548d6f-8556-4811-a153-4a9236969cd3"/>
+    <listType typeId="8d033ec5-904e-4490-941f-bbb6f01261a3" valueTypeId="5d5ee01f-97bd-4001-b4c1-8c9d10a43924"/>
+    <managerType typeId="9efe1a7b-a593-43eb-be6d-7d309bf5baff" valueTypeId="c54e8fd9-3d1a-4426-8608-6e87129e561b"/>
+  </producedTypes>
+  <name>ZОтчет</name>
+  <synonym>
+    <key>en</key>
+    <value>Z-Report types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen des Z-Berichts</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы Z-отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="1966549a-514e-4e73-b3be-3ba815890d6b">
+    <name>Transactions</name>
+    <synonym>
+      <key>en</key>
+      <value>List of all cash register day transactions</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Liste aller Transaktionen einer Schicht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список всех транзакций за смену</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="877b4bbe-6c3d-4884-9bc0-99280d10f35e">
+    <name>TransactionsGroupedBySections</name>
+    <synonym>
+      <key>en</key>
+      <value>List of cash register day transactions grouped by sections</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Liste der Transaktionen einer Schicht nach Kassensektionen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список транзакций за смену по кассовым секциям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33925e54-2a80-4881-9ae1-e0130466cef3">
+    <name>AccountingGuestGroupTotals</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting totals by customer/contract/guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Buchhaltungsergebnisse nach Partner/Vertrag/Gästegruppe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерские итоги по контрагенту/договору/группе гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="320446e1-a14a-4316-9b34-74bf5cde3a39">
+    <name>AccountingContractTotals</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting totals by customer/contract</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Buchhaltungsergebnisse nach Partner/Vertrag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерские итоги по контрагенту/договору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7134d4c0-fb27-4b6c-9565-ee1acb55d585">
+    <name>Totals</name>
+    <synonym>
+      <key>en</key>
+      <value>Cash register day totals only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur Ergebnisse einer Schicht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Только итоги за смену</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61d8a06d-d0ca-4eaa-a7b1-a93536675b60">
+  <name>Bitrix2416x16</name>
+  <synonym>
+    <key>en</key>
+    <value>Bitrix24 16x16</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bitrix24 16x16</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Bitrix24 16x16</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

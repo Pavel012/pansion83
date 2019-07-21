@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="355366da-d4c3-4588-ab03-44a011a2a688">
+  <name>Stamp</name>
+  <synonym>
+    <key>en</key>
+    <value>Stamp</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Druck</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Печать</value>
+  </synonym>
+  <transparentPixel>
+    <x>16</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

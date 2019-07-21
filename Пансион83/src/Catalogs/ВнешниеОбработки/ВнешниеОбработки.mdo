@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c68ecf9a-edd4-44d4-965b-2e4f99c41fd2">
+  <producedTypes>
+    <objectType typeId="b1af08b4-86f2-43f5-864e-9ad261959b7d" valueTypeId="22120505-9420-46d5-ad68-0a22c69657da"/>
+    <refType typeId="3cb6f416-71e3-441f-9e93-823f7a509370" valueTypeId="fc0bf91f-d321-4702-a97f-f604d846f4c7"/>
+    <selectionType typeId="69b82c4f-e600-45a4-b618-a78eec51337f" valueTypeId="640d9baf-3d2e-45f6-83a2-c9bb1b5efc8e"/>
+    <listType typeId="c6f310e7-ab92-4909-8fd6-39a43542f611" valueTypeId="40c2fd41-5f90-4770-8ee2-738f787787b2"/>
+    <managerType typeId="f8798b6b-7c2f-4cc8-8936-fed4cc0b369c" valueTypeId="67c51323-ac57-4da0-92e3-a6e4f10f99f8"/>
+  </producedTypes>
+  <name>ВнешниеОбработки</name>
+  <synonym>
+    <key>en</key>
+    <value>Внешние обработки</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Externe Bearbeitungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние обработки</value>
+  </synonym>
+  <inputByString>Catalog.ВнешниеОбработки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВнешниеОбработки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b379052c-06f6-423d-bced-58f197094e7b">
+      <name>UserExits</name>
+      <description>User exits</description>
+      <code xsi:type="core:NumberValue">
+        <value>900</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="32575c46-ce04-4c2b-8cd1-209297dd63f1">
+        <name>CloseOfCashRegisterDay</name>
+        <description>EN='Close of cash register day'; RU='Закрытие кассовой смены'</description>
+        <code xsi:type="core:NumberValue">
+          <value>960</value>
+        </code>
+      </content>
+      <content id="bc92ff78-9881-4f3e-87fc-879323fabed7">
+        <name>CloseOfPeriod</name>
+        <description>EN='Close of period'; RU='Закрытие периода'</description>
+        <code xsi:type="core:NumberValue">
+          <value>970</value>
+        </code>
+      </content>
+      <content id="c44c5d25-7081-419d-a993-7fa7740353b4">
+        <name>OtherSMSGetStatus</name>
+        <description>EN='Get SMS delivery status function'; RU='Функция получения статуса доставки отправленного СМС'</description>
+        <code xsi:type="core:NumberValue">
+          <value>992</value>
+        </code>
+      </content>
+      <content id="8ea978f6-79a8-4172-8ca5-08b2342bd521">
+        <name>OtherSMSGetBalance</name>
+        <description>EN='Get SMS delivery system account balance'; RU='Функция получения баланса на лицевом счете в системе рассылки СМС'</description>
+        <code xsi:type="core:NumberValue">
+          <value>993</value>
+        </code>
+      </content>
+      <content id="bc72fe83-5776-4245-9476-994b3579382c">
+        <name>PrintCashRegisterDayReport</name>
+        <description>EN='Print cash register day report'; RU='Печать кассового отчета'</description>
+        <code xsi:type="core:NumberValue">
+          <value>940</value>
+        </code>
+      </content>
+      <content id="af70717b-ef0f-467b-8683-0f4a4328d441">
+        <name>SendExpressCheckInInvitationByEMail</name>
+        <description>EN='Send express check-in invitation by E-Mail';DE='Senden Express Check-in Einladung per E-Mail';RU='Отправить приглаш. о экспресс-заезде по E-Mail'</description>
+        <code xsi:type="core:NumberValue">
+          <value>995</value>
+        </code>
+      </content>
+      <content id="9f4367cf-61c1-493b-a0f0-37e856bcfc0d">
+        <name>SendFolioByEMail</name>
+        <description>EN='Send folio by E-Mail'; RU='Отправить лицевой счет по электронной почте'</description>
+        <code xsi:type="core:NumberValue">
+          <value>950</value>
+        </code>
+      </content>
+      <content id="c6e8f004-722c-4bd2-a124-081f8f5b4fa3">
+        <name>SendInvoiceByEMail</name>
+        <description>EN='Send invoice by E-Mail'; RU='Отправить счет-требование по электронной почте'</description>
+        <code xsi:type="core:NumberValue">
+          <value>920</value>
+        </code>
+      </content>
+      <content id="58e761b1-45cf-4638-bda9-d210c14cbbe1">
+        <name>SendPaymentOrderByEMail</name>
+        <description>EN='Send payment order by E-Mail'; RU='Отправить платежное поручение по электронной почте'</description>
+        <code xsi:type="core:NumberValue">
+          <value>930</value>
+        </code>
+      </content>
+      <content id="903282fb-a277-434c-87fa-0d2ef473b032">
+        <name>SendReservationRequestByEMail</name>
+        <description>EN='Send request for reservation status by E-Mail'; RU='Отправить статус заявки на бронирование по электронной почте'</description>
+        <code xsi:type="core:NumberValue">
+          <value>912</value>
+        </code>
+      </content>
+      <content id="c526399a-7bae-4834-86a5-a55cdd551be9">
+        <name>SendReservationCancellationByEMail</name>
+        <description>EN='Send reservation cancellation by E-Mail'; RU='Отправить аннуляцию брони по электронной почте'</description>
+        <code xsi:type="core:NumberValue">
+          <value>915</value>
+        </code>
+      </content>
+      <content id="49fb4d93-bb56-49dd-be9c-bc7d959bba65">
+        <name>SendReservationConfirmationByEMail</name>
+        <description>EN='Send reservation confirmation by E-Mail'; RU='Отправить подтверждение брони по электронной почте'</description>
+        <code xsi:type="core:NumberValue">
+          <value>910</value>
+        </code>
+      </content>
+      <content id="3b060fdc-9249-4faf-94ea-33022b6a3e19">
+        <name>SendSettlementByEMail</name>
+        <description>EN='Send settlement by E-Mail'; RU='Отправить акт по электронной почте'</description>
+        <code xsi:type="core:NumberValue">
+          <value>925</value>
+        </code>
+      </content>
+      <content id="82144eb1-bd94-4ece-a8de-caad607ae276">
+        <name>OtherSendSMS</name>
+        <description>EN='Send SMS function'; RU='Функция отправки СМС'</description>
+        <code xsi:type="core:NumberValue">
+          <value>991</value>
+        </code>
+      </content>
+      <content id="97db3318-dfbc-42fc-87f1-2e3e46b13a6f">
+        <name>SendVATInvoiceByEMail</name>
+        <description>EN='Send VAT invoice by E-Mail'; RU='Отправить счет-фактуру по электронной почте'</description>
+        <code xsi:type="core:NumberValue">
+          <value>927</value>
+        </code>
+      </content>
+      <content id="6f3797c0-4e38-4f28-9ef0-1b3f33ce6d07">
+        <name>ServiceRegistrationDocumentAttributesCheck</name>
+        <description>en='Service registration doc. attr. check';ru='Проверка реквизитов док. Факт. регистр. услуг';de='Service-Registrierung Dokumentattribute Überprüfung'</description>
+        <code xsi:type="core:NumberValue">
+          <value>890</value>
+        </code>
+      </content>
+      <content id="782771cf-d2df-4232-b862-406a9d927aff">
+        <name>WriteExternalReservationConfirmation</name>
+        <description>EN='Write confirmation that external reservation was written'; RU='Запись подтверждения регистрации в системе новой внешней брони'</description>
+        <code xsi:type="core:NumberValue">
+          <value>982</value>
+        </code>
+      </content>
+      <content id="8e927d09-e8c3-44fa-87a2-637888661692">
+        <name>WriteGuestGroupInvoice</name>
+        <description>EN='Write guest group invoice'; RU='Запись счета на оплату по брони'</description>
+        <code xsi:type="core:NumberValue">
+          <value>984</value>
+        </code>
+      </content>
+      <content id="0efeed68-2653-4896-bc9e-648742097d0b">
+        <name>WriteGuestGroupPaymentConfirmation</name>
+        <description>EN='Write guest group payment confirmation'; RU='Запись подтверждения получения платежа по брони'</description>
+        <code xsi:type="core:NumberValue">
+          <value>980</value>
+        </code>
+      </content>
+      <content id="3e89c8cf-c634-4061-858a-b63a30d7bdc0">
+        <name>WriteGuestGroupPaymentWaitTimeIsExpiredNotification</name>
+        <description>EN='Write guest group payment wait time is expired notification'; RU='Запись уведомления об окончании времени ожидания оплаты по брони'</description>
+        <code xsi:type="core:NumberValue">
+          <value>978</value>
+        </code>
+      </content>
+    </items>
+    <items id="286f32f3-0232-4b39-9a5a-e5eb7de067d2">
+      <name>HotelOccupationDaily</name>
+      <description>EN='Гостиница occupation daily'; RU='Остатки свободных номеров по дням'; DE='Überreste von Zimmern an den Nachmittagen'</description>
+      <code xsi:type="core:NumberValue">
+        <value>810</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВнешниеОбработки.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ВнешниеОбработки.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ВнешниеОбработки.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ВнешниеОбработки.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="76f31d5d-3468-435c-9f28-ab675aa970e6">
+    <name>ExternalProcessingType</name>
+    <synonym>
+      <key>en</key>
+      <value>External processing type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der externen Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип внешней обработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ExternalProcessingTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71a4972d-4f6d-4f7a-b3d2-7c0656246e5e">
+    <name>ExternalProcessingStorage</name>
+    <synonym>
+      <key>en</key>
+      <value>External processing storage</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Speicherort der externen Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище внешней обработки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f09a194c-a74e-4096-b351-d5cdcac0f844">
+    <name>Algorithm</name>
+    <synonym>
+      <key>en</key>
+      <value>Algorithm</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Algorithmus</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cfeda2d1-7d90-493f-b802-24620f50763d">
+    <name>FileName</name>
+    <synonym>
+      <key>en</key>
+      <value>File name</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dateiname</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0cacba00-1f4f-4407-bf15-711ec346d855">
+    <name>FileLoadTime</name>
+    <synonym>
+      <key>en</key>
+      <value>File load date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit des Dateiladens</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время загрузки файла</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="edc1a8d3-b5f1-4e9a-ab0c-1fd0435195ec">
+    <name>FileLastChangeTime</name>
+    <synonym>
+      <key>en</key>
+      <value>File last change date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit der letzten Dateiänderung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время последнего изменения файла</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac6651b9-af0b-43d0-8009-53d96335faea">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="305e9620-f51b-4acf-9ec0-fcfbf77ffb00">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f370bf83-38f1-42fa-a9ae-a08127f02d7d">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9266bbf2-3e96-4dfa-9fcb-2a835c2b791f">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

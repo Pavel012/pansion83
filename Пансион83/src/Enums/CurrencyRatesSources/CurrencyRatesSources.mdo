@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc29f30f-a8bc-466a-9e95-b2f1a70e68d8">
+  <producedTypes>
+    <refType typeId="7da94800-2597-41e5-a6d7-6dbf3bf7e618" valueTypeId="32d7310a-e0f9-4554-b7a4-f699090d6f05"/>
+    <listType typeId="de0a9b45-788a-4f4d-a2ab-c8719421a223" valueTypeId="e69ac9ec-db03-485b-beb2-919d75eb03e3"/>
+    <managerType typeId="c544096a-1533-4a5a-be43-e1180231b116" valueTypeId="bf0c2659-a525-42ff-b97f-6e0d45675e65"/>
+  </producedTypes>
+  <name>CurrencyRatesSources</name>
+  <synonym>
+    <key>en</key>
+    <value>Currency rates sources</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Quellen von Währungskursen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Источники курсов валют</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="b17838fa-6527-409f-b67f-2feadfcb0306">
+    <name>RBC</name>
+    <synonym>
+      <key>en</key>
+      <value>www.rbc.ru</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>www.rbc.ru</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>www.rbc.ru</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c509409-2136-4b7c-aca8-7db350347b71">
+    <name>Kato</name>
+    <synonym>
+      <key>en</key>
+      <value>www.1c-kato.kg</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>www.1c-kato.kg</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>www.1c-kato.kg</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8878c0bf-40fc-442c-8bed-584abe8f27bc">
+    <name>BNM</name>
+    <synonym>
+      <key>en</key>
+      <value>www.bnm.md</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>www.bnm.md</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>www.bnm.md</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

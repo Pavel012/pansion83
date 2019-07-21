@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="451ad900-eed1-4932-a2b4-8e6bc4b33f79">
+  <name>ПредставлениеКонфигурации</name>
+  <synonym>
+    <key>en</key>
+    <value>Представление конфигурации</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Vorstellung der Konfiguration</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Представление конфигурации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

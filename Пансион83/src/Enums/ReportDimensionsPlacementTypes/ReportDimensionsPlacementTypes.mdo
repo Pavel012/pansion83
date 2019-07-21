@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="948edc6f-7612-4df1-be65-1da1f94455d6">
+  <producedTypes>
+    <refType typeId="ce139e21-e23e-4504-a8db-c56d6d0a7df8" valueTypeId="93f0f6df-3743-4085-b4d3-30900dfe1f08"/>
+    <listType typeId="be905c37-e7c5-446e-aa3c-15a4d7cd1f9e" valueTypeId="986a4542-399c-4c44-8afc-0340c92794f0"/>
+    <managerType typeId="d459480c-7123-4944-b027-58c60edfd7bd" valueTypeId="771fa47e-9097-49dc-bb3b-113e3032cbf1"/>
+  </producedTypes>
+  <name>ReportDimensionsPlacementTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Report dimensions placement types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Unterbringungstypen der Berichtgruppierungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды размещения группировок отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="564628b9-2876-4632-b9a3-f4700ded87e7">
+    <name>Together</name>
+    <synonym>
+      <key>en</key>
+      <value>Together</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zusammen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вместе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="699a3a6e-a2ca-4809-8400-75447aeeeb53">
+    <name>Separately</name>
+    <synonym>
+      <key>en</key>
+      <value>Separately</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Separat</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отдельно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35f59780-858a-4c60-8e0c-9be8223a8308">
+    <name>SeparatelyAndInTotalsOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Separately and in totals only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Separat und nur in Ergebnissen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отдельно и только в итогах</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

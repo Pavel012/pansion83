@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8623d7f1-2566-4785-a2fa-22e68d277161">
+  <producedTypes>
+    <selectionType typeId="2211e7ac-994b-4759-a609-3455cf0edd21" valueTypeId="999c162e-d203-4fd6-9ead-8dce67c85ef8"/>
+    <listType typeId="3ae57443-9b44-43b7-b540-ffd8da3c2bd5" valueTypeId="92bf6505-e768-4972-967f-6a60ee74c31e"/>
+    <managerType typeId="005d17f9-c1d1-48df-be55-04457e061061" valueTypeId="359ca0a9-ec60-4dcc-9c94-12c928a2e3d6"/>
+  </producedTypes>
+  <name>ЖурналНомерногоФонда</name>
+  <synonym>
+    <key>en</key>
+    <value>Журнал номерного фонда</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Registrierungsheft des Zimmerbestandes</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал номерного фонда</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналНомерногоФонда.Form.ListForm</defaultForm>
+  <registeredDocuments>Document.ДобавитьНомер</registeredDocuments>
+  <registeredDocuments>Document.ПереселениеНомер</registeredDocuments>
+  <columns uuid="67d47121-b613-47dd-884d-33e6ec434c0e">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.Гостиница</references>
+    <references>Document.ПереселениеНомер.Attribute.Гостиница</references>
+  </columns>
+  <columns uuid="1060628a-cc66-45cc-9c46-a63ee0c1e4a5">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmernummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер комнаты</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.Room</references>
+    <references>Document.ПереселениеНомер.Attribute.Room</references>
+  </columns>
+  <columns uuid="48c248aa-df97-4941-9f31-ff6a5da43e3c">
+    <name>RoomGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Room group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номера</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.КатегорияНомера</references>
+    <references>Document.ПереселениеНомер.Attribute.RoomGroup</references>
+  </columns>
+  <columns uuid="9aab3c5d-c640-4b8a-81bd-44a86717dacd">
+    <name>Floor</name>
+    <synonym>
+      <key>en</key>
+      <value>Floor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Etage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Этаж</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.Этаж</references>
+    <references>Document.ПереселениеНомер.Attribute.Floor</references>
+  </columns>
+  <columns uuid="1f4fdfa3-fa36-44b9-ad9b-02ac9c4e6103">
+    <name>RoomNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>String room number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmernummer als Zeile</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер комнаты строкой</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.НомерКомнаты</references>
+    <references>Document.ПереселениеНомер.Attribute.RoomNumber</references>
+  </columns>
+  <columns uuid="1c892ab0-448e-465b-9876-d7edd2643b10">
+    <name>RoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.ТипНомера</references>
+    <references>Document.ПереселениеНомер.Attribute.RoomType</references>
+  </columns>
+  <columns uuid="114a9227-eaf2-4393-a4e6-38584088faf2">
+    <name>NumberOfBedsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of beds per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест в номере</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.NumberOfBedsPerRoom</references>
+    <references>Document.ПереселениеНомер.Attribute.NumberOfBedsPerRoom</references>
+  </columns>
+  <columns uuid="463f9c36-0ee8-4df3-b9b4-8b2e622e4e59">
+    <name>NumberOfPersonsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество гостей в номере</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.NumberOfPersonsPerRoom</references>
+    <references>Document.ПереселениеНомер.Attribute.NumberOfPersonsPerRoom</references>
+  </columns>
+  <columns uuid="7b269515-257a-4649-b05c-a22f40daff2b">
+    <name>OperationEndDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation end date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Entnahme des Zimmers aus dem Betrieb</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывода номера из эксплуатации</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.OperationEndDate</references>
+    <references>Document.ПереселениеНомер.Attribute.OperationEndDate</references>
+  </columns>
+  <columns uuid="056199c0-f5a5-48fe-83c6-54d7f1604e97">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.SortCode</references>
+    <references>Document.ПереселениеНомер.Attribute.SortCode</references>
+  </columns>
+  <columns uuid="a621aeeb-315b-48cf-a607-67aafdc3eec2">
+    <name>LockCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Door lock code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im System elektronischer Schlösser:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код в системе эл. замков</value>
+    </synonym>
+    <references>Document.ДобавитьНомер.Attribute.LockCode</references>
+    <references>Document.ПереселениеНомер.Attribute.LockCode</references>
+  </columns>
+  <columns uuid="0458e074-f7bd-4cc9-a224-708187d3e220">
+    <name>SecurityCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Security system room code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmercode im Überwachungssystem</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код номера в системе охраны</value>
+    </synonym>
+    <references>Document.ПереселениеНомер.Attribute.SecurityCode</references>
+    <references>Document.ДобавитьНомер.Attribute.SecurityCode</references>
+  </columns>
+  <columns uuid="cf98cb44-7b82-4774-99b7-0dcc3e04a031">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <references>Document.ДобавитьНомер.Attribute.Remarks</references>
+    <references>Document.ПереселениеНомер.Attribute.Remarks</references>
+  </columns>
+  <columns uuid="1076cc79-b32a-4038-8d51-3b151f936e32">
+    <name>IsVirtual</name>
+    <synonym>
+      <key>en</key>
+      <value>Is virtual room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Virtuelles Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный номер</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.IsVirtual</references>
+    <references>Document.ПереселениеНомер.Attribute.IsVirtual</references>
+  </columns>
+  <columns uuid="6228b940-83f3-4f9d-8731-76a3182b319a">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ДобавитьНомер.Attribute.Author</references>
+    <references>Document.ПереселениеНомер.Attribute.Author</references>
+  </columns>
+  <forms uuid="05079045-7b52-4d3f-a115-06a678741bf9">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

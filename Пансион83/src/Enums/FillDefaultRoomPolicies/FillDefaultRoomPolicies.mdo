@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96e33efc-a60e-4e6a-92d0-dda66edf8b83">
+  <producedTypes>
+    <refType typeId="35b81d16-167a-45ad-b976-f2a360f5c91a" valueTypeId="df7ef2a9-fea3-4fd0-9211-be9aa971e78b"/>
+    <listType typeId="c8152a50-bc3a-4666-9883-8fbb38bad8fb" valueTypeId="19fd0668-d239-4678-a079-668cb849bcee"/>
+    <managerType typeId="17da9822-fe93-4c68-98d1-94e31588b1fa" valueTypeId="775f4833-47ec-4ef3-b414-ab54374cad44"/>
+  </producedTypes>
+  <name>FillDefaultRoomPolicies</name>
+  <synonym>
+    <key>en</key>
+    <value>Fill default room policies</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Politik der Nummereintragung lt. Standard-Einstellung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Политики заполнения номера по умолчанию</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="9cb99a5a-31f5-4f01-89f6-0685bf140f65">
+    <name>NoDefaultRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not fill default room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das Zimmer nicht nach Standard-Einstellung ausfüllen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не заполнять номер по умолчанию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa557973-5fb6-43f4-8321-667bec08efec">
+    <name>UseMaximumCapacityPolicy</name>
+    <synonym>
+      <key>en</key>
+      <value>Use maximum room inventory capacity policy</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Politik der maximalen Auslastung des Zimmerbestands nutzen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать политику максимальной загрузки НФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f7fea85-2976-4d3f-a26e-d16244fca2d1">
+    <name>UseBalancedCapacityPolicy</name>
+    <synonym>
+      <key>en</key>
+      <value>Use balanced room inventory capacity policy</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Politik der maximalen Auslastung des Zimmerbestands nutzen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать политику равномерной загрузки НФ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

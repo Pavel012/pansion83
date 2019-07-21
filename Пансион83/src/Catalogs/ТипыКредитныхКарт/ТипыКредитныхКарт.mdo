@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1544994e-f76f-42ca-8f1f-c5e6b75f59d3">
+  <producedTypes>
+    <objectType typeId="d7b10797-0204-43cb-a158-781c9b53996c" valueTypeId="359f6a57-d058-4535-bf1f-4bedf519b9e0"/>
+    <refType typeId="3631ef3b-a09c-49a2-be84-bf877d487da7" valueTypeId="ad717a07-763a-496b-8b5b-718e9ed25255"/>
+    <selectionType typeId="3681dc8c-fbc5-4e9d-ab89-56e238c467db" valueTypeId="cf801009-c7fb-4b39-8504-4b185faabb1f"/>
+    <listType typeId="c94f6adf-489c-4a42-87cd-300b8f5bf880" valueTypeId="60492682-bdf4-4578-9f2f-9389f9d265e7"/>
+    <managerType typeId="89bf2b66-8fb1-4e23-b2ff-31bd8a1f8223" valueTypeId="0037912d-2e81-4676-aa39-c93724ad6299"/>
+  </producedTypes>
+  <name>ТипыКредитныхКарт</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы кредитных карт</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kreditkartentypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы кредитных карт</value>
+  </synonym>
+  <inputByString>Catalog.ТипыКредитныхКарт.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыКредитныхКарт.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <codeLength>36</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ТипыКредитныхКарт.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыКредитныхКарт.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="3d6ee3cf-1010-451b-b525-f1fa7e8ae597">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="562cd6cf-bede-4502-82a5-76eb7646c4e6">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="63f7ebdf-edd6-4acf-810b-4daf99f611fa">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

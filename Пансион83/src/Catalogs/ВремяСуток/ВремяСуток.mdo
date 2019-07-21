@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="221dd996-823d-44a5-b1a1-76f0ab7e5b31">
+  <producedTypes>
+    <objectType typeId="f4ea9235-0f13-46a5-8f01-a026ca3251f2" valueTypeId="ae8e6a75-fcb6-4d5f-86e5-4669be8eafc6"/>
+    <refType typeId="1162dfbe-ba66-4725-a2ec-734bfce5c362" valueTypeId="9808a972-3776-4639-93c4-26f15b3f90b2"/>
+    <selectionType typeId="670a3cf2-cad8-4891-baaa-2425a8dadf3c" valueTypeId="df325e13-3a1a-469c-b614-0c1182f88b95"/>
+    <listType typeId="1800679a-c4ea-450b-a7b5-75d952890aad" valueTypeId="b44c13c4-90a1-42c2-b6fa-3443a699526f"/>
+    <managerType typeId="5b3cbd7d-46c5-4538-b93f-5bb82ef060b1" valueTypeId="d56dc4a3-411b-4a5f-9f86-65e48c77aad0"/>
+  </producedTypes>
+  <name>ВремяСуток</name>
+  <synonym>
+    <key>en</key>
+    <value>Время суток</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Tageszeiten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Времена суток</value>
+  </synonym>
+  <inputByString>Catalog.ВремяСуток.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВремяСуток.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ВремяСуток.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ВремяСуток.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="6b2534d1-328b-4ccf-9283-e0ae4fc17888">
+    <name>Time</name>
+    <synonym>
+      <key>en</key>
+      <value>Time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be08cc9e-1aab-4a33-8a32-aa8162ecaf41">
+    <name>Time4CheckOutDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Time for check-out date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit zum Einsetzen in das Abreisedatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время для подстановки в дату выезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c5894d75-b6af-468f-a563-2af1d874b2ca">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

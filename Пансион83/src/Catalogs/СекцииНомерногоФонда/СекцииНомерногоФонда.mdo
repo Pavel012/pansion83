@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c768ee9d-7b0c-44cb-a579-8549e56e93e6">
+  <producedTypes>
+    <objectType typeId="3a3ef164-92ac-4e81-9685-5470722f6c4a" valueTypeId="6a9512b4-1a17-4aba-b8c1-7e1c7adf7711"/>
+    <refType typeId="50bc21d9-2821-4605-8cb0-e5dcd4d10427" valueTypeId="826025b2-ee97-4704-b05d-afb8ca619704"/>
+    <selectionType typeId="f770e8fe-b9ca-4b1e-8db1-75b46ea11776" valueTypeId="c12a8790-c56f-4310-9f32-67fbc6651ac0"/>
+    <listType typeId="7ba4dc30-593b-47e7-b553-1e13d0fb2e8a" valueTypeId="699533d1-0a6c-435d-b7ff-246d71a8dc91"/>
+    <managerType typeId="8651df1e-c11e-41a1-8e99-9c9c936f3eaf" valueTypeId="958e37d9-bf31-40b3-bf5d-d29d0ed7d740"/>
+  </producedTypes>
+  <name>СекцииНомерногоФонда</name>
+  <synonym>
+    <key>en</key>
+    <value>Секции номерного фонда</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Sektionen des Zimmerfonds</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Секции номерного фонда</value>
+  </synonym>
+  <inputByString>Catalog.СекцииНомерногоФонда.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СекцииНомерногоФонда.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СекцииНомерногоФонда.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.СекцииНомерногоФонда.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="d44cbc9e-6506-4d76-81ea-aa3d88b4db8b">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ff988f6-f793-48d0-9bc3-c2f263c129b7">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e50f92a8-331e-42da-9a46-8ff62407f67d">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a319ab6f-586c-4584-8dc8-248f282a8f13">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

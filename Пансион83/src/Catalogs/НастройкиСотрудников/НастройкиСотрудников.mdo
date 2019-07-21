@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6beb637-e669-40ba-80cc-b4a9a27ce81c">
+  <producedTypes>
+    <objectType typeId="34f7c363-6f81-4e5e-b7ba-a247e500c1d1" valueTypeId="c336d653-0073-48ca-ae31-47bd4b206fa5"/>
+    <refType typeId="e4920858-48e1-45cd-b537-d666338fa681" valueTypeId="3292f4ec-ff7d-4ed5-81d7-c3f3bf14c694"/>
+    <selectionType typeId="42d18a10-23d1-479b-8474-d0344fc434e9" valueTypeId="4464c148-bd2d-4d05-b4c6-f1a8467c194e"/>
+    <listType typeId="4e676fcc-5694-43cd-a482-508faab90648" valueTypeId="23258d8e-d6ef-414c-b559-0be9e905f175"/>
+    <managerType typeId="11172b23-e78b-4e17-9315-a24e5c368ca4" valueTypeId="aa21de62-6aab-4ee2-8181-4e30cb8ff238"/>
+  </producedTypes>
+  <name>НастройкиСотрудников</name>
+  <synonym>
+    <key>en</key>
+    <value>Настройки сотрудников</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Mitarbeitereinstellungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки сотрудников</value>
+  </synonym>
+  <inputByString>Catalog.НастройкиСотрудников.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиСотрудников.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиСотрудников.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.НастройкиСотрудников.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.НастройкиСотрудников.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.НастройкиСотрудников.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="64ae3fd4-c55f-48f7-a126-a7b209700572">
+    <name>CashRegisterPassword</name>
+    <synonym>
+      <key>en</key>
+      <value>Cash register password</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Passwort Registrierkasse</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль ККМ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="192ed79b-2e17-4772-a29a-6c58fcada974">
+    <name>SecuritySystemLogin</name>
+    <synonym>
+      <key>en</key>
+      <value>Security system login</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzername im Überwachungssystem</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя в охранной системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1227daa-1647-4126-bdeb-da5884d36665">
+    <name>SecuritySystemPassword</name>
+    <synonym>
+      <key>en</key>
+      <value>Security system password</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzerpasswort im Überwachungssystem</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя в охранной системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bca81fa2-cf62-4a98-b01d-560038c430e8">
+    <name>DoorLockSystemLogin</name>
+    <synonym>
+      <key>en</key>
+      <value>Door lock system login</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzername im System elektronischer Schlösser</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя в системе электронных замков</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="188d3e96-8010-450d-9d28-46719ce7b685">
+    <name>DoorLockSystemPassword</name>
+    <synonym>
+      <key>en</key>
+      <value>Door lock system password</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzerpasswort im System elektronischer Schlösser</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя в системе электронных замков</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a471036-d823-4d73-9b1f-f76f17b0ed49">
+    <name>ProgramAppearanceStyle</name>
+    <synonym>
+      <key>en</key>
+      <value>Program appearance style</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ausgestaltungsstil des Programms</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Стиль оформления программы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ProgramAppearanceStyles</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fdf99300-19a8-4ae7-98ca-a97b4da181c3">
+    <name>AskForPaymentMethodConfirmation</name>
+    <synonym>
+      <key>en</key>
+      <value>Ask for payment method confirmation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bestätigung der Wahl der Zahlungsmethode erfragen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Спрашивать подтверждение выбора способа оплаты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="922d06dd-50b3-45e0-bc69-1a581fb809ef">
+    <name>AskForProgramExitConfirmation</name>
+    <synonym>
+      <key>en</key>
+      <value>Ask for program exit confirmation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bestätigung des Endes der Arbeit mit dem Programm erfragen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Спрашивать подтверждение завершения работы с программой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="abe56a68-cdcc-4a42-b746-05f3e0f140e3">
+    <name>AskForNumberOfGuestGroupRowsToCopy</name>
+    <synonym>
+      <key>en</key>
+      <value>Ask for number of guest group rows to copy in reservation and accommodation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeilenanzahl zum Kopieren in der Tabelle der Gästegruppenzusammensetzung in Reservierung und Zimmer erfragen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Спрашивать число строк для копирования в таблице состава группы гостей в брони и размещениях</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ddfb194-022c-4ab6-87a9-3e47ba53b733">
+    <name>OpenPostedReservatiosForReadOnlyByDefault</name>
+    <synonym>
+      <key>en</key>
+      <value>Open posted reservations for read only by default</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>lt. Standard-Einstellung wird eine durchgeführte Reservierung nur zum Lesen geöffnet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По умолчанию открывать проведенную бронь только на чтение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd225bd1-68fa-43da-8d38-3cc537b3af84">
+    <name>CopyBirthPlaceToAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>Copy client birth place to address when filling client identity document data</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bei der Eingabe der Passdaten des Gastes Adresse des Geburtsortes in die Adresse der polizeilichen Anmeldung kopieren</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>При вводе паспортных данных клиента копировать адрес места рождения в адрес прописки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e68cc763-6a9c-46e8-8366-b7cde38aaefa">
+    <name>DoNotShowNotEnoughRoomsMessages</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not show not enough rooms messages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mitteilungen über die nicht ausreichende Anzahl von freien Zimmern nicht anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не показывать сообщения о недостатке свободных номеров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d96ea978-ca9f-43d9-bb50-ed65657b7ce9">
+    <name>CopyGroupClientsAddresses</name>
+    <synonym>
+      <key>en</key>
+      <value>Copy guest group master client addresses to the new client data</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bei der Eingabe der Daten eines neuen Kunden  die Adressen aus der Karte des Hauptkunden der Gruppe kopieren</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>При вводе данных нового клиента копировать адреса из карточки главного в группе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d62a3122-7351-47f7-b250-80b159bacaab">
+    <name>Use24ForMidnightInResourcesCalendar</name>
+    <synonym>
+      <key>en</key>
+      <value>Use 24:00 for midnight in resources calendar</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>24:00 zur Darstellung der Mitternacht im Ressourcenreservierungskalender nutzen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать 24:00 для отображения полночи в календаре брони ресурсов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="76f7d75c-2c18-4262-b81e-58c3c8e1a5ab">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b151c80d-2674-47e9-a4bc-19cad8f05f85">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c899d92d-de46-4ada-b867-be10e96d5929">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

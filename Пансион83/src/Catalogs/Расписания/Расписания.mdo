@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32776ea8-7e3d-4304-8322-eff531279031">
+  <producedTypes>
+    <objectType typeId="3b69bf19-9830-41ef-be9f-43adaa50c9bf" valueTypeId="fb7a3a5f-67e9-4151-ac4f-194a85f83de2"/>
+    <refType typeId="0572f180-e8e3-4ecd-8296-2b257df1f640" valueTypeId="530d6296-a24c-48cf-a4fd-721887d655dc"/>
+    <selectionType typeId="a88fd203-d3bb-4062-addd-ee2c9d3352b6" valueTypeId="7c9d0bc5-c34f-4130-8bfa-2be1d35f7f2e"/>
+    <listType typeId="9fa99e17-82b6-4d55-8a23-09985c719761" valueTypeId="89dc61b5-a1fe-4d5d-b6cc-752c3cb26f48"/>
+    <managerType typeId="669b3cee-5573-498d-8e19-282e9c42e3ca" valueTypeId="13e78284-352d-4522-b05c-ddc5d67fbe41"/>
+  </producedTypes>
+  <name>Расписания</name>
+  <synonym>
+    <key>en</key>
+    <value>Расписания</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zeitpläne</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Расписания</value>
+  </synonym>
+  <inputByString>Catalog.Расписания.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Расписания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="38850b66-5598-40d8-b207-7b9baadc8c72">
+      <name>RoundTheClock</name>
+      <description>24 h.</description>
+      <code xsi:type="core:StringValue">
+        <value>24   </value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Расписания.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.Расписания.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.Расписания.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Расписания.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="5eb64b9d-cf0d-4c8b-8f62-a9094486ead7">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65c47f12-32eb-4531-87b2-fe51d7ecdc6b">
+    <name>WorkingHoursPerDay</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of working hours per day</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Arbeitsstunden pro Tag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во рабочих часов в день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66d6cb56-b76b-4f75-841e-6d346fb0dd52">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e55972e1-eaf0-4da9-ac85-397060e2353c">
+    <producedTypes>
+      <objectType typeId="a5b4caba-35d7-474b-951d-2ab5143c0b51" valueTypeId="764dfb02-b608-4c85-a316-647704e39703"/>
+      <rowType typeId="96c2b442-27b2-4b6d-bb9a-f8e8644b374f" valueTypeId="fc939261-0c42-4009-8cbb-938b497a20a7"/>
+    </producedTypes>
+    <name>WorkingTimes</name>
+    <synonym>
+      <key>en</key>
+      <value>Working times</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Arbeitszeiten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочие времена</value>
+    </synonym>
+    <attributes uuid="41dac256-b281-44f2-9d56-fe48b567634c">
+      <name>TimeFrom</name>
+      <synonym>
+        <key>en</key>
+        <value>Time from</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zeit ab</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Время с</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b676af2f-f367-4eec-bbf6-ad97be30d5ec">
+      <name>TimeTo</name>
+      <synonym>
+        <key>en</key>
+        <value>Time to</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zeit bis</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Время по</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="48d14092-d449-4e68-8664-3dc97cfbadb4">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8659dbd8-2f9c-43b9-a3ad-67c7fc2148ac">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85a9747a-1088-43b4-beee-aa0ef7753180">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

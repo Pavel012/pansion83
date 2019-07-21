@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ad1a12a-599f-4489-977c-50012df0ba46">
+  <name>ReportTotals</name>
+  <synonym>
+    <key>en</key>
+    <value>Report totals</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Report totals</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Группировки отчета</value>
+  </synonym>
+  <transparentPixel>
+    <x>5</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

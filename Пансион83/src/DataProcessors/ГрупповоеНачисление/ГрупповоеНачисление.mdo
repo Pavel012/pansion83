@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f180165c-aaf4-40ea-88c1-e4ada02195d9">
+  <producedTypes>
+    <objectType typeId="cad3a15a-8044-4639-b3f7-1de85401614e" valueTypeId="fba97728-8196-4863-b1ec-2628af5330db"/>
+    <managerType typeId="842d1206-8147-4fc1-968e-0b249d6eea8f" valueTypeId="a99f1de7-98b1-4679-8806-8a271651084e"/>
+  </producedTypes>
+  <name>ГрупповоеНачисление</name>
+  <synonym>
+    <key>en</key>
+    <value>Групповое начисление</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gruppenanrechnung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое начисление</value>
+  </synonym>
+  <defaultForm>DataProcessor.ГрупповоеНачисление.Form.Form</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a7698320-c657-4f29-ba87-55e558146749">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

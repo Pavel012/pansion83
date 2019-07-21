@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbb91799-5b8d-40cd-b6d7-dd2d252bf8c8">
+  <producedTypes>
+    <selectionType typeId="ba0d2211-d80b-471a-aa31-713bfb19cc03" valueTypeId="86d88825-4371-4719-80fb-cc0896bfbeff"/>
+    <listType typeId="a150ae10-9fdf-4363-b6fa-ba4c7a9a3f8d" valueTypeId="70c6a5a3-26e6-43cc-832e-00333c1ceb12"/>
+    <managerType typeId="740bfc4b-6867-42f2-8685-8803cf03dfdd" valueTypeId="8232546d-baac-4e8e-bc7d-9b99f64edea5"/>
+    <recordSetType typeId="e6b8615c-7acb-4415-8312-69e7324207cc" valueTypeId="5b0037f3-7c73-492f-ae40-4546e6819751"/>
+    <recordKeyType typeId="99d81335-df41-44b4-bfbd-139019427794" valueTypeId="f48bce9b-fc3b-4283-b32c-50cb9560fa03"/>
+    <recordType typeId="c09c6fb7-70eb-4efd-98ac-b2b0ff6830cc" valueTypeId="6d196613-3fb7-4481-8e32-fda745168c81"/>
+  </producedTypes>
+  <name>НаличныеКасса</name>
+  <synonym>
+    <key>en</key>
+    <value>Наличные касса</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bares in den Kassen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Наличность в кассах</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7c8331bc-ec77-408e-ba2e-ff5ff2287906">
+    <name>Sum</name>
+    <synonym>
+      <key>en</key>
+      <value>Sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erlöse</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Выручка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="5cc2aab3-03fe-4d9b-b646-4b75e95b0b42">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1cd60a94-6dde-4a61-a0f1-84d5442f900d">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="48e9df8c-d7ba-4c0d-95d9-21ae8f05c6ad">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="71c1e1be-5e6b-4b11-bc2d-8db1cc620852">
+    <name>Currency</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

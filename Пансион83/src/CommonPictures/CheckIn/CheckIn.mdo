@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fb9d5c9-0433-4f29-8c38-b37858cee3e2">
+  <name>CheckIn</name>
+  <synonym>
+    <key>en</key>
+    <value>Check in</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Anreise</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Заезд</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>9</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

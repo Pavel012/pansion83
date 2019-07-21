@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef85c477-8af8-4dd1-9595-c55c416cacfb">
+  <producedTypes>
+    <refType typeId="e61441f7-2a11-4deb-af8c-043aacf1c01f" valueTypeId="cee62eea-8a2d-48a6-9faf-cd3a0dbb3851"/>
+    <listType typeId="6885a91a-9304-4680-b07f-9c621ee4d961" valueTypeId="0fc8ecd2-416c-430e-a6f0-47e3eb7e901b"/>
+    <managerType typeId="8f4d1a2b-6e63-4a3c-b185-a32fdedd1e19" valueTypeId="e502c923-c9ad-4b17-b375-cf0efc155bcf"/>
+  </producedTypes>
+  <name>RevenueSegments</name>
+  <synonym>
+    <key>en</key>
+    <value>Revenue segments</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Einnahmesektoren</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты выручки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a14f31e8-e8a2-4e86-80cf-809e5a0ac9cb">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8524f20-bea6-4bdc-85df-7cd17532fdb9">
+    <name>FaB</name>
+    <synonym>
+      <key>en</key>
+      <value>F&amp;B</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Versorgung </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Питание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="566ab1d8-3137-4377-be02-4ccd960cdf3c">
+    <name>SPA</name>
+    <synonym>
+      <key>en</key>
+      <value>SPA</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SPA</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>СПА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13657129-595c-4f4e-9599-f53e195b502a">
+    <name>Conference</name>
+    <synonym>
+      <key>en</key>
+      <value>Conference</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Veranstaltungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1efe75d-c80c-43d8-8b4b-fa8e72a50741">
+    <name>Outlet</name>
+    <synonym>
+      <key>en</key>
+      <value>Outlet</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Handel</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Торговля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83059137-5b24-4086-af73-e0d95b72a08e">
+    <name>Lease</name>
+    <synonym>
+      <key>en</key>
+      <value>Lease</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Miete</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecc5674a-fe37-464a-a3e3-16291388fe27">
+    <name>Rental</name>
+    <synonym>
+      <key>en</key>
+      <value>Rental</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verleih:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Прокат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c30050f-ec2f-4400-9cc0-ca01e77cc9df">
+    <name>Golf</name>
+    <synonym>
+      <key>en</key>
+      <value>Golf</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Golf</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гольф</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fefd204e-f961-4df7-b23b-e21f86b99433">
+    <name>Parking</name>
+    <synonym>
+      <key>en</key>
+      <value>Parking</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Parken</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Парковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d052cdce-1c54-462c-addb-e104c41bef7c">
+    <name>Transport</name>
+    <synonym>
+      <key>en</key>
+      <value>Transport</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Transport</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19a8db8a-5f07-478a-9c88-3144e92bae8a">
+    <name>Entertainment</name>
+    <synonym>
+      <key>en</key>
+      <value>Entertainment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Unterhaltungsmöglichkeiten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Развлечения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

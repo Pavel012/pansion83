@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ffab229-391c-443c-9cd2-2f7659c2054a">
+  <name>RedCube</name>
+  <synonym>
+    <key>en</key>
+    <value>Red cube</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Red cube</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Красный кубик</value>
+  </synonym>
+</mdclass:CommonPicture>

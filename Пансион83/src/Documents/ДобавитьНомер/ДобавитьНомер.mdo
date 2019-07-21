@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b656dee-633d-406a-9c03-d9def325700e">
+  <producedTypes>
+    <objectType typeId="6f14e414-53a6-409f-8117-4b89006def75" valueTypeId="e2b1c41c-24bb-4f67-b1f0-736c8ec815fc"/>
+    <refType typeId="51743df0-b81a-4cae-953e-8643a5edddf4" valueTypeId="448ef26c-db5b-4560-95a7-7f673ffe2f53"/>
+    <selectionType typeId="aa0ff152-c9bd-4856-bdf4-daf4f1d59bfd" valueTypeId="d09e7450-76b8-44ba-a6fd-f1ac861abf02"/>
+    <listType typeId="7481381b-2870-4862-9da5-74fce4f0d2cf" valueTypeId="0bf933b3-1dbb-4f6e-a6b0-d2615e8ef1b3"/>
+    <managerType typeId="fd34f639-5102-4a38-919d-50018577ee9a" valueTypeId="dc031ee9-e00f-4632-9dcc-27c306429b48"/>
+  </producedTypes>
+  <name>ДобавитьНомер</name>
+  <synonym>
+    <key>en</key>
+    <value>Добавить номер</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Ein Zimmer hinzufügen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить номер</value>
+  </synonym>
+  <inputByString>Document.ДобавитьНомер.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.НомернойФонд</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДобавитьНомер.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>DocumentJournal.ЖурналНомерногоФонда.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>DocumentJournal.ЖурналНомерногоФонда.Form.ListForm</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.ЗагрузкаНомеров</registerRecords>
+  <attributes uuid="42582061-eefa-4e14-aef3-282e5f7e8213">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a9af351-1ed8-47e8-a4ac-36ccb9a9133b">
+    <name>КатегорияНомера</name>
+    <synonym>
+      <key>en</key>
+      <value>Категория номера</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4544252-6dc6-4e47-a5ba-9a077088c026">
+    <name>НомерКомнаты</name>
+    <synonym>
+      <key>en</key>
+      <value>Номер комнаты</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmernummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер комнаты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af3ee73d-5b7f-4e34-bdae-c2b8f33b3b19">
+    <name>Этаж</name>
+    <synonym>
+      <key>en</key>
+      <value>Этаж</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Etage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Этаж</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0dc231c-4c6d-423c-9c13-21128a11e0b6">
+    <name>ТипНомера</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип номера</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94d9082d-081d-4e09-8241-03b5bd703e48">
+    <name>NumberOfBedsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of beds per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61d78b1e-fc72-4b03-bbda-4ac551278501">
+    <name>NumberOfPersonsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество гостей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7137f8ea-52d7-42de-8bce-891d9c49f707">
+    <name>OperationEndDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation end date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Entnahme des Zimmers aus dem Betrieb</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывода номера из эксплуатации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76a63d1c-5864-4e5d-9b9d-2c7997b013a5">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61431f53-53a1-4e42-b6b6-553e79100d51">
+    <name>RoomSection</name>
+    <synonym>
+      <key>en</key>
+      <value>Room section</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sektion der Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Секция номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СекцииНомерногоФонда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35d7b095-2084-4ac5-b1c0-53496259e3c0">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d081e0c-f99d-4733-84ac-42efb8d1300f">
+    <name>LockCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Door lock code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im System elektronischer Schlösser:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код в системе эл. замков</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="abdc3415-0f95-4edc-a8dd-f0ec280d784c">
+    <name>SecurityCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Security system room code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmercode im Überwachungssystem</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код номера в системе охраны</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2f25bda-a969-4a7c-8153-6e2742fc9d69">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c2ae375-5c01-49ac-b86e-b29e738fa70f">
+    <name>IsVirtual</name>
+    <synonym>
+      <key>en</key>
+      <value>Is virtual room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Virtuelles Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный номер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e5dce1b-2144-473e-b535-33b9ac3e3b0b">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f316e9e-522f-4ea8-a511-8e394c8f0f91">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="dcf90492-32af-4f05-804e-4b24ba63bd5b">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

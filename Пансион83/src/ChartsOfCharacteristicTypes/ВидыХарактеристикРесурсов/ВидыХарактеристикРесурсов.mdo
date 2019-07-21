@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89c73830-0de4-482d-b565-aa1f527ab79e">
+  <producedTypes>
+    <objectType typeId="f989c15d-c208-4b24-a850-7ecaae201603" valueTypeId="1cecd566-f542-4dac-9f77-6868526f1f29"/>
+    <refType typeId="3c2347bc-5572-47ce-a43c-57b2066c3510" valueTypeId="8a4f5247-fa74-4d4b-9fe6-0f882272d531"/>
+    <selectionType typeId="bb073525-5511-4b8d-a2ba-00b59afbd53c" valueTypeId="b4451ff3-e606-46cb-abc6-381bab786e37"/>
+    <listType typeId="e777da72-d9a1-44f1-b6ed-6e044202883d" valueTypeId="eda52cb2-9eb0-4930-9191-a8960b4794b8"/>
+    <managerType typeId="b2ab18c5-c671-4762-a3d1-57cf791b4afa" valueTypeId="e69fd641-0688-426a-9012-537de4ddd1ac"/>
+    <containerType typeId="0fb0128f-b825-415b-840c-03f57b98846b" valueTypeId="c5ef3250-e5bc-4aa7-a00b-fad7204cd6d1"/>
+  </producedTypes>
+  <name>ВидыХарактеристикРесурсов</name>
+  <synonym>
+    <key>en</key>
+    <value>Виды характеристик ресурсов</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Ressourcencharakteristikatypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды характеристик ресурсов</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ВидыХарактеристикРесурсов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыХарактеристикРесурсов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>19</precision>
+      <scale>7</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

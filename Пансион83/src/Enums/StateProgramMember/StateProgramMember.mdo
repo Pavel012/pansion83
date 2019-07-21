@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c38d55b-26bf-4586-bd10-3188079c0a54">
+  <producedTypes>
+    <refType typeId="c58c21a1-2d04-4dc2-b7eb-c2ec718bf149" valueTypeId="d017c028-da19-4283-96e6-f051cb0cbf59"/>
+    <listType typeId="c08c02ac-ec54-4902-a60e-3131fcd11d64" valueTypeId="70ea5b2b-8e52-4621-aed3-299f6a83b368"/>
+    <managerType typeId="7dce297c-1bf3-47ba-b6f0-83659060ba87" valueTypeId="7a151992-79a6-42db-99a0-a47a9158fda4"/>
+  </producedTypes>
+  <name>StateProgramMember</name>
+  <synonym>
+    <key>en</key>
+    <value>State program member</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Staatliche Programm Mitglied</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Участник гос. программ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9175beee-e032-487e-afeb-a7ce1fe61730">
+    <name>No</name>
+    <synonym>
+      <key>en</key>
+      <value>No</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nein</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93d39938-4865-42b0-8f9b-56b4ee833f92">
+    <name>StateProgramMember</name>
+    <synonym>
+      <key>en</key>
+      <value>State program member</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Staatliche Programm Mitglied</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Участник гос. программы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1e5391f-592c-4a4e-a668-60f74cee8e45">
+    <name>FamilyMemberOfAStateProgramMember</name>
+    <synonym>
+      <key>en</key>
+      <value>A family member of a participant of the state program</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ein Familienmitglied eines Teilnehmers des staatlichen Programms</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Член семьи участника госпрограммы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4660ae67-a36f-46a2-a6b0-6bc71644f1c9">
+    <name>HighlyQualifiedStaff</name>
+    <synonym>
+      <key>en</key>
+      <value>Highly qualified staff</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Hochqualifizierte Mitarbeiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Высоко квалифицированный сотрудник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dd53a44-3a88-4613-a1cc-4b21595103ba">
+    <name>FamilyMemberOfAHighlyQualifiedStaff</name>
+    <synonym>
+      <key>en</key>
+      <value>Family member of a highly qualified staff</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ein Familienmitglied eines hoch qualifizierten Mitarbeiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Член семьи высоко квалифицированного сотрудника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63ca45ee-d93d-41c2-a623-51bb12baa486">
+    <name>NoData</name>
+    <synonym>
+      <key>en</key>
+      <value>No data</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Keine Daten vorhanden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения отсутствуют</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

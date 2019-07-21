@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e23b7ec1-926a-4f0a-bb48-1ea201495bed">
+  <producedTypes>
+    <objectType typeId="b308b5e0-cc8e-45e0-b049-760a2fe9c1f1" valueTypeId="c0ae2a3e-212c-4f68-98b5-1d8c92f9e965"/>
+    <managerType typeId="fdb392c3-650c-45c1-8e2c-b23b1bebbf4e" valueTypeId="7dcc211c-f462-4a25-ad0e-83256d45a2b7"/>
+  </producedTypes>
+  <name>ПродажаПодарочногоСертификата</name>
+  <synonym>
+    <key>en</key>
+    <value>Продажа подарочного сертификата</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verkauf eines Geschenkgutscheins</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа подарочного сертификата</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПродажаПодарочногоСертификата.Form.CertificateChargeForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="859eac9c-6d67-4e77-b844-0ee0a5e54014">
+    <name>ЛицевойСчет</name>
+    <synonym>
+      <key>en</key>
+      <value>Лицевой счет</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae9475c9-44c8-4495-986d-5b62ed2ff7e1">
+    <name>Certificate</name>
+    <synonym>
+      <key>en</key>
+      <value>Certificate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zertifikat</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e43df606-1d5f-4d1e-919b-aba3ef585da4">
+    <name>CertificateNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Certificate number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zertifikatsnummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сертификата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0c2b543a-64fc-4f45-a042-564ccd18fc0f">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0cd6c361-efc3-4ca8-aa59-2e8a578e170a">
+    <name>SPAWSDLHostAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>SPA WSDL address</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>WSDL-Adresse SPA</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес WSDL СПА</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d8aa748e-b4af-4bd0-9ce8-190209c3aa1b">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ffa63fc-b69f-413f-bbfc-8b7878907a46">
+    <name>OnlyCharge</name>
+    <synonym>
+      <key>en</key>
+      <value>OnlyCharge</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur berechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Только начислить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="03b0f9a6-651d-4e4a-a780-f547f61225c7">
+    <name>CertificateChargeForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Certificate charge</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anrechnung des Zertifikats</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление сертификата</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

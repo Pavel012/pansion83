@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caa11cef-c809-46b4-803a-8c4ce926b3e7">
+  <producedTypes>
+    <selectionType typeId="357c80e1-a526-4bfa-accc-1cf5ff7d3e61" valueTypeId="9dd7ebe0-9a5d-41ba-bd0d-de87111dbe58"/>
+    <listType typeId="fe3b8af3-b126-4141-ac6e-c9474b0af2fa" valueTypeId="df37c591-d671-43dc-bfd7-2dbc79507b2c"/>
+    <managerType typeId="35e81494-01a0-46bc-8b85-3821b70fca69" valueTypeId="0cd764e0-0172-4fcb-ae41-2d76cbad74ca"/>
+    <recordSetType typeId="4e940b09-7fb2-41e4-a59b-39a96467688b" valueTypeId="fe776574-1095-4254-8666-b9bdbc784786"/>
+    <recordKeyType typeId="16653985-1221-4538-a6ef-389ca2f37769" valueTypeId="e98522d5-f1ac-4271-be63-edf84e7f27c2"/>
+    <recordType typeId="99a666c1-4fe2-4c6b-b998-9da8dc179a01" valueTypeId="6a45d7eb-da1d-4c8d-9d88-c9e73b018f46"/>
+    <recordManagerType typeId="f3798e25-bbb4-41a2-871c-6ac9b611f183" valueTypeId="590c8baf-29be-4f9b-92bf-9a45713207ec"/>
+  </producedTypes>
+  <name>ПриложенияЗадач</name>
+  <synonym>
+    <key>en</key>
+    <value>Task attachments</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Dokumente, die an Aufgaben gebunden sind</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Документы прикрепленные к задачам</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПриложенияЗадач.Form.RecordForm</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПриложенияЗадач.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="355605eb-7412-4bdb-8374-db33277f71d0">
+    <name>DocumentText</name>
+    <synonym>
+      <key>en</key>
+      <value>Document text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumententext</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c6fa1d1-c9b3-43f0-80e0-727bacf67e94">
+    <name>ExtFile</name>
+    <synonym>
+      <key>en</key>
+      <value>External file</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externe Datei</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний файл</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="76e198a5-2ab6-45ea-b09d-f24696b79347">
+    <name>FileName</name>
+    <synonym>
+      <key>en</key>
+      <value>File name</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dateiname</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ec5de8ba-a514-4a34-bc4a-fe4ddffaea48">
+    <name>FileLoadTime</name>
+    <synonym>
+      <key>en</key>
+      <value>File load date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit des Dateiladens</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время загрузки файла</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d894f0d2-2ead-41a0-b12a-5a04f75a13fd">
+    <name>FileLastChangeTime</name>
+    <synonym>
+      <key>en</key>
+      <value>File last change date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit der letzten Dateiänderung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время последнего изменения файла</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="19aea6d9-c2d1-46ab-9da1-1d0b66191a7e">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="07ace687-88f5-4c45-befc-1bd8bcddf22b">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="2d59ae7f-ceb2-4ad2-b5cf-b4e4e7a52b71">
+    <name>Message</name>
+    <synonym>
+      <key>en</key>
+      <value>Task</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aufgabe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e6f2203e-24fa-455b-a3d1-0de72d4204e2">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="698e4c29-57d8-4735-b896-39dabdde9b02">
+    <name>RecordForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eintragsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

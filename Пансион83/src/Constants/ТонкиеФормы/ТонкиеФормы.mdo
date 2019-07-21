@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b9cc146-4c09-4548-ad65-ca2c219e68a7">
+  <producedTypes>
+    <managerType typeId="91ee7ea8-cc91-4927-8ecb-7922effdfbc9" valueTypeId="6a334e29-0c28-487d-a114-28324d962c12"/>
+    <valueManagerType typeId="8711b6b8-c2ca-45cb-8a1a-2475bb1231f4" valueTypeId="87cbd33a-2eba-4a01-8fa6-0c497d8559d3"/>
+    <valueKeyType typeId="177ec415-8c58-54d4-9d46-5871bd539206" valueTypeId="205bdbc9-3cc4-55bd-a9bb-b01deec88155"/>
+  </producedTypes>
+  <name>ТонкиеФормы</name>
+  <synonym>
+    <key>en</key>
+    <value>Тонкие формы</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Einfach-Modus</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать тонкие формы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Необходимо в конфигураторе изменить формы по умолчанию для: Группа, Размещение, Бронь</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Необходимо в конфигураторе изменить формы по умолчанию для: Группа, Размещение, Бронь</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

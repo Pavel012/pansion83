@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5118a4a0-5a9a-4cfb-93cb-8de22b51f5c2">
+  <producedTypes>
+    <objectType typeId="ac4382e2-cc5f-4c08-a278-b70a4e11e45c" valueTypeId="5dce5bdc-73e3-4376-a950-c3203bcb9d58"/>
+    <refType typeId="e7aaeaf4-f361-4727-bf30-c80a7a973818" valueTypeId="8d88157e-f55b-458e-916e-f36baaa503e5"/>
+    <selectionType typeId="8169a3b8-f71c-4bd7-9faf-7d1dc5a17345" valueTypeId="c63ced61-77a9-4605-8f9b-4b92ef4bf556"/>
+    <listType typeId="5e23a850-a6df-4064-9458-9caac3e35bbd" valueTypeId="e357f431-4f3b-4964-a059-688151601147"/>
+    <managerType typeId="26ab3bfa-a0b5-49f7-b9d0-2e5da8098540" valueTypeId="874f218b-fd27-493a-b8d6-c8e8caad2007"/>
+  </producedTypes>
+  <name>СтатусБрони</name>
+  <synonym>
+    <key>en</key>
+    <value>Статус брони</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der Reservierung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы брони</value>
+  </synonym>
+  <inputByString>Catalog.СтатусБрони.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусБрони.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатусБрони.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтатусБрони.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.СтатусБрони.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатусБрони.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="65ff4a08-a0e3-4720-a6e4-f14faf878cb4">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="606c8d13-208c-4053-ad6a-c98d417139a8">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9402d01e-5217-4795-8e80-1f81170575ef">
+    <name>IsActive</name>
+    <synonym>
+      <key>en</key>
+      <value>Is active</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d24b7ae-7dde-4f4d-9280-f6e4bac100be">
+    <name>IsCheckIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Is for checked in guests</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wird für angereiste Gäste verwendet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Используется для заехавших гостей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e084fab0-f70d-4afe-ac7f-53a7dc948a45">
+    <name>IsGuaranteed</name>
+    <synonym>
+      <key>en</key>
+      <value>Is guaranteed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>garantierte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантированная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5630208-37a5-4257-bcdd-e3efb05ce159">
+    <name>IsFullyPaid</name>
+    <synonym>
+      <key>en</key>
+      <value>Is fully paid</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Voll eingezahlte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Полностью оплачена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54b530e7-2013-40c3-b344-dcfe577eef0f">
+    <name>IsInWaitingList</name>
+    <synonym>
+      <key>en</key>
+      <value>Is in waiting list</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>In der Warteliste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>В списке ожидания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8bc0853c-5745-4539-a62e-6974ee9c0a8c">
+    <name>IsNoShow</name>
+    <synonym>
+      <key>en</key>
+      <value>Is no show </value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist die Nichtanreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это незаезд</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8427b169-a4b7-4f14-acf5-beebc99d967c">
+    <name>IsAnnulation</name>
+    <synonym>
+      <key>en</key>
+      <value>Ask for annulation confirmation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Annullierungsgrund erfragen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Спрашивать причину аннуляции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3beb9f9e-9304-4a38-a309-a98400b629f9">
+    <name>IsPreliminary</name>
+    <synonym>
+      <key>en</key>
+      <value>Is preliminary reservation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist die vorläufige Reservierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это предварительная бронь</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e459b962-ffa9-42af-bd70-7ecfac9371d7">
+    <name>ShowInClientsSearchForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Show in reservations and accommodations list in clients search form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>n der Reservierung- und Unterbringungsliste des Gastes auf der Formular der Kundensuche anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в списке брони и размещений гостя на форме поиска клиентов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="993a1983-2f4e-482a-8d4f-125033fe2a54">
+    <name>DoCharging</name>
+    <synonym>
+      <key>en</key>
+      <value>Do charging</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять услуги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2eeb1bd3-1a1e-463e-ab14-0e1ab35999ac">
+    <name>DoChargingIfRoomIsFilled</name>
+    <synonym>
+      <key>en</key>
+      <value>Do charging if room is filled only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Servicegebühren sind nur bei der angegebenen Zimmernummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять услуги только при указанном номере комнаты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7264e79-1d89-40c8-a6a2-bec5625f6cba">
+    <name>DoNoShowCharging</name>
+    <synonym>
+      <key>en</key>
+      <value>Do no show charging</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Strafe für die Nichtanreise anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять штраф за незаезд</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d309a0b6-1b77-4579-9f22-a97097f4baf7">
+    <name>DoLateAnnulationCharging</name>
+    <synonym>
+      <key>en</key>
+      <value>Do reservation late annulation charging</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Strafe für die späte Stornierung der Reservierung anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять штраф за позднюю аннуляцию брони</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b6df359-b2a0-4a0d-baee-c3a99d49e42f">
+    <name>DoRoomStatusChange</name>
+    <synonym>
+      <key>en</key>
+      <value>Do room status change</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerstatus ändern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Изменять статусы номеров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c008cbc7-0369-4580-a0e0-7b5f147832eb">
+    <name>FixReservationConditions</name>
+    <synonym>
+      <key>en</key>
+      <value>Fix reservation conditions (use rack rate for early check-in/late check-out)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Streng nach Reservierung (frühe Anreise / späte Abreise nach Basistarif)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Строго по брони (ранний заезд/поздний выезд по базовому тарифу)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="490ff56b-6c9a-4815-a028-73d9199860b8">
+    <name>UseReservationTimeForCheckIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Use reservation time for check-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bei Belegung nach Buchung geplante Anreisezeit verwenden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>При размещении по брони использовать планируемое время заезда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="107ef3d3-84f3-4d97-8474-7316ef6ad8ec">
+    <name>DoNotChargeForecastServices</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not charge forecast services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungen nicht in die Verkaufsprognose anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не начислять услуги в прогноз продаж</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ee26599-13b7-442b-9e63-398bbe32a4a3">
+    <name>Color</name>
+    <synonym>
+      <key>en</key>
+      <value>Color in the room graph</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Farbe in der Karte der Auslastung des Zimmerfonds </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет в карте загрузки НФ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61ba1dc2-7353-45cf-b040-9f933cf038b2">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77c652d3-a2bd-4587-a31e-e8045f7cfb72">
+    <name>DeliveryType</name>
+    <synonym>
+      <key>en</key>
+      <value>Delivery type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Lieferung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доставки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.DeliveryTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ade8bf79-4f6e-4f41-ba23-a96e87db786b">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bba6b68a-3079-4dc0-8766-b99a2c853556">
+    <name>ReservationConditions</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation conditions</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bedingungen der Reservierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Условия бронирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a6dc8938-9610-46bb-b90c-8d894eec8e8c">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2eae11a8-aa5c-4b11-9867-8b18148d3a1d">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9119af62-de39-4a5a-b1bf-96c9f08f6e75">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

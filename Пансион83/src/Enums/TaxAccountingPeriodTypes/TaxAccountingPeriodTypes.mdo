@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6360193-caf1-48cd-8c72-bb79648e1834">
+  <producedTypes>
+    <refType typeId="d9305a6b-37d4-45fe-bff1-e21bfd00f1d5" valueTypeId="16a74808-b93b-4e88-a0f8-4d3a70175722"/>
+    <listType typeId="0cd77352-7511-43c9-8968-e9e7bd96eb34" valueTypeId="8097ace4-1e5c-467c-92c4-bdd915baabfc"/>
+    <managerType typeId="a5d2797b-d9ef-4952-a00b-c9242ba727f4" valueTypeId="8f1ae963-ec2f-4a05-ac37-afd684abf83e"/>
+  </producedTypes>
+  <name>TaxAccountingPeriodTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Tax accounting period types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen der Buchführungsberichtszeiträume</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы бухгалтерских отчетных периодов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="e8a40b61-f4ce-4cea-8356-466fae9718eb">
+    <name>Month</name>
+    <synonym>
+      <key>en</key>
+      <value>Month</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Monat</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58a78e2a-b066-4d1c-ae6c-fd08af5a285f">
+    <name>Quarter</name>
+    <synonym>
+      <key>en</key>
+      <value>Quarter</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Quartal</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81f5b2ec-b11a-40d5-bb13-a48964949c73">
+    <name>HalfYear</name>
+    <synonym>
+      <key>en</key>
+      <value>Half year</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Halbes Jahr</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Полгода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="497aabfe-248f-42cc-9d14-83eec5cedb8e">
+    <name>Year</name>
+    <synonym>
+      <key>en</key>
+      <value>Year</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Jahr</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2ab5380-4ee8-453f-aa41-87d91bd74e3a">
+    <name>None</name>
+    <synonym>
+      <key>en</key>
+      <value>None</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nein</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

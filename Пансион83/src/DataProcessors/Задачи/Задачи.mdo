@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8133e03-faf1-49f8-86df-12fcb05a43a7">
+  <producedTypes>
+    <objectType typeId="ab291fc9-0efc-46e4-8a92-8b85ab1772ff" valueTypeId="8a6bd4e8-714c-4941-9695-8b3c45ddd65a"/>
+    <managerType typeId="aa335413-3420-453a-80a6-6247a7983a86" valueTypeId="743e16bc-0848-49b0-85d0-b4d4681963bc"/>
+  </producedTypes>
+  <name>Задачи</name>
+  <synonym>
+    <key>en</key>
+    <value>Current tasks</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Aktuelle Aufgaben</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие задачи</value>
+  </synonym>
+  <defaultForm>DataProcessor.Задачи.Form.Form</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>de</lang>
+    </pages>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="be57ab22-f99b-4b8d-9e93-26d4af8c452f">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63e947ae-be12-4037-bb3e-c5abecf75643">
+    <name>RoomRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Room rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tarif</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тарифы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d33ffbf8-a06c-4250-ab03-bcae5d606e52">
+    <name>ReferenceHour</name>
+    <synonym>
+      <key>en</key>
+      <value>Reference hour</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Stunde der Errechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный час</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2fea89d6-e548-41b6-ab6e-31ff15523dea">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

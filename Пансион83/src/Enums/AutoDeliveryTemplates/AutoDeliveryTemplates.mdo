@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ae62285-db4f-4eaa-8c75-5f758454304a">
+  <producedTypes>
+    <refType typeId="814c7d14-0793-471d-b279-4e62fcbdd035" valueTypeId="3f8b7301-570a-42d1-a4d2-e78b846ba0fa"/>
+    <listType typeId="50245863-1d8a-41d1-a8e9-f60a0019eebf" valueTypeId="0c9b45da-6704-4ceb-bf2f-d2543309aabb"/>
+    <managerType typeId="c3be737a-f71c-4e5d-8c76-db4e42e8dbab" valueTypeId="891596b0-7ca8-4e01-ab9c-5f2ae54467ea"/>
+  </producedTypes>
+  <name>AutoDeliveryTemplates</name>
+  <synonym>
+    <key>en</key>
+    <value>Supported automatic message delivery templates</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Unterstützte Vorlagen des automatischen Nachrichtenversands</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поддерживаемые шаблоны автоматизированной рассылки сообщений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f52d772d-9754-48e2-97c3-ddc6742dbeb0">
+    <name>CheckedInGuestsNotification</name>
+    <synonym>
+      <key>en</key>
+      <value>Checked-in guests notification</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Benachrichtigung von faktisch angereisten Gästen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление фактически заехавших гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2cb1175f-f0f1-42fa-92a9-95b266f42892">
+    <name>CheckedOutGuestsNotification</name>
+    <synonym>
+      <key>en</key>
+      <value>Checked-out guests notification</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Benachrichtigung von faktisch abgereisten Gästen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление фактически выехавших гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3aa3625-4865-46c3-8253-a55bfc7bd030">
+    <name>ExpectedCheckInGuestsNotification</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected check-in guests notification</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Benachrichtigung der Gäste auf der geplanten Abreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление гостей на планируемом заезде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db4b7584-878e-4a4a-bd47-136a1971c653">
+    <name>ExpectedCheckOutGuestsFolioBalanceNotification</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected check-out guests folio balance notification</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Benachrichtigung über die Bilanz auf  den Personenkonten abreisender Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о балансе на лицевых счетах выезжающих гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b77bdba7-fb74-4a58-bac6-aba0e89ded99">
+    <name>ExpectedCheckOutGuestsNotification</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected check-out guests notification</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Benachrichtigung der Gäste auf der geplanten Abreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление гостей на планируемом выезде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16040dfb-96be-44e3-96e5-685c3283ab48">
+    <name>ExpiredInvoicesNotification</name>
+    <synonym>
+      <key>en</key>
+      <value>Expired invoices need to be payed notification</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Benachrichtigung über die Notwendigkeit der Bezahlung der Rechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о необходимости оплаты счетов требований</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f89fd3e6-8243-4033-8cc6-ccb56d69f408">
+    <name>InHouseGuestsBirthdayCongratulation</name>
+    <synonym>
+      <key>en</key>
+      <value>In-house guests birthday congratulation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gratulationen zu Geburtstagen untergebrachter Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Поздравление с днем рождения проживающих гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adfe1650-4008-405d-8024-bbff1ed32968">
+    <name>InHouseGuestsFolioBalanceNotification</name>
+    <synonym>
+      <key>en</key>
+      <value>In-house guests folio balance notification</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Benachrichtigung über die Bilanz auf  den Personenkonten abreisender Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о балансе на лицевых счетах проживающих гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edeae74a-1ecd-492b-a87d-ee24e56da6f1">
+    <name>InHouseGuestsNotification</name>
+    <synonym>
+      <key>en</key>
+      <value>In-house guests notification</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Benachrichtigung für Hotelgäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление проживающим гостям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2564b7b5-ff9f-4555-a0b0-0b33627a6470">
+    <name>AllClientsBirthdayCongratulation</name>
+    <synonym>
+      <key>en</key>
+      <value>All clients birthday congratulation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gratulationen zu Geburtstagen für alle Kunden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Поздравление с днем рождения по всей клиентской базе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

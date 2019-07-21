@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b7ae541-714e-43e2-8a6d-13529f1ffbf0">
+  <producedTypes>
+    <refType typeId="90d2139c-d433-420b-bfef-cb9613bbcd80" valueTypeId="ad200439-2bf9-481b-815e-c9bee125bbd7"/>
+    <listType typeId="3fdccb5b-5216-40c0-8ca9-abf5060a8330" valueTypeId="2c9947d2-1f47-44cd-b0f6-5dee4260367b"/>
+    <managerType typeId="1ef3634e-28b9-4f7f-a57f-87c395a02f60" valueTypeId="6229ae65-639e-442f-bc3d-4c9ae9eaada6"/>
+  </producedTypes>
+  <name>ObjectFormActionButtons</name>
+  <synonym>
+    <key>en</key>
+    <value>Object form action buttons</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Aktionstaste auf den Aktionsformularen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Кнопки действий на формах объектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="699d3296-ad1f-43b8-a884-b9b9a06bdbb9">
+    <name>Button1</name>
+    <synonym>
+      <key>en</key>
+      <value>Button 1</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schlüssel 1</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка 1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3938f25b-dc61-4233-aebd-70d234f023be">
+    <name>Button2</name>
+    <synonym>
+      <key>en</key>
+      <value>Button 2</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schlüssel 2</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка 2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af677844-8214-471f-9b09-2e65b4ae53dc">
+    <name>Button3</name>
+    <synonym>
+      <key>en</key>
+      <value>Button 3</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schlüssel 3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка 3</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

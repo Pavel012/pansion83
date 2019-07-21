@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69399d78-3d72-4f3a-b99a-c280e55fe7f0">
+  <producedTypes>
+    <objectType typeId="e3e21866-bd2f-4fff-b104-2d7f5a936921" valueTypeId="413c9446-e846-4f1b-935e-c92941b1d289"/>
+    <refType typeId="332ab374-d837-42ae-a0c0-65e4e5c2072e" valueTypeId="c2b51442-911c-4fb5-84ae-371160f68a24"/>
+    <selectionType typeId="670b7fd0-dd1d-412f-a69b-0a2aeed27096" valueTypeId="3fd97b4c-78b9-4306-9b3c-5ab9cf1f3bd5"/>
+    <listType typeId="08e3768c-2814-433d-a4ac-052844451f13" valueTypeId="6eda767c-5b6d-4519-ad38-a4abca99afe4"/>
+    <managerType typeId="4c422e10-6c64-4033-b77b-c5b62968689f" valueTypeId="50d77ae2-f48f-4f26-8659-8d1e4e504982"/>
+  </producedTypes>
+  <name>СпособОплаты</name>
+  <synonym>
+    <key>en</key>
+    <value>Способ оплаты</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zahlungsmethoden</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оплаты</value>
+  </synonym>
+  <inputByString>Catalog.СпособОплаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СпособОплаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="021be843-7fbd-44a7-8f90-8f17b79c3826">
+      <name>Settlement</name>
+      <description>Акт</description>
+      <code xsi:type="core:StringValue">
+        <value>SETLM</value>
+      </code>
+    </items>
+    <items id="4f95bc80-776a-436c-81ed-76725b30b780">
+      <name>DepositTransfer</name>
+      <description>Перемещение депозита</description>
+      <code xsi:type="core:StringValue">
+        <value>DEPTR</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СпособОплаты.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.СпособОплаты.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.СпособОплаты.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="84c02569-8ec6-4d46-a0e2-b2d21cf1e272">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3eb27da-0953-4da9-ae64-f91bafb12dc0">
+    <name>BookByCashRegister</name>
+    <synonym>
+      <key>en</key>
+      <value>Book by cash register</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ausführen nach Registrierkasse</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Проводить по ККМ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="840c7264-c93d-44e9-a62a-bc4cb7ca3789">
+    <name>PrintCheque</name>
+    <synonym>
+      <key>en</key>
+      <value>Print cheque at Cash register</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kassenbon zur Registrierkasse drucken</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать чек по ККМ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48fe663a-63ef-4bce-8a4a-f2e7f1e91bae">
+    <name>IsByCash</name>
+    <synonym>
+      <key>en</key>
+      <value>Is by cash</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Barzahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата наличными</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8729458a-6be2-4696-a8d7-bb7fdde425c5">
+    <name>IsByCreditCard</name>
+    <synonym>
+      <key>en</key>
+      <value>Is by credit card</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kreditkartenzahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата кредитной картой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="660de17d-d8c8-4bab-826b-3f6b372155cf">
+    <name>AuthorizationCodeIsRequired</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment authorization code is required</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Codeeingabe für die Autorisierung der Zahlung fordern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Требовать ввода кода авторизации платежа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e5997d5-edf2-4386-8b40-2ebc51b92c11">
+    <name>ReferenceCodeIsRequired</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment reference code is required</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Eingabe des Referenzcodes der Zahlung fordern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Требовать ввода референс кода платежа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="479b6918-b6bb-4bec-acf8-a4ccaf4eecd2">
+    <name>CardOwner</name>
+    <synonym>
+      <key>en</key>
+      <value>Card owner</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Karteninhaber</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец карты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a1acc47-5742-40e6-9524-141294c9f039">
+    <name>IsByBankTransfer</name>
+    <synonym>
+      <key>en</key>
+      <value>Is by customer (by bank transfer or to the main cash office)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlung durch den Partner (auf das Verrechnungskonto oder in die Hauptkasse der Buchhaltung)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата контрагентом (на расчетный счет или в главную кассу бухгалтерии)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5800c7be-af47-4bad-a830-af746eeacef4">
+    <name>IsByBonuses</name>
+    <synonym>
+      <key>en</key>
+      <value>Is by bonuses</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bezahlung mit Boni</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата бонусами</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="133fbada-221b-47bd-a700-878251fd6545">
+    <name>IsByGiftCertificate</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment is by gift certificate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlung mit Geschenkgutschein</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата подарочным сертификатом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ad0f9c4-9164-4fcc-9080-dedba7a12ce1">
+    <name>IsForReturnOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Is for return only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur für Erstattungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Только для возвратов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1918264-d6f8-4380-80d7-3d9a9578afcc">
+    <name>IsForExtraServiceFolioOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Is for extra services folio only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur für Personenkonten für ZusatzDienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Только для лицевых счетов на доп. услуги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40da5e60-d490-4838-99f0-22356386e803">
+    <name>IsViaInternetAcquiring</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment is via Internet acquiring</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Zahlung erfolgt über das Internet erwerben</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата через интернет эквайринг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="232d1e32-4aef-4959-881c-ae161d5bed34">
+    <name>ExternalBankTerminalIsUsed</name>
+    <synonym>
+      <key>en</key>
+      <value>Payments are done using external (not switched to the program) bank terminal</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlungen erfolgen über das externe (nicht ans Programm angeschlossene) Bankterminal bearbeitet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Платежи проводятся по внешнему (не подключенному к программе) банковскому терминалу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6feb5a1b-9c50-4ead-a38b-a8cb09b8a859">
+    <name>CashRegisterChequeCloseType</name>
+    <synonym>
+      <key>en</key>
+      <value>Cash register cheque close type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Schließung des Kassenschecks</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип закрытия чека по ККМ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eef37f16-f488-4bc7-9b4d-df4c14236fd3">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de765323-c1c1-4cf9-8c84-4f52e48e6bc1">
+    <name>CardType</name>
+    <synonym>
+      <key>en</key>
+      <value>Card type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kartentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип карты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКредитныхКарт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23d36eef-ca0a-437e-ab98-6080a8de01fb">
+    <name>DiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Bonus accumulation type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Akkumulation von Boni</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип накопления бонусов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f78f51d-8891-428e-b2e6-3dfb5b6d6ae0">
+    <name>MinimumBonuses</name>
+    <synonym>
+      <key>en</key>
+      <value>Minimum bonuses for payment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Minimale Anzahl von Boni für die Bezahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальное кол-во бонусов для оплаты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7e9aaca-0b0d-4a30-98d7-ea4648ca3c0a">
+    <name>CashRegisterCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Cash register code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code der Registrierkassenabteilung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код отдела ККМ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="233aef15-d395-4675-af30-eac334719eff">
+    <name>DeliveryType</name>
+    <synonym>
+      <key>en</key>
+      <value>Delivery type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Lieferung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доставки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.DeliveryTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="995edc12-5289-4e29-a63c-37df4ea3bf92">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8cada8bb-b0e5-4f78-8eef-226ada460b9e">
+    <name>ExternalCode</name>
+    <synonym>
+      <key>en</key>
+      <value>External system code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im externen System</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код во внешней системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d8397dc9-6297-4dd9-8f18-e3ff99ff04f1">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f40f5936-68ba-4cb4-8e83-082f02fccbf3">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

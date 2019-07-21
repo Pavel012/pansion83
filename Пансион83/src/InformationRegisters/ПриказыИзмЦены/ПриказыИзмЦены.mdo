@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="780680fb-6536-42a9-8f5b-4ab9f3e5495a">
+  <producedTypes>
+    <selectionType typeId="cb45e062-817b-4c96-a967-4d88c49fa308" valueTypeId="e40d094f-b786-43af-bbf2-2d5a966f8f3b"/>
+    <listType typeId="b0f717ae-66a0-4aaf-9fe3-569cce81e798" valueTypeId="c8c0281d-451c-4a44-bc7a-4661c02d2467"/>
+    <managerType typeId="77315450-84f4-489e-87d1-3d3af505e063" valueTypeId="854a3c42-053f-4a01-ac5b-8e83e3cfaefb"/>
+    <recordSetType typeId="c7cbdf27-5dda-4a28-a11a-790c0aa1f13d" valueTypeId="9017811d-5d82-4042-b179-d1c1bc3f3247"/>
+    <recordKeyType typeId="3e84145d-e697-4898-ab89-0728cdf51f36" valueTypeId="e36dd015-52f8-423d-b2d7-8cc51f6ab81f"/>
+    <recordType typeId="fb76242f-0ac1-4e00-ada9-420bd2f7958c" valueTypeId="99170b5c-5c53-42f2-a16e-84ac14613137"/>
+    <recordManagerType typeId="4cacdc24-2f35-468c-942a-343543b25611" valueTypeId="673d4913-f1fc-43ea-80c8-2118bca3a834"/>
+  </producedTypes>
+  <name>ПриказыИзмЦены</name>
+  <synonym>
+    <key>en</key>
+    <value>Active set price tag ranges documents</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gültige Anordnungen über die Änderung der Preismerkmalbereiche</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Действующие приказы по изменению диапазонов признаков цены</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cf0302b5-155f-4cee-bb00-1c41d13e6b28">
+    <name>SetPriceTagRanges</name>
+    <synonym>
+      <key>en</key>
+      <value>Set price tag ranges</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Befehl zur Bearbeitung der Spannweite der Preiseigenschaften</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ об изменении диапазонов признаков цены</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИзмЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="e116b90e-664c-44e5-8cf1-3ffd93ed27db">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4f8536e9-2e75-4f1a-8a12-185f7b607089">
+    <name>PriceTagType</name>
+    <synonym>
+      <key>en</key>
+      <value>Price tag type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Preiseigenschaft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип признака цены</value>
+    </synonym>
+    <type>
+      <types>EnumRef.PriceTagTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

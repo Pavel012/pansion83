@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d753021-1e3a-4f46-8f6b-509e5ec6af3e">
+  <producedTypes>
+    <refType typeId="c5c676c8-5b87-444e-9f9f-64d931690fe6" valueTypeId="012e02e8-c22d-4f70-ab68-6e7243e7a223"/>
+    <listType typeId="b720ac1f-b5c5-4cc7-955d-4d11193a6dc4" valueTypeId="85d3588a-76a0-4fc8-aeb8-14f738835fac"/>
+    <managerType typeId="ea612313-4cfc-494a-b514-766040aeeb0f" valueTypeId="42867264-db0f-41d4-b9b2-75ef9a756a93"/>
+  </producedTypes>
+  <name>ReportTotalsPlacementTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Report totals placement types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Unterbringungstypen der Berichtergebnisse</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды размещения итогов отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="a7515962-b33a-4a44-a5bc-fe355ffe6c0a">
+    <name>Header</name>
+    <synonym>
+      <key>en</key>
+      <value>Header</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Überschrift</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e222342-f67f-4782-b085-9ace22ec0db8">
+    <name>HeaderAndFooter</name>
+    <synonym>
+      <key>en</key>
+      <value>Header and footer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Überschrift und Fußzeile</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок и подвал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69b9f4a6-057d-455b-b745-5fde0302fd82">
+    <name>Footer</name>
+    <synonym>
+      <key>en</key>
+      <value>Footer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Fußzeile</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подвал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8cb8e967-3aea-41e8-a6d3-323b7d24ef1b">
+    <name>FooterOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Footer only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur Keller</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Только подвал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

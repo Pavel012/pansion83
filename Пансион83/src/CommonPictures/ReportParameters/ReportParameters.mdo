@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30e97ced-b8d4-47f7-9bb6-597940385e08">
+  <name>ReportParameters</name>
+  <synonym>
+    <key>en</key>
+    <value>Report parameters</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Report parameters</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры отчета</value>
+  </synonym>
+  <transparentPixel>
+    <x>3</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

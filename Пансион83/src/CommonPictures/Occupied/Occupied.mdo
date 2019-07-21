@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="135ffa3f-21c1-407b-8e88-0991f6c128e9">
+  <name>Occupied</name>
+  <synonym>
+    <key>en</key>
+    <value>Occupied</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Besetzt</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Занят</value>
+  </synonym>
+  <transparentPixel>
+    <x>1</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

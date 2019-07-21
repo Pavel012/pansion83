@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70c157f3-e5a9-4b0a-9215-4e51fc2b790e">
+  <name>РучныеНачисления</name>
+  <synonym>
+    <key>en</key>
+    <value>Ручные начисления</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>manuelle Anrechnungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ручные начисления</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46d11a26-e5be-4258-af92-c110c598f847">
+  <producedTypes>
+    <refType typeId="aaf516ec-da7a-4df9-a8a6-53e765f237d8" valueTypeId="77ebce21-65b8-48c5-9ddb-e6b1774be927"/>
+    <listType typeId="f62246a1-144a-4e41-af14-bd8c0a10b851" valueTypeId="9494e841-fc21-493a-b760-143845eb54aa"/>
+    <managerType typeId="be33ee48-f574-4294-9ed9-342197b05b0f" valueTypeId="59b4d3ba-f7c0-496e-86c0-c1a01c54fc46"/>
+  </producedTypes>
+  <name>CreditCardsProcessingSystems</name>
+  <synonym>
+    <key>en</key>
+    <value>Credit cards processing systems</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Datenverarbeitungssysteme für Kreditkarten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Процессинговые системы кредитных карт</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="49417a98-323b-41e6-ac07-7a996eb26071">
+    <name>AtolPayCardSystemsDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>Atol: Pay card systems driver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Atol: Zahlungssystemtreiber</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Атол: Драйвер платежных систем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bb611b8-91c2-4b9e-acf8-16701dda269a">
+    <name>TrPosPOSTerminalsDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>TrPos: Point Of Sale terminals driver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>TrPos: Point Of Sale terminals driver</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>TrPos: Драйвер платежных терминалов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45c37250-e8c5-4fab-870f-af60e453a24f">
+    <name>INPASPulsarSystemDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>INPAS Pulsar: Acquiring system driver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>INPAS Pulsar: Aquiring-System-Treiber</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ИНПАС Пульсар: Драйвер эквайринговой системы </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d97a92aa-db67-46c6-a4c4-fdf41b2e2248">
+    <name>INPASSmartConnectorDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>INPAS Smart connector: Acquiring system driver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>INPAS Smart connector: Aquiring-System-Treiber</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ИНПАС Smart connector: Драйвер эквайринговой системы </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba3b61e7-f951-4c62-ac77-41bfa8421891">
+    <name>UCSSystemDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>UCS EFTPOS: Acquiring system driver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>UCS EFTPOS: Acquiring system driver</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>UCS EFTPOS: Драйвер эквайринговой системы </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3731fa8-e891-45bb-a264-0cb452b639ba">
+    <name>SberbankSBRFCOMSystemDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>Sberbank RUS: Acquiring system driver SBRFCOM.dll</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sberbank RUS: Treiber des Erfassungssystems SBRFCOM.dll</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сбербанк РФ: Драйвер эквайринговой системы SBRFCOM.dll</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2537f774-b296-46fc-b580-6dd856a39aad">
+    <name>SberbankSBRFSystemDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>Sberbank RUS: Acquiring system driver SBRF.dll</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sberbank RUS: Treiber des Erfassungssystems SBRF.dll</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сбербанк РФ: Драйвер эквайринговой системы SBRF.dll</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

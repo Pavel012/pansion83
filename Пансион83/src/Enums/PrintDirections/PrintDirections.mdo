@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59df3a00-ff4c-4a68-929d-72c6a38b8371">
+  <producedTypes>
+    <refType typeId="03d60fb3-2901-446d-a713-886e05242118" valueTypeId="37ba10dc-67ac-4381-b198-1bc742457759"/>
+    <listType typeId="4afc3d85-bbe1-41f4-a2a8-34069f5dc84c" valueTypeId="946c99d2-f76d-4afb-a4e3-748ee799babf"/>
+    <managerType typeId="ac218172-1fa6-4722-b677-a8d022128ec9" valueTypeId="cad51112-5ae7-4c1d-8594-a528454a8d6b"/>
+  </producedTypes>
+  <name>PrintDirections</name>
+  <synonym>
+    <key>en</key>
+    <value>Print directions</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Druckmodus</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы печати</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="4c4be12e-9edc-45cb-828b-3853f9427ef1">
+    <name>Screen</name>
+    <synonym>
+      <key>en</key>
+      <value>Screen</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bildschirm</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Экран</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3097c611-1dea-4a8c-9469-1236bc7cb751">
+    <name>Printer</name>
+    <synonym>
+      <key>en</key>
+      <value>Printer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Drucker</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Принтер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31d4c936-b60f-4179-85ed-a6b48a4002ae">
+    <name>MXL</name>
+    <synonym>
+      <key>en</key>
+      <value>1C spreadsheet (*.mxl)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tabelle 1С (*.mxl)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица 1С (*.mxl)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b078478f-67ac-4868-9ce7-6822e628cf4a">
+    <name>XLS</name>
+    <synonym>
+      <key>en</key>
+      <value>MS Excel spreadsheet (*.xls)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tabelle MS Excel (*.xls)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица MS Excel (*.xls)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1f267eb-2441-4585-ac3f-779c1af21877">
+    <name>XLSX</name>
+    <synonym>
+      <key>en</key>
+      <value>MS Excel spreadsheet (*.xlsx)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tabelle MS Excel (*.xlsx)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица MS Excel (*.xlsx)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ec776c3-7b42-4b08-9845-20edcb3682bf">
+    <name>HTML</name>
+    <synonym>
+      <key>en</key>
+      <value>HTML file (*.html)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datei HTML (*.html)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Файл HTML (*.html)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b24f187f-f9e8-47e6-8b2a-83f26d99928a">
+    <name>TXT</name>
+    <synonym>
+      <key>en</key>
+      <value>Text file (*.txt)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Textdatei (*.txt)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текстовый файл (*.txt)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea456195-7e7b-4b80-abf5-9d062729c273">
+    <name>PDF</name>
+    <synonym>
+      <key>en</key>
+      <value>Portable document format (*.pdf)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Portable document format (*.pdf)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Portable document format (*.pdf)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

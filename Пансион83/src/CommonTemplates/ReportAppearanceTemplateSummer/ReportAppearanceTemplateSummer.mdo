@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4efabf2c-fe69-4422-96fd-4005d9d74f8e">
+  <name>ReportAppearanceTemplateSummer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Лето</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - Summer</value>
+  </synonym>
+</mdclass:CommonTemplate>

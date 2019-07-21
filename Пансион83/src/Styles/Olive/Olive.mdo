@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23fb7f8c-7df7-40a3-887d-0301aca9729a">
+  <name>Olive</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оливковый</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Olive</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Olivfarben</value>
+  </synonym>
+</mdclass:Style>

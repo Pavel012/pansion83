@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b06d8790-f6af-4306-94d6-b1d7605621eb">
+  <producedTypes>
+    <refType typeId="2e5f97be-a8ed-4102-ae6c-30c8a537017b" valueTypeId="a0594465-a7d4-413d-aecf-25ce1ceee3d6"/>
+    <listType typeId="729e0891-ee21-4c56-b990-fb28f1e194a9" valueTypeId="c2910c07-afc6-4026-bbed-45984fdd05f1"/>
+    <managerType typeId="40026557-167d-4755-911d-a30e9d67bd51" valueTypeId="0bba991f-7c9f-4ae3-a866-7a9cdf176910"/>
+  </producedTypes>
+  <name>AbbreviationTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Abbreviation types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Abkürzungstypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сокращений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="eed29927-a51e-4425-b331-7b2f1e517aa4">
+    <name>Region</name>
+    <synonym>
+      <key>en</key>
+      <value>Region</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Region</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ba8ef33-6498-4ab6-87c4-3f2221eee9e1">
+    <name>Area</name>
+    <synonym>
+      <key>en</key>
+      <value>Area</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gebiet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d0726c5-684d-496f-9da9-72cb6e4b24a9">
+    <name>City</name>
+    <synonym>
+      <key>en</key>
+      <value>City</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ort</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Населенный пункт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="093868c2-a197-429f-a87b-68acbacef7a2">
+    <name>Street</name>
+    <synonym>
+      <key>en</key>
+      <value>Street</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Straße</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Улица</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

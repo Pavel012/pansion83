@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62519b9e-da6f-45d8-b14f-c61f35a6c5d9">
+  <producedTypes>
+    <refType typeId="ced2f225-20e5-4085-a78f-2f71d3028b87" valueTypeId="dd9bda0c-76b5-4ddc-b46a-f0ee0a8dd37e"/>
+    <listType typeId="ed50ac61-c541-4f3c-a1cd-cb818ad2dd21" valueTypeId="09b1c266-1df8-44d1-ad1c-e03efe21f96b"/>
+    <managerType typeId="a543fcd4-f9c5-4cff-b59f-0880f7cdca06" valueTypeId="541fb3e2-9382-49a0-a48a-58f9d0b0912a"/>
+  </producedTypes>
+  <name>SalesReportsPeriodCheckTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Sales reports period check types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen der Kontrolle des Zeitraums in Verkaufsberichten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы проверки периода в отчетах по продажам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="61acee02-278d-4a1b-880b-6f78e4510c3d">
+    <name>ByChargeDates</name>
+    <synonym>
+      <key>en</key>
+      <value>By charge dates</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach den Daten  der Anrechnungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По датам начислений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c15c92cb-21cc-4a39-8e51-069f877c58ac">
+    <name>ByCheckInDates</name>
+    <synonym>
+      <key>en</key>
+      <value>By guest check-in dates</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach den Daten der Gästeanreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По датам заезда гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bdf4cfaf-aaeb-475d-9d1e-52708f91c038">
+    <name>ByCheckOutDates</name>
+    <synonym>
+      <key>en</key>
+      <value>By guest check-out dates</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach den Daten der Gästebareise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По датам выезда гостей</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

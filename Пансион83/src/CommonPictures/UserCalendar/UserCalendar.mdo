@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4aa63e2-86b4-47b1-ad74-243834afe788">
+  <name>UserCalendar</name>
+  <synonym>
+    <key>en</key>
+    <value>User calendar</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>User calendar</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь пользователя</value>
+  </synonym>
+  <transparentPixel>
+    <x>12</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

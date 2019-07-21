@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="083961c3-12ca-43ed-8885-e781714ae8d5">
+  <name>MoveRightAll</name>
+  <synonym>
+    <key>en</key>
+    <value>Move right all</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Move right all</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Перенести направо все</value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

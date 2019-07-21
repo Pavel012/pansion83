@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="838b0727-b613-4761-835f-135513c0e410">
+  <producedTypes>
+    <objectType typeId="7c09c5f3-6f81-4d44-94d9-9c7f6e38aec5" valueTypeId="c6d0f47a-6924-46ff-90b9-b12ff6cb8177"/>
+    <refType typeId="6b6d072a-0fef-4d5f-acd2-e0921bfe6538" valueTypeId="4c86c68f-a20d-425d-aef9-1c6ded7c7479"/>
+    <selectionType typeId="b3c69181-7f06-4616-8d90-d6ae9734c1fa" valueTypeId="47159221-4b0f-43b2-9599-d31945a2a90a"/>
+    <listType typeId="a102905f-bf64-48fa-a31f-a2b3987b5a93" valueTypeId="29d93389-3fe5-48e9-b67a-fe1389fd229e"/>
+    <managerType typeId="d8d88d52-8504-4031-8e13-474787f31468" valueTypeId="620669b8-052d-49f4-b04c-203be1f42433"/>
+  </producedTypes>
+  <name>СтатусДопУслугиНомер</name>
+  <synonym>
+    <key>en</key>
+    <value>Статус доп услуги номер</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der zusätzlichen Dienstleistung pro Zimmer</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статус доп. услуги на номер</value>
+  </synonym>
+  <inputByString>Document.СтатусДопУслугиНомер.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.НомернойФонд</basedOn>
+  <basedOn>Document.Размещение</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СтатусДопУслугиНомер.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.СтатусДопУслугиНомер.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Document.СтатусДопУслугиНомер.Form.ListForm</defaultChoiceForm>
+  <posting>Deny</posting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="5dcce467-d1aa-413e-ae93-29fcb098fc04">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b9557e2-66df-494a-9689-98dd480c427d">
+    <name>ParentDoc</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument Begründung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6e8b6d3-4b6f-4ac2-ba80-a6a7a67dfa8d">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27a6c98f-f373-4a69-b55a-8e38fa523c96">
+    <name>InterfaceType</name>
+    <synonym>
+      <key>en</key>
+      <value>Interface type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schnittstellentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип интерфейса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.InterfaceTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e0bf062-44bd-4687-84de-32eca178c4b3">
+    <name>RoomInterfaceType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room interface type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ von ZusatzDienstleistung pro Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип доп. услуги на номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидУслугВНомерах</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e01437a3-af4d-4332-b568-4212dba739e6">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9904fed0-9ec6-4646-a9f5-90e44df493ce">
+    <name>MessageDateTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Message date and time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit der Mitteilung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время сообщения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee9ff155-ab84-47b1-a4d7-7f9005273206">
+    <name>MessageIsDelivered</name>
+    <synonym>
+      <key>en</key>
+      <value>Message is delivered</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Mitteilung wurde gelesen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение прочитано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5510a648-8fb6-449c-9353-2f2f69052dde">
+    <name>MessageDeliveryDateTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Message delivery date and time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit, zu denen die Nachricht gelesen wurde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время когда сообщение было прочитано</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d312edcd-e5ea-4519-aafa-d1e4efc4269c">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1cfcde19-94db-4a96-b0fc-32c5b4dd8de5">
+    <name>CancellationAuthor</name>
+    <synonym>
+      <key>en</key>
+      <value>Cancellation author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor des Abbruchs</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор отмены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="116d5ca0-8dde-4cb7-ac53-d7610abdcf98">
+    <name>CancellationDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Cancellation date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit des Abbruchs</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время отмены</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b6ffd1bd-b8ef-42a1-8e08-87a36b08e51a">
+    <name>IsProcessed</name>
+    <synonym>
+      <key>en</key>
+      <value>Is processed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработана</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80c6da4e-2c40-48b0-b08b-f8c5394dba85">
+    <name>IsCanceled</name>
+    <synonym>
+      <key>en</key>
+      <value>Is canceled</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abgebrochen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9e0e8b44-d002-456a-8a33-d54cbf9f939c">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="655f9b15-59ad-4449-9832-65d1de07bf44">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

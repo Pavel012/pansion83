@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe147e6-8133-40d6-9a65-82ce58e09374">
+  <name>МенюБухгалтера</name>
+  <synonym>
+    <key>en</key>
+    <value>Accountant Main menu</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Hauptmenü des Buchhalters</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Главное меню бухгалтера</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebd9ceb6-5e0c-4477-b034-5319b0a775bc">
+  <name>CheckMark</name>
+  <synonym>
+    <key>en</key>
+    <value>Check mark</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Check mark</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Знак подтверждения</value>
+  </synonym>
+  <transparentPixel>
+    <x>6</x>
+    <y>5</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

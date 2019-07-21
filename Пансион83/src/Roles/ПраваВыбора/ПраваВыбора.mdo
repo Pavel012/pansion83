@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05fb4471-d6f2-43e0-9801-dbeb8ffd94a5">
+  <name>ПраваВыбора</name>
+  <synonym>
+    <key>en</key>
+    <value>Rights to change/choose current hotel</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Rechte zur Auswahl / zum Wechsel des aktuellen Hotels</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Права выбора/смены текущей гостиницы</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f17f459-cfe5-4944-bcf3-88cb8a648cfd">
+  <producedTypes>
+    <refType typeId="371cf789-c98a-4e21-ac1f-dbc48eaee452" valueTypeId="62511f44-0e28-4713-8c3e-872edb86ef9c"/>
+    <listType typeId="39e5ed72-b019-4e5c-b37f-66e246346d34" valueTypeId="698fa276-b04b-44e1-99b0-0b1084fa3ea7"/>
+    <managerType typeId="6b807c47-6509-4bcf-bd34-0f63ba7e8c58" valueTypeId="0a128f28-9b16-4203-9bdd-81238adf23ba"/>
+  </producedTypes>
+  <name>AttachmentTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Attachment types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen angehängter Dokumente</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды прикрепленных документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="2bbb1234-75e0-4079-99a5-2e98aac5e97a">
+    <name>EMail</name>
+    <synonym>
+      <key>en</key>
+      <value>E-mail</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>E-mail</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>E-mail</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de4809c3-84a9-4a9d-af70-3d435a930f94">
+    <name>Fax</name>
+    <synonym>
+      <key>en</key>
+      <value>Fax</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Fax</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Факс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b887b94-7d2e-43bf-8318-480599985bac">
+    <name>GroupResume</name>
+    <synonym>
+      <key>en</key>
+      <value>Group resume</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vermerk der Gruppe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Меморандум группы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

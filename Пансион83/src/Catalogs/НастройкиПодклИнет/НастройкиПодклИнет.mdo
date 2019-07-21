@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="656b2cd8-0a39-48f7-bf8b-46845d1c0f4e">
+  <producedTypes>
+    <objectType typeId="c4a9b0b2-73b7-4bc2-a43b-41524ea4a999" valueTypeId="6a8523e6-cf35-4a16-898b-8a651397c91a"/>
+    <refType typeId="17827b4e-78d4-4e8b-8947-5c9b3c15d77c" valueTypeId="1e3c1fa0-b945-4b78-9651-2d412c2edfcd"/>
+    <selectionType typeId="2a333a5b-68e2-4000-b58d-49bc62c1b31c" valueTypeId="91afdedf-aa9a-4ae5-86b7-49855a6851e1"/>
+    <listType typeId="66fcba26-893f-4f58-817f-68b8e30a893b" valueTypeId="7e713147-df82-48e1-87ca-3cccc566d324"/>
+    <managerType typeId="535238b6-da07-49fb-b059-ddef7ade9a83" valueTypeId="9cb81213-1560-4865-8521-0ed57c1121ca"/>
+  </producedTypes>
+  <name>НастройкиПодклИнет</name>
+  <synonym>
+    <key>en</key>
+    <value>Настройки подкл инет</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Einstellungen des Internetanschlusses</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подключения к Интернет</value>
+  </synonym>
+  <inputByString>Catalog.НастройкиПодклИнет.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиПодклИнет.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиПодклИнет.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.НастройкиПодклИнет.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.НастройкиПодклИнет.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="9042c3e6-53d5-4aa9-a2e9-cfdbebc393b1">
+    <name>User</name>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a173a39e-1079-4c32-9dfd-51501c9ba895">
+    <name>Password</name>
+    <synonym>
+      <key>en</key>
+      <value>Password</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Passwort</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d097695b-511e-409e-9325-e69e84c8e27d">
+    <name>BypassProxyOnLocal</name>
+    <synonym>
+      <key>en</key>
+      <value>Не использовать прокси для локальных адресовBypass proxy on local addresses</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kein Proxy für lokale Adressen nutzen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать прокси для локальных адресов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7480950a-1ff6-4f45-97ce-9c19938c5d55">
+    <producedTypes>
+      <objectType typeId="7061385a-0082-4e9a-8f08-2d6a16152b87" valueTypeId="2514f6fa-29f3-489d-a25f-5b803c705926"/>
+      <rowType typeId="846c1db7-ba69-4fe9-b6b2-97f46c53100a" valueTypeId="785fda51-afb4-4422-819f-208999441d3e"/>
+    </producedTypes>
+    <name>Protocols</name>
+    <synonym>
+      <key>en</key>
+      <value>Protocols</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Protokoll</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Протоколы</value>
+    </synonym>
+    <attributes uuid="62b3e0ad-a654-4784-9df9-8be1646f8f52">
+      <name>Protocol</name>
+      <synonym>
+        <key>en</key>
+        <value>Protocol name</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Bezeichnung des Übergabeprotokolls</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Название протокола</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="69b64cf9-f1d8-4de7-8498-8ef8a9c1f359">
+      <name>Server</name>
+      <synonym>
+        <key>en</key>
+        <value>Proxy server name</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Name des Proxy Servers</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Имя прокси сервера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="57975148-1bf3-437e-940f-911095b0d853">
+      <name>Port</name>
+      <synonym>
+        <key>en</key>
+        <value>Port</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Port</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:StringValue">
+        <value>65535</value>
+      </maxValue>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b0dd044a-7d0e-4af3-a74d-bdc608cbdbce">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="26972b3a-83fa-42fc-be29-4da742863b52">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

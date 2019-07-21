@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a664a29d-8d19-407c-a264-3d0be7343a5f">
+  <producedTypes>
+    <refType typeId="95408a02-d3b3-4e53-b2e9-a81848c90063" valueTypeId="efa446db-e840-4e01-8bf9-ffa8484e9832"/>
+    <listType typeId="213e8e4b-3062-4115-ab67-79ae079c0200" valueTypeId="067e8ef5-ddbe-4437-9deb-8bba8ddb8daf"/>
+    <managerType typeId="f1a79683-5725-43e1-8531-387665e79492" valueTypeId="fd4bd74e-e869-4f78-801e-aaaadbc7c873"/>
+  </producedTypes>
+  <name>FileEncoding</name>
+  <synonym>
+    <key>en</key>
+    <value>File encoding</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Dateicodierung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Кодировка файлов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="8ee61799-05f7-455a-907e-999ed15ba92e">
+    <name>ANSI</name>
+    <synonym>
+      <key>en</key>
+      <value>ANSI (Windows)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>ANSI (Windows)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ANSI (Windows)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad98203e-ec2d-409c-a66f-0e32735d81e0">
+    <name>OEM</name>
+    <synonym>
+      <key>en</key>
+      <value>OEM (DOS)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>OEM (DOS)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>OEM (DOS)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28d9a273-db96-46b8-bef6-21eddc1161bb">
+    <name>UTF16</name>
+    <synonym>
+      <key>en</key>
+      <value>UTF-16</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>UTF-16</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>UTF-16</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84fea8c8-4b84-4d60-a885-1f94ae2f9f57">
+    <name>UTF8</name>
+    <synonym>
+      <key>en</key>
+      <value>UTF-8</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>UTF-8</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>UTF-8</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a60fd8c7-53b9-44c3-9b7c-f901f300fbd5">
+    <name>System</name>
+    <synonym>
+      <key>en</key>
+      <value>System</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Systembezogen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Системная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88a4ed7e-e029-457d-aad8-7dc73ea87d25">
+  <producedTypes>
+    <refType typeId="9bb02df5-5370-4b11-ad2e-3f93f2646099" valueTypeId="2528fcb8-e6b7-45d1-bc3b-8ea349dfdcb7"/>
+    <listType typeId="36041076-c0ea-4815-a8fb-190e4e9c19b4" valueTypeId="d984b00e-1158-4e6f-9448-9f0305db92df"/>
+    <managerType typeId="a0a7b2ed-0b88-4654-adf3-e425d2344ecf" valueTypeId="086b17ad-b7e5-4cbd-8bdf-bd6e623fb469"/>
+  </producedTypes>
+  <name>PriceTagTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Price tag types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen von Preiseigenschaften</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы признаков цены</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ef8d8d5-9ea2-438c-8623-02c8704216ec">
+    <name>ByDurationOfStayByDays</name>
+    <synonym>
+      <key>en</key>
+      <value>By duration of stay by days</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Dauer des Aufenthalts nach Tagen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По продолжительности проживания по дням</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c733fa1-0a30-4492-93af-29a55ab3a1c9">
+    <name>ByDurationOfStayByPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>By duration of stay by period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Dauer des Aufenthalts für den ganzen Zeitraum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По продолжительности проживания на весь период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d8cad03-6c02-48a9-9415-f5df1fde6264">
+    <name>ByOccupancyPercent</name>
+    <synonym>
+      <key>en</key>
+      <value>By occupancy percent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Auslastungsanteil</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По проценту загрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86717def-c6cd-48cf-9b51-6e050cddb6ec">
+    <name>ByOccupancyPercentPerRoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>By occupancy percent per room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Auslastungsanteil von Zimmertypen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По проценту загрузки типов номеров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d214f43-d97f-48f5-b75d-dfe92987341e">
+    <name>ByOccupancyPercentPerRoomTypePerDayType</name>
+    <synonym>
+      <key>en</key>
+      <value>By occupancy percent per room type per calendar day type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Auslastungsgrad nach dem Zimmertyp durchschnittlich nach dem Typ des Kalendertags</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По проценту загрузки типов номеров усредненному по типу дня календаря</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

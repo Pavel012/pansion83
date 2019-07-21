@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d98eeeb2-96ec-4fc2-a7e3-5d95411f1f00">
+  <name>РеглЗадания</name>
+  <synonym>
+    <key>en</key>
+    <value>Scheduled jobs </value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Wartungsaufgaben</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Регл задания</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

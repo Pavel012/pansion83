@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c7b9d53-cbb2-4a70-ac26-0e62493779f1">
+  <producedTypes>
+    <managerType typeId="0780b0e2-31e7-4070-92b0-10ad1ab51532" valueTypeId="d4e19190-c10f-46e9-b4d4-d06cc088efd2"/>
+    <valueManagerType typeId="894aafe8-08a2-4b2d-aa29-b8d900e860d6" valueTypeId="b4e67645-0d8c-4b28-b178-b1f7a5af9628"/>
+    <valueKeyType typeId="8817f47f-e3f6-55ea-b2cf-96bd17414574" valueTypeId="f2abb658-92ba-5d12-a5dc-4144275d6ab5"/>
+  </producedTypes>
+  <name>НомерРелиза</name>
+  <synonym>
+    <key>en</key>
+    <value>Номер релиза</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Nummer des Konfigurationsrelease</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Номер релиза конфигурации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

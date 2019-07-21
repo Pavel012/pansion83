@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="927535d6-50b2-4d16-a787-2519e7c6bdb3">
+  <producedTypes>
+    <objectType typeId="9be86a3e-9c8a-4652-b436-e2b119156b85" valueTypeId="4b2a1365-7b69-49ec-b7e3-6d16b9d76f8c"/>
+    <managerType typeId="c34e5415-a738-4017-b73d-230e8411ecc2" valueTypeId="8a729480-215a-4299-8973-e1644c9791af"/>
+  </producedTypes>
+  <name>ЗагрузкаБрониПочта</name>
+  <synonym>
+    <key>en</key>
+    <value>Load reservations from e-mail messages filled in the WEB form</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Laden der Reservierung aus den E-Mail-Mitteilungen, die von der Hotelseite eingegangen sind</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить бронь из E-Mail сообщений полученных с сайта гостиницы</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаБрониПочта.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="9086f356-442c-40e3-a900-9a27dd0f25d9">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fe92b78e-8fa6-4dce-b53b-de8d346849bb">
+    <name>ReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>New reservation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der neuen Reservierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус новой брони</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88a770f1-a512-41c0-aabb-16489d274682">
+    <name>ExternalSystemCode</name>
+    <synonym>
+      <key>en</key>
+      <value>External system code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code des externen Systems</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код внешней системы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c6ae21f2-619a-4f3e-ac83-f53a2301c214">
+    <name>EMail</name>
+    <synonym>
+      <key>en</key>
+      <value>E-mail</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>E-mail</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>E-mail</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="edb2cbb4-4b56-42a0-a6ad-6896b446bdc1">
+    <name>InternetMailPOP3ServerAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail POP3 Server address</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>POP3-Mail-Server-Adresse</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес POP3 сервера электронной почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b8587aae-ac2d-4420-9176-38d11380e2a9">
+    <name>InternetMailPOP3Port</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail POP3 server port</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>E-Mail POP3-Server-Port</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порт POP3 сервера электронной почты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="112c5613-62f6-489b-b0bb-c49d7f7ee9c4">
+    <name>InternetMailPOP3Authentication</name>
+    <synonym>
+      <key>en</key>
+      <value>POP3 server authentication type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Von POP3-Server verwendeter Typ der Authentifizierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип аутентификации используемый POP3 сервером</value>
+    </synonym>
+    <type>
+      <types>EnumRef.POP3AuthenticationTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="54a522d4-b735-44b1-b623-2bc608780876">
+    <name>InternetMailPOP3UseSSL</name>
+    <synonym>
+      <key>en</key>
+      <value>Use SSL for POP3</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SSL verwenden für POP3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать SSL для POP3</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1bbb4f39-e8f1-4b04-ac0f-9df9b4e75d4c">
+    <name>InternetMailPOP3SecureAuthenticationOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Use secure authentication for POP3 only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verwenden Sie nur sichere Authentifizierung für POP3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать только secure authentication для POP3</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dfe7e254-8660-4f41-a611-6ecd2c2f8b21">
+    <name>InternetMailUser</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail server user</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzername am Server der Internet-Post</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя сервера интернет почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7bddc6e3-b233-4ec8-a966-9d2151ddcb05">
+    <name>InternetMailPassword</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail server user password</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzerpasswort des Internetpostservers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя сервера интернет почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a595e296-c7c7-4527-9e28-067d1d9058a1">
+    <name>InternetMailTimeout</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail server connection timeout</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wartezeit bei der Verbindung mit dem E-Mail-Server</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время ожидания соединения с сервером электронной почты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d49fedfe-12c2-4e2e-a795-a370026e49f2">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="03287415-300e-41b2-8811-1492ac447138">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

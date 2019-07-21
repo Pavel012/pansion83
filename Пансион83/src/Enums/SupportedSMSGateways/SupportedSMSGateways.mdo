@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a090a840-d519-40ce-a0db-fc11ad31573e">
+  <producedTypes>
+    <refType typeId="37b6da91-963e-4fac-845f-0fdbc2c1ee59" valueTypeId="b043e27d-05f6-49f8-8e76-dd39cd5fb15f"/>
+    <listType typeId="1e5c314b-1b69-47eb-82b1-fb174a1a7068" valueTypeId="08964142-ca4d-48dc-a273-5eef201a8065"/>
+    <managerType typeId="0f278d59-0af4-4c9c-b1d1-902e797438c7" valueTypeId="c0c7ca02-9346-4a57-90c8-24073c8591bc"/>
+  </producedTypes>
+  <name>SupportedSMSGateways</name>
+  <synonym>
+    <key>en</key>
+    <value>Supported SMS gateways</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Unterstützte SMS-Gateways</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поддерживаемые СМС шлюзы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b62dacd-59ec-4e87-8324-3ac0ee075921">
+    <name>SMSD</name>
+    <synonym>
+      <key>en</key>
+      <value>SMSD</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SMSD</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>SMSD</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f97d0f6-f703-4a39-8bac-9f94df7d100e">
+    <name>SMS1CHOTEL</name>
+    <synonym>
+      <key>en</key>
+      <value>SMS1CHOTEL</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SMS1CHOTEL</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>SMS1CHOTEL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9414b8d-40c5-47da-b46b-e8f20b557a79">
+    <name>OTHER</name>
+    <synonym>
+      <key>en</key>
+      <value>&lt;Other></value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>&lt;Anderer></value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>&lt;Другой></value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e25abf3-b8c4-4773-8b3c-bcb63d9c8bec">
+  <producedTypes>
+    <selectionType typeId="e65ea097-70e0-4483-a62d-bb5bc5d41df9" valueTypeId="3ce39ed9-d98f-407e-bb42-3c735378720f"/>
+    <listType typeId="f4104249-7ef5-4a85-9c81-95c8b60e7936" valueTypeId="873d5e58-fe4b-4e35-a592-36c445870148"/>
+    <managerType typeId="6e7380c9-1c42-4243-8ccb-1f4637a8e639" valueTypeId="99f7ece5-ee79-4907-ae4d-df2792ae9c98"/>
+    <recordSetType typeId="adf2e937-4e85-42c1-9c1f-d24b3acb2d0b" valueTypeId="c1c5f738-42b9-489b-afa3-41bfe3ceed26"/>
+    <recordKeyType typeId="de8efd70-c00c-44b1-a60b-3c355b4ceff3" valueTypeId="390903a2-dd25-478e-8e8a-96126ce371ce"/>
+    <recordType typeId="088adb9e-2d46-4c14-87a6-2acf3cf0eb4d" valueTypeId="ca0b8851-702e-42fc-b8a4-26caec50875f"/>
+    <recordManagerType typeId="8d0b4c9b-48f0-47c6-8369-9284240a6048" valueTypeId="88ebdb57-c81e-4b45-830a-413334c7b1ec"/>
+  </producedTypes>
+  <name>СвойстваНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Свойства номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Eigenschaften der Zimmer</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номеров</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2524bf0f-58b1-4992-8c39-da9bbd6ec3a9">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7696ba99-7120-42fa-9e73-485161457e58">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="28085d5a-251b-493f-9912-2251cab66d60">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <comment>Номер</comment>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0f865579-0c64-4cb4-8f34-b2b7c6d6ff6b">
+    <name>RoomProperty</name>
+    <synonym>
+      <key>en</key>
+      <value>Room property</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eigenschaft des Zimmers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СвойстваНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

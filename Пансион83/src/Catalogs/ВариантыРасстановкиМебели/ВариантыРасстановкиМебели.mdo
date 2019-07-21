@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d072baa5-b237-419e-8318-2c10fa7f5d09">
+  <producedTypes>
+    <objectType typeId="fd43a208-82e4-48de-9ebe-3985286dc8b9" valueTypeId="2b80e22e-9aec-4960-b3eb-694905c2f3ee"/>
+    <refType typeId="1eb95939-ed90-47d6-9f56-349b9e5c3345" valueTypeId="33140cfc-330c-4bfa-90da-cc1da1bead9b"/>
+    <selectionType typeId="e48d2495-e06c-4a02-856c-50247189f42b" valueTypeId="f22f743c-a329-4c4e-896d-639f384622a7"/>
+    <listType typeId="680908a3-abc8-4a2b-b9e6-02c9526ced50" valueTypeId="83be796d-b481-48b2-b23d-2444f053b599"/>
+    <managerType typeId="75220cf5-e925-4ce6-84a4-af7977a602ba" valueTypeId="d90c3b01-5805-4fd0-874a-85375f377bda"/>
+  </producedTypes>
+  <name>ВариантыРасстановкиМебели</name>
+  <synonym>
+    <key>en</key>
+    <value>Варианты расстановки мебели</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Varianten der Möbelverteilung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты расстановки мебели</value>
+  </synonym>
+  <inputByString>Catalog.ВариантыРасстановкиМебели.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВариантыРасстановкиМебели.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВариантыРасстановкиМебели.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.ВариантыРасстановкиМебели.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ВариантыРасстановкиМебели.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="c3a3f6d7-d87b-4ba4-a413-cb9e0ca1ea30">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="260f468c-a9e8-4e93-9866-6f34808ad88b">
+    <name>Picture</name>
+    <synonym>
+      <key>en</key>
+      <value>Picture</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bild</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="289b2b0c-5947-43e4-b120-ac1ab3f7fa0c">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a24a12c-f9a4-4569-88ff-edd2d6e281b6">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98e43acf-4bef-4d7f-8c51-c8252bcb6fbc">
+  <producedTypes>
+    <selectionType typeId="fcdcdf78-b829-4f93-8149-037a8bc2bc04" valueTypeId="52195e48-04ff-4375-930a-ba2e86ce0fa9"/>
+    <listType typeId="101f1bfe-8729-4127-bfbd-d3e77db1959c" valueTypeId="f40aa1ec-93b1-48c2-9081-2d3717d61c49"/>
+    <managerType typeId="47de274e-f206-49f0-96dd-b4fff62826ab" valueTypeId="c4ca0f55-5ed6-44df-9b33-59168c991295"/>
+    <recordSetType typeId="f6ae0062-62b3-4196-bd55-1aefef639ec3" valueTypeId="52829187-a1a8-4766-8254-1e405e2b3426"/>
+    <recordKeyType typeId="1a6103fa-40f6-4f2c-a681-d85d8426165e" valueTypeId="76cce489-5408-45dd-941e-3a6a58bb3095"/>
+    <recordType typeId="208ae24e-b926-42e9-8e59-a25a6607d362" valueTypeId="059acf49-67d8-46e5-9514-312207258176"/>
+    <recordManagerType typeId="ba5c5811-0c7d-4793-999e-d3df326bea45" valueTypeId="624fe6c7-2151-40fc-b44d-c28ad46b118a"/>
+  </producedTypes>
+  <name>КурсВалют</name>
+  <synonym>
+    <key>en</key>
+    <value>Курс валют</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Währungskurse</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы валют</value>
+  </synonym>
+  <defaultListForm>InformationRegister.КурсВалют.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="64deb855-0e60-45ee-8d78-43cc4902e3a3">
+    <name>Rate</name>
+    <synonym>
+      <key>en</key>
+      <value>Rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kurs</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="56e8baf0-d2fe-48cf-bdca-7620584ed0e6">
+    <name>Factor</name>
+    <synonym>
+      <key>en</key>
+      <value>Factor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Koeffizient</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <comment>Кратность</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9c7f6484-889c-4ac8-97cf-f5b62082d359">
+    <name>BonusRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Bonus calculation rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kurs der Umrechnung in Boni</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Курс пересчета в бонусы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f91dc326-5fde-4310-b625-0d80cf6e7124">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1c985417-f1b2-4096-a88a-581ba94ac81c">
+    <name>Currency</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="202bc091-ffbb-42e3-9966-54e01ffa9f97">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

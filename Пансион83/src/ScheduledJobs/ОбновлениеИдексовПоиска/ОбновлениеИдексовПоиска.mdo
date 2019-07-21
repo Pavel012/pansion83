@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9d3e206-45c0-429f-8225-3587ac265624">
+  <name>ОбновлениеИдексовПоиска</name>
+  <synonym>
+    <key>en</key>
+    <value>Refresh full text search index</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Aktualisierung des Index der Volltextsuche</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление индекса полнотекстового поиска</value>
+  </synonym>
+  <methodName>CommonModule.РеглЗадания.cmRefreshFullTextSearchIndex</methodName>
+  <key>RefreshFullTextSearchIndex</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>60</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

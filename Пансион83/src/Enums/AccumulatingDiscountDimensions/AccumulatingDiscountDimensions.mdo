@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="002b7040-11f3-4d52-8519-56422b021264">
+  <producedTypes>
+    <refType typeId="d5af2995-fd0a-4da9-be48-7b2154a67d57" valueTypeId="b9d1b40c-da56-44b3-9d3c-e9809f1a43b7"/>
+    <listType typeId="c23ee1fb-9428-4ec7-bd4e-d998855c58ab" valueTypeId="59cd10ce-98b0-4776-8175-325d247a47c6"/>
+    <managerType typeId="d36ede8b-48e0-4ab8-9edc-7640eb39c5d3" valueTypeId="85655353-5a4d-459c-a085-9dce142a4036"/>
+  </producedTypes>
+  <name>AccumulatingDiscountDimensions</name>
+  <synonym>
+    <key>en</key>
+    <value>Accumulating discount dimensions</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Messungen der summarischen Preisnachlässe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Измерения накопительных скидок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f769376-aada-4ac7-8f34-98442d19360e">
+    <name>Client</name>
+    <synonym>
+      <key>en</key>
+      <value>Client</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kunde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebdbaec2-8e49-4c2a-932f-ab5e290d9e3f">
+    <name>Customer</name>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b326f8ac-5ea3-4792-9546-95b37d9888ff">
+    <name>Contract</name>
+    <synonym>
+      <key>en</key>
+      <value>Contract</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertrag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5af2c35-5f63-4e8b-9fb1-b2fbdfe3c7df">
+    <name>Agent</name>
+    <synonym>
+      <key>en</key>
+      <value>Agent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertreter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Агент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b64e558-ff91-48e4-b81c-ea47b3b3b390">
+    <name>DiscountCard</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount card</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Diskontkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконтная карта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

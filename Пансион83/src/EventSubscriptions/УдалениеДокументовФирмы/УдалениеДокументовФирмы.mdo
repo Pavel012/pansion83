@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a66609bf-d28d-4cf3-bbd8-c04b1148fd78">
+  <name>УдалениеДокументовФирмы</name>
+  <synonym>
+    <key>en</key>
+    <value>Company documents &quot;before delete&quot; events</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Ereignisse &quot;vor dem Eintrag&quot; bei an die Firma &quot;gebundenen&quot; Dokumenten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>События &quot;перед удалением&quot; у документов &quot;привязанных&quot; к фирме</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.РаспределениеАванса</types>
+    <types>DocumentObject.СчетНаОплату</types>
+    <types>DocumentObject.ПлатежКонтрагента</types>
+    <types>DocumentObject.Акт</types>
+    <types>DocumentObject.Возврат</types>
+    <types>DocumentObject.Платеж</types>
+    <types>DocumentObject.ЗакрытиеПериода</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.Подписки.CompanyDocumentsBeforeDeleteEventsBeforeDelete</handler>
+</mdclass:EventSubscription>

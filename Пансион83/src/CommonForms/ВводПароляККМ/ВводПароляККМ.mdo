@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16e20d48-37d1-4adb-9130-23a560553bd4">
+  <name>ВводПароляККМ</name>
+  <synonym>
+    <key>en</key>
+    <value>Ввод пароля ККМ</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Eingabe des Passworts der Registrierkasse</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод пароля ККМ</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

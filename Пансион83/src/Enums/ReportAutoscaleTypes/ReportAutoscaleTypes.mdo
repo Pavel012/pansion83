@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf87c0dd-df86-407b-97f1-1d99d6e93263">
+  <producedTypes>
+    <refType typeId="433d29d8-3091-4a58-a9b5-6a50fec076d8" valueTypeId="53858575-01db-4781-b3d4-ef1becb1694e"/>
+    <listType typeId="f4adf197-4f7c-4306-a874-c8c973a8fec4" valueTypeId="8a21817d-7a20-4324-9d87-64787f9f025c"/>
+    <managerType typeId="f72e80a4-4936-40ba-8e45-56094452c7ee" valueTypeId="fae9b12c-8f4b-41c4-8f22-c5d604501f00"/>
+  </producedTypes>
+  <name>ReportAutoscaleTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Report autoscale types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen der automatischen Skaleneinstellung des Berichts</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды автоматического масштабирования отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="6ebf76ac-b248-4130-b6e2-6d676b65b5be">
+    <name>DoNotScale</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not scale</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nicht skalieren</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не масштабировать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0799ad4a-ee70-42c5-8af8-62e9f346098f">
+    <name>FitToPageWidth</name>
+    <synonym>
+      <key>en</key>
+      <value>Fit to page width</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Blattbreite</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По ширине листа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

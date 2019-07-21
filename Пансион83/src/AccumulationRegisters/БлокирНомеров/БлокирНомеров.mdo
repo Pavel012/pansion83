@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3016e1f-0c5b-4bcb-a6f9-e83a7b47ea59">
+  <producedTypes>
+    <selectionType typeId="a059e188-64da-4813-af35-1f8f228c6d8e" valueTypeId="2f9b2751-df04-429b-92a7-b8a62a8a9eef"/>
+    <listType typeId="0a087cf8-6df2-4a31-9e74-720d1b2bc066" valueTypeId="628cbb99-09d8-48a7-8918-3cf22f88ea4a"/>
+    <managerType typeId="d67a9140-ce1d-464f-886f-f1470aee0b9f" valueTypeId="4876047d-a7a9-4672-8335-d1e79e67f7c0"/>
+    <recordSetType typeId="6e071260-0d9a-4dae-bfd5-d705d4e6d395" valueTypeId="9480d866-0a60-497a-87ae-9d5c7214a506"/>
+    <recordKeyType typeId="ee9a11f4-ef64-4709-a182-d9bba9219557" valueTypeId="176c4218-f9b7-4f3d-ac12-d21d9b6657c5"/>
+    <recordType typeId="de9427ec-2a9f-4ab9-b8c3-b780a0fd508f" valueTypeId="17b295c8-29f1-4645-b8ed-cbe11bb78c11"/>
+  </producedTypes>
+  <name>БлокирНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Блокир номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zimmerblockierungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировки номеров</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2a9ebc60-27f9-4699-b7db-a0da3459d364">
+    <name>RoomsBlocked</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms blocked</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer blockiert</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокировано номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="2fbb3bcb-39ec-4e39-9f9a-5dcccab30606">
+    <name>BedsBlocked</name>
+    <synonym>
+      <key>en</key>
+      <value>Beds blocked</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Blockierte Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокировано мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="e4f2323c-0e87-4f7a-9a53-74c4bbf438cc">
+    <name>IsFinished</name>
+    <synonym>
+      <key>en</key>
+      <value>Is finished</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abgeschlossen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="476600a1-3809-40cb-a346-bb2260a9d362">
+    <name>DateFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Start date and time of room block period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit des Blockierungszeitraumbeginns</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время начала начала периода блокировки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9d8d032a-dc4d-4dc1-a82f-e7555ad59c54">
+    <name>Duration</name>
+    <synonym>
+      <key>en</key>
+      <value>Duration in days</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dauer in Tagen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность в днях</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1ba78c75-f441-456d-9470-25b38505f1b4">
+    <name>DateTo</name>
+    <synonym>
+      <key>en</key>
+      <value>End date and time of room block period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit des Blockierungsendes</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время окончания периода блокировки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f9c3e4ba-45bb-47a7-8357-b884b633f4b2">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d4290a59-3dee-47a4-9139-c2f6d100179b">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="092aa426-482f-408d-9f09-340605d9cd1c">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5a5de2c1-e305-445f-be43-8d475e8acc9d">
+    <name>RoomBlockType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room block type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Nummerblockierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид блокировки номера </value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидБлокНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5b79555d-f71e-4e92-b4d5-1e78df4e87fc">
+    <name>RoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3348b6c4-9547-468d-b112-998b471ddaef">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

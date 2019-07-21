@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4089328-db4a-44b0-8f87-5ec2f82526d3">
+  <name>УправлениеНомернымФондом</name>
+  <synonym>
+    <key>en</key>
+    <value>Housekeeping management</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verwaltung des Zimmerdienstes</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление службой номеров</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка1</picture>
+  </picture>
+  <content>CommonModule.СлужбаНомеров</content>
+  <content>CommonModule.ИнтерфейсДомашний</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Работы</content>
+  <content>Catalog.НаборРегламентныхРабот</content>
+  <content>Catalog.СекцииНомерногоФонда</content>
+  <content>Catalog.ТипыДнейГрафРаботы</content>
+  <content>Document.ОперацииСотрудников</content>
+  <content>Document.ПланРабот</content>
+  <content>Report.CleaningTask</content>
+  <content>Report.EmployeeOperationsHistory</content>
+  <content>Report.EmployeeOperationsTurnovers</content>
+  <content>Report.EmployeeOperationTasksTurnovers</content>
+  <content>Report.EmployeeWorkingTimeSchedule</content>
+  <content>DataProcessor.УправлениеСтатусомНомеров</content>
+  <content>InformationRegister.НормативыПотрНомеклатуры</content>
+  <content>InformationRegister.СотрудникИсторияОпераций</content>
+  <content>InformationRegister.ЗабытыеВещи</content>
+  <content>InformationRegister.НормативыРабот</content>
+  <content>AccumulationRegister.ОборотыРаботыПерсонал</content>
+  <content>CommonPicture.ОбщаяКартинка1</content>
+  <content>Catalog.ШаблоныРазмещения</content>
+  <content>Catalog.ВидыРазмещения</content>
+  <content>Document.ДанныеКлиента</content>
+  <content>Document.ПереселениеНомер</content>
+  <content>Document.ДобавитьНомер</content>
+  <content>Document.Размещение</content>
+  <content>Catalog.ИсточИнфоГостиница</content>
+  <content>Catalog.Обращения</content>
+  <content>Catalog.ТипыНомеров</content>
+  <content>Catalog.СтатусыНомеров</content>
+  <content>Catalog.НомернойФонд</content>
+  <content>Catalog.КвотаНомеров</content>
+  <content>Catalog.СвойстваНомеров</content>
+  <content>Catalog.ВидУслугВНомерах</content>
+  <content>Catalog.Сокращения</content>
+  <content>Catalog.СтатусРазмещения</content>
+  <content>Catalog.Обработки</content>
+  <content>InformationRegister.ИсторияТарифы</content>
+</mdclass:Subsystem>

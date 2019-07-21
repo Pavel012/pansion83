@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fda34f3-1d97-4e48-aed0-def030cb75b5">
+  <producedTypes>
+    <selectionType typeId="afb722fc-03f5-4ef6-b10b-4264e87dbc31" valueTypeId="8f5434fe-637e-460c-8da4-06b4d34b3675"/>
+    <listType typeId="19133603-04be-4a59-81ad-a844eeeb9481" valueTypeId="8ff8057f-16d3-4c3e-8b88-c24e7e38b23e"/>
+    <managerType typeId="de5be7f4-dd68-4ce9-a567-1ecc3c5c8c8e" valueTypeId="c041f0b2-86b7-4e04-9232-6d16411bf33e"/>
+    <recordSetType typeId="d570e96a-ff48-4c8b-8fb5-aeafcca862a8" valueTypeId="035281d7-cb99-48c0-9f0a-60d1dd346e34"/>
+    <recordKeyType typeId="3fea591e-5174-4bc8-b098-5b5ba1a507cf" valueTypeId="a514431d-4c3a-4dd9-a0bd-f0531424b963"/>
+    <recordType typeId="5bc14315-38d2-423e-9a2d-510e0b8468d4" valueTypeId="96ccb1bb-eb16-4d24-8160-01f476dae130"/>
+    <recordManagerType typeId="005edad8-3cf5-4fdd-b9e4-5bf936c9981e" valueTypeId="f9b2ccc0-d6d1-4f43-a023-0a9fcb28d8b9"/>
+  </producedTypes>
+  <name>КалендарьДень</name>
+  <synonym>
+    <key>en</key>
+    <value>Календарь день</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kalendertage</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Дни календарей</value>
+  </synonym>
+  <defaultListForm>InformationRegister.КалендарьДень.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c7646419-bdb4-40b1-935b-9263404eb860">
+    <name>CalendarDayType</name>
+    <synonym>
+      <key>en</key>
+      <value>Calendar day type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kalendertagestyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дня календаря</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипДневногоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="e68b6a97-58db-45dd-99f7-40ab10920f97">
+    <name>Timetable</name>
+    <synonym>
+      <key>en</key>
+      <value>Day timetable</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tagesablaufplan</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание дня</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Расписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="5c79a13f-2335-4ae8-9131-782342626b8e">
+    <name>Calendar</name>
+    <synonym>
+      <key>en</key>
+      <value>Calendar</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kalender</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Календари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ee3139ea-cb76-4f59-b7b0-cf251c920c3d">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

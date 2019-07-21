@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b69c8fd-640d-463c-8984-5df61d2744ac">
+  <producedTypes>
+    <objectType typeId="4eea0fc4-6d26-4104-9127-c980eae6df2a" valueTypeId="16bd2f1d-5040-498f-a7c1-d0a60906b73d"/>
+    <refType typeId="29284a58-1109-4492-862b-f24574a15966" valueTypeId="44415bad-f10d-4289-b687-7109fef7fa9e"/>
+    <selectionType typeId="aca28ecc-2d13-4dd7-a51a-0010bf985875" valueTypeId="d1fc29d5-559c-4aa5-b1bd-8803cdf54df7"/>
+    <listType typeId="7ffcbe04-79e1-410b-bdc5-7958580e8e5e" valueTypeId="876bc53d-7d32-43b0-aa19-0c521c1eb76e"/>
+    <managerType typeId="8f381524-c79c-4fdb-b7e7-1ac9e74e8fff" valueTypeId="c7794e93-1b48-4428-aecb-3e0ade0abc8a"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>en</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Nomenklatur</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Номенклатура.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="3b527597-5f52-44ae-9e30-ce7e6098e2fd">
+    <name>ПорядокСортировки</name>
+    <synonym>
+      <key>en</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4338fd47-7b32-426d-abb0-df606dfdadf2">
+    <name>ЕдИзмерения</name>
+    <synonym>
+      <key>en</key>
+      <value>Ед измерения</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Maßeinheit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9f5686c-e669-4f58-8554-4cf1f0ff5acf">
+    <name>Примечание</name>
+    <synonym>
+      <key>en</key>
+      <value>Примечание</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27cffd13-0d88-46c5-9059-024cd5fbaff7">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="60b656bc-a940-4b5a-bd6a-809a4ccecf6a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdb04014-b33b-400c-83ed-ee522a268c84">
+  <name>Minimize</name>
+  <synonym>
+    <key>en</key>
+    <value>Minimize</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verkleinern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Свернуть</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>8</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

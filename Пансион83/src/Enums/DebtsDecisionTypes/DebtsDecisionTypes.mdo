@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4497f40a-868b-4a38-9416-ce1a5500bbc2">
+  <producedTypes>
+    <refType typeId="148473ea-3cd1-47bb-929d-3feac87dfb33" valueTypeId="c113dd06-7f89-4340-acd6-eff2ebc031e1"/>
+    <listType typeId="c98eab25-d34d-40b7-a4c0-d3d74b0865cf" valueTypeId="d82f3937-bd56-4869-a664-c09a4c57a566"/>
+    <managerType typeId="43e1736f-db1d-4e58-89d1-a1651c4c9e02" valueTypeId="da997393-b426-4761-8b20-3c67ee444ebb"/>
+  </producedTypes>
+  <name>DebtsDecisionTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Folio debts decision types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Lösungsarten nach Personenkonten mit Schulden</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды решений по лицевым счетам с долгами</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="65fff571-cbd7-4516-8740-506bcdb0eb57">
+    <name>WaitForClientToComeBack</name>
+    <synonym>
+      <key>en</key>
+      <value>Wait for client to come back</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Auf den wiederholten Besuch des Gastes warten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ждать повторного визита клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55a92dcf-aecf-44dd-b16e-de00fb0547a3">
+    <name>AccountsReceivableCorrection</name>
+    <synonym>
+      <key>en</key>
+      <value>Cancel charges and do accounts receivable correction</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Berechnungen stornieren und Realisierung korrigieren</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сторнировать начисления и исправить реализацию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5130d61b-7cf6-4f92-9434-fe0203f06967">
+    <name>DebtShouldBePaidByEmployee</name>
+    <synonym>
+      <key>en</key>
+      <value>Debt should be paid by employee</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Schuld muss vom Mitarbeiter bezahlt werden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Долг должен быть оплачен сотрудником</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

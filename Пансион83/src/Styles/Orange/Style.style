@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>FormBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Cream</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FormTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ButtonBackColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>245</red>
+      <green>242</green>
+      <blue>221</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ButtonTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.White</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldSelectionBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.MidnightBlue</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldSelectedTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.White</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldAlternativeBackColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>201</red>
+      <green>219</green>
+      <blue>254</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ToolTipBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.LightYellow</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ToolTipTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>SpecialTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.SpecialTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NegativeTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.NegativeTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>BorderColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>179</red>
+      <green>172</green>
+      <blue>134</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportHeaderBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportHeaderBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportGroup1BackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportGroup1BackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportGroup2BackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportGroup2BackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportLineColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportLineColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:BorderStyleItem">
+    <name>ControlBorder</name>
+    <border xsi:type="core:BorderDef">
+      <style>Single</style>
+      <width>1</width>
+    </border>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>TextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.TextFont</font>
+      <height>8.0</height>
+      <bold>false</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>SmallTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.SmallTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>NormalTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>LargeTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.LargeTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>ExtraLargeTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ExtraLargeTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ButtonBorderColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ButtonBorderColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>TableHeaderBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.TableHeaderBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>TableHeaderTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.TableHeaderTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>TableFooterBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.TableFooterBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>TableFooterTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.TableFooterTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФонПанелиКнопок</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Orange</color>
+    </color>
+  </items>
+  <items xsi:type="style:BorderStyleItem">
+    <name>StyleItem.РамкаПанелиКнопок</name>
+    <border xsi:type="core:BorderDef">
+      <style>Single</style>
+      <width>1</width>
+    </border>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФонПанелиОтборов</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.LemonChiffon</color>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтЗаголовкаРамки</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ШрифтЗаголовкаРамки</font>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветГраницыГарантБрониРесурсов</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.LawnGreen</color>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтОтборовОтчета</name>
+    <font xsi:type="core:FontDef">
+      <faceName>Arial</faceName>
+      <height>8.0</height>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтЗаголовкаОтчета</name>
+    <font xsi:type="core:FontDef">
+      <faceName>Arial</faceName>
+      <height>14.0</height>
+      <bold>true</bold>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветТекстаЗаголовкаОтчета</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтТаблицыОтчета</name>
+    <font xsi:type="core:FontDef">
+      <faceName>Arial</faceName>
+      <height>10.0</height>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветЗаголовкаТаблицыОтчета</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.White</color>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтЗаголовкаТаблицыОтчета</name>
+    <font xsi:type="core:FontDef">
+      <faceName>Arial</faceName>
+      <height>10.0</height>
+      <bold>true</bold>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветТекстаЗаголовкаТаблицыОтчета</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветТекстаТаблицыОтчета</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветФонаБрониРесурсов</name>
+    <color xsi:type="core:ColorDef">
+      <red>204</red>
+      <green>227</green>
+      <blue>255</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветГраницыБрониРесурсов</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ИтогСуммаШрифт</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ИтогСуммаШрифт</font>
+      <height>16.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтПодписиПоля</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.TextFont</font>
+      <height>8.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </font>
+  </items>
+</style:Style>

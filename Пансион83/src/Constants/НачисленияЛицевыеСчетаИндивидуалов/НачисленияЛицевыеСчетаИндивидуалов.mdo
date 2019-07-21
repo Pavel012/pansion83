@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15775da1-92de-42c3-8481-4115872861e9">
+  <producedTypes>
+    <managerType typeId="bbfd8752-d87f-4fc0-a5e5-8720264d09ba" valueTypeId="9f80a5fb-1ff8-4c92-b380-617d5247f4b5"/>
+    <valueManagerType typeId="55c0dd9f-3723-4c0b-9ca5-5610a2d9a0a8" valueTypeId="7083a8d2-6681-4ab2-8b4e-97054160129a"/>
+    <valueKeyType typeId="979c50a3-a353-543a-b8f9-34d63b34519c" valueTypeId="2f57a1ff-ff4f-5ffe-b67d-33fae9ec30dd"/>
+  </producedTypes>
+  <name>НачисленияЛицевыеСчетаИндивидуалов</name>
+  <synonym>
+    <key>en</key>
+    <value>Split charges to a personal folio for individual customers</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Transfer Berechnungen in persönliche Konten für Einzelpersonen Firmen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Переносить начисления в персональные счета для контрагентов индивидуалов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

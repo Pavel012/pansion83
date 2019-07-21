@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60752fc7-33b2-4ddd-87cd-a6db1b09f4ac">
+  <name>Incoming</name>
+  <synonym>
+    <key>en</key>
+    <value>Incoming</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Incoming</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Входящее</value>
+  </synonym>
+  <transparentPixel>
+    <x>10</x>
+    <y>11</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94d9fe29-72a6-4ebc-ba99-7046571d7a6c">
+  <producedTypes>
+    <selectionType typeId="73e1f7f8-8e88-467e-a795-e8fc2e93691e" valueTypeId="38273041-ee45-4c0f-aab4-270eb74fd486"/>
+    <listType typeId="3979fa78-f0ae-4a64-a71c-e050a2512cd7" valueTypeId="e63416a2-08d2-472c-a693-23abe77b13d2"/>
+    <managerType typeId="f670a2f6-205c-49f9-92fd-1e2a5dfc3a65" valueTypeId="c524b302-47fa-43c1-b1a0-504cdb95dd28"/>
+    <recordSetType typeId="eb93ea49-050f-4b12-944a-856b5748b4d7" valueTypeId="c27de570-98fc-4068-88f9-980adc140835"/>
+    <recordKeyType typeId="b82de89a-d6cf-4d61-bac9-e0c83e8eb74c" valueTypeId="0416fe29-8908-4077-8662-3ff5384fe5bf"/>
+    <recordType typeId="ca68bf2a-bd52-4dca-a9ef-7cbc61b76c55" valueTypeId="8db496a3-527e-4ff6-bf89-578e1ba85e2b"/>
+    <recordManagerType typeId="0c942bca-367e-4a87-bd50-2c75942d360f" valueTypeId="11dc6e31-7d8d-4fb1-b755-efea82eb2861"/>
+  </producedTypes>
+  <name>НакопительныеСкидки</name>
+  <synonym>
+    <key>en</key>
+    <value>Накопительные скидки</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Summarische Preisnachlässe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Накопительные скидки</value>
+  </synonym>
+  <defaultListForm>InformationRegister.НакопительныеСкидки.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c16c68d7-e603-4855-ad6c-12eca60642ff">
+    <name>Discount</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preisnachlass %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2ad994c1-8421-483a-8203-bd3c5a631530">
+    <name>DiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="70db883c-5e18-476c-959a-1cef32c1783c">
+    <name>ResourceLimit</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource limit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressourcengrenze</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Граница ресурса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c02ff0e8-1857-4455-bdb9-7e3cfbe60b72">
+    <name>ServiceGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Service group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Набор услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="57727a54-1e97-4d69-8f1c-0f2d2670b6a2">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d1a34ed-c8c4-425a-976f-5f6c6a4a6eb7">
+  <producedTypes>
+    <objectType typeId="555dc28e-f893-4514-89a0-afb31694fbcc" valueTypeId="401ce505-225c-4eaf-809a-1f20fa3062d4"/>
+    <refType typeId="d7837ce4-a17f-4156-a9f6-d6e3143292c1" valueTypeId="a6d5f836-b6ce-490c-aff1-74e02e110319"/>
+    <selectionType typeId="d58e73b8-815c-4ab5-b840-9ee8095568cb" valueTypeId="2834a459-3d42-4529-be2e-d9a55d2df06f"/>
+    <listType typeId="4a879626-9ff8-4009-917b-a24944b0f9c4" valueTypeId="adfd6b16-0da3-452d-ade9-7e60443d2e5b"/>
+    <managerType typeId="1a393bbd-eefc-4061-8359-1d0db8d8b271" valueTypeId="d725afe2-64b8-4ce3-8a7b-ea3dcbd58c2d"/>
+  </producedTypes>
+  <name>ПараметрыКартИД</name>
+  <synonym>
+    <key>en</key>
+    <value>Параметры карт ИД</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Parameter des Systems der Kundenidentifikationskarten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры системы карт идентификации клиентов</value>
+  </synonym>
+  <inputByString>Catalog.ПараметрыКартИД.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПараметрыКартИД.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПараметрыКартИД.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ПараметрыКартИД.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ПараметрыКартИД.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ПараметрыКартИД.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="accc46f3-8a3a-4033-a706-4fe338e90c3e">
+    <name>CardReaderType</name>
+    <synonym>
+      <key>en</key>
+      <value>Card reader type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kartenlesertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип считывателя карт</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CardReaderTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e76c35f6-29e0-45f8-b8d0-e7bc37dbd4d8">
+    <name>LogicalDeviceNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Logical device number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nummer des logischen Geräts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер логического устройства</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa8c7867-af47-478f-ae9c-13ea1b40f665">
+    <name>Port</name>
+    <synonym>
+      <key>en</key>
+      <value>Port</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Port</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90d36fe1-17f6-4fc7-b929-ca2059e598d2">
+    <name>BaudRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Baud rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übertragungsrate</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Скорость обмена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e59fc3e9-648a-48a3-a149-ae9f087f8fc9">
+    <name>Parity</name>
+    <synonym>
+      <key>en</key>
+      <value>Parity</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Teilbarkeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Четность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ParityTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3c78b86-eb04-4ac2-ada7-997aea095622">
+    <name>DataBits</name>
+    <synonym>
+      <key>en</key>
+      <value>Data bits</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datenbits</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Биты данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.DataBits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3883883a-c029-429e-bb56-0968d44c3aad">
+    <name>StopBits</name>
+    <synonym>
+      <key>en</key>
+      <value>Stop bits</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Stoppbits</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Стоп биты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.StopBits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="294ee9c9-cc03-431e-8b05-49c7e739c368">
+    <name>Prefix</name>
+    <synonym>
+      <key>en</key>
+      <value>Prefix</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Präfix</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9fd961de-75a6-4a2a-93c5-984392f54570">
+    <name>Suffix</name>
+    <synonym>
+      <key>en</key>
+      <value>Suffix</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Suffix</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Суффикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c857b30a-04be-411b-ac4b-6f419af978a0">
+    <name>ShowAllClientsInTheRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Show all clients in the room in the service registration form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeigen Alle Zimmer Gäste in der Form der Dinstleistungen Registrierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать всех гостей номера в форме регистрации фактически оказанных услуг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec93d40e-e241-410c-8350-7c6a37646495">
+    <name>DeletePreviousClientCardsBeforeIssuingNew</name>
+    <synonym>
+      <key>en</key>
+      <value>Delete previous client cards before issuing new one</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Löschen vorherige Client-Karten vor der Erteilung einer neuen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять предыдущие карты клиента перед регистрацией новой карты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1186336c-e781-456e-8c6e-cd36e1fd0d15">
+    <name>IssueCardsForAllGuestsInTheRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Issue cards for all guests in the room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ausgabekarten für alle Gäste im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрировать карты в цикле всем гостям номера</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="470dead4-e852-4f84-9c91-d7fdaf5dc88e">
+    <name>IdentificationCardType</name>
+    <synonym>
+      <key>en</key>
+      <value>Visitors identification card type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ von Besucheridentifikationskarten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип карт идентификации посетителей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипКартИД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43822187-560c-4aae-820f-203e6f2819c4">
+    <name>UseDeleted</name>
+    <synonym>
+      <key>en</key>
+      <value>Reuse deleted cards (cards initially should be registered in the system)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Reuse gelöscht Karten (Karten sollten zunächst im System registriert werden)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Повторно использовать удаленные карты (карты заранее регистрируются в системе)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e2d316e2-62ba-4242-a861-ee85a86453f7">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b99aff6-0a8e-4296-a545-d6a5a468420c">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="18e936b7-e2ed-4235-915f-94380c073089">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

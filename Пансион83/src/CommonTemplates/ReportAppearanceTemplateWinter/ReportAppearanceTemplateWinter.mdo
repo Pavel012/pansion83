@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ed41ab7-8cb7-4f6c-a1b9-395839e16616">
+  <name>ReportAppearanceTemplateWinter</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Зима</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - Winter</value>
+  </synonym>
+</mdclass:CommonTemplate>

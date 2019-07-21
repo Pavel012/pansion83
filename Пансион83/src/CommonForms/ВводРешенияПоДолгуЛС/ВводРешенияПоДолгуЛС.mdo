@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dae479eb-2602-45b5-a21a-89d76aabcc7b">
+  <name>ВводРешенияПоДолгуЛС</name>
+  <synonym>
+    <key>en</key>
+    <value>Ввод решения по долгу ЛС</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Eingabe der Lösung zu Schuld auf dem Personenkonto</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод решения по долгу на лицевом счете</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

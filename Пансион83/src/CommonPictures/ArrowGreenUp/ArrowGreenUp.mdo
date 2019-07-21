@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b302645-63df-43a0-974b-879f06f23e6d">
+  <name>ArrowGreenUp</name>
+  <synonym>
+    <key>en</key>
+    <value>Arrow green up</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Arrow green up</value>
+  </synonym>
+</mdclass:CommonPicture>

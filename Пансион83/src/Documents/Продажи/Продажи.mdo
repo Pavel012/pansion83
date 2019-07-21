@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="785c7928-2e9d-4bb6-a86d-65abbda090a0">
+  <producedTypes>
+    <objectType typeId="a4b1d6ac-fb24-443c-b391-7371cc389d86" valueTypeId="c32a2a30-57ff-431d-9ff8-4d886d9dffcb"/>
+    <refType typeId="077e21a4-4f93-4a29-a47a-2fe8e0b7ed4d" valueTypeId="3b4d7af3-4245-4f83-87b2-7d5d1da917d6"/>
+    <selectionType typeId="202f1eed-c22e-45b6-99fc-e53e8e30fbc8" valueTypeId="4858f39e-5d49-4502-8b94-94d11dd708a3"/>
+    <listType typeId="69b53d7a-a3ab-4213-aea4-94bc558d0e28" valueTypeId="3121a575-2810-4fd1-880f-af9a1f101c52"/>
+    <managerType typeId="d6fbaef3-ba4f-47db-a2f3-bf41ba734116" valueTypeId="44c37ae8-b4ac-4553-9d88-471f3fabf3b4"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>en</key>
+    <value>Продажи</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verkäufe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <inputByString>Document.Продажи.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <attributes uuid="a37f2353-c506-46d5-a701-0f487af92129">
+    <name>Sales</name>
+    <synonym>
+      <key>en</key>
+      <value>Sales</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verkäufe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продажи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d90bf30-ac53-4d67-b547-5b3c8d3b01d7">
+    <name>SalesWithoutVAT</name>
+    <synonym>
+      <key>en</key>
+      <value>Sales without VAT</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verkäufe ohne MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продажи без НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="983635e9-ca7e-4153-ba5b-c35b4ba51f15">
+    <name>RoomRevenue</name>
+    <synonym>
+      <key>en</key>
+      <value>Room revenue</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einkünfte aus Zimmerverkäufen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы от продажи номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47a189a7-ffbe-4028-82cc-8ca003cf6c5b">
+    <name>RoomRevenueWithoutVAT</name>
+    <synonym>
+      <key>en</key>
+      <value>Room revenue without VAT</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einkünfte aus Zimmerverkäufen ohne MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы от продажи номеров без НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5efe9b92-4a35-4ef7-9f87-3b5440fc99ad">
+    <name>ExtraBedRevenue</name>
+    <synonym>
+      <key>en</key>
+      <value>Extra bed revenue</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einnahmen vom Verkauf zusätzlicher Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы от продажи доп. мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="847c17af-5f3c-4f2b-b72d-3989f9c32716">
+    <name>ExtraBedRevenueWithoutVAT</name>
+    <synonym>
+      <key>en</key>
+      <value>Extra bed revenue without VAT</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einnahmen vom Verkauf zusätzlicher Betten ohne MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы от продажи доп. мест без НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35107e9a-64dd-4790-9a98-4937818dfa81">
+    <name>CommissionSum</name>
+    <synonym>
+      <key>en</key>
+      <value>Commission sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kommission</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f40f50b6-836c-40a0-8b72-42b442df7a63">
+    <name>CommissionSumWithoutVAT</name>
+    <synonym>
+      <key>en</key>
+      <value>Commission sum without VAT</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kommission ohne MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссия без НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad48bb87-ca57-4016-a31f-d6a35c37a213">
+    <name>DiscountSum</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0ac0c57-90a4-4afb-8990-8ffa6c052f74">
+    <name>DiscountSumWithoutVAT</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount sum without VAT</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preisnachlasssumme ohne MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма скидки без НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5462011-3489-483a-8dc0-e98c9eb58bc7">
+    <name>RoomsRented</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms rented</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verkaufte Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продано номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd3600a9-dedc-4802-8adf-9b0733bd9443">
+    <name>BedsRented</name>
+    <synonym>
+      <key>en</key>
+      <value>Beds rented</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verkaufte Plätze</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продано мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8799cd92-daa5-47af-9560-784e3d722ce3">
+    <name>AdditionalBedsRented</name>
+    <synonym>
+      <key>en</key>
+      <value>Additional beds rented</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verkaufte Zusatzplätze</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продано дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08f74e4d-7eb9-459f-a7e1-d5a068e25d92">
+    <name>GuestDays</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest days</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personentage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Человеко-дни</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2df28003-212b-4e1a-a436-f4a7acaea627">
+    <name>GuestsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Guests checked in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreise der Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c857ee1e-a98b-445e-9b81-c5e9e46ac944">
+    <name>RoomsCheckedIn</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд номеров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Rooms checked-in</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="238c3352-c60c-42ed-adc0-0e0958989a63">
+    <name>BedsCheckedIn</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд мест</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Beds checked-in</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0897789-6d39-487d-bd78-33c16316c550">
+    <name>AdditionalBedsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Additional beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreise zusätzlicher Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3b0a922e-4b10-4212-9e4a-afdda249a493">
+    <name>ResourceRevenue</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource revenue</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einkünfte aus Ressourcenverkäufen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы от продажи ресурсов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dbac4d63-8e20-45dd-b1c7-b01b24d153ca">
+    <name>ResourceRevenueWithoutVAT</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource revenue without VAT</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einkünfte aus Ressourcenverkäufen ohne MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы от продажи ресурсов без НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1fa8a6a2-2fea-4d9a-93e4-2bd5227a628b">
+    <name>HoursRented</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource hours rented</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verkaufte Ressourcenlaufzeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продано часов работы ресурса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97268e72-25ad-4430-9676-d9b4805beb01">
+    <name>Quantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Quantity</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="838d3dab-4cf9-4ec2-9274-0a08e886822c">
+    <name>VATSum</name>
+    <synonym>
+      <key>en</key>
+      <value>VAT Sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="98604cf5-b820-4878-8821-500097524790">
+    <producedTypes>
+      <objectType typeId="b8ecdaaf-8c58-4499-ae74-64597fd82d2a" valueTypeId="587d3a67-221e-4ebd-9367-eddb913b1318"/>
+      <rowType typeId="d5a59040-a448-4dfb-a2e1-a780c6a0522b" valueTypeId="066c6190-6cb9-4adc-919a-be8de158ab6d"/>
+    </producedTypes>
+    <name>IsStorno</name>
+    <synonym>
+      <key>en</key>
+      <value>Is storno</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist ein Storno</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это сторно</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="8a102594-52fd-4e8a-9859-e09cbc4370ab">
+    <producedTypes>
+      <objectType typeId="e59daece-19a1-4494-88f4-fb5690099f25" valueTypeId="ceab78eb-7760-486c-9c91-3ddc78297c2b"/>
+      <rowType typeId="dcd60c72-de6c-4b12-90f8-198d091f37d8" valueTypeId="636b71bd-c8ad-45b3-83ad-e10bf6c27d36"/>
+    </producedTypes>
+    <name>RateSum</name>
+    <synonym>
+      <key>en</key>
+      <value>Sum according to the accommodation room rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe nach Übernachtungstarif</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма по тарифу проживания</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="c4e9c8bd-102d-4aa6-9c3b-7d3629c87f41">
+    <producedTypes>
+      <objectType typeId="69633b5a-f1e6-4511-b662-50adf9321c0e" valueTypeId="07095006-b6cf-4d7c-b2f3-23e22e4ed0fd"/>
+      <rowType typeId="ad7894b6-0a0f-466c-acb3-eb3a29b5f52b" valueTypeId="de791e87-8c97-4a37-aa3e-7c8103200938"/>
+    </producedTypes>
+    <name>RateDiff</name>
+    <synonym>
+      <key>en</key>
+      <value>Difference between sum charged and sum according to the accommodation room rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Unterschied zwischen berechneter Summe und der Summe nach Übernachtungstarif</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разница между начисленной суммой и суммой по тарифу проживания</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="bf79c77a-f60d-40e9-bdd5-754e692c8570">
+    <producedTypes>
+      <objectType typeId="dfb0a262-b67e-42fa-b08b-cf50ce6a1d98" valueTypeId="2c840e7b-1ebd-43c6-ad57-e14f5758a4ae"/>
+      <rowType typeId="98644a0a-2ec4-4d5c-9680-45fa5b8652c5" valueTypeId="244a465a-2de3-4eaf-a62d-089cbceff9cc"/>
+    </producedTypes>
+    <name>NumberOfBedsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of beds per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест в номере</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="b4d6385c-9db0-470e-a4d9-5aa7a6e75b2e">
+    <producedTypes>
+      <objectType typeId="c2270ac7-334e-47c4-8339-3b23198aa979" valueTypeId="770389b0-c1a5-44ed-95f9-fdb7f79f7cea"/>
+      <rowType typeId="b7024a54-45fb-4630-af6c-b75ac72a810e" valueTypeId="8c5e13a1-5101-4e24-8ec9-4c977c23273c"/>
+    </producedTypes>
+    <name>NumberOfPersonsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество гостей в номере</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="0b38baff-4d45-49c6-ac5d-c58820be8e3e">
+    <producedTypes>
+      <objectType typeId="cef1773b-eaad-49d6-988b-0151b007abb7" valueTypeId="eabdd6ef-8ee0-41c9-baa6-2a9f4ee22ba8"/>
+      <rowType typeId="9f32531b-d248-406e-a099-9e3c85a1419a" valueTypeId="7f8501a2-1508-47fb-8d18-38010b859e8a"/>
+    </producedTypes>
+    <name>NumberOfAdditionalBeds</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of additional beds</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl zusätzlicher Plätze</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дополнительных мест</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="871124cb-4fed-44fa-bbd9-9587ad8c9d7c">
+    <producedTypes>
+      <objectType typeId="1dd417e5-9c5c-45e5-922f-2fd968f825ed" valueTypeId="68de6077-819e-4b28-8e8c-5f87712bd721"/>
+      <rowType typeId="421e2b0f-1452-4f7d-bf92-b9baab6dd58d" valueTypeId="a38c4718-841c-4d3d-969e-310286ed631d"/>
+    </producedTypes>
+    <name>NumberOfBeds</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of beds</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="ba80cda9-bdeb-4baf-ad81-27154147c835">
+    <producedTypes>
+      <objectType typeId="e59f1b32-a727-4bf2-84d7-56ec8dc120bc" valueTypeId="186f7f42-6401-4d5b-8fc8-a65ef0904d5c"/>
+      <rowType typeId="e6e8ffbd-1223-4fa0-88ed-af9eada7619e" valueTypeId="aad820f4-fdd6-443a-a29d-f1f365fa37b7"/>
+    </producedTypes>
+    <name>NumberOfPersons</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenanzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество человек</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="52cf9a6d-6b88-4bbe-925e-e5dd2cae8ec7">
+    <producedTypes>
+      <objectType typeId="7aa03162-4bc5-406f-9dd0-24e437513f9e" valueTypeId="d461d8a8-a0bb-4afa-baeb-e7960d8bf0f7"/>
+      <rowType typeId="989a4c3c-a325-44d7-bf68-6e455ef45c38" valueTypeId="e85c3ec3-4e51-4cbf-b1be-299237005e7b"/>
+    </producedTypes>
+    <name>NumberOfRooms</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of rooms</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmeranzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество номеров</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="b42b5c97-0175-4c0e-af6a-29189308fefe">
+    <producedTypes>
+      <objectType typeId="f552688d-bd39-4d41-a0a9-80a272f37e58" valueTypeId="795099df-0be7-4e0f-baed-17f65a63bc85"/>
+      <rowType typeId="9607d161-7ccf-4df1-887f-a5e3efd74b96" valueTypeId="a11aa81b-65ec-46d8-a097-163134a7fda4"/>
+    </producedTypes>
+    <name>RoomRateType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room rate type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tariftyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип тарифа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="bfdc1db2-ebb7-4a86-b5e9-5f4609c9406c">
+    <producedTypes>
+      <objectType typeId="10a7800f-adb1-4489-8c07-3878d7a571c9" valueTypeId="0fbb1cad-f03b-4885-9139-51af46e99c87"/>
+      <rowType typeId="856e4d9c-8420-4da4-a126-7d20e3f6aa30" valueTypeId="7b50c2c7-1560-4a66-a7c3-a9ba8d7502ed"/>
+    </producedTypes>
+    <name>TimeFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Service time from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beginn der Leistungserbringung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала оказания услуги</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="09486b86-22ca-4582-b3f1-4fd93abd8f05">
+    <producedTypes>
+      <objectType typeId="3c410542-9508-496e-bf7f-2ca3d2959fed" valueTypeId="324b0c03-0b6d-45e4-934c-7ca0948ff2d6"/>
+      <rowType typeId="3442c63b-0ebf-4022-9e50-f2aa95b334cb" valueTypeId="d2e0338f-b098-4453-bb83-ed309c152dfd"/>
+    </producedTypes>
+    <name>TimeTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Service time to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ende der Leistungserbringung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания оказания услуги</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+</mdclass:Document>

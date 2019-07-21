@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c829b74b-f9f6-4ac9-9562-65e3875a595c">
+  <producedTypes>
+    <managerType typeId="ec3e6a06-134c-482d-9dea-51f4ebad623f" valueTypeId="fcb0eaf9-bd8c-48a7-bef0-e0e3b629a62f"/>
+    <valueManagerType typeId="327d0f41-d371-47af-bf0f-23b00a5d148f" valueTypeId="27388b4c-2a00-4b8e-a834-adfe1725bbb4"/>
+    <valueKeyType typeId="400e6bb0-a679-54fb-8ae7-0b2cad730028" valueTypeId="e2e0835c-092a-5b85-a335-a742c4d6dc42"/>
+  </producedTypes>
+  <name>РасшРедакФайлов</name>
+  <synonym>
+    <key>en</key>
+    <value>Расш редак файлов</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Erweiterungen von Dateien, die bearbeitet werden</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Расширения редактируемых файлов</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

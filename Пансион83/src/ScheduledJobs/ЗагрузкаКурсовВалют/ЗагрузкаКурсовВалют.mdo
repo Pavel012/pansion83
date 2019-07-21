@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa9e1ca8-898e-4d23-a78a-85ca701061b4">
+  <name>ЗагрузкаКурсовВалют</name>
+  <synonym>
+    <key>en</key>
+    <value>Load currency rates for tomorrow</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Laden der Währungskurse für morgen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка курсов валют на завтра</value>
+  </synonym>
+  <methodName>CommonModule.РеглЗадания.cmLoadCurrencyRatesForTomorrow</methodName>
+  <key>LoadCurrencyRatesForTomorrow</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>300</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

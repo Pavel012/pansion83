@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="981cee8a-6b93-4dda-9df0-4eff04f9bca3">
+  <producedTypes>
+    <selectionType typeId="c485756b-dc1b-4b67-a8f3-7fa664cf2770" valueTypeId="bcf98174-2c5c-48cd-8f3b-b77a64798209"/>
+    <listType typeId="bf935e0a-dc8f-4387-84dd-c5bdcba78d1a" valueTypeId="bb53f6ba-4ff6-417f-a182-58f43e96b018"/>
+    <managerType typeId="799c75df-a75f-4db2-acab-5b30f203308d" valueTypeId="0ffddcc0-bdf8-4c94-9bd4-5331be694f20"/>
+    <recordSetType typeId="120a41eb-049b-4533-87fa-207588b6a586" valueTypeId="70330960-97d8-490d-8223-62d016f1a4d0"/>
+    <recordKeyType typeId="02c95527-ad18-44b2-8b6f-3281a8d24dfc" valueTypeId="0a5acd24-d3a0-4f2a-a817-f03898bfb67c"/>
+    <recordType typeId="880ba8e2-b720-44e2-b57f-98e5b22d693f" valueTypeId="707a8266-3cf9-422f-ab3c-3e81d02b7442"/>
+  </producedTypes>
+  <name>РелизацияТекОтчетПериод</name>
+  <synonym>
+    <key>en</key>
+    <value>Релизация тек отчет период</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Realisierung im aktuellen Berichtseitraums</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация за текущий отчетный период</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a7c4cf91-5db0-4634-a272-c2fb5f4d76f7">
+    <name>Sum</name>
+    <synonym>
+      <key>en</key>
+      <value>Sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erlöse</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Выручка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="4c8d5284-ad0e-4445-b9de-f71c915b975a">
+    <name>VATSum</name>
+    <synonym>
+      <key>en</key>
+      <value>VAT Sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f314031c-ac8b-4776-b8c6-eac5d10898dc">
+    <name>Quantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Quantity</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="172d62d9-d7bd-4292-a70c-81d6348aad27">
+    <name>CommissionSum</name>
+    <synonym>
+      <key>en</key>
+      <value>Commission amount</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe der Kommission</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма комиссии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d7527027-d343-4e45-bc82-6cc93dbc52bc">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cc240cfb-f563-4479-8feb-9e19b2fbb01d">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bdf4178f-79a4-4319-9f94-05698f610383">
+    <name>Customer</name>
+    <synonym>
+      <key>en</key>
+      <value>Customer in folio</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Partner in Folio</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент в фолио</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2fcc448d-637f-4604-b3ab-51a6e11efb68">
+    <name>Contract</name>
+    <synonym>
+      <key>en</key>
+      <value>Contract in folio</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertrag im Folio</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Договор в фолио</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0be22e26-5be7-4f54-8e53-1618f4d4c0c5">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="147f6a84-ca31-418f-8b3a-08d6c36e6059">
+    <name>FolioCurrency</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Foliowährung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта фолио</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="883d9e90-fe87-4320-8797-47d6540c66b2">
+    <name>Folio</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenkonto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cba24b02-8535-4085-abc0-163dbbb224c6">
+    <name>ParentDoc</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument Begründung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+      <types>DocumentRef.СоставКвоты</types>
+      <types>DocumentRef.Бронирование</types>
+      <types>DocumentRef.БроньУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b1bd3fd5-fdf9-4b9d-86d2-01e606fdeffb">
+    <name>Charge</name>
+    <synonym>
+      <key>en</key>
+      <value>Charge</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anrechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Начисление</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

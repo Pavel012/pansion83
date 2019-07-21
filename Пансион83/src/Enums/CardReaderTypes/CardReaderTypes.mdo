@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cdd5f27-a3cc-48c5-a96b-97480ddb2f42">
+  <producedTypes>
+    <refType typeId="ea4b3c87-17c0-4bdf-a4f2-4658452b92ba" valueTypeId="30e6d173-83fc-47fd-9530-9c13367592da"/>
+    <listType typeId="20c000b7-53f4-407a-a620-479c9ef408fa" valueTypeId="f9670d01-5ea6-4d33-862c-025ea38417c5"/>
+    <managerType typeId="0b2eb366-f2a9-4ec3-8975-1e73c9dc0573" valueTypeId="4aeda230-6c3d-4af8-bddc-e91a65df54cb"/>
+  </producedTypes>
+  <name>CardReaderTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Card reader types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kartenlesertypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы считывателей карт</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="0dbaea16-14c5-4023-a112-a0fbff50a694">
+    <name>RS232</name>
+    <synonym>
+      <key>en</key>
+      <value>RS 232 (COM)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>RS 232 (COM)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>RS 232 (COM)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f034e79-dfb7-41e3-ac23-3dbbef79e03e">
+    <name>PS2Keyboard</name>
+    <synonym>
+      <key>en</key>
+      <value>PS2 keyboard emulation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>über Tastatur</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>В &quot;разрыв&quot; клавиатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f172ec41-8969-4bf8-855d-85f6a16acc87">
+    <name>IronLogicZ2</name>
+    <synonym>
+      <key>en</key>
+      <value>Iron logic Z-2</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Iron logic Z-2</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Iron logic Z-2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

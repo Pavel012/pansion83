@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47ce8fe2-712c-48b0-acb5-5f058a9562e1">
+  <producedTypes>
+    <refType typeId="26241387-6e0a-4eb1-8410-d534a3dac8bd" valueTypeId="cae93a41-39e6-415f-94ef-e416d82116cf"/>
+    <listType typeId="936069e0-c481-47c5-adb8-f1eff022ebc6" valueTypeId="acb36bde-aa9b-40a2-9afa-72b4b6b6019a"/>
+    <managerType typeId="73be0b7d-7158-47f4-9716-34d9eb687b7c" valueTypeId="5686f592-071a-42e3-9e71-c207e7228c7d"/>
+  </producedTypes>
+  <name>AttachmentStatuses</name>
+  <synonym>
+    <key>en</key>
+    <value>Attachment statuses</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der angehängten Dokumente</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы прикрепленных документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="334316a6-7b5a-4421-88c9-39b531469efd">
+    <name>Ready</name>
+    <synonym>
+      <key>en</key>
+      <value>Ready to be sent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>zum Versenden bereit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к отправке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f665fea3-454b-4498-8557-0966c2b9ecad">
+    <name>Sent</name>
+    <synonym>
+      <key>en</key>
+      <value>Sent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>versandte </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22dc0e6c-a639-450a-bcb7-ad8ff38660ad">
+    <name>Error</name>
+    <synonym>
+      <key>en</key>
+      <value>Not sent with error</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Fehler beim Versenden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка при отправке</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

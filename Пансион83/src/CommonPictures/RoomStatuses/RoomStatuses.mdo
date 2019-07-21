@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1284be0c-0a03-4662-b9f5-cf5b63b3fa9d">
+  <name>RoomStatuses</name>
+  <synonym>
+    <key>en</key>
+    <value>Room statuses</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der Zimmer</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы номеров</value>
+  </synonym>
+  <transparentPixel>
+    <x>2</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

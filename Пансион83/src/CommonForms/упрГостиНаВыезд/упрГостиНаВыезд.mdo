@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54674901-4eca-444c-b057-749a2e7e774c">
+  <name>упрГостиНаВыезд</name>
+  <synonym>
+    <key>en</key>
+    <value>Guests ready to be checked out</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gäste zur Abreise</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Гости на выезд</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

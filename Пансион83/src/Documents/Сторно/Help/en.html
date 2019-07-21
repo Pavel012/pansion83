@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><meta name="GENERATOR" content="MSHTML 11.00.9600.17728"></meta></head><body><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><meta name="GENERATOR" content="MSHTML 6.00.3790.186"></meta><h1><font color="#000080">Документ "Сторно"</font></h1>
+<h3>Назначение</h3>
+<p class="Usual">Документ используется для регистрации отмены начисления услуги по лицевому счету. Документ делает те же движения по регистрам, что и начисление, но с обратным знаком. В отличие от установки у начисления пометки на удаление, по операциям сторно можно формировать аудиторские отчеты. У каждой операции сторно определен автор и время проведения.</p>
+<p class="Usual">Относится к подсистеме: <a href="Subsystem.Взаиморасчеты/Help">«Управление взаиморасчетами»</a>.</p>
+<p></p>
+<h3>Параметры</h3>
+<p class="Usual">Длина номера: 12, тип номера: Строка</p>
+<p class="Usual">Периодичность номера: Год</p>
+<p class="Usual">Тип номера: Строка</p>
+<p class="Usual">Вводится на основании: <a href="Document.Начисление/Help">«Начисление»</a>.</p>
+<p></p>
+<h3>Реквизиты</h3>
+<ul><li><strong>Тип сторно</strong>. Ссылается на перечисление «Типы отмены действий». Выбирается пользователем из одного из предопределенных значений 
+</li><li><strong>Гостиница</strong>. Ссылается на справочник <a href="Catalog.Гостиницы/Help">«Гостиницы»</a>.  
+</li><li><strong>Документ основание</strong>. Ссылается на документы <a href="Document.Бронирование/Help">«Бронь»</a>, <a href="Document.БроньУслуг/Help">«Бронь ресурса»</a>, <a href="Document.Размещение/Help">«Размещение»</a>, <a href="Document.СоставКвоты/Help">«Состав квоты»</a>. Заполняется автоматически из лицевого счета начисления 
+</li><li><strong>Начисление, по которому делается сторно</strong>. Ссылается на документ <a href="Document.Начисление/Help">«Начисление»</a>.  
+</li><li><strong>Примечания</strong>. Тип значения: «Строка». Обычно здесь указывается причина выполнения операции. Указывается автором операции. 
+</li><li><strong>Автор</strong>. Ссылается на справочник <a href="Catalog.Сотрудники/Help">«Сотрудники»</a>. Автор операции.</li></ul><p></p>
+<p></p>
+<h3>Формы</h3>
+<ul><li><strong>Форма документа</strong>. Основная форма объекта. Используется для заполнения обязательных реквизитов. 
+</li><li><strong>Форма списка</strong>. Основная форма списка и выбора. Используется для отображения списка или выбора документов данного типа. </li></ul><p></p>
+<p></p>
+<h3>Способ вызова</h3>
+<p class="Usual">Вызывается из фомы списка транзакций лицевого счета по кнопке <font color="#800000">"Сторно"</font></p>
+<p></p>
+<h3>Движения</h3>
+<ul><li><a href="AccumulationRegister.ПлатежиУслуги/Help">«Распределение платежей по услугам»</a>. 
+</li><li><a href="AccumulationRegister.Продажи/Help">«Продажи»</a>. 
+</li><li><a href="AccumulationRegister.ПродажиПутевокКурсовок/Help">«Продажи путевок и курсовок»</a>. 
+</li><li><a href="AccumulationRegister.Взаиморасчеты/Help">«Взаиморасчеты»</a>. 
+</li><li><a href="AccumulationRegister.НакопитСкидки/Help">«Ресурсы накопительных скидок»</a>. 
+</li><li><a href="AccumulationRegister.РелизацияТекОтчетПериод/Help">«Реализация за текущий отчетный период»</a>. 
+</li><li><a href="AccumulationRegister.РегистрацияУслуг/Help">«Регистрация услуг»</a>. </li></ul></body></html>

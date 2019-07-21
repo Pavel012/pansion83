@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3081178b-d1d0-4292-b000-b33746d92c1e">
+  <producedTypes>
+    <objectType typeId="61d967d0-6057-4770-bf4c-fcf43b5e3b9e" valueTypeId="57b42fcb-8abe-41f0-bbda-b01467a4bf56"/>
+    <refType typeId="a98da5b5-63cf-4049-ba54-f8b93b030117" valueTypeId="f49c9880-f9bd-40a1-966f-3df93c87f0b6"/>
+    <selectionType typeId="7f05c556-871a-4542-89cf-988b036d433e" valueTypeId="d11fadfe-ce3c-4e4c-b90b-53e5ce4e655d"/>
+    <listType typeId="36d27124-4089-41f6-a531-3d96231f4ebf" valueTypeId="73903fce-742b-4cc8-ab40-623f99498f42"/>
+    <managerType typeId="4fd5f19a-eee3-4c2e-a211-63187d6194c4" valueTypeId="8ffad3f4-6c04-4919-a3dc-8bf1e0dbc0b2"/>
+  </producedTypes>
+  <name>НастройкиПечатиРМ</name>
+  <synonym>
+    <key>en</key>
+    <value>Настройки печати РМ</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Druckeinstellungen am Arbeitsplatzen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки печати на рабочих местах</value>
+  </synonym>
+  <inputByString>Catalog.НастройкиПечатиРМ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиПечатиРМ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиПечатиРМ.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.НастройкиПечатиРМ.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.НастройкиПечатиРМ.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.НастройкиПечатиРМ.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="da620959-2ac2-4358-960e-879091317089">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fcb5a59f-67ce-49b9-a297-4c4ddbeb097d">
+    <producedTypes>
+      <objectType typeId="72efcd8b-df05-4add-a077-c8809b59a4c5" valueTypeId="59500952-8148-4150-8816-b76dac039baf"/>
+      <rowType typeId="9ac70aec-09da-489d-a2cb-f6589ea8f0e3" valueTypeId="33d78e24-bc7c-48a4-8822-5f0a629e26a7"/>
+    </producedTypes>
+    <name>PrintFormsList</name>
+    <synonym>
+      <key>en</key>
+      <value>Print forms list</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Liste gedruckter Formulare</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список печатных форм</value>
+    </synonym>
+    <attributes uuid="8793eb4a-4142-4073-bab4-8445e8b51543">
+      <name>Report</name>
+      <synonym>
+        <key>en</key>
+        <value>Report</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Bericht</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Отчет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Отчеты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dc30bb70-113f-46c7-9383-6dbadca21558">
+      <name>ObjectPrintingForm</name>
+      <synonym>
+        <key>en</key>
+        <value>Object printing form</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Druckformular des Objekts</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Печатная форма объекта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПечатныеФормы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05caa5f3-da70-404b-8208-e6f9f71187d2">
+      <name>IsActive</name>
+      <synonym>
+        <key>en</key>
+        <value>Is active</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Gilt</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Действует</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0aac7e51-3eea-42a7-862d-b55e4b95754f">
+      <name>PrintDirection</name>
+      <synonym>
+        <key>en</key>
+        <value>Print direction</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Druckmodus</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Режим печати</value>
+      </synonym>
+      <type>
+        <types>EnumRef.PrintDirections</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="54339e09-e300-4fa8-9f9b-db322813bc58">
+      <name>FileSaveCatalog</name>
+      <synonym>
+        <key>en</key>
+        <value>Save report file to the catalog</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Katalog zum Speichern der Berichtdatei</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Каталог для сохранения файла отчета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="94318e4c-3305-4bf2-9649-322e1ddf98d7">
+      <name>FileName</name>
+      <synonym>
+        <key>en</key>
+        <value>File name</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Dateiname</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c93ed595-9191-4519-a097-d221c4b98987">
+      <name>AddTimeToTheFileName</name>
+      <synonym>
+        <key>en</key>
+        <value>Add current time to the file name</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zum Dateinamen die aktuelle Zeit hinzufügen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Добавлять к имени файла текущее время</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="041ed118-82a3-464f-9a7e-8e3d9626e6ae">
+      <name>EMails</name>
+      <synonym>
+        <key>en</key>
+        <value>E-Mails to send file being saved</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>E-Mail-Adressen zum Versenden der Datei</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Адреса электронной почты для отправки файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a90f5297-3e5d-4dfe-852f-bccea77bd3ac">
+      <name>PrinterName</name>
+      <synonym>
+        <key>en</key>
+        <value>Printer name</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Druckername</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Имя принтера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d1a43100-327f-4aed-ab96-a93707d40df6">
+      <name>FitToPage</name>
+      <synonym>
+        <key>en</key>
+        <value>Fit to page</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Nach Seitenbreite</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>По ширине страницы</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a9a53222-15f3-40e8-9e8f-b497afc7f0a0">
+      <name>PrintScale</name>
+      <synonym>
+        <key>en</key>
+        <value>Print scale %</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Maßstab der Druckanzeige Druck %</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Масштаб вывода на печать %</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e07d4809-fad9-4d69-b500-3964039fc9d9">
+      <name>Copies</name>
+      <synonym>
+        <key>en</key>
+        <value>Copies</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Anzahl der Kopien</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Число копий</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eda51468-11c0-4965-8ad9-77eab4a804f6">
+      <name>CopiesPerPage</name>
+      <synonym>
+        <key>en</key>
+        <value>Copies per page</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Exemplare auf der Seite</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Экземпляров на странице</value>
+      </synonym>
+      <type>
+        <types>EnumRef.CopiesPerPage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2be6750b-6cd1-4372-9f67-4d1cdf5af2c7">
+      <name>Collate</name>
+      <synonym>
+        <key>en</key>
+        <value>Collate</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Aufteilung nach Kopien</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Разбор по копиям</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa8032e2-9eb8-4719-8fa2-1376f3835847">
+      <name>PageOrientation</name>
+      <synonym>
+        <key>en</key>
+        <value>Page orientation</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Seitenausrichtung</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Ориентация страницы</value>
+      </synonym>
+      <type>
+        <types>EnumRef.PageOrientations</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9c867953-496b-4e06-81dd-7d51b23866b6">
+      <name>PageSize</name>
+      <synonym>
+        <key>en</key>
+        <value>Page size</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Papiergröße</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Размер бумаги</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="550e36e4-98d2-4fa2-8e24-1c80bc937f05">
+      <name>TopMargin</name>
+      <synonym>
+        <key>en</key>
+        <value>Top margin in millimeters</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Feld drüber in Millimetern</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Поле сверху в миллиметрах</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0485b9aa-fbc3-4525-8994-68c6d8ab3ee8">
+      <name>BottomMargin</name>
+      <synonym>
+        <key>en</key>
+        <value>Bottom margin in millimeters</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Feld drunter in Millimetern</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Поле снизу в миллиметрах</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bff7a896-e275-4516-a75f-c421badbd54b">
+      <name>LeftMargin</name>
+      <synonym>
+        <key>en</key>
+        <value>Left margin in millimeters</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Feld links in Millimetern</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Поле слева в миллиметрах</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fe3a2ca9-dc38-4e0a-a34d-7f8b8c30ddac">
+      <name>RightMargin</name>
+      <synonym>
+        <key>en</key>
+        <value>Right margin in millimeters</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Feld rechts in Millimetern</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Поле справа в миллиметрах</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e2c9472-ff47-4ce0-8278-1c3ea598733b">
+      <name>HeaderSize</name>
+      <synonym>
+        <key>en</key>
+        <value>Header size in millimeters</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Maße der Kopfzeile oben in Millimetern</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Размер колонтитула сверху в миллиметрах</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="19bf384c-a1fa-4875-8111-239be449f706">
+      <name>FooterSize</name>
+      <synonym>
+        <key>en</key>
+        <value>Footer size in millimeters</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Maße der Kopfzeile unten in Millimetern</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Размер колонтитула снизу в миллиметрах</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c645fc1e-72cd-43f6-9bb2-93269b73455e">
+      <name>BlackAndWhite</name>
+      <synonym>
+        <key>en</key>
+        <value>Black and white print</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Schwarz-weißer Druck</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Черно-белая печать</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1bd6ba79-9018-4413-97b7-f939db9bde7e">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="18d65a1c-5bbe-4d90-a9fc-e9efebad721d">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="53fef070-ee37-4773-bf0d-bbdd09040ebf">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b707e006-542f-4610-88d5-805a268cc0cb">
+  <name>ЗакрытиеПериодаАвто</name>
+  <synonym>
+    <key>en</key>
+    <value>Automatic close of period</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Automatisches Schließen von Zeiträumen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматическое закрытие периодов</value>
+  </synonym>
+  <methodName>CommonModule.РеглЗадания.cmProcessCloseOfPeriodJob</methodName>
+  <key>CloseOfPeriod</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>60</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

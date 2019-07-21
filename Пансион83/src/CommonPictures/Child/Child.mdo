@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c67d42c-ab73-4969-986f-767d3b18616b">
+  <name>Child</name>
+  <synonym>
+    <key>en</key>
+    <value>Child</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kinder</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ребенок</value>
+  </synonym>
+</mdclass:CommonPicture>

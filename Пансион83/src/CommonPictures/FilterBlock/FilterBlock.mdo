@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="457d5f1d-7275-47f9-8df0-5d9abd870353">
+  <name>FilterBlock</name>
+  <synonym>
+    <key>en</key>
+    <value>Filter block</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Filter block</value>
+  </synonym>
+  <transparentPixel>
+    <x>563</x>
+    <y>154</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

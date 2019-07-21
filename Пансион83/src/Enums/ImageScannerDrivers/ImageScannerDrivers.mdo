@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd56b1d1-fe5f-4d57-84b7-87a7dc5af452">
+  <producedTypes>
+    <refType typeId="d99d33ae-50ea-42bc-8de8-ae636c28f672" valueTypeId="9f478b79-9c24-406a-84d5-09fcc9e202cf"/>
+    <listType typeId="a9f63094-44c1-469c-8cbd-59d061fa2544" valueTypeId="1dc5dd94-0d69-45fe-bd6b-8d69ef2be0f1"/>
+    <managerType typeId="a9d56a45-eff3-402c-ad6e-1b187af83b40" valueTypeId="262a7413-40fb-4e30-a597-e63f3122f2cc"/>
+  </producedTypes>
+  <name>ImageScannerDrivers</name>
+  <synonym>
+    <key>en</key>
+    <value>Image scanner and recognition drivers</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Treiber Scannen und Erkennen von Bildern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Драйверы сканирования и распознавания изображений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="f4a26856-df38-424a-9291-39f4e2ed1ee5">
+    <name>AbbyyDocumentReaderSDKEngine</name>
+    <synonym>
+      <key>en</key>
+      <value>Abbyy document reader SDK engine</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abbyy document reader SDK engine</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Abbyy document reader SDK engine</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fcc034d6-39e5-4edc-b368-6730a9895b53">
+    <name>AbbyyPassportReaderSDKEngine</name>
+    <synonym>
+      <key>en</key>
+      <value>Abbyy passport reader SDK engine</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abbyy passport reader SDK engine</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Abbyy passport reader SDK engine</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b011f28-922b-4681-8bed-c6cadc1d4581">
+    <name>CognitiveScanifyAPI</name>
+    <synonym>
+      <key>en</key>
+      <value>Cognitive scanify engine</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Cognitive scanify engine</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Cognitive scanify engine</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e289f933-127a-47c6-b705-2685456e9c5c">
+    <name>Scan1C</name>
+    <synonym>
+      <key>en</key>
+      <value>1C Scan engine</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>1C Scan engine</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>1C Scan engine</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

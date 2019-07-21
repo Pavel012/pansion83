@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="841cb32e-0a5b-47f5-86c3-b48587e90184">
+  <name>Bitrix24Logo</name>
+  <synonym>
+    <key>en</key>
+    <value>Bitrix24 Logo</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bitrix24 Logo</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Bitrix24 Logo</value>
+  </synonym>
+  <transparentPixel>
+    <x>133</x>
+    <y>22</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

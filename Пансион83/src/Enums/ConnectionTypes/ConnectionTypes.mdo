@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccfd1405-8d1f-4c98-af49-9a652e65463e">
+  <producedTypes>
+    <refType typeId="dbb3585e-a322-43e3-b82d-38c6cee97daf" valueTypeId="15e4c986-2165-4796-bd60-df583d30e3c4"/>
+    <listType typeId="394bcb4a-ac40-4488-8323-2e3f70503060" valueTypeId="f338b381-9f4b-4fea-956e-fbb4ac750462"/>
+    <managerType typeId="c87509e9-6d68-4293-b43a-d6e1b93b5daf" valueTypeId="8f68bddc-81a6-4bc9-84e5-0a302efaa77f"/>
+  </producedTypes>
+  <name>ConnectionTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Connection types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Anschlusstyp</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы подключения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="c4a5d94c-a6b5-40df-8d68-393b10db83ee">
+    <name>TCPIP</name>
+    <synonym>
+      <key>en</key>
+      <value>TCP/IP</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>TCP/IP</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>TCP/IP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b985a463-dc7c-4936-ae2d-4e30a834538d">
+    <name>RS232</name>
+    <synonym>
+      <key>en</key>
+      <value>RS232 (COM)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>RS232 (COM)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>RS232 (COM)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c039342c-22e6-407e-b11a-d718de7bb8cc">
+    <name>USB</name>
+    <synonym>
+      <key>en</key>
+      <value>USB</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>USB</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>USB</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="507112a1-a9d5-4a9f-ab60-9367f42de669">
+    <name>FileExchange</name>
+    <synonym>
+      <key>en</key>
+      <value>File exchange</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datenaustausch</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен файлами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6712b8f1-ff57-4736-a3ba-6cacca310bbd">
+    <name>VisionIntDll</name>
+    <synonym>
+      <key>en</key>
+      <value>VisionInt.dll</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>VisionInt.dll</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>VisionInt.dll</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dacca2ef-6d0c-49a7-9fe5-c1333fcf41d3">
+    <name>OmniTecDLL</name>
+    <synonym>
+      <key>en</key>
+      <value>InterGH.dll</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>InterGH.dll</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>InterGH.dll</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

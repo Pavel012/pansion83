@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a2f0d7d-d585-43dc-9d94-904145c5fe00">
+  <name>СтильОформления</name>
+  <synonym>
+    <key>en</key>
+    <value>Стиль оформления</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gestaltungsstil</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Cтиль оформления</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>15</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

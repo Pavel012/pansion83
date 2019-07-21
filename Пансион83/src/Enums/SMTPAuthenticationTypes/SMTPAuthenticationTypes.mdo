@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2baf269-710e-4a61-895a-6f102fe8bd46">
+  <producedTypes>
+    <refType typeId="4f920ced-0ba7-492e-aebd-9b38dedb026a" valueTypeId="633c1638-3052-4802-a419-b350e0654a16"/>
+    <listType typeId="6f1e8253-5bc2-4487-9c50-ce76ba1eb5a5" valueTypeId="4d5e5116-6f25-4a9d-8cfd-dc7cd6471fbf"/>
+    <managerType typeId="374e3e0d-0a61-4498-9640-3c7b1502ba28" valueTypeId="93e3a8b0-6066-4476-a66b-6b03603119aa"/>
+  </producedTypes>
+  <name>SMTPAuthenticationTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>SMTP server user authentication types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Identifikationstypen von Nutzern des SMTP-Servers</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы идентификации пользователей SMTP сервером</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="b15f9d00-acf0-4583-b53a-8877f73d2552">
+    <name>CramMD5</name>
+    <synonym>
+      <key>en</key>
+      <value>Cram MD5</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Cram MD5</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Cram MD5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f946a582-1ab1-4e23-98d0-970674b601e8">
+    <name>Login</name>
+    <synonym>
+      <key>en</key>
+      <value>Login</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Login</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Login</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5841ce3-07f0-4a57-b3d9-ab6fea6ef8ac">
+    <name>Plain</name>
+    <synonym>
+      <key>en</key>
+      <value>Plain</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Plain</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Plain</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09e56b1f-7c35-424d-a38b-43f883187f32">
+    <name>None</name>
+    <synonym>
+      <key>en</key>
+      <value>None</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ohne Authentifizierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Без аутентификации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="827a421a-2417-44c3-86d2-ae5c9ccbf380">
+    <name>Default</name>
+    <synonym>
+      <key>en</key>
+      <value>By default</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>lt. Standard-Einstellung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По умолчанию</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

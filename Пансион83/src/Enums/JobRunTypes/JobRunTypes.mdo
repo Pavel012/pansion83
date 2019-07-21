@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2c00f11-56ac-40a2-9ccd-984ebf058351">
+  <producedTypes>
+    <refType typeId="e536fdcc-426e-4724-bf4b-71b138bb67cd" valueTypeId="95569396-a2fe-4dc7-871d-6e23fea2661a"/>
+    <listType typeId="6f5e75f5-e03f-4e1a-ad43-5a57ad63cd63" valueTypeId="20497b44-b1c5-45e7-b10d-29f747d272a1"/>
+    <managerType typeId="3231dcde-b58f-49db-8ec8-822614e119dd" valueTypeId="48fedb98-636e-4aff-bef5-14fd333b10c8"/>
+  </producedTypes>
+  <name>JobRunTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Job run types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen des Aufgabenstarts</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды запуска заданий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="7a8e1ea4-f41b-4ce3-82c8-d6a0ab672f13">
+    <name>OnProgramStart</name>
+    <synonym>
+      <key>en</key>
+      <value>On program start</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beim Start des Programms</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>При запуске программы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4bde3a2-60db-4ca6-bf1d-8190964fd1ee">
+    <name>Daily</name>
+    <synonym>
+      <key>en</key>
+      <value>Daily</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Täglich</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ежедневно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d93bdf4-c84a-4403-a8e7-8d9de4c8ac5a">
+    <name>Periodically</name>
+    <synonym>
+      <key>en</key>
+      <value>Periodically</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Regelmäßig</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Периодически</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c54f35b-1c32-429f-88ff-8af3bb4cdfe2">
+    <name>AtTimeSpecified</name>
+    <synonym>
+      <key>en</key>
+      <value>At time specified</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>zur angegebenen Zeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>В указанное время</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

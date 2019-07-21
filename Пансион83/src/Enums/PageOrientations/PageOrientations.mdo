@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22a15143-5eb7-4096-a2fc-46916315ebb9">
+  <producedTypes>
+    <refType typeId="d1600a7a-bef5-4f31-84fd-618b1eb4a894" valueTypeId="4c0797cb-69de-41db-be6a-b2d2bf804dab"/>
+    <listType typeId="fb26bca8-a491-441d-acd6-473096b866f8" valueTypeId="3241461c-6641-4c64-af55-ebb7d425f6c7"/>
+    <managerType typeId="2b922624-0a2e-4777-9396-222aab89b062" valueTypeId="62c65e90-2a4a-4ac1-8d8e-5c5b2fa980b8"/>
+  </producedTypes>
+  <name>PageOrientations</name>
+  <synonym>
+    <key>en</key>
+    <value>Page orientations</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Seitenausrichtung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ориентация страниц</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="04cfbb50-7826-41a6-9854-75955ae7bccb">
+    <name>Portrait</name>
+    <synonym>
+      <key>en</key>
+      <value>Portrait</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Portrait</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Портрет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="211d044f-e460-4a15-8c60-9fdd07b8cb2c">
+    <name>Landscape</name>
+    <synonym>
+      <key>en</key>
+      <value>Landscape</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Landschaft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пейзаж</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

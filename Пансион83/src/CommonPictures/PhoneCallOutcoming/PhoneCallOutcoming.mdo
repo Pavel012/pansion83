@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f877a50-f862-48ae-88fd-ee5d5cb359f1">
+  <name>PhoneCallOutcoming</name>
+  <synonym>
+    <key>en</key>
+    <value>Outcoming phone call </value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Outcoming phone call </value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Исходящий телефонный звонок</value>
+  </synonym>
+  <transparentPixel>
+    <x>11</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

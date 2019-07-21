@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80d3f5b1-3940-4ac0-8fc1-7a6ec687ebd7">
+  <producedTypes>
+    <objectType typeId="d57c6bc2-f1eb-4fcd-97de-9279bcef568c" valueTypeId="333fc789-8625-4bdb-802e-374091496e5c"/>
+    <refType typeId="e47101dc-67c6-4d8f-97d6-98d19ed2f128" valueTypeId="5a2c6cee-1ebe-4a11-96b5-d95efc07fb18"/>
+    <selectionType typeId="8e225ca9-4494-4e6b-bd44-3cd626321c64" valueTypeId="fac3c3d1-6fda-48e6-8546-93abd1165063"/>
+    <listType typeId="d91420fa-9a42-43f6-806e-9349064b76d7" valueTypeId="5cd1f0b0-2fe4-446a-bade-73a8b62ad267"/>
+    <managerType typeId="c379545b-e7c4-4ff0-a200-98abd2a34844" valueTypeId="cf193fe9-d1e5-4157-97ed-327ee72fd351"/>
+  </producedTypes>
+  <name>ПризнакЦены</name>
+  <synonym>
+    <key>en</key>
+    <value>Признак цены</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Preiseigenschaften</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки цены</value>
+  </synonym>
+  <inputByString>Catalog.ПризнакЦены.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПризнакЦены.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ПризнакЦены.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ПризнакЦены.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="95b4ba19-8c20-4e6b-a097-55979cfcd48d">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb5045f8-06fc-40a6-99b2-51adcd489b05">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b9ec779-f7f5-4b85-831f-6a8404bfbd0a">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="195d6e88-6719-438b-b2fd-440b3805ff90">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

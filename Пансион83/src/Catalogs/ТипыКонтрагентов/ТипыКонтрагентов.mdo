@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f6ef820-f881-44c2-843c-8d366052ad85">
+  <producedTypes>
+    <objectType typeId="4e087718-6250-4484-8436-5ad003c1950c" valueTypeId="1e1523d6-970b-4ce3-9e28-94558efee91f"/>
+    <refType typeId="396676b0-4de7-4a26-a926-19fe293fd319" valueTypeId="fafda75c-e75d-4d3c-96b8-22aa18118b5a"/>
+    <selectionType typeId="92e0d4e1-c4f2-46db-95fd-1ac292c8ac89" valueTypeId="7c228948-7928-4bce-afa5-15476b455df1"/>
+    <listType typeId="62eadb61-741e-4814-b2cf-2873fcd7573d" valueTypeId="14f566ef-8737-4776-87fb-1bfee47cf46b"/>
+    <managerType typeId="74f2ad87-0502-4b8a-8938-c2f5fc354f7d" valueTypeId="e47e8c47-1e49-456f-a3bd-3ad6e4266c6e"/>
+  </producedTypes>
+  <name>ТипыКонтрагентов</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы контрагентов</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Partnertypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контрагентов</value>
+  </synonym>
+  <inputByString>Catalog.ТипыКонтрагентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыКонтрагентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ТипыКонтрагентов.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыКонтрагентов.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="d97d2b1e-254d-4879-a685-936ba6b157d9">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9e34e19-c871-40a3-ac48-ebe9aafa3aeb">
+    <name>RoomRateType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room rate type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tariftyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип тарифа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыТарифов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="baf9a136-173e-4149-85a2-42890b2d4ce1">
+    <name>CreateSettlementsAtTheEndOfAccountingPeriodOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Create invoices at the end of the accounting period only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erstellen von Rechnungen am Ende des Abrechnungszeitraums nur</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать акты только в конце отчетного периода</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="749c52d3-e39b-4d20-9f9d-507707bf77d5">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0c1c5851-a3b5-444e-9ea4-6618d5feb1d0">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

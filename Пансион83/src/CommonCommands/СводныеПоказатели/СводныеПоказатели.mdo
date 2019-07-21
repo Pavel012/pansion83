@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba99d74b-e463-4db4-bde7-32b9a5176ac4">
+  <name>СводныеПоказатели</name>
+  <synonym>
+    <key>en</key>
+    <value>Summary indexes</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gesamtindikatoren</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сводные показатели</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Occupied</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

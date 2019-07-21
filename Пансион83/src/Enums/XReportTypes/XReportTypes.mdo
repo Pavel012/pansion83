@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab78e9e9-322c-431a-8580-f56df8c5c72d">
+  <producedTypes>
+    <refType typeId="93f9bd04-b683-48e9-849f-686244722f6d" valueTypeId="edade5ba-1c39-461e-b352-6c4d97d6c8f1"/>
+    <listType typeId="5a4bfddb-51ae-46e4-b18b-8389a200288f" valueTypeId="76e74f12-dd4a-4751-bae1-a8a75bdedbb8"/>
+    <managerType typeId="dda28f2d-1971-4ead-b5ff-f57ff782332e" valueTypeId="ce7417ab-9e87-4b9d-9506-51be347537c2"/>
+  </producedTypes>
+  <name>XReportTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>X-Report types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen des X-Berichts</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы X-отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="b062c2c8-3ffe-4388-a7b1-99eee6a91730">
+    <name>Transactions</name>
+    <synonym>
+      <key>en</key>
+      <value>List of all cash register day transactions</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Liste aller Transaktionen einer Schicht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список всех транзакций за смену</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9fac0741-e122-478d-ae82-26dab45798df">
+    <name>TransactionsGroupedBySections</name>
+    <synonym>
+      <key>en</key>
+      <value>List of cash register day transactions grouped by sections</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Liste der Transaktionen einer Schicht nach Kassensektionen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список транзакций за смену по кассовым секциям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e667d8c7-1108-43cd-b69b-b95ae3b2221b">
+    <name>Totals</name>
+    <synonym>
+      <key>en</key>
+      <value>Cash register day totals only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur Ergebnisse einer Schicht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Только итоги за смену</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd05723c-a9cb-46ff-a630-09983995f36a">
+  <name>УправлениеУслугами</name>
+  <synonym>
+    <key>en</key>
+    <value>Tasks management</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Aufgaben-Management</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление услугами</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.Задачи</content>
+  <content>Catalog.СтатусЗадачи</content>
+  <content>Document.Задача</content>
+  <content>Report.Messages</content>
+  <content>DataProcessor.Задачи</content>
+  <content>InformationRegister.ПриложенияЗадач</content>
+  <content>InformationRegister.ИсторияЗадач</content>
+  <content>Catalog.ТипыСообщений</content>
+  <content>Catalog.СтатусРазмещения</content>
+  <content>Catalog.ШаблоныРазмещения</content>
+  <content>Catalog.ВидыРазмещения</content>
+  <content>Document.ДанныеКлиента</content>
+  <content>Document.ДобавитьНомер</content>
+  <content>Document.Размещение</content>
+  <content>Catalog.Расписания</content>
+  <content>Catalog.ИсточИнфоГостиница</content>
+  <content>Catalog.Обращения</content>
+  <content>Catalog.ТипыНомеров</content>
+  <content>Catalog.СтатусыНомеров</content>
+  <content>Catalog.НомернойФонд</content>
+  <content>Catalog.КвотаНомеров</content>
+  <content>Catalog.СвойстваНомеров</content>
+  <content>Catalog.ВидУслугВНомерах</content>
+  <content>Catalog.Сокращения</content>
+  <content>Catalog.Обработки</content>
+  <content>InformationRegister.ИсторияТарифы</content>
+</mdclass:Subsystem>

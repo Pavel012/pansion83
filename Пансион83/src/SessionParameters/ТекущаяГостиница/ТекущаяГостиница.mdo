@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b6e38d5-6e17-4629-8bb3-e2ce015a4bf0">
+  <name>ТекущаяГостиница</name>
+  <synonym>
+    <key>en</key>
+    <value>Текущая гостиница</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Aktuelles Гостиница</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Текущая гостиница</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Гостиницы</types>
+  </type>
+</mdclass:SessionParameter>

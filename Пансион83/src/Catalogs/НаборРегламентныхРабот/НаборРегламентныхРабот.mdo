@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3124c0c-71cd-40c6-9e7e-a5d60b416b69">
+  <producedTypes>
+    <objectType typeId="6975ad4e-93d1-4413-9ec4-b50928ffac8d" valueTypeId="37c16878-000f-4c6e-b6ee-543e8a804cc1"/>
+    <refType typeId="1a6f3d8a-824d-4fae-81dd-aee445f87b39" valueTypeId="81a862aa-279c-4c3d-b151-bf2df656b54d"/>
+    <selectionType typeId="10e04168-2671-4bea-8108-2303653ee5eb" valueTypeId="68299fc7-530d-4b63-8baf-b705996087cf"/>
+    <listType typeId="09ee1e24-d7eb-498d-96bc-4bb7257ae72a" valueTypeId="29527edf-8db0-4f72-b103-e36e15a3ecea"/>
+    <managerType typeId="fdd98bba-3981-428f-8d0e-94ad050d5eaf" valueTypeId="8933f989-e93f-4d99-a64b-e22e6da5a0d7"/>
+  </producedTypes>
+  <name>НаборРегламентныхРабот</name>
+  <synonym>
+    <key>en</key>
+    <value>Набор регламентных работ</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Wartungsarbeiten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы регламентных работ</value>
+  </synonym>
+  <inputByString>Catalog.НаборРегламентныхРабот.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаборРегламентныхРабот.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НаборРегламентныхРабот.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.НаборРегламентныхРабот.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.НаборРегламентныхРабот.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.НаборРегламентныхРабот.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="628ba5b7-a7c0-4b5c-b9ed-782fd084267b">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a37473e4-c6c1-4279-b39c-9727488b31fe">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4f32814d-59e2-45a0-910a-8d42bf474ad6">
+    <producedTypes>
+      <objectType typeId="d980add3-4d9e-4b92-afbf-d301c94f132b" valueTypeId="534ade47-1c23-476b-81bb-f49fb8dd5fcc"/>
+      <rowType typeId="94d1b7fd-1870-4bfd-842e-9a179aabb6a5" valueTypeId="82dd402f-448b-48d3-9fc7-c44ef8f2efee"/>
+    </producedTypes>
+    <name>RegularOperations</name>
+    <synonym>
+      <key>en</key>
+      <value>Regular operations</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wartungsarbeiten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные работы</value>
+    </synonym>
+    <attributes uuid="acf9e7be-d5f6-460b-88fd-53f695a6780c">
+      <name>RoomType</name>
+      <synonym>
+        <key>en</key>
+        <value>Room type</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Zimmertyp</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Тип номера</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыНомеров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="824a1f4e-63d1-49f9-afb7-a6783f98b60d">
+      <name>RoomRate</name>
+      <synonym>
+        <key>en</key>
+        <value>Room rate</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Tarif</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Тариф</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Тарифы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="60afc65e-cf25-48c3-8792-ea2dde93a33f">
+      <name>RegularOperation</name>
+      <synonym>
+        <key>en</key>
+        <value>Regular operation</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Wartungsarbeiten</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Регламентная работа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Работы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4f1b847f-6204-49b7-a7d5-c506c38c4ce3">
+      <name>RegularOperationFrequency</name>
+      <synonym>
+        <key>en</key>
+        <value>Regular operation frequency in days</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Regelmäßigkeit für die Ausführung von Wartungsarbeiten in Tagen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Периодичность выполнения регламентных работ в днях</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="0e6521a5-2adb-46c0-9b69-2e5d1260a500">
+      <name>PerformOnCheckInDay</name>
+      <synonym>
+        <key>en</key>
+        <value>Perform on check in day</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Am Anreisetag ausführen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнять в день заезда</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="5b55d699-a987-4d44-a94a-1aadbe6acff3">
+      <name>PerformOnCheckOutDay</name>
+      <synonym>
+        <key>en</key>
+        <value>Perform on check out day</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Am Abreisetag ausführen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнять в день выезда</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="8309f1de-96a8-4e5d-bb90-9665ce4834fc">
+      <name>PerformWhenRoomIsBusy</name>
+      <synonym>
+        <key>en</key>
+        <value>Perform when room is busy</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>für belegte Zimmer ausführen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнять для занятых номеров</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="9ea722a2-2373-4cf8-bb5c-8d7d2bf4f326">
+      <name>PerformWhenRoomIsFree</name>
+      <synonym>
+        <key>en</key>
+        <value>Perform when room is free</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Für freie Zimmer ausführen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнять для свободных номеров</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b2fb4960-3fa0-41f6-afe8-0bd0a0089416">
+      <name>DoNotPerformOnWeekends</name>
+      <synonym>
+        <key>en</key>
+        <value>Do not perform on weekends</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Nicht an Wochenenden ausführen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Не выполнять по выходным</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="d2f9c896-c4f7-4bd6-9ac0-6f8559be5954">
+      <name>IsPerGuest</name>
+      <synonym>
+        <key>en</key>
+        <value>Perform per every guest</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>für jeden Gast ausführen</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнять для каждого гостя</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c55f300b-c4c3-4741-bfbc-0c3432fe7c8f">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06096705-83f8-4ee2-a03a-532cc46d6630">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d5c90c3c-9773-4d35-89e7-0e56a5947d17">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

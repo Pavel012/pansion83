@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9e1ac95-e08d-4102-bf12-f0d0f33a893a">
+  <producedTypes>
+    <objectType typeId="e547375f-b92e-4ee4-ae1f-d81303fd888c" valueTypeId="67eca492-8be0-42b9-9612-38da043a1e16"/>
+    <refType typeId="446b6ca9-d200-418a-9972-067ddac82d46" valueTypeId="7b84fa9c-2a48-46de-8c05-41fdc9bbc7ea"/>
+    <selectionType typeId="68cb98c3-bd59-40a7-b14a-3334b7914759" valueTypeId="4a24205f-62d7-4b10-818c-88d725cb9781"/>
+    <listType typeId="b6111013-7e7a-4964-96b7-dd823b05ec78" valueTypeId="99594ac8-a08a-4c1b-9f7b-941a6cefe0cc"/>
+    <managerType typeId="112e1d75-0398-4347-937d-9969f3119a55" valueTypeId="6fed6d48-1eee-4086-bb85-43b006108231"/>
+  </producedTypes>
+  <name>ЗакрытиеПериода</name>
+  <synonym>
+    <key>en</key>
+    <value>Закрытие периода</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Schließung des Zeitraums</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие периода</value>
+  </synonym>
+  <inputByString>Document.ЗакрытиеПериода.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.Фирмы</basedOn>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗакрытиеПериода.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.ЗакрытиеПериода.Form.ListForm</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.ПлатежиУслуги</registerRecords>
+  <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccumulationRegister.РегистрацияУслуг</registerRecords>
+  <attributes uuid="f69da5b3-90c9-4909-b36d-0edf4fc618c8">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="043eec46-8f6c-4ead-b0c7-2842a19ff926">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a8c252a-d071-4285-8246-a685156d2ffd">
+    <name>ProcessClosedFoliosOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Process closed folios only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur geschlossenen Personenkonten bearbeiten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывать только закрытые лицевые счета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb09f211-2f27-4a51-83f7-34660427118e">
+    <name>OneSettlementPerCustomerGuestGroups</name>
+    <synonym>
+      <key>en</key>
+      <value>Create one settlement for customer/contract guest groups</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einen Vorgang für alle Gästegruppen eines Geschäftspartners / Vertrags generieren</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать один акт для всех групп гостей от контрагента/договора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="804f89ce-2139-4917-90f4-43e54aea802f">
+    <name>OneSettlementPerIndividualsCustomerGuestGroups</name>
+    <synonym>
+      <key>en</key>
+      <value>Create one settlement for individuals customer guest groups</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einen Vorgang für alle Gästegruppen - Privatpersonen generieren</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать один акт для всех групп гостей - частных лиц</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1869668b-0330-468f-8993-82db222cefff">
+    <name>SplitSettllementsByVATRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Split settllements by VAT rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vorgänge nach MwSt.-Sätzen trennen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разделять акты по ставкам НДС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38694992-fd81-4234-a40f-cc296b4224c4">
+    <name>DoNotCloseIndividuals</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not create settlements for individuals</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Keine Übergabeprotokolle zu physischen Personen erstellen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не формировать акты по физическим лицам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd26becb-931f-467b-a82a-7e5738b799b1">
+    <name>CloseServiceRegistration</name>
+    <synonym>
+      <key>en</key>
+      <value>Close service registration</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die tatsächliche Dienstleistungserbringung schließen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Закрывать фактическое оказание услуг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9c13a9d-b633-45f2-8d40-16b79391ac7b">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d8e032d-196c-49b9-9ded-151d5c4cc998">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="68283f5e-ec82-4325-aade-7fa76f568e3e">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dad80999-4976-4977-9ca0-b22c2fd54c0d">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

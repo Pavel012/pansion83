@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7be165e4-080b-4caa-89d0-d05ee9034b8e">
+  <name>РазмещениеКлиент</name>
+  <synonym>
+    <key>en</key>
+    <value>Reception (on client)</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Belegungen (auf dem Kunden)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение (на клиенте)</value>
+  </synonym>
+  <global>true</global>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

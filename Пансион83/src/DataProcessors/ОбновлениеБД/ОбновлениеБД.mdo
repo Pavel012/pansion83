@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="239077d9-dbc0-436c-ab12-f04244b599b0">
+  <producedTypes>
+    <objectType typeId="d1c396bc-b44f-4457-9bec-e77b1f2d64b0" valueTypeId="fe51bb95-c90c-4eb1-a89e-89e5b9f6f7bf"/>
+    <managerType typeId="1e1e4522-32be-4a23-841e-d0ebf50e28c6" valueTypeId="7675d5bf-d800-4559-aa14-eaf1a54759bf"/>
+  </producedTypes>
+  <name>ОбновлениеБД</name>
+  <synonym>
+    <key>en</key>
+    <value>Обновление БД</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Erneuerung der Datenbank</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление базы данных</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбновлениеБД.Form.Form</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="06b2334d-d313-47df-9d57-dc65bd5892d6">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1e839a56-0f1e-4bf0-8cbe-d33e5e00b9ee">
+    <name>DescriptionUpdate</name>
+    <synonym>
+      <key>en</key>
+      <value>DescriptionUpdate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Produktbeschreibung Aktionen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e2e2f3d6-df79-4ed7-ba70-2c956e7c069b">
+    <name>ReservationsNoShowReportDefaultSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservations no show report default settings</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f1b8c4a8-a184-4a7f-94e5-8f35056dec4b">
+    <name>ReservationAnnulationsReportDefaultSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation annulations report default settings</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Standardeinstellungen des Buchprüfungsberichts über die Annullierung der Prüfung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки по умолчанию аудиторского отчета по аннуляции брони</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2a1ac2f4-1ed4-4df0-8166-0897f3374356">
+    <name>GuestsWithBirthdayReportDefaultSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Guests with birthday report default settings</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Standardeinstellungen des Berichts über Gäste, die im angegebenen Zeitraum Geburtstag haben</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки по умолчанию отчета по гостям, у которых день рождения в указанном периоде</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="6647ada4-5ea0-4896-8c5b-20db33193a7b">
+    <name>ActiveGiftCertificatesReportDefaultSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Active gift certificates report default settings</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Standardeinstellungen des Berichts für gültige Geschenkgutscheine</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки по умолчанию отчета по действующим подарочным сертификатам</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f9b841b2-578c-4e95-b3f8-62419bf7ea43">
+    <name>TermsDistributeUpdates</name>
+    <synonym>
+      <key>en</key>
+      <value>Terms distribute updates</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Terms distribute updates</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Terms distribute updates</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="730c9cf1-dfaf-4593-bfc8-1e98e627d0eb">
+    <name>DescriptionUpdate</name>
+    <synonym>
+      <key>en</key>
+      <value>Description update</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Produktbeschreibung Aktionen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

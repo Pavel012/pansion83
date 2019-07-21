@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09d55a32-1a66-4360-862b-f7f2f295148a">
+  <producedTypes>
+    <selectionType typeId="cb90ba31-79d1-4670-9620-dc137626a7b2" valueTypeId="867c106d-523f-407b-889d-0fb149cd1b71"/>
+    <listType typeId="4e31e0f1-82e5-41a7-bc2e-e977e3421e79" valueTypeId="9e345128-c304-4115-8771-2af6da591685"/>
+    <managerType typeId="c69245ed-4e86-4bc8-8923-3e991c60ce2d" valueTypeId="db1f367e-9943-4761-998a-05192ded0389"/>
+    <recordSetType typeId="05bcff1c-8b68-4d85-bc48-feae64260619" valueTypeId="8ce821c8-41aa-40ac-bf70-054fe8471dd2"/>
+    <recordKeyType typeId="85552e60-68f0-443e-8122-30cda6fe9671" valueTypeId="212da0b8-6048-4bba-8e24-a7ee5d423aaf"/>
+    <recordType typeId="1234b521-6986-4513-83a5-bb1980e77605" valueTypeId="0100f7cb-f548-45f0-b448-9473a804872f"/>
+  </producedTypes>
+  <name>ПлатежиУслуги</name>
+  <synonym>
+    <key>en</key>
+    <value>Payments distribution to services charged</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verrechnung der Zahlungen nach Leistungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение платежей по услугам</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4c2e1e06-ac6a-4ac9-bef5-6968f9e851bb">
+    <name>Sum</name>
+    <synonym>
+      <key>en</key>
+      <value>Sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d51e5a64-e6d0-4da0-8a94-1bf296963d8f">
+    <name>ЛицевойСчет</name>
+    <synonym>
+      <key>en</key>
+      <value>Лицевой счет</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenkonto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="29c90e15-fcee-400c-8ad6-880c52530e42">
+    <name>Service</name>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="404a721c-c566-4379-a544-0e3890cd2cce">
+    <name>Payment</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Платеж</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Акт</types>
+      <types>DocumentRef.Платеж</types>
+      <types>DocumentRef.Возврат</types>
+      <types>DocumentRef.ПеремещениеДепозита</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

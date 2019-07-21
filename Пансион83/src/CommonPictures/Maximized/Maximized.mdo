@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6349020-a737-47d0-8518-007c83cd0d1e">
+  <name>Maximized</name>
+  <synonym>
+    <key>en</key>
+    <value>Maximized</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Maximized</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Развернуть</value>
+  </synonym>
+  <transparentPixel>
+    <x>11</x>
+    <y>10</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fd9b5c1-096f-4f17-b658-03937f6353df">
+  <producedTypes>
+    <managerType typeId="b16fa545-25d4-4d0d-8946-c5fa6aeb55a0" valueTypeId="46bb7097-969f-46b4-944d-71a27496ba9a"/>
+    <valueManagerType typeId="c78dcdf4-11f4-44da-af3d-9b946204c218" valueTypeId="5ce3dbc7-5732-45ea-b891-c6f2b0a0f7a9"/>
+    <valueKeyType typeId="cdcaf774-7ef2-4fe5-8c07-0cbb4ab1cab6" valueTypeId="24561f05-bc39-4cee-9372-5f99a02f6f01"/>
+  </producedTypes>
+  <name>ВремяПоследнейСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время последней синхронизации</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

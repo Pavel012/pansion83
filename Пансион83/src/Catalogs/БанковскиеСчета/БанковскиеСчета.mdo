@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2eb6c8a1-1dee-44f4-b5df-ded429f1b8aa">
+  <producedTypes>
+    <objectType typeId="63e1b9a4-7d35-4de3-aa84-2c109f55d93e" valueTypeId="2e8b01c7-259f-4287-bd64-ba952fcb2454"/>
+    <refType typeId="0505ee54-f36e-4114-a102-4b841c1add17" valueTypeId="a2cc9687-89e9-48d8-8673-52c46bcc1748"/>
+    <selectionType typeId="07b4c56d-a6dd-4d8a-aa00-9902bc25a05e" valueTypeId="a2a35550-b652-4b1e-84fb-2ff557a6fe53"/>
+    <listType typeId="59170e51-e6b1-4489-9d54-f0dcf06f2b96" valueTypeId="cb9c9525-2122-47a9-afe2-9f48b527e2cb"/>
+    <managerType typeId="299a62a7-7c9b-439e-a579-96eae940cf78" valueTypeId="583e5c13-8e46-49d8-919a-2b0476276e56"/>
+  </producedTypes>
+  <name>БанковскиеСчета</name>
+  <synonym>
+    <key>en</key>
+    <value>Банковские счета</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bankkonten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские счета</value>
+  </synonym>
+  <inputByString>Catalog.БанковскиеСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БанковскиеСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Фирмы</owners>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>10</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.БанковскиеСчета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.БанковскиеСчета.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.БанковскиеСчета.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="0213201d-9689-44ba-91e6-5ae0d368e861">
+    <name>ВалютаСчета</name>
+    <synonym>
+      <key>en</key>
+      <value>Валюта счета</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rechnungswährung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта счета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e4bd859-c3bc-4f54-8efb-437cf7119dc2">
+    <name>НомерСчета</name>
+    <synonym>
+      <key>en</key>
+      <value>Номер счета</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rechnungsnummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер счета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7ed203b-8da6-4e47-b085-fe86850e5478">
+    <name>НазваниеБанка</name>
+    <synonym>
+      <key>en</key>
+      <value>Название банка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bezeichnung der Bank</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Название банка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>140</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91b22ee6-ef6b-4c2c-b73c-181194c1db0a">
+    <name>ГородБанка</name>
+    <synonym>
+      <key>en</key>
+      <value>Город банка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Stadt der Bank</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Город банка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>140</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e67b6e32-04b1-4142-b02f-172bd3659920">
+    <name>КорСчет</name>
+    <synonym>
+      <key>en</key>
+      <value>Bank correspondent account number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Korrespondenzkontonummer der Bank</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Корреспондентский номер счета банка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07ddd55a-0789-4a67-87f1-6c5b91203ec8">
+    <name>БИКБанка</name>
+    <synonym>
+      <key>en</key>
+      <value>Bank Identification Сode</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>BIC der Bank</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>БИК банка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe3abec2-e1d9-4816-86de-bfce0a6b4d95">
+    <name>ИННБанка</name>
+    <synonym>
+      <key>en</key>
+      <value>Bank TIN</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>INN der Bank</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН банка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5558f371-4aa5-4e45-b4f8-49cc11dbfd18">
+    <name>Получатель</name>
+    <synonym>
+      <key>en</key>
+      <value>Получатель</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Empfänger</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="473f9c6b-d090-41ce-ab97-e37e8388e062">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5325a85c-c2e2-47cd-b05a-c0b0a7937dbf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

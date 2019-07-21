@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0a1cce5-ceb9-4a5a-9c71-715ed97d1419">
+  <producedTypes>
+    <selectionType typeId="7c977ccd-d44c-4855-a069-b0654fae9fde" valueTypeId="0fe43a5d-4167-425b-bad6-a1eac009f8bd"/>
+    <listType typeId="b6f1e487-2e19-4d63-850f-f302a25a5258" valueTypeId="eedecf74-4546-4a70-b832-4f7b1048a97c"/>
+    <managerType typeId="976b3364-a2b8-435d-bb62-93cdc8d24281" valueTypeId="49ee9f95-d687-4db4-9d2a-bfeb8ff3e6c4"/>
+    <recordSetType typeId="11bd88d1-0642-42d1-8e2f-2219f32eaba8" valueTypeId="18be5e59-128b-4700-9307-d12670e2dd69"/>
+    <recordKeyType typeId="7fd74be9-466c-4fd3-a106-a54903b4f61e" valueTypeId="5cfeeb4f-b924-4404-a330-9c9f4af8b3c8"/>
+    <recordType typeId="21a7305a-fe7d-47eb-bf7d-6662c4017289" valueTypeId="cc065718-b140-40a8-8354-25d4a0dc20fe"/>
+  </producedTypes>
+  <name>ПодарочСертификат</name>
+  <synonym>
+    <key>en</key>
+    <value>Подароч сертификат</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bilanzen zu Geschenkgutscheinen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Балансы по подарочным сертификатам</value>
+  </synonym>
+  <defaultListForm>AccumulationRegister.ПодарочСертификат.Form.ListForm</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c678bab0-7489-4bf9-a4d1-579a18e7e55e">
+    <name>Amount</name>
+    <synonym>
+      <key>ru</key>
+      <value>Amount</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="8d45c7f5-9031-4f5b-870a-a4a0b38cfefd">
+    <name>Buyer</name>
+    <synonym>
+      <key>en</key>
+      <value>Buyer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einkäufer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Gift certificate buyer</value>
+    </toolTip>
+    <toolTip>
+      <key>de</key>
+      <value>Käufer des Zahlungsgutscheins</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Покупатель платежного сертификата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="6c72bcb8-5374-4fe1-aa66-3e11b3b9c3cc">
+    <name>BuyerFolio</name>
+    <synonym>
+      <key>en</key>
+      <value>Buyer folio</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenkonto des Einkäufers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет покупателя</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="9c14246e-fc77-498a-8c97-921a9be0ef02">
+    <name>Payer</name>
+    <synonym>
+      <key>en</key>
+      <value>Payer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahler</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Gift certificate payer</value>
+    </toolTip>
+    <toolTip>
+      <key>de</key>
+      <value>Person, die mit Geschenkgutschein zahlt</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Плательщик подарочным сертификатом</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="f5ec02b1-defc-48c4-88c2-717c21e76059">
+    <name>PayerFolio</name>
+    <synonym>
+      <key>en</key>
+      <value>Payer folio</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenkonto des Zahlungspflichtigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет плательщика</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <dimensions uuid="8eadf0d2-50b8-458c-af93-99f4306bb25d">
+    <name>GiftCertificate</name>
+    <synonym>
+      <key>en</key>
+      <value>Gift certificate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geschenkgutschein</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подарочный сертификат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9a09b557-bfeb-4f1e-9300-b8aae68b0814">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="eda89352-cf33-4f37-8b8d-e0f6032fd174">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

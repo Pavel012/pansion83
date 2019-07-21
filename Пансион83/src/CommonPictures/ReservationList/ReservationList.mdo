@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5e5bf76-c1e9-446b-b288-db23af673df3">
+  <name>ReservationList</name>
+  <synonym>
+    <key>en</key>
+    <value>Reservation list</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Reservierungsliste</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Список брони</value>
+  </synonym>
+</mdclass:CommonPicture>

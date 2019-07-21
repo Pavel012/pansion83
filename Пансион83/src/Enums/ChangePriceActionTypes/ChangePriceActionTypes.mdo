@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b63bd89-9d94-473e-8352-29421a824f2d">
+  <producedTypes>
+    <refType typeId="2d282e3c-7a36-481b-8821-8d3fa03c1b87" valueTypeId="e922025b-a168-451d-8e3c-f235888688fc"/>
+    <listType typeId="8710c411-66bf-4cf7-9179-1a1fa0e1dad2" valueTypeId="291d36eb-4aeb-41d8-a92e-a75bbdf4b0a4"/>
+    <managerType typeId="e7ff70ba-b535-4b09-be8f-798c802feb64" valueTypeId="4769add7-d090-404d-a948-7fc63eee0012"/>
+  </producedTypes>
+  <name>ChangePriceActionTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Change price action types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Aktionstypen nach Preisänderungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы действий по изменению цены</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="c27fc9a2-a1da-44df-9949-a06ad74a4bbb">
+    <name>AddSubtractPercent</name>
+    <synonym>
+      <key>en</key>
+      <value>Add/Subtract %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Hinzufügen/Abziehen %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить/Вычесть %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8eb4cf0d-ccea-486a-9fe5-30c2b865b961">
+    <name>AddSubtract</name>
+    <synonym>
+      <key>en</key>
+      <value>+ or -</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>+ oder -</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>+ или -</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c279b682-72d0-4be5-a895-2f74330c51cf">
+    <name>Multiply</name>
+    <synonym>
+      <key>en</key>
+      <value>*</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>*</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>*</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56af308b-f3a7-4e4a-8dd8-5e25da10521d">
+    <name>Divide</name>
+    <synonym>
+      <key>en</key>
+      <value>/</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>/</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>/</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

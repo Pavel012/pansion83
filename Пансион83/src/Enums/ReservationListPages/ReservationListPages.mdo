@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2fe71c2-d362-4631-8889-d1a22e597585">
+  <producedTypes>
+    <refType typeId="39884527-2949-43c4-a213-7dbc246409a5" valueTypeId="1acaeaa5-a4af-4911-8916-cd2382d83db4"/>
+    <listType typeId="31a8ab59-e42a-4673-8f9f-f8d831c6fcf2" valueTypeId="6f662b38-2041-4502-8fd9-b830e4f3ce3b"/>
+    <managerType typeId="6417ac51-460f-4f86-92de-91a10eb9f24f" valueTypeId="ce518277-ecf7-4ecf-ab3d-05edfd30b9a4"/>
+  </producedTypes>
+  <name>ReservationListPages</name>
+  <synonym>
+    <key>en</key>
+    <value>Reservation list form pages</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Seite in Listenform Reservierungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Страницы формы списка брони</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="82e26311-24c3-43f5-a0cf-dc17494e3ac8">
+    <name>SearchPage</name>
+    <synonym>
+      <key>en</key>
+      <value>Search page</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Suchseite</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Страница поиска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c408275-d9a7-405f-af08-4ffc764a8801">
+    <name>InputPage</name>
+    <synonym>
+      <key>en</key>
+      <value>Input page</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Seite der Eingabe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Страница ввода</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

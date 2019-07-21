@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="703c4b95-63bf-413f-90f6-072baa75536a">
+  <name>SummaryIndexes</name>
+  <synonym>
+    <key>en</key>
+    <value>Summary indexes</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gesamtindikatoren</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сводные показатели</value>
+  </synonym>
+</mdclass:CommonPicture>

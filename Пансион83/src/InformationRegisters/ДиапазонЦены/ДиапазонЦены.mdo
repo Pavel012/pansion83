@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1ee0ef8-6926-4e65-be9b-49128a4bad78">
+  <producedTypes>
+    <selectionType typeId="0355671f-98ce-43cd-be83-5679c013c82e" valueTypeId="7773c666-0d51-433e-9e43-6080b21f4a58"/>
+    <listType typeId="5a13dc00-9d77-4b2b-a492-5cd0c70673df" valueTypeId="bb94e569-cf3a-498d-aeb0-5625828b5a19"/>
+    <managerType typeId="1b1d0ee6-be1c-4c92-8f0d-1f377f97db9b" valueTypeId="50b7d034-96de-4f30-85cc-76778e2eec18"/>
+    <recordSetType typeId="86fc3354-8ce9-4fbf-bf99-474a47ec509e" valueTypeId="27cd20aa-e995-417e-8341-637eeebd0b7c"/>
+    <recordKeyType typeId="2b7520ba-5c90-456e-916b-77fa28724853" valueTypeId="90635191-04f5-41c1-90db-d8392af3bf27"/>
+    <recordType typeId="5f0d1ff7-01cd-4169-9397-43ba82474f08" valueTypeId="1e556c4c-a766-4b9d-b116-77ac4668a0a4"/>
+    <recordManagerType typeId="3faa5fc5-67ea-4bcc-be3c-739cfc935a8f" valueTypeId="2f1045db-6dc4-474c-983a-74a3128a07eb"/>
+  </producedTypes>
+  <name>ДиапазонЦены</name>
+  <synonym>
+    <key>en</key>
+    <value>Диапазон цены</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Preismerkmalbereiche</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Диапазоны признаков цены</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="95cca549-253d-4e8d-a3eb-4f153a2bedb0">
+    <name>StartValue</name>
+    <synonym>
+      <key>en</key>
+      <value>Start value</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ausgangswert</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начальное значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="78a36417-315d-42c0-87ce-84568417e5c7">
+    <name>EndValue</name>
+    <synonym>
+      <key>en</key>
+      <value>End value</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ausgangswert</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начальное значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c8451e51-e733-45dc-bb46-30471a00e9f9">
+    <name>PriceTag</name>
+    <synonym>
+      <key>en</key>
+      <value>Price tag</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preiseigenschaft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Признак цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПризнакЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7131fa36-2bb1-4fb8-a179-a7bfce35d163">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a7cc806-95a9-4618-94da-858819158cd6">
+    <name>PriceTagType</name>
+    <synonym>
+      <key>en</key>
+      <value>Price tag type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Preiseigenschaft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип признака цены</value>
+    </synonym>
+    <type>
+      <types>EnumRef.PriceTagTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="868cb614-82bf-4a69-a5c5-63509a62062d">
+    <name>SetPriceTagRanges</name>
+    <synonym>
+      <key>en</key>
+      <value>Set price tag ranges</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Befehl zur Bearbeitung der Spannweite der Preiseigenschaften</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ об изменении диапазонов признаков цены</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИзмЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="211a08b6-b9f3-4fb0-b7c6-3ff42a8f8d30">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

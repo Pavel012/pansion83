@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a7193c0-dd5c-4c2b-a672-919b36fe31d0">
+  <producedTypes>
+    <objectType typeId="77d0eec6-c296-41a9-8ddc-d497a9b327b2" valueTypeId="c0be672c-7a33-403f-8305-29262cbff1bd"/>
+    <refType typeId="38606c54-8821-4824-9c23-b898f127bbc5" valueTypeId="6923225a-21b2-4ba4-90a9-316a24de52a8"/>
+    <selectionType typeId="05add474-f7bf-4d1f-91b1-f626fa6c4ae4" valueTypeId="dea4d21c-c141-4f10-9dad-1ee9584e26a3"/>
+    <listType typeId="2c10e8c5-612c-45ff-8c2d-10238de28420" valueTypeId="479c22c2-0d91-49b1-a355-499b06f1a42e"/>
+    <managerType typeId="7b2b8f17-2159-49ca-a13e-6fe05ff861a0" valueTypeId="c0c29a1f-b761-46d8-8143-20c39aab6c1d"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>en</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Mitarbeiter</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сотрудники.Attribute.ТабельныйНомер</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>36</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.Сотрудники.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.Сотрудники.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Сотрудники.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="81b53c89-4f33-43ae-8fbc-b8f5f436bc87">
+    <name>Пол</name>
+    <synonym>
+      <key>en</key>
+      <value>Пол</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geschlecht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Пол</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a1b8386-db8e-45bf-a425-2cceb73c1b90">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65eda971-712a-4399-890d-74f4f13304a2">
+    <name>Фирма</name>
+    <synonym>
+      <key>en</key>
+      <value>Фирма</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86240d06-5820-44ce-8a32-abdb8155979b">
+    <name>Отдел</name>
+    <synonym>
+      <key>en</key>
+      <value>Отдел</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abteilung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Отделы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f57a0b3d-fe23-41f4-af1f-970800d94b4e">
+    <name>СекцияНомеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Секция номеров</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sektion der Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Секция номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СекцииНомерногоФонда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81524448-531c-4c00-bf03-b2716a38e893">
+    <name>ГруппаНомеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms folder</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0451ced8-a283-4dc7-897f-669a42360255">
+    <name>RoomFolderFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Employee will do operations in rooms starting from this room folder</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe von Zimmern, ab der der Mitarbeiter Arbeiten ausführt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номеров, начиная с которой сотрудник выполняет работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35002818-1c5b-4892-917b-9bafdd454f16">
+    <name>RoomFolderTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Employee will do operations in rooms before this room folder</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe von Zimmern, ab der die Mitarbeiter Arbeiten ausführen wird</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номеров, до которой сотрудник выполняет работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1a9f4c5-5bca-40b0-9063-92934ed54aa3">
+    <name>Должность</name>
+    <synonym>
+      <key>en</key>
+      <value>Должность</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Должность</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd68db16-1474-426a-972a-2e8f9b064d5c">
+    <name>ТабельныйНомер</name>
+    <synonym>
+      <key>en</key>
+      <value>Табельный номер</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kontrollnummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Учетный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41e104d4-9485-4756-8cc2-40bb2c033432">
+    <name>КодДоступаАТС</name>
+    <synonym>
+      <key>en</key>
+      <value>PBX account code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zugangscode zur Telefonanlage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код доступа в АТС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="402ffe45-63fa-4f23-8695-a13fc2517ad9">
+    <name>НаборПрав</name>
+    <synonym>
+      <key>en</key>
+      <value>Набор прав</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rechtepaket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Набор прав</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборПрав</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84c9dd8a-e7ce-4b24-bc89-374d729e065d">
+    <name>НастройкиПользователя</name>
+    <synonym>
+      <key>en</key>
+      <value>Настройки пользователя</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzereinstellungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки пользователя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08957fd6-7569-42b1-ab51-bc36a9a6d913">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>en</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Arbeitsplatz</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f362d79a-d501-4a13-b5aa-86e7b61b7fee">
+    <name>Фамилия</name>
+    <synonym>
+      <key>en</key>
+      <value>Фамилия</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Familienname</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc0725ef-c025-4e58-b352-348ba14984db">
+    <name>Имя</name>
+    <synonym>
+      <key>en</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Name</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f60e5407-8cdc-4934-9524-e2c17691808c">
+    <name>Отчество</name>
+    <synonym>
+      <key>en</key>
+      <value>Отчество</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vatersname</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22586d04-aa23-4c28-8c70-72ef65481c93">
+    <name>Гражданство</name>
+    <synonym>
+      <key>en</key>
+      <value>Гражданство</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Staatsbürgerschaft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гражданство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Страны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a7013aa-28a8-4704-95a5-0882c8e852c7">
+    <name>Телефоны</name>
+    <synonym>
+      <key>en</key>
+      <value>Телефоны</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Telefone</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Телефоны</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f45deb00-ced4-4f20-9ec0-e80c21144045">
+    <name>EMail</name>
+    <synonym>
+      <key>en</key>
+      <value>E-mail</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>E-mail</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>E-mail</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1215cf3b-5608-4785-bc7c-bc6f874f10da">
+    <name>ReplyToEMail</name>
+    <synonym>
+      <key>en</key>
+      <value>Reply to E-mail list</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>E-Mailadressen-Liste für Antworten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список E-mail адресов для ответов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="301a63c5-c6b1-4c6a-bf34-26d02418aa35">
+    <name>BccEMail</name>
+    <synonym>
+      <key>en</key>
+      <value>Bcc (Blind carbon copy) E-Mail</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>bcc E-Mail kopieren</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Bcc (скрытая копия) E-Mail</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b85c93f6-3fd3-4d24-ad60-7be1ca048113">
+    <name>ИНН</name>
+    <synonym>
+      <key>en</key>
+      <value>ИНН</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>INN</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b80290c-5b47-40ef-9552-63cf5ef1bf90">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9f8ffd9-46fa-4ffe-94ae-39ad59ae1d64">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cb3fe28-f9cb-441c-9bde-2cfa930335f2">
+    <name>InternetMailSMTPServerAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail SMTP Server address</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SMTP-Mail-Server-Adresse</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес SMTP сервера электронной почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="377150d1-c98a-48e3-bd92-ed3f28a8bf01">
+    <name>InternetMailSMTPUseSSL</name>
+    <synonym>
+      <key>en</key>
+      <value>Use SSL for SMTP</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SSL verwenden für SMTP</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать SSL для SMTP</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c126134a-85d6-4dfd-92d5-14af2a2d8939">
+    <name>InternetMailSMTPSecureAuthenticationOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Use secure authentication for SMTP only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verwenden Sie nur sichere Authentifizierung für SMTP</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать только secure authentication для SMTP</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0bf609b-0a47-4ad2-892d-11398b6a384f">
+    <name>InternetMailSMTPPort</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail SMTP server port</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>E-Mail SMTP-Server-Port</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порт SMTP сервера электронной почты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07dce11e-faa7-4044-aaa6-1c1585f812ba">
+    <name>InternetMailSMTPAuthentication</name>
+    <synonym>
+      <key>en</key>
+      <value>SMTP server authentication type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Von SMTP-Server verwendeter Typ der Authentifizierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип аутентификации используемый SMTP сервером</value>
+    </synonym>
+    <type>
+      <types>EnumRef.SMTPAuthenticationTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afc7bcf6-99fd-4dac-9103-2989406d39a7">
+    <name>InternetMailSMTPUser</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail SMTP server user</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Name des Nutzers des SMTP-Servers der Internet-Post</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя SMTP сервера интернет почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="adc7cd9f-f67d-4c5f-8f80-b1b6f3f690d3">
+    <name>InternetMailSMTPPassword</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail SMTP server user password</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Passwort des Nutzers eines SMTP-Post-Servers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя SMTP сервера интернет почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e31028c-1e3b-4f05-9857-add5df87b125">
+    <name>InternetMailPOP3BeforeSMTP</name>
+    <synonym>
+      <key>en</key>
+      <value>Always connect to POP3 server before connection to SMTP server</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vor dem Anschluss an den SMTP-Server muss unbedingt der Anschluss an den POP3-Server.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательно подключаться сначала к POP3 серверу перед подключением к SMTP серверу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b215ac41-05cb-47ff-b5a4-fd6dd0175aff">
+    <name>InternetMailPOP3ServerAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail POP3 Server address</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>POP3-Mail-Server-Adresse</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес POP3 сервера электронной почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cbc7aca7-6998-4fd8-a53c-11eb99c984c5">
+    <name>InternetMailPOP3UseSSL</name>
+    <synonym>
+      <key>en</key>
+      <value>Use SSL for POP3</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SSL verwenden für POP3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать SSL для POP3</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d41f1324-9fc2-4d43-857f-b4ce896645a0">
+    <name>InternetMailPOP3SecureAuthenticationOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Use secure authentication for POP3 only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verwenden Sie nur sichere Authentifizierung für POP3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать только secure authentication для POP3</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f289c6a4-9e18-4473-88a7-a9e007f824a3">
+    <name>InternetMailPOP3Port</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail POP3 server port</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>E-Mail POP3-Server-Port</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порт POP3 сервера электронной почты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="655cbe17-d3db-4478-a1d5-461f3a9bc64a">
+    <name>InternetMailPOP3Authentication</name>
+    <synonym>
+      <key>en</key>
+      <value>POP3 server authentication type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Von POP3-Server verwendeter Typ der Authentifizierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип аутентификации используемый POP3 сервером</value>
+    </synonym>
+    <type>
+      <types>EnumRef.POP3AuthenticationTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc5c48dd-ff85-465a-9507-84e69d13cfb6">
+    <name>InternetMailUser</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail server user</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzername am Server der Internet-Post</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя сервера интернет почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60906d52-8626-41f8-b371-d82cf68ca52f">
+    <name>InternetMailPassword</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail server user password</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzerpasswort des Internetpostservers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя сервера интернет почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3b6c161a-2676-478d-91af-6ea9e7489b11">
+    <name>InternetMailTimeout</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet mail server connection timeout</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wartezeit bei der Verbindung mit dem E-Mail-Server</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время ожидания соединения с сервером электронной почты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="534e943a-cc30-46b6-bb57-a7fc8cd9a040">
+    <name>Подпись</name>
+    <synonym>
+      <key>en</key>
+      <value>Подпись</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Unterschrift</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="854bd96e-1c6b-46bd-808a-fa8565590fac">
+    <name>ПослИсполОбъекты</name>
+    <synonym>
+      <key>en</key>
+      <value>Посл испол объекты</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Letzte geöffnete Objekte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Последние открытые объекты</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="964ec7f5-e15a-48dc-a59a-dd01a1755f67">
+    <name>Контрагент</name>
+    <synonym>
+      <key>en</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b02a79a4-95e4-4fc5-bdb1-831ced6d010a">
+    <name>RoomQuota</name>
+    <synonym>
+      <key>en</key>
+      <value>Allotment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerquote</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Квота номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КвотаНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="45af033f-4fcb-44a6-8fa5-3475f7459dcd">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f8e2a371-471a-42d8-9fa0-f0cf7124d231">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="445204ad-f1a5-4ff1-b8c7-559878487735">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

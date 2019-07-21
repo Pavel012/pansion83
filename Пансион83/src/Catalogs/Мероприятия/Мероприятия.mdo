@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd8e3a04-c2d0-4b55-9ead-dce5197c5b99">
+  <producedTypes>
+    <objectType typeId="2b0c0bb5-c868-4054-afe9-6b9389cd50d3" valueTypeId="a0a18f9f-2aba-4802-916d-69817e08a0e3"/>
+    <refType typeId="0eb6e6db-013f-479e-8ccf-7bfeea3be630" valueTypeId="407b0057-cff4-4fd7-a233-119735a39ed8"/>
+    <selectionType typeId="5753b2cb-bc9a-434b-8709-10c838b2ad93" valueTypeId="2b667e44-b513-4495-aaa1-531aa4644948"/>
+    <listType typeId="7b01dea0-1ae7-4040-8836-d0098e0669f7" valueTypeId="e69d32a0-7c09-4c54-a44d-011f70468f5d"/>
+    <managerType typeId="9854e66f-c85a-4938-b9b2-c5e67ef4d6a1" valueTypeId="59234afa-3203-4e2b-a48b-40fc028a6131"/>
+  </producedTypes>
+  <name>Мероприятия</name>
+  <synonym>
+    <key>en</key>
+    <value>Мероприятия</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Veranstaltungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Мероприятия</value>
+  </synonym>
+  <inputByString>Catalog.Мероприятия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Мероприятия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>12</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Catalog.Мероприятия.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.Мероприятия.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Мероприятия.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="3a4628fa-dff8-49a1-ac9e-a1cb5f8d29c2">
+    <name>DateFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Date from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum ab</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="123cc355-4b16-4228-bcee-6d66a0c694ba">
+    <name>DateTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Date to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum bis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7a8a27e-8a02-4f65-af4b-425a59c78f1d">
+    <name>Color</name>
+    <synonym>
+      <key>en</key>
+      <value>Event color</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Farbe der Maßnahmen auf Formularen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет мероприятия на формах</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="945be2cc-4cb0-4c94-9f06-18450c7c9741">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e52affc2-c946-44a8-9f3d-de86de80cee1">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0239535c-8be9-4b84-b8c7-070e9b30e966">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc7fcbb0-6c5a-4279-98ba-2c515d08231f">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

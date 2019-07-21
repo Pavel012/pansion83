@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="201832e5-d4e4-4101-8e94-932afd3bdb68">
+  <producedTypes>
+    <refType typeId="32cdffbd-0be6-4cc1-9aeb-5a3983e0864a" valueTypeId="2e0d9792-bce8-4d48-8e43-e2a72324e411"/>
+    <listType typeId="abab7343-75b4-41f4-8ad9-bfac4db851f5" valueTypeId="10f4aafc-2068-4412-ac90-2fa2f5387529"/>
+    <managerType typeId="346f9b44-7ae2-4a29-9004-c27059e929d9" valueTypeId="b59ae011-f69b-4d12-9105-fb03d518ed85"/>
+  </producedTypes>
+  <name>AccommodationListPages</name>
+  <synonym>
+    <key>en</key>
+    <value>Accommodation list form pages</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Seite in Listenform Unterbringungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Страницы формы списка размещений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="ce87ae2e-49b5-487f-8763-f1caab3b43e1">
+    <name>InHouseGuestsPage</name>
+    <synonym>
+      <key>en</key>
+      <value>In-house guests page</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Seite der Hotelgäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Страница проживающих гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bea68cf2-47c2-4039-98f9-8697c119456c">
+    <name>ArchivePage</name>
+    <synonym>
+      <key>en</key>
+      <value>Archive page</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Unterbringungsarchiv</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Архив размещений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35e6c17a-fb2c-42b1-93e4-675ef30c6fb3">
+    <name>AllRoomsPage</name>
+    <synonym>
+      <key>en</key>
+      <value>All rooms page</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schachbretttabelle</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Шахматка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4feacd3-04a1-44af-8a37-766f5bcae63d">
+    <name>RoomsGanttChartPage</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms gantt chart page</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Karte des Zimmerbestandes</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Карта Номерного Фонда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8397711e-af8f-4097-98f9-a9fccf2f0cad">
+    <name>RoomsPlanPage</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms plan page</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerbestandplan</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>План Номерного Фонда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

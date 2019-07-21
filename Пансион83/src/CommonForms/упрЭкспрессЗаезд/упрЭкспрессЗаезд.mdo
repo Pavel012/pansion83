@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12f08984-2eec-4679-abb5-8302066100dd">
+  <name>упрЭкспрессЗаезд</name>
+  <synonym>
+    <key>en</key>
+    <value>Express check-In</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Express Check-in</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Экспресс-заезд</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

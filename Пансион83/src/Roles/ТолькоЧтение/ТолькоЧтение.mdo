@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5995462c-dc34-4a30-8a8d-94183fe368bc">
+  <name>ТолькоЧтение</name>
+  <synonym>
+    <key>en</key>
+    <value>Только чтение</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Benutzer nur mit Leserecht</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь с правами только на чтение</value>
+  </synonym>
+</mdclass:Role>

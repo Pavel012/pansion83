@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb72adb2-552e-4db5-a508-6628ad218064">
+  <producedTypes>
+    <objectType typeId="0ea89e87-abb0-40fd-959a-57ba3d8979fd" valueTypeId="26aa3d64-ad52-47b2-8b7c-ea556f0edf37"/>
+    <refType typeId="e9e8ef81-2f3b-40d0-a3ff-601f1723dec6" valueTypeId="e7a6bd7d-37d4-4983-8936-e7b0c706a085"/>
+    <selectionType typeId="fa5b9c28-160a-4bff-847c-e82d64e1f8d0" valueTypeId="cf8060e8-079a-47df-b7ef-e90d55286bc9"/>
+    <listType typeId="a7a60c98-41d2-43da-80c3-b01a0b934492" valueTypeId="e8a364e3-f6f9-40f9-9437-570cad2a2bbf"/>
+    <managerType typeId="ccd60c64-2aa6-4c07-8630-e19d9d1cb80c" valueTypeId="b7abd3b4-93e4-4cad-8d64-671bbde8a946"/>
+  </producedTypes>
+  <name>ТипДневногоКалендаря</name>
+  <synonym>
+    <key>en</key>
+    <value>Тип дневного календаря</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Tagestypen in Kalendern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы дней в календарях</value>
+  </synonym>
+  <inputByString>Catalog.ТипДневногоКалендаря.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипДневногоКалендаря.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ТипДневногоКалендаря.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипДневногоКалендаря.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="e67031dc-4809-40b2-bcb1-09acc182c8cf">
+    <name>ПорядокСортировки</name>
+    <synonym>
+      <key>en</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4848edd9-8cc0-420b-a423-ca7273b63b84">
+    <name>Weight</name>
+    <synonym>
+      <key>en</key>
+      <value>Weight</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gewicht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7df2c30d-103e-4ab6-b487-5e1351d01837">
+    <name>Discount</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preisnachlass %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ccc4712e-ac77-4986-bed3-b84bc2c02790">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8a88111-2f93-4708-9f35-29dc033f44f1">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="73c68ed0-31f0-4638-a9ca-2e5ec0d8c03c">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b20486c1-1969-420a-b5cf-8e635d6c3fcd">
+  <name>TidyingUp</name>
+  <synonym>
+    <key>en</key>
+    <value>Tidying up</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Reinigung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Уборка</value>
+  </synonym>
+  <transparentPixel>
+    <x>5</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

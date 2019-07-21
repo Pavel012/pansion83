@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76170fdd-2393-4b35-a3cd-0cae009568a6">
+  <name>ФоновыйРежим</name>
+  <synonym>
+    <key>en</key>
+    <value>Фоновый режим</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Hintergrundmodus</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Фоновый режим</value>
+  </synonym>
+</mdclass:Role>

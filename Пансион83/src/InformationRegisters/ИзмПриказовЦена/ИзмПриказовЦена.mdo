@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a53f6d66-0f34-4b2e-91bf-b21617757646">
+  <producedTypes>
+    <selectionType typeId="fa4d8e95-304f-43f1-b036-8366a73ccc51" valueTypeId="3276c90e-102c-4e52-aa65-de59c12b57c3"/>
+    <listType typeId="c80a1e33-c882-488c-b110-9dd2506cc694" valueTypeId="32e8ddd3-df25-45d3-902a-35cbdd54607f"/>
+    <managerType typeId="e05e79da-98a6-404e-8fdf-02823b13a7be" valueTypeId="87e44587-ea88-4b06-b44d-ef0c1c0e1b33"/>
+    <recordSetType typeId="4a150c1c-bdca-421e-936b-a5e8897047c3" valueTypeId="eb2d9ed7-8ec4-40b8-8d5a-de1135a4871e"/>
+    <recordKeyType typeId="3d205eb6-13fa-452e-9ef1-b80819e44701" valueTypeId="2ee2aa9f-cfe6-44a1-bce9-4b1cacbe1b81"/>
+    <recordType typeId="44649bdf-920e-46ae-83b9-faab5ab5e829" valueTypeId="6e7db7c6-0602-42e1-8010-e2210dff878d"/>
+    <recordManagerType typeId="dbdbbf94-2a84-4d92-96ab-2ea1bf56649a" valueTypeId="2e64d560-0737-4666-a9c5-6fa188c3c5a0"/>
+  </producedTypes>
+  <name>ИзмПриказовЦена</name>
+  <synonym>
+    <key>en</key>
+    <value>Изм приказов цена</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Änderungsverlauf der Anordnungen über die Änderung von Preismerkmalbereichen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>История изменений приказов об изменении диапазонов признаков цены</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИзмПриказовЦена.Form.RecordForm</defaultRecordForm>
+  <defaultListForm>InformationRegister.ИзмПриказовЦена.Form.ListForm</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="afbe9844-27a2-4e77-9f79-6d32a7e509cc">
+    <name>Number</name>
+    <synonym>
+      <key>en</key>
+      <value>Document number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentnummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b2ef576f-0220-4c8f-930e-4e520bfd2567">
+    <name>Date</name>
+    <synonym>
+      <key>en</key>
+      <value>Document date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum des Dokuments</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="36e409a0-81fe-4320-bf5a-9c00b9705379">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="41af26a8-92b0-4c3a-aed8-d6069b280edc">
+    <name>PriceTagType</name>
+    <synonym>
+      <key>en</key>
+      <value>Price tag type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Preiseigenschaft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип признака цены</value>
+    </synonym>
+    <type>
+      <types>EnumRef.PriceTagTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1a349a3b-dd14-4fa8-831b-7af9befb66f0">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="707cb86d-1619-433e-b753-47cc97faced5">
+    <name>RoomRatesApproved</name>
+    <synonym>
+      <key>en</key>
+      <value>Ranges are approved</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bereiche sind bestätigt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазоны утверждены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1165cd90-6029-4662-b910-bce2a4a4ba1b">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="db166330-4098-4f20-937d-5b5812726248">
+    <name>PriceTagRanges</name>
+    <synonym>
+      <key>en</key>
+      <value>Price tag ranges</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preismerkmalbereiche</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазоны признака цены</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7be1dfd8-5276-4439-93a9-7b10d39cc029">
+    <name>Changes</name>
+    <synonym>
+      <key>en</key>
+      <value>Changes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Veränderungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="42304c23-8035-4d97-b164-b94188d9df31">
+    <name>User</name>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c923e758-96a7-40cd-8d89-2a625f1439eb">
+    <name>SetPriceTagRanges</name>
+    <synonym>
+      <key>en</key>
+      <value>Set price tag ranges</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Befehl zur Bearbeitung der Spannweite der Preiseigenschaften</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ об изменении диапазонов признаков цены</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИзмЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ada4c30c-3539-47d4-88bc-5e1769d0fca2">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be3a477a-4788-4f46-a5ef-b09367a5b9b8">
+    <name>RecordForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eintragsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

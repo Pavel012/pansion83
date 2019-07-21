@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a40014c9-ee2b-4a95-8f89-153cbb807917">
+  <producedTypes>
+    <objectType typeId="fb30d281-502d-4714-b8f9-ac29241b6fe3" valueTypeId="c31ba5be-e515-4a09-b44d-419fcbf5cd51"/>
+    <refType typeId="3989dd0a-4d35-46fd-ba43-bf1b677b789f" valueTypeId="fa6780f8-c283-47db-bd4b-a710f7c2afaf"/>
+    <selectionType typeId="79eee5ce-b352-497b-890e-7cf2e765d950" valueTypeId="0fd756f0-c9c2-4218-83f2-a8a259153ff6"/>
+    <listType typeId="9de2314e-2f51-471c-ab35-e3708aa99f2e" valueTypeId="631679e4-1649-4d54-aa5e-03452640a69f"/>
+    <managerType typeId="b056615d-a228-45c3-a38b-5f2707b0136b" valueTypeId="7efe2257-febe-4233-9d66-79b59b3543fa"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>en</key>
+    <value>Валюты</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Währungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultObjectForm>Catalog.Валюты.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.Валюты.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Валюты.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="76ae6953-60ba-459e-9cd7-2296e9c1e8e2">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="426e5693-1da7-4680-9d11-27f18fcd670d">
+    <name>CurrencySymbol</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency symbol</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währungssymbol</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Символ представления валюты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0c51214-27c6-45c2-99a1-38128427ec95">
+    <name>ПорядокСортировки</name>
+    <synonym>
+      <key>en</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a26e44ef-b051-43c2-9b29-e202e9c3e686">
+    <name>PlaceSymbolBeforeSum</name>
+    <synonym>
+      <key>en</key>
+      <value>Place symbol before sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Symbol vor die Summe setzen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Помещать символ перед суммой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ba1e8a9-4bf9-4b4e-8431-d8e04251492f">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="22638d89-87f4-4ad6-b2bc-63d97686de9a">
+    <producedTypes>
+      <objectType typeId="b0d87e09-5f35-4538-af51-36cca5607e93" valueTypeId="44fe150a-f68b-4a42-93d9-fe1848f6ff96"/>
+      <rowType typeId="dfc56e3e-d32e-4c27-b7d6-89a2c152d760" valueTypeId="63870388-69e5-4506-8b6e-cb5cc93ebeef"/>
+    </producedTypes>
+    <name>SumInWordsAttributes</name>
+    <synonym>
+      <key>en</key>
+      <value>Sum in words attributes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Parameter der Summen (in Worten)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры сумм прописью</value>
+    </synonym>
+    <attributes uuid="7871761f-cabc-46cd-88d3-f7b1d935d482">
+      <name>Language</name>
+      <synonym>
+        <key>en</key>
+        <value>Language</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Sprache</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Язык</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Локализация</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c29f7d00-a46f-4b63-8d6c-e7f1f9c0fab6">
+      <name>NumberInWordsAttributes</name>
+      <synonym>
+        <key>en</key>
+        <value>Number in words attributes</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Parameter für die Erstellung von Summen in Worten</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры формирования сумм прописью</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e046f19f-116a-4d49-8592-946a176a97c8">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="62e82dee-b7f3-4c21-a702-cf97e215190d">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

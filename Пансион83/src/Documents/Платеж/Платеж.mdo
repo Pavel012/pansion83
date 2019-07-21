@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0bc3a7b-6c05-4848-ac37-133915629248">
+  <producedTypes>
+    <objectType typeId="df10f507-5221-44c8-b6f7-c8ffbf9f49ab" valueTypeId="84c2256f-e7f8-49f0-bbb3-7864891cb02b"/>
+    <refType typeId="13e6cf5c-6e30-4019-a27b-bff4d58688a5" valueTypeId="c44c9116-cd33-4636-8551-bd0dfba74d21"/>
+    <selectionType typeId="6d1a807f-79da-4963-8f86-dbd8be61cbc1" valueTypeId="53543e15-493d-4bd3-9a09-7eefe3bd93b3"/>
+    <listType typeId="7930c0e8-0c39-4965-b3ff-0a7b86cff85c" valueTypeId="d8fa1084-e8a6-42a7-a9dd-c4407cbcc1fc"/>
+    <managerType typeId="43c8518b-3d66-4c88-88cf-baf98e94d30c" valueTypeId="ff18d9b8-4333-4351-8981-c5c8f973df81"/>
+  </producedTypes>
+  <name>Платеж</name>
+  <synonym>
+    <key>en</key>
+    <value>Платеж</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zahlung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Платеж</value>
+  </synonym>
+  <inputByString>Document.Платеж.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.СчетПроживания</basedOn>
+  <basedOn>Document.ПреАвторизация</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numerator>DocumentNumerator.Payments</numerator>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Платеж.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.Платеж.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Document.Платеж.Form.ListForm</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.ПлатежиУслуги</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыПоСчетам</registerRecords>
+  <registerRecords>AccumulationRegister.ВыручкаПоСменам</registerRecords>
+  <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccumulationRegister.НакопитСкидки</registerRecords>
+  <registerRecords>AccumulationRegister.Платежи</registerRecords>
+  <registerRecords>AccumulationRegister.НаличныеКасса</registerRecords>
+  <registerRecords>AccumulationRegister.ПодарочСертификат</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыКонтрагенты</registerRecords>
+  <registerRecords>AccumulationRegister.Депозиты</registerRecords>
+  <attributes uuid="9551506d-8246-4e87-9146-84f0725c5330">
+    <name>ParentDoc</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument Begründung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+      <types>DocumentRef.Бронирование</types>
+      <types>DocumentRef.БроньУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed908d7e-3718-42eb-a758-70ae7d0dba62">
+    <name>ЛицевойСчет</name>
+    <synonym>
+      <key>en</key>
+      <value>Лицевой счет</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenkonto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6aec51a4-dd8a-462f-93d3-742db822ec0c">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e68692e5-4f33-4736-b1ad-85b5194f36d9">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="306f9db6-6082-410d-8e7e-69b9c272d64f">
+    <name>Payer</name>
+    <synonym>
+      <key>en</key>
+      <value>Payer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahler</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd896883-6005-42fa-8c2f-bfa5f4b71dcb">
+    <name>AccountingCustomer</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент в бухгалтерии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c00c00c1-7d09-4abc-8ad3-4acd48dece0b">
+    <name>AccountingContract</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting contract</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertrag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Договор в бухгалтерии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9180624f-38a9-491d-aa64-681bcb6b915f">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3a19bda-872b-458d-b016-7baa656d3cd8">
+    <name>PaymentSection</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment section</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sektion der Bezahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Секция оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтделОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7742997f-24b4-481f-b53e-5fbfa6a711d0">
+    <name>PaymentMethod</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment method</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlungsmethode</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Способ оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СпособОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e72800e-5439-4826-87b3-cb7b515cc3c4">
+    <name>Sum</name>
+    <synonym>
+      <key>en</key>
+      <value>Sum in document currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe in der Währung des Dokuments</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма в валюте документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48dc1a8f-d749-4a48-a9dc-c203e15f7aa8">
+    <name>VATRate</name>
+    <synonym>
+      <key>en</key>
+      <value>VAT Rate %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rate MwSt. %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС %</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкаНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ebe6091-74b3-441a-ad19-2dba15ea453e">
+    <name>VATSum</name>
+    <synonym>
+      <key>en</key>
+      <value>VAT Sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac03c386-13f7-46c4-b2ee-a48bcc10658d">
+    <name>SumInFolioCurrency</name>
+    <synonym>
+      <key>en</key>
+      <value>Sum in folio currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe in der Währung des Personenkontos</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма в валюте лицевого счета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1288cf40-8d68-436e-b207-0b01ca182a89">
+    <name>VATSumInFolioCurrency</name>
+    <synonym>
+      <key>en</key>
+      <value>VAT Sum in folio currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe MwSt. in der Währung des Personenkontos</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС в валюте лицевого счета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d331697-a778-4a84-8f5b-cf1535af0214">
+    <name>ExchangeRateDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Exchange rate date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wechselkursdatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата курса обмена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0676cda9-84e2-41ad-9063-54fe036ac1a4">
+    <name>PaymentCurrency</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlungswährung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f371ed63-329e-49d8-bca4-8fc7f4fb4d82">
+    <name>PaymentCurrencyExchangeRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment currency exchange rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Umtauschkurs der Zahlungswährung im Verhältnis zur Basiswährung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Курс обмена валюты платежа по отношению к базовой валюте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="136ba0dd-4d1b-4c9d-8153-ca353aeabb46">
+    <name>FolioCurrency</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währung des Personenkontos</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта лицевого счета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9fa68bcb-fca1-4b67-b0a5-b75b4f989e0a">
+    <name>FolioCurrencyExchangeRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio currency exchange rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Umtauschkurs der Währung des Personenkontos im Verhältnis zur Basiswährung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Курс обмена валюты лицевого счета по отношению к базовой валюте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09f3d760-efc3-4c8d-b274-315b282a6878">
+    <name>CreditCard</name>
+    <synonym>
+      <key>en</key>
+      <value>Credit card</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kreditkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КредитныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37272c5e-6604-42b8-b550-24d21c7ac94e">
+    <name>ReferenceNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation reference number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Referenznummer der Operation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Референс номер операции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9be62e1-1c0e-4ae5-9f22-81828a3dffb3">
+    <name>AuthorizationCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation authorization code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code der Operationsautorisierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код авторизации операции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5318b87c-614e-48a3-a1a9-fdaaf40396c6">
+    <name>TerminalNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Terminal number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Terminalnummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер терминала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c06c39e-0c14-46a2-b95f-8517bae4a81e">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a372aa9-c1bb-4ebd-a897-c61c365c2bed">
+    <name>SlipText</name>
+    <synonym>
+      <key>en</key>
+      <value>Slip text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Text der Quittung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст слипа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59e19bb6-794d-4693-9905-68c09fd5d6e1">
+    <name>AnnulationSlipText</name>
+    <synonym>
+      <key>en</key>
+      <value>Annulation slip text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Text der Quittung der Annullierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст слипа аннулирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4dc9db8f-d9b3-4703-95cc-e1d35c8d12a5">
+    <name>TypeOfAnnulation</name>
+    <synonym>
+      <key>en</key>
+      <value>Type of annulation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Annullierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип аннуляции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CancelActionTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="442ba087-6de3-441b-8777-e7fe47389e1c">
+    <name>AuthorOfAnnulation</name>
+    <synonym>
+      <key>en</key>
+      <value>Author of annulation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor der Stornierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор аннуляции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7127066-f575-4359-9d1f-a4241a6d4810">
+    <name>DateOfAnnulation</name>
+    <synonym>
+      <key>en</key>
+      <value>Date of annulation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Stornierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата аннуляции</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="792358e4-dd87-4419-abac-8fdc776c69cf">
+    <name>Invoice</name>
+    <synonym>
+      <key>en</key>
+      <value>Pro-Forma Invoice</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Pro-Forma Rechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74fca26a-f0a1-43bb-a3b0-9b637935b373">
+    <name>Preauthorisation</name>
+    <synonym>
+      <key>en</key>
+      <value>Preauthorisation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vorautorisierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Преавторизация</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПреАвторизация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="baa58268-44f7-415f-b44f-e33f1b9d7a1c">
+    <name>CardType</name>
+    <synonym>
+      <key>en</key>
+      <value>Card type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kartentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип карты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКредитныхКарт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f449b3f7-7e99-4444-b69a-3d91ab943c97">
+    <name>ExternalCode</name>
+    <synonym>
+      <key>en</key>
+      <value>External system code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im externen System</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код во внешней системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9bc475d1-604d-44af-8dc9-7aafb2696475">
+    <name>GiftCertificate</name>
+    <synonym>
+      <key>en</key>
+      <value>Gift certificate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geschenkgutschein</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подарочный сертификат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0456ddbe-c542-46bf-b104-e87fbde5e378">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0fa5e7ae-006f-441d-a13c-866f670acf52">
+    <name>CardOperationDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Card operation date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum Kartengeschäft</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата операции по карте</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a62f0a70-375e-4df0-8897-efc379546fa2">
+    <name>OrderNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Order number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bestellnummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер заказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d15b8355-b526-4eba-a226-c61fd85b447f">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular &quot;Zahlung&quot;</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа &quot;Платеж&quot;</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cdea51bb-e244-4dda-a1f1-eaa1a289569c">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc3fec72-503f-4384-ab67-fd89f71c8a1a">
+    <name>tcDocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b0a29d8f-15f8-4dd4-b972-8c06c0a9d86a">
+    <producedTypes>
+      <objectType typeId="30041c1e-499e-4e42-b119-a5fee1f1e75a" valueTypeId="d32532b6-951a-4ff7-acce-018b0cf7c2ba"/>
+      <rowType typeId="abb3746f-ca24-409e-b9a9-fdb46f8a65c6" valueTypeId="27f29705-12fd-4625-af31-8f8128b435cf"/>
+    </producedTypes>
+    <name>PaymentSections</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment sections</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlungssektionen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Платежные секции</value>
+    </synonym>
+    <attributes uuid="c9c9fd04-d2f2-48ee-99e1-4ee17d1d26ce">
+      <name>PaymentSection</name>
+      <synonym>
+        <key>en</key>
+        <value>Payment section</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Sektion der Bezahlung</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Секция оплаты</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОтделОплаты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ec6a2272-05ac-40ed-ab19-ac7617b0aac1">
+      <name>Sum</name>
+      <synonym>
+        <key>en</key>
+        <value>Sum in document currency</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Summe in der Währung des Dokuments</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма в валюте документа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2a93cc44-8d39-4cdc-8af5-d49e7ba1939d">
+      <name>VATRate</name>
+      <synonym>
+        <key>en</key>
+        <value>VAT Rate %</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Rate MwSt. %</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Ставка НДС %</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтавкаНДС</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e973db41-6a75-469c-80b8-d22502ec7b30">
+      <name>VATSum</name>
+      <synonym>
+        <key>en</key>
+        <value>VAT Sum</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Summe MwSt.</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма НДС</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1849d27c-06ca-40a8-8d4a-8be98578990b">
+      <name>SumInFolioCurrency</name>
+      <synonym>
+        <key>en</key>
+        <value>Sum in folio currency</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Summe in der Währung des Personenkontos</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма в валюте лицевого счета</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d1297b79-b045-466e-8a4e-fedb01048780">
+      <name>VATSumInFolioCurrency</name>
+      <synonym>
+        <key>en</key>
+        <value>VAT Sum in folio currency</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Summe MwSt. in der Währung des Personenkontos</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма НДС в валюте лицевого счета</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

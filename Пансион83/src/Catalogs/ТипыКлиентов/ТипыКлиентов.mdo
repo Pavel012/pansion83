@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05ee8368-df17-4140-8f4d-321defad6d1d">
+  <producedTypes>
+    <objectType typeId="4241160d-e1f8-47b6-b47b-8053374cb011" valueTypeId="1b64f8a4-2e1a-48a4-b0cf-eb6b6f82de0f"/>
+    <refType typeId="e449baa9-5e05-45c2-84d2-debcb2768e26" valueTypeId="755b2ca8-a348-4fdc-92e6-83dd42cb8a82"/>
+    <selectionType typeId="6db9b92a-6016-47ba-85b7-5da3f9cb16d6" valueTypeId="dfc48816-c486-4b16-9f7d-cd5929e709e0"/>
+    <listType typeId="03fae20a-bdd5-443c-868e-965e8cb4e24c" valueTypeId="99829630-1349-46bd-b8e8-e10b3d08fb9b"/>
+    <managerType typeId="69e77998-5171-4bda-9e88-cbeaf55688e5" valueTypeId="9f2257f1-53ed-49f9-b6ad-168d2c2445dc"/>
+  </producedTypes>
+  <name>ТипыКлиентов</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы клиентов</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Kundentypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы клиентов</value>
+  </synonym>
+  <inputByString>Catalog.ТипыКлиентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыКлиентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыКлиентов.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ТипыКлиентов.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ТипыКлиентов.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыКлиентов.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="b9486efa-7f24-4136-9ca7-7ec75b22e74f">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74b5e8aa-2cf3-4b2f-9b91-e7d591b2efb4">
+    <name>IsComplimentary</name>
+    <synonym>
+      <key>en</key>
+      <value>Is complimentary client</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kostenloser Kunde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бесплатный клиент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c275f2bb-20a1-4025-bf63-4cdbc1a38f22">
+    <name>AskForConfirmation</name>
+    <synonym>
+      <key>en</key>
+      <value>Ask for confirmation for each accomodation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bei jeder Einquartierung Bestätigung des Typs fordern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Требовать подтверждения типа при каждом поселении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3350f98-e90f-45f5-a9bb-62e045c1093e">
+    <name>ConfirmationPattern</name>
+    <synonym>
+      <key>en</key>
+      <value>Confirmation text pattern</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vorlage der Bestätigungszeile</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон строки подтверждения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="87db05db-a489-41ce-a84b-be9738e0e042">
+    <name>DiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b9919ce-87b8-4b35-9b9a-1b1e61f6cd02">
+    <name>TurnOffAutomaticDiscounts</name>
+    <synonym>
+      <key>en</key>
+      <value>Turn off automatic discounts</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Automatische Preisnachlässe abschalten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить автоматические скидки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8374b243-ac01-4166-a348-b5882fbaec8c">
+    <name>PaymentSection</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment section</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sektion der Bezahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Секция оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтделОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bad8a893-73e9-4cfc-878b-da9b5b2aa312">
+    <name>ClearClientNamesAfterCheckout</name>
+    <synonym>
+      <key>en</key>
+      <value>Clear client names after check-out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Abreise Namen und Vornamen der Gäste löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Очищать ФИО гостей после выселения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="107b0cad-1463-441f-aa34-230cedaaa7fc">
+    <name>Color</name>
+    <synonym>
+      <key>en</key>
+      <value>Color in the room graph</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Farbe in der Karte der Auslastung des Zimmerfonds </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет в карте загрузки НФ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b4638c77-43bd-458a-a92b-c4048d67861e">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ef26114-3390-4459-9808-c7883f136ab8">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8af01c44-2293-4343-a2f1-a38ac997b5a8">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Liste </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="316d089f-3e7c-4414-89d7-56126cf6d39f">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b70b77d6-3a05-47ea-90f1-a18abe11e83e">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

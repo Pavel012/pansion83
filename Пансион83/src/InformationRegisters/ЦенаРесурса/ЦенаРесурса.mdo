@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7e41ae9-c987-4567-bb92-8186905bc1cb">
+  <producedTypes>
+    <selectionType typeId="017ac226-6806-472e-965e-efe091449cd7" valueTypeId="32b5f5dd-4c07-437d-a8a2-bfbc67ee66f2"/>
+    <listType typeId="0307f03c-b48b-4268-8577-4287df0148b8" valueTypeId="6891f1fb-d44d-481a-9f88-cc671f457592"/>
+    <managerType typeId="3bd6b8f6-7012-4120-b592-21c08ed8216c" valueTypeId="9cbbd5f5-0fc0-4150-9166-31505588d10d"/>
+    <recordSetType typeId="6335be76-47cb-4ec1-af8b-ed3d78818660" valueTypeId="11676509-3879-42e1-af39-e8c91c972a1d"/>
+    <recordKeyType typeId="2020f317-dd86-4d07-a540-bada4fc854d9" valueTypeId="f9a0bd17-c6b6-4f7c-af98-095c9d666aa5"/>
+    <recordType typeId="4cfefdea-31ca-4a7e-a60e-507c3972306d" valueTypeId="e96571e7-2529-4562-8c4e-a82973f9a758"/>
+    <recordManagerType typeId="f46e47a1-d67d-402e-9772-ce56479633d1" valueTypeId="20d465f9-3aed-4dc3-9097-5f5104f75df9"/>
+  </producedTypes>
+  <name>ЦенаРесурса</name>
+  <synonym>
+    <key>en</key>
+    <value>Цена ресурса</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Preise der Ressourcen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Цены ресурсов</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ЦенаРесурса.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d78b5416-d054-458b-b2af-7f8e0464f54b">
+    <name>Price</name>
+    <synonym>
+      <key>en</key>
+      <value>Price</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9421d3ed-bba6-4b4e-aa9e-fe235b5b37e4">
+    <name>Currency</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c1d4de5c-a3a5-4095-9ee1-fc790f31b305">
+    <name>VATRate</name>
+    <synonym>
+      <key>en</key>
+      <value>VAT Rate %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rate MwSt. %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС %</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкаНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="36aa3e7a-c254-480c-a688-0951b648bc8e">
+    <name>MinimumQuantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Minimum quantity</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Minimale Anzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальное количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b20735bb-6a16-48ff-a354-3c3fb52c5fc2">
+    <name>FreeOfChargeQuantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Free of charge quantity</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kostenfreie Menge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бесплатное количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4b498c7c-04d1-4381-a1b3-ebf434a0a69e">
+    <name>IsResourceRevenue</name>
+    <synonym>
+      <key>en</key>
+      <value>Is resource revenue</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das sind Einnahmen aus dem Verkauf der Ressourcen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это доход от продажи ресурсов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="508868a8-36b9-4e51-8db5-a4306880e7dc">
+    <name>IsPricePerPerson</name>
+    <synonym>
+      <key>en</key>
+      <value>Is price per person</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist der Preis für eine Person</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это цена за одного человека</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="468b3af2-8b2b-4a5a-a999-8cdd3d66ba0c">
+    <name>IsPricePerMinute</name>
+    <synonym>
+      <key>en</key>
+      <value>Is price per minute</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist der Preis pro Minute</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это цена за минуту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="40ab582a-4825-44ac-a755-9c0642dbcf43">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0b84012f-20c3-47eb-b91f-b400aa5f8d35">
+    <name>ClientType</name>
+    <synonym>
+      <key>en</key>
+      <value>Client type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kundentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип клиента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="305da21d-b37a-420b-ac38-f2df5ef8bad5">
+    <name>ResourceType</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressourcentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ресурса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыРесурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dcb5819a-3a55-4528-bfbc-794c72fbb781">
+    <name>Resource</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressource</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ресурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96c8f3eb-52df-4a53-b4e9-f2a14f960036">
+    <name>CalendarDayType</name>
+    <synonym>
+      <key>en</key>
+      <value>Calendar day type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kalendertagestyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дня календаря</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипДневногоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e3ad0b23-ebab-42b0-93be-04612a6ca0f4">
+    <name>PriceTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Time the price is active from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit, ab der der Preis gilt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала действия цены</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="4a1d4e5b-67b7-445d-a15c-7f95e3b663b2">
+    <name>PriceQuantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Quantity the price is active from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl des Beginns der Preisgültigkeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество начала действия цены</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="b54935c8-88b5-4d8c-bf4d-7c8acf0ab431">
+    <name>Service</name>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d5c52357-3ad9-4004-9193-83a278a73ab2">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

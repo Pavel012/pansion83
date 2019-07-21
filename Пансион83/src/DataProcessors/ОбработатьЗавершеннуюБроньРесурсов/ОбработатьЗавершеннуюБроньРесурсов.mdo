@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e07f154-19e9-41e5-99ad-63008aa8e78f">
+  <producedTypes>
+    <objectType typeId="88c8596c-069b-41c5-910f-7fb72e8b97df" valueTypeId="6de44fc8-0bce-4042-8d65-ebd1c8469be4"/>
+    <managerType typeId="9fb8077c-9102-4365-a0ec-a90bba074ae8" valueTypeId="7e0dfa96-2579-4ee3-936c-dbaf276c2c79"/>
+  </producedTypes>
+  <name>ОбработатьЗавершеннуюБроньРесурсов</name>
+  <synonym>
+    <key>en</key>
+    <value>Обработать завершенную бронь ресурсов</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>abgeschlossene Ressourcenreservierung bearbeiten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Обработать завершенную бронь ресурсов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбработатьЗавершеннуюБроньРесурсов.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="95f0b52c-8dc7-4bd0-8ce3-e4fb28a4f805">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bc0c0c0c-251f-41e7-a8a1-6cb000254631">
+    <name>PeriodToWait</name>
+    <synonym>
+      <key>en</key>
+      <value>Period in hours to keep reservations</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeitraum in Stunden, während dessen die abgeschlossene Ressourcenreservierung nicht bearbeitet werden soll</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период в часах, в течение которого не обрабатывать завершенную бронь ресурсов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab3f12f5-1b70-4d9f-8c46-a867162ca76b">
+    <name>ProcessingDateTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Date and time to process finished resource reservations</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit, zu denen die Ressourcenreservierung als abgeschlossen gelten kann:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время на которые считать бронь ресурсов завершенной</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e8dd024-88c0-41dc-be26-e0fc2b102bcc">
+    <name>FinishedResourceReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Finished resource reservation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der abgeschlossenen Ressourcenreservierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус завершенной брони ресурсов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрониРесурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b160166b-2aa3-440e-9ad8-f448a351af22">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="717f0c8c-74df-48a9-a958-69c3ccaf7800">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

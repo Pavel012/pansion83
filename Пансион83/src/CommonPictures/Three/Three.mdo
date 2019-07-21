@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6488150e-10dd-4702-ae0a-e838233a9212">
+  <name>Three</name>
+  <synonym>
+    <key>en</key>
+    <value>Three</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Three</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Три</value>
+  </synonym>
+  <transparentPixel>
+    <x>11</x>
+    <y>4</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

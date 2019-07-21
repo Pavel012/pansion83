@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27381df1-bd63-4746-9cec-6984b70c7891">
+  <producedTypes>
+    <objectType typeId="dd38ccb1-8edb-4c6e-b95a-47fc85577efe" valueTypeId="7ece13d1-b07d-4767-8966-2eff157b4057"/>
+    <refType typeId="2d710e71-655a-43e3-ae62-a06f61890142" valueTypeId="dd462396-c56c-4730-a9fb-2ef94a7fb88a"/>
+    <selectionType typeId="4150d3c4-47cf-4e15-8b1d-95665661d5ef" valueTypeId="48d79222-d3e0-4ab2-a77c-d894cea8b7b7"/>
+    <listType typeId="41577253-b3d5-4672-8487-729b661a949a" valueTypeId="ea607fc9-2879-4d54-9733-ae51dee22f93"/>
+    <managerType typeId="1db3bde9-c0dd-40a7-a231-95c03f7a1193" valueTypeId="d38a7ece-a1ab-44be-a4a1-b3108d89f81d"/>
+  </producedTypes>
+  <name>ДисконтныеКарты</name>
+  <synonym>
+    <key>en</key>
+    <value>Дисконтные карты</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Diskontkarten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Дисконтные карты</value>
+  </synonym>
+  <inputByString>Catalog.ДисконтныеКарты.Attribute.Identifier</inputByString>
+  <inputByString>Catalog.ДисконтныеКарты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДисконтныеКарты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДисконтныеКарты.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.ДисконтныеКарты.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ДисконтныеКарты.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="b3cf5085-df1e-497e-898b-b9242128e3fc">
+    <name>Identifier</name>
+    <synonym>
+      <key>en</key>
+      <value>Identifier</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Identifikator</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5c470a2-b084-4615-9185-a82ec501ba23">
+    <name>Client</name>
+    <synonym>
+      <key>en</key>
+      <value>Client</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kunde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="556ced5d-d832-4417-8d92-a471ad456437">
+    <name>DiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea2d1102-fd0d-44b3-b37e-c009537053d2">
+    <name>ClientType</name>
+    <synonym>
+      <key>en</key>
+      <value>Client type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kundentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип клиента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65fefd18-2dce-4af0-9a46-3f8e7de4b7cf">
+    <name>TurnOffAutomaticDiscounts</name>
+    <synonym>
+      <key>en</key>
+      <value>Turn off automatic discounts</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Automatische Preisnachlässe abschalten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить автоматические скидки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd14d0d5-d947-48af-9d07-579f824e9b7b">
+    <name>ValidFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Date valid from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt ab</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74bdcfed-3fde-4a6b-9137-05a5f523cff2">
+    <name>ValidTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Date valid to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt bis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="88d04a89-e6b4-410d-b79a-1b049297a89e">
+    <name>IsBlocked</name>
+    <synonym>
+      <key>en</key>
+      <value>Is blocked</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Blockiert</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокирована</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9824873-9d87-4cc8-bedf-2fd2085be498">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bc5acbe1-38f6-41ff-bbe7-572590b03ce9">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e02dba0-2a66-4cbd-a583-754dfa735b1c">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="255cc6ca-e7cd-4f6c-8946-8e78e931f040">
+    <name>IssueDiscountCard</name>
+    <synonym>
+      <key>en</key>
+      <value>Issue discount card</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Registrierung der Diskontkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация дисконтной карты</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

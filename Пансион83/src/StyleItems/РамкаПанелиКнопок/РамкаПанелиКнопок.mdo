@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db67adce-02f2-4607-876f-78518671b9e6">
+  <name>РамкаПанелиКнопок</name>
+  <synonym>
+    <key>en</key>
+    <value>Рамка панели кнопок</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Рамка панели кнопок</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Рамка панели кнопок</value>
+  </synonym>
+  <type>Border</type>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef"/>
+  </value>
+</mdclass:StyleItem>

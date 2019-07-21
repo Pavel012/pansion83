@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e31fbf0-17d6-43e7-8804-58d77c9f9059">
+  <producedTypes>
+    <objectType typeId="e7866214-58e2-483e-992a-09981445464b" valueTypeId="9a5e2fd6-d905-4201-b97d-b978578ea230"/>
+    <refType typeId="dbc56ad5-2c30-41b0-aba7-c055e85899b6" valueTypeId="c6f3b52f-d93d-4763-aaf9-cb9a7168f8a5"/>
+    <selectionType typeId="d9c8c67c-8261-4431-8ee5-73bc6d95c1c7" valueTypeId="cf4110c6-3149-4612-814f-d5beb06dc31f"/>
+    <listType typeId="921103ff-f869-44de-864a-adc3bd2b7eb2" valueTypeId="d7ecd771-fcc2-41f8-bc38-3f14d6084816"/>
+    <managerType typeId="4e58c52e-0802-45f8-87be-fe999a3c673a" valueTypeId="c5820450-a0cd-4085-8715-f8e12b51a3e2"/>
+    <containerType typeId="6680bec1-18e0-4a91-8763-bf3d68ee8fe1" valueTypeId="25fd850f-31aa-47de-93fc-a2729f0ce822"/>
+  </producedTypes>
+  <name>ВидыХарактеристикНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Виды характеристик номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zimmercharakteristikatypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды характеристик номеров</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ВидыХарактеристикНомеров.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыХарактеристикНомеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>19</precision>
+      <scale>7</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="db47299e-084f-407a-b133-2a5a616ccb9e">
+      <name>HallArea</name>
+      <description>Hall area/Площадь прихожей</description>
+      <code>HAL  </code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="f8c11b6b-26ab-4da9-8189-1e4602d04de8">
+      <name>LavatoryArea</name>
+      <description>Lavatory area/Площадь санузла</description>
+      <code>LAV  </code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="c66a5f1d-c5ef-400c-83ec-258164ee4566">
+      <name>LivingArea</name>
+      <description>Living area/Жилая площадь</description>
+      <code>LIV  </code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="d4fdd584-f71a-4cfc-bd81-3b48b0600bce">
+      <name>TotalArea</name>
+      <description>Total area/Общая площадь</description>
+      <code>TOT  </code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

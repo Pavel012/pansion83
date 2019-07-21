@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2a34d6d-f1de-4527-9c74-825a5b973620">
+  <producedTypes>
+    <objectType typeId="38c69d57-cff9-45a9-9d02-36211ccc6b13" valueTypeId="9bd703f4-eb45-4859-94a0-add1ca3925db"/>
+    <refType typeId="5adb27eb-60cb-4408-bbf8-80bbd746a641" valueTypeId="d691f8a4-ec1b-412b-84e7-5568e97e4d43"/>
+    <selectionType typeId="c74e6f20-b071-4174-934c-df07c8a885e3" valueTypeId="f0554d1b-f004-4efd-8f11-14d1c41e7b87"/>
+    <listType typeId="0b49f263-5b80-40f8-9f1e-d70869cea171" valueTypeId="e95c6f9d-5c33-482f-8892-070fff545aa3"/>
+    <managerType typeId="1fd8d28c-4b7b-4cc0-9658-c7397f744eb6" valueTypeId="f0384aba-3171-4166-9c41-eda2eb3e96d5"/>
+  </producedTypes>
+  <name>ТипыСкидок</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы скидок</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Preisnachlasstypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы скидок</value>
+  </synonym>
+  <inputByString>Catalog.ТипыСкидок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыСкидок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыСкидок.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ТипыСкидок.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ТипыСкидок.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыСкидок.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="58baac5c-fe1a-45d7-9766-1fca7eda06a5">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5682775d-80a4-49ff-8aec-fb72b11f60b1">
+    <name>DateValidFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Valid from date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt ab dem Datum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с даты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa81ddb1-8f09-493d-bb9d-1b071b80cd8c">
+    <name>DateValidTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Valid to date (inclusive)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt bis und einschließlich des Datums</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует по и включая дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc11f433-adbc-40bc-b646-e4a5f6e297e1">
+    <name>AskForConfirmation</name>
+    <synonym>
+      <key>en</key>
+      <value>Ask for confirmation string</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Eingabe der Bestätigungszeile fordern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Требовать ввод строки подтверждения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8b8e04b-f28f-4c4a-bdd1-e5e2baea331d">
+    <name>ConfirmationPattern</name>
+    <synonym>
+      <key>en</key>
+      <value>Confirmation text pattern</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vorlage der Bestätigungszeile</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон строки подтверждения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="00c5a006-de30-47e0-b585-57c86eb92e21">
+    <name>DiscountServiceGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount service group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Dienstleistungen, für die Preisnachlässe/Aufpreise gelten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа услуг, на которую действует скидка/наценка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4af1875-2d2d-4f85-9679-1a62cd071361">
+    <name>RoundPrice</name>
+    <synonym>
+      <key>en</key>
+      <value>Round price</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preis runden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Округлять цену</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96194142-e942-46e2-bf7e-c71b644277aa">
+    <name>RoundPriceDigits</name>
+    <synonym>
+      <key>en</key>
+      <value>Round price digits (...; -2 to 100; -1 to 10; 0 to 1; 1 to 0.1; 2 to 0.01; ...)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Stelligkeit der Preisrundung (...; -2 bis 100; -1 bis 10; 0 bis 1; 1 bis 0.1; 2 bis 0.01; ...)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разрядность округления цены (...; -2 до 100; -1 до 10; 0 до 1; 1 до 0.1; 2 до 0.01; ...)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f1c7204-a0e5-4d9b-a368-9c80ef18c5ea">
+    <name>RoundPriceType</name>
+    <synonym>
+      <key>en</key>
+      <value>Round price algorithm type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Algorithmus zur Rundung des Preises </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип алгоритма округления цены</value>
+    </synonym>
+    <type>
+      <types>EnumRef.DiscountAmountRoundTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5a15b1b-a19d-4581-a696-048b75912c5a">
+    <name>DifferentDiscountPercentsForServiceGroupsAllowed</name>
+    <synonym>
+      <key>en</key>
+      <value>Different discount percents for service groups allowed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Für verschiedene Leistungsangebote sind verschiedene Preisnachlassprozente erlaubt!</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешены различные проценты скидок для разных наборов услуг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e93b65d2-a86d-4bf4-82ab-5864a9b31db8">
+    <name>IsAmountDiscount</name>
+    <synonym>
+      <key>en</key>
+      <value>Is amount discount (use discount amount instead of percent)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summarischer Preisnachlass (Summe wird genannt, nicht Prozentsatz)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Суммовая скидка (указывается сумма, а не процент)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="547bed7b-8e38-440f-bf3d-345ff5334278">
+    <name>IsManualDiscount</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount is set manually in documents and couldn't be changed or cleared automatically</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Der Preisnachlass wird in den Unterlagen manuell festgelegt und kann nicht automatisch geändert oder gelöscht werden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Cкидка назначается вручную в документах и не может быть автоматически изменена или отменена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48bf0bc8-fc70-4997-9ef5-ae4efe4e0b02">
+    <name>IsPersonalDiscount</name>
+    <synonym>
+      <key>en</key>
+      <value>Is a personal discount (won't be applied to the whole guest group)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Persönlicher Preisnachlass (wird nicht auf die gesamte Gruppe der Gäste angewendet)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Персональная скидка (не применяется ко всей группе гостей)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2eeb3601-8b0c-4803-b25c-5fdc1c9d03b8">
+    <name>IsAccumulatingDiscount</name>
+    <synonym>
+      <key>en</key>
+      <value>Is accumulating discount</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summarischer Preisnachlass</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Накопительная скидка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a9dc9c7-ec50-4697-9d48-182b0eda7451">
+    <name>HasToBeDirectlyAssigned</name>
+    <synonym>
+      <key>en</key>
+      <value>Accumulating discount type has to be directly assigned in documents</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des kumulativen Preisnachlasses muss in den Dokumenten explizit ausgewählt werden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип накопительной скидки должен быть выбран в документах явно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16e1a4f0-9fec-49ff-b957-09c828eadf1b">
+    <name>IsPerVisit</name>
+    <synonym>
+      <key>en</key>
+      <value>Is per visit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Für jede Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>За каждый заезд</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82d2f87a-267c-43c2-9a70-d09c0f563370">
+    <name>IsPerPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Is per whole accommodation period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Auf den gesamten Übernachtungszeitraum anwenden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Применять ко всему периоду проживания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="725d9d15-d56f-4112-b30f-4dd1aff2cb85">
+    <name>IsForRackRatesOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Accumulationg discount is applied to rack rates only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summarischer Preisnachlass wird nur auf &quot;Basistarife&quot; angewendet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Накопительная скидка применяется только к &quot;базовым&quot; тарифам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66dd5f9b-79a1-40d5-bbde-d24bdfe80547">
+    <name>AccumulatingDiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Accumulating discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des kumulativen Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип накопительной скидки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.AccumulatingDiscountTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0fa50c82-5c66-478d-af88-a65855864ad8">
+    <name>ExternalAlgorithm</name>
+    <synonym>
+      <key>en</key>
+      <value>External algorithm</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externer Algorithmus</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний алгоритм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3653716d-4979-4c40-9b05-529c61453935">
+    <name>AccumulatingDiscountDimension</name>
+    <synonym>
+      <key>en</key>
+      <value>Accumulating discount dimension</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Messung des summarischen Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение накопительной скидки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.AccumulatingDiscountDimensions</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9bd78651-d86a-4692-b5d5-b4a2f3762101">
+    <name>AccumulatingDiscountPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Accumulating period in days</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeitraum der Summierung in Tagen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период накопления в днях</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2a077e5-8ca3-4739-b1d8-c937b734f4c3">
+    <name>AccumulatingDiscountFromDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Accumulating period starting from date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum des Sammelzeitraumbeginns</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала периода накопления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f6a200d-6e7f-49ef-bd40-e5ee9f0953d0">
+    <name>TurnOffAutomaticDiscounts</name>
+    <synonym>
+      <key>en</key>
+      <value>Turn off automatic discounts</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Automatische Preisnachlässe abschalten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить автоматические скидки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bffed953-e37c-4a73-b0b3-5703bf7c6f87">
+    <name>DoNotApplyToExternalInterfaces</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not apply to external interfaces (phone calls, room services)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nicht für externe Schnittstellen (Telefongespräche, zusätzliche Dienstleistungen für Zimmer) anwenden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не применять к внешним интерфейсам (тел. разговорам, доп. услугам на номера)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a4531c5-2344-49a1-b26b-a198a23edf33">
+    <name>EachNDayIsFreeOfCharge</name>
+    <synonym>
+      <key>en</key>
+      <value>Each N day is free of charge</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Jeder N. Tag kostenlos</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Каждый N день бесплатно</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13111fbb-1f45-48bc-a617-4472cb0742ac">
+    <name>BonusCalculationFactor</name>
+    <synonym>
+      <key>en</key>
+      <value>Bonus calculation factor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Koeffizient der Bonusberechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент расчета бонусов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8b973f4-24a0-4872-8cf1-fb0c2707417f">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7032a98d-c66c-49eb-9fe1-8fc742b68c38">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f91b637d-2329-4791-8783-f264c190c2b7">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6153ec48-f464-4296-917a-40418d65a0bd">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ffc1fa7a-76a9-4c56-b8e0-7f956a158eba">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

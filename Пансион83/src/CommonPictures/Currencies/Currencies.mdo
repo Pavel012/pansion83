@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5338c33-a614-4315-80f8-8230857bc5e2">
+  <name>Currencies</name>
+  <synonym>
+    <key>en</key>
+    <value>Currencies</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Währungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+</mdclass:CommonPicture>

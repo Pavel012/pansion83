@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97c4c998-9e5c-46aa-9a0b-2274247a5048">
+  <producedTypes>
+    <refType typeId="9c8e5d6a-1bb1-4c2c-93f5-2f44b277b97c" valueTypeId="6ac8502d-0916-47ef-9b20-9582ff9d22ce"/>
+    <listType typeId="8ae8096f-1628-4361-bd79-0588f716156d" valueTypeId="7f6ab680-60e1-4d94-afea-0c86a40a41e0"/>
+    <managerType typeId="d2e9fc1e-6953-46b0-b5d1-fc22ce554781" valueTypeId="f6303f06-2e5b-4743-8992-f757dae7b571"/>
+  </producedTypes>
+  <name>ColorDepths</name>
+  <synonym>
+    <key>en</key>
+    <value>Color depths</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Farbentiefe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Глубина цвета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="da265a87-acad-4022-9f50-2344a173503e">
+    <name>RGB</name>
+    <synonym>
+      <key>en</key>
+      <value>24 bits color</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>24-Bit Farbe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>24 битный цвет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="baf72e2d-d73e-4f38-a439-8bc93a98981c">
+    <name>Palette</name>
+    <synonym>
+      <key>en</key>
+      <value>256 colors</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>256 Farben</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>256 цветов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="067aea6a-752c-4a91-9cb8-06d05ccd2f58">
+    <name>Gray</name>
+    <synonym>
+      <key>en</key>
+      <value>Grayscale</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Grauschattierungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оттенки серого</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d7871d1-5d7b-4edd-9ba6-1d7c72a26123">
+    <name>BW</name>
+    <synonym>
+      <key>en</key>
+      <value>Black&amp;white image</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schwarz-weißes Bild</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Черно-белая картинка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

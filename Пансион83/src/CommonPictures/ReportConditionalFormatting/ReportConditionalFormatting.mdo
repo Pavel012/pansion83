@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc665d71-c754-4cc9-8292-f7a3e997419d">
+  <name>ReportConditionalFormatting</name>
+  <synonym>
+    <key>en</key>
+    <value>Report conditional formatting</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Report conditional formatting</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Условное форматирование отчета</value>
+  </synonym>
+  <transparentPixel>
+    <x>3</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

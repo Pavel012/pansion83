@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8b5ccc9-6015-49e7-ba9c-f1db9ed976c8">
+  <producedTypes>
+    <objectType typeId="f0c6ccfe-6c0e-4373-a2f1-b3feb91b5ef4" valueTypeId="3400f18e-03d9-4d17-8e12-b8aa301d3168"/>
+    <refType typeId="a66b1473-2a56-4bad-9a47-ca413bfbc358" valueTypeId="e4191816-7d96-43b5-9adf-748437bd6844"/>
+    <selectionType typeId="755b4544-3e7d-4577-a3b3-94f2bb2c7b8f" valueTypeId="379ae11d-7dbf-48e6-9ccc-adc9d22b6172"/>
+    <listType typeId="8a49c973-517c-463c-b98d-aac82a980fad" valueTypeId="03f536e9-25fd-4d3f-a9e9-231dd667a891"/>
+    <managerType typeId="a093f250-e93f-48fd-be51-9f2605006041" valueTypeId="8436db5a-4106-4c99-b3ff-699c6b9f16c5"/>
+  </producedTypes>
+  <name>СчетПроживания</name>
+  <synonym>
+    <key>en</key>
+    <value>Счет проживания</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Счет проживания</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Фолио</value>
+  </synonym>
+  <inputByString>Document.СчетПроживания.StandardAttribute.Number</inputByString>
+  <inputByString>Document.СчетПроживания.Attribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.ШаблоныОпераций</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СчетПроживания.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.СчетПроживания.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Document.СчетПроживания.Form.ListForm</defaultChoiceForm>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="2272fc8a-6912-43b5-9b91-5604885cac6a">
+    <name>Description</name>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beschreibung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cc4b8a4-6694-4476-82f0-46f1ad7fef1c">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ddcdd264-1b70-463f-b0c6-d7a6f797c564">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76066cb3-be41-4862-a232-f1ae984d417a">
+    <name>IsClosed</name>
+    <synonym>
+      <key>en</key>
+      <value>Is closed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geschlossen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4476b22f-7437-497e-86b7-7ff282d064f4">
+    <name>IsClosedAuthor</name>
+    <synonym>
+      <key>en</key>
+      <value>Is closed author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Durch den Mitarbeiter geschlossen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыто сотрудником</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69e1ba80-8a71-4687-8580-19d285b98537">
+    <name>IsClosedDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Date and time when is closed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit der Schließung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d7ca353-9185-4293-bbaf-3862773fa004">
+    <name>FolioCurrency</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währung des Personenkontos</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта лицевого счета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6cc2dba-4a88-4c94-8cac-2b2ed6d0de4d">
+    <name>ParentDoc</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument Begründung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+      <types>DocumentRef.Бронирование</types>
+      <types>DocumentRef.БроньУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05d92ca6-e436-4dfa-af7a-901dc8070f2f">
+    <name>Agent</name>
+    <synonym>
+      <key>en</key>
+      <value>Agent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertreter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Агент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57de2a18-72ca-4f87-b8e5-1a0d99c8770c">
+    <name>Customer</name>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86e40c72-7741-4ad4-8931-a8550beb2537">
+    <name>Contract</name>
+    <synonym>
+      <key>en</key>
+      <value>Contract</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertrag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7feeb198-a34c-45cf-8a43-059f30ce829c">
+    <name>Client</name>
+    <synonym>
+      <key>en</key>
+      <value>Client</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kunde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68133041-2e05-4db8-824b-0e6677748529">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a23ce524-e8e4-44f2-ab16-fcf8054b3a0b">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="872bf8ff-4d84-4250-87db-4d40c697f42b">
+    <name>DateTimeFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Date and time from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit ab</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d1e8e48-b977-4fe4-ba9b-2ef482866705">
+    <name>DateTimeTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Date and time to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit nach</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76e14d21-72c2-4e31-a68c-5b3fab237c46">
+    <name>PaymentSection</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment section</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sektion der Bezahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Секция оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтделОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c07b2a48-7781-4fe7-9edb-97db767cf2a7">
+    <name>PaymentMethod</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment method</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zahlungsmethode</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Способ оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СпособОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd4741a3-2334-4fa9-8351-1448e8b4af54">
+    <name>CreditLimit</name>
+    <synonym>
+      <key>en</key>
+      <value>Credit limit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kredittiefe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина кредита</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="960fffa1-e7ae-460c-ab2f-f22b0536f246">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="348ad1bc-faff-489c-84ff-c1bae13c5862">
+    <name>IsMaster</name>
+    <synonym>
+      <key>en</key>
+      <value>Is master</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Hauptrechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер счет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a53a740-0159-41cf-a053-9580ca5a688f">
+    <name>DoNotUpdateCompany</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not automatically update company from reservation/accommodation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Firma nicht automatische ohne Reservierung / Unterbringung ändern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не изменять фирму автоматически из брони/размещения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d0ae492-d67f-41aa-b128-5deb53fb1759">
+    <name>HotelProduct</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница product</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Reisecheck oder Kurkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Путевка или курсовка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПутевкиКурсовки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="673f2eb3-734d-4f5a-aa32-ff6915c2f27d">
+    <name>DebtDecision</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio debt decision</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Entscheidung zur Schuld auf dem Personenkonto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Решение по долгу на лицевом счете</value>
+    </synonym>
+    <type>
+      <types>EnumRef.DebtsDecisionTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed50584c-b02e-403e-a8f4-110fad27b302">
+    <name>DebtDecisionAuthor</name>
+    <synonym>
+      <key>en</key>
+      <value>Debt decision author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor der Lösung zur Verbindlichkeit auf dem Personenkonto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор решения по долгу на лицевом счете</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9850e218-8328-44ad-9bdf-2a26fdb8b6c2">
+    <name>DebtDecisionDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio debt decision date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Entscheidung über die Schuld auf dem Personenkonto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата решения по долгу на лицевом счете</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="326b4e1d-93fa-4c90-bcb1-a50c852bd887">
+    <name>DebtDecisionRemarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio debt decision remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen zur Entscheidung zu Verbindlichkeiten nach Personenkonto</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания по решению по долгу на лицевом счете</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1bef9cc5-fe7f-4161-a13d-204929d855b4">
+    <name>FolioDiscountCard</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount card</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Diskontkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконтная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДисконтныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="108bf2ec-48a3-4e09-9ddf-47bc952cdd38">
+    <name>FolioDiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rabatt-Typ</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a37051e3-c881-484f-9d0e-ffe513483ea9">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="48c4136d-cb13-4261-9b9b-11010aadb8fd">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="500343b6-4ebb-4e9c-b43c-6420bb3a45ba">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="321d6ee7-c308-4d26-b5fb-19cc0f561369">
+    <name>FolioPrintForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio print form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Druckformular der Rechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма счета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95ec8dd6-e84d-4251-aee1-6f0ef426bbb5">
+    <name>FolioPrintClientListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Folio print clients list form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Druck des Personenkontos nach Kunden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печать лицевого счета по клиентам</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="25a9f7bd-8f44-4204-a003-a89d57a50f54">
+    <name>FolioPrint3GForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Print 3-G payment form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Druck der Form 3-G zur Zahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печать формы 3-Г по платежу</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56b3e569-a939-4894-9184-f7455f3a0bcf">
+    <name>FolioPrintCharge</name>
+    <synonym>
+      <key>en</key>
+      <value>Print charge form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Druckformular des Anrechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма начисления</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d6c33821-feb6-4219-933b-fd61984b967b">
+    <name>FolioDetailedRu</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детальный счет (RU)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Folio detailed (RU)</value>
+    </synonym>
+  </templates>
+  <templates uuid="a7f72552-78be-43c7-ab60-9dbdd980df97">
+    <name>FolioShortRu</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткий счет (RU)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Folio short (RU)</value>
+    </synonym>
+  </templates>
+  <templates uuid="70289d03-cff5-4e3f-a4b8-79df0bdd061d">
+    <name>FolioPropertyDamageRu</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о порче имущества (RU)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница property damage list (RU)</value>
+    </synonym>
+  </templates>
+  <templates uuid="e8676110-780f-4039-9027-e2916a798115">
+    <name>FolioExternalClientRu</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет стороннему посетителю (RU)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Folio for the external client (RU)</value>
+    </synonym>
+  </templates>
+  <templates uuid="b5036549-ecb7-4bc1-9b41-40cf52e020b1">
+    <name>FolioClientListRu</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать лицевого счета по клиентам (RU)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Folio print clients list (RU)</value>
+    </synonym>
+  </templates>
+  <templates uuid="4742120f-e72d-40ca-811c-e736a28eefe1">
+    <name>FolioPrint3G</name>
+    <synonym>
+      <key>en</key>
+      <value>Print payment 3-G form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Druck der Form 3-G zur Zahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печать формы 3-Г по платежу</value>
+    </synonym>
+  </templates>
+  <templates uuid="41f0aaea-0a0d-42fb-8ee6-bc548b42158b">
+    <name>FolioPrintChargeRu</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать начисления (RU)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Print charge (RU)</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3546356f-6aa1-4bd0-b697-0dbf0aa11ae1">
+  <producedTypes>
+    <objectType typeId="b8995c1b-3ef7-4c6c-8832-8ab59b5e75c3" valueTypeId="b97c5a42-67db-4ddc-b12d-676659b58884"/>
+    <refType typeId="5a4f5416-64e9-4e98-8efc-6eb85ddcea4d" valueTypeId="9c5fbc43-564b-48bd-8174-260413546796"/>
+    <selectionType typeId="890977c5-a1a4-42b9-8807-bcd1d7b7727b" valueTypeId="ba6ade49-576f-4f0d-b0a8-578174e3fea8"/>
+    <listType typeId="3bf94574-e2f8-4686-b73f-41c942853e45" valueTypeId="be459e0d-ebbf-4b63-b03a-5dc1bb67c627"/>
+    <managerType typeId="242684bd-f8a7-48f2-85b6-66efde5a8191" valueTypeId="baffa4cb-5886-43bf-a55a-97ee15a1cca8"/>
+  </producedTypes>
+  <name>СтавкаНДС</name>
+  <synonym>
+    <key>en</key>
+    <value>VAT Rates</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Raten MwSt.</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </synonym>
+  <inputByString>Catalog.СтавкаНДС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтавкаНДС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтавкаНДС.Attribute.Ставка</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>15</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultListForm>Catalog.СтавкаНДС.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтавкаНДС.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="e3bc16a5-7462-4d7b-bff3-d73480c63f91">
+    <name>Ставка</name>
+    <synonym>
+      <key>en</key>
+      <value>Tax rate %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rate %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка в %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a99fb2db-67f7-4a78-a5c7-fcb5ba1b5776">
+    <name>НалогГруппа</name>
+    <synonym>
+      <key>en</key>
+      <value>Налог группа</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Steuergruppe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговая группа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f01b240c-8fee-4b4e-93c6-29f358cf8350">
+    <name>БезНДС</name>
+    <synonym>
+      <key>en</key>
+      <value>Без НДС</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ohne MwSt.</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e0da19f0-1f50-4384-a679-ae57f7ba75d8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

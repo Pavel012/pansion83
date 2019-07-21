@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1929873-1b37-4e10-ac49-4ccb65f94bc9">
+  <name>ReportAdditionalFields</name>
+  <synonym>
+    <key>en</key>
+    <value>Report additional fields</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Report additional fields</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные поля отчета</value>
+  </synonym>
+  <transparentPixel>
+    <x>3</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

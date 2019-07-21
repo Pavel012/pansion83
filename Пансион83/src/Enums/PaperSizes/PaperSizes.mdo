@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f02ff305-9a72-4679-8608-0057302c5782">
+  <producedTypes>
+    <refType typeId="8d058234-3928-46a9-8854-a9e6c0b334ec" valueTypeId="eefc6d3f-1a86-4bf7-9ed3-e7f7535924d7"/>
+    <listType typeId="fd925110-5505-4a54-8d9a-97b15bba9df2" valueTypeId="4e03ce22-6f72-4dca-b233-eeb3df2ed7e6"/>
+    <managerType typeId="4aa24c36-e85f-438d-b5fe-b5dc9608dbd5" valueTypeId="79ea4127-e0fc-4c0f-8c2a-369910168041"/>
+  </producedTypes>
+  <name>PaperSizes</name>
+  <synonym>
+    <key>en</key>
+    <value>Paper sizes</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Papiergrößen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Размеры бумаги</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="5ba0b1b4-31c2-44e6-9d83-c55dee597dd5">
+    <name>A4</name>
+    <synonym>
+      <key>en</key>
+      <value>A4</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A4</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf49495f-887e-45d3-820a-be5597d8692d">
+    <name>A5</name>
+    <synonym>
+      <key>en</key>
+      <value>A5</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A5</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88cb9866-1f0e-4edf-b682-8c181637e92b">
+    <name>A6</name>
+    <synonym>
+      <key>en</key>
+      <value>A6</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A6</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73ab754d-90f9-40de-9208-bc6da8e17bd6">
+    <name>A7</name>
+    <synonym>
+      <key>en</key>
+      <value>A7</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A7</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A7</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4173316-881a-42d4-88ee-3b070c5209a8">
+    <name>A8</name>
+    <synonym>
+      <key>en</key>
+      <value>A8</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A8</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A8</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="090cea78-ae6c-4c83-b423-fb05f06aea75">
+    <name>A9</name>
+    <synonym>
+      <key>en</key>
+      <value>A9</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A9</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A9</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="355ef0b7-9fdb-4279-9a85-c4424718b65c">
+    <name>A10</name>
+    <synonym>
+      <key>en</key>
+      <value>A10</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A10</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A10</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c37acc53-56e3-48d4-affc-a86b1bab8472">
+    <name>A0</name>
+    <synonym>
+      <key>en</key>
+      <value>A0</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A0</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ff29289-810f-48a6-afc6-d52d24d42c3c">
+    <name>A1</name>
+    <synonym>
+      <key>en</key>
+      <value>A1</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A1</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c75fee2-1c9d-4ad0-9ad4-c50c4dce0f51">
+    <name>A2</name>
+    <synonym>
+      <key>en</key>
+      <value>A2</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A2</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f10cb59-1ff0-4450-bee4-8a067ee3fbf7">
+    <name>A3</name>
+    <synonym>
+      <key>en</key>
+      <value>A3</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>A3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>A3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ea40c4b-8c46-43aa-875d-2234a200bcf2">
+    <name>B3</name>
+    <synonym>
+      <key>en</key>
+      <value>B3</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>B3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>B3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="590b5710-f179-4da9-a8a9-87bec79676dd">
+    <name>B4</name>
+    <synonym>
+      <key>en</key>
+      <value>B4</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>B4</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>B4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8388be9e-db57-4034-9849-b37c4e8262f4">
+    <name>B5</name>
+    <synonym>
+      <key>en</key>
+      <value>B5</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>B5</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>B5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b7cc657-da9d-445b-b917-b46eb387d0e9">
+    <name>B6</name>
+    <synonym>
+      <key>en</key>
+      <value>B6</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>B6</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>B6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ecbf63a-7cba-4893-9a12-70c01e5f94c8">
+    <name>C4</name>
+    <synonym>
+      <key>en</key>
+      <value>C4</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>C4</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>C4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ff23fba-df8a-4eab-8fd4-ce06becdbcb2">
+    <name>C5</name>
+    <synonym>
+      <key>en</key>
+      <value>C5</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>C5</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>C5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dca586eb-bd9b-4a8b-a880-e1ac0ca3dbdf">
+    <name>C6</name>
+    <synonym>
+      <key>en</key>
+      <value>C6</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>C6</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>C6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e90bd157-333c-4a4a-8581-5c7361586a84">
+    <name>A40</name>
+    <synonym>
+      <key>en</key>
+      <value>4A0</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>4A0</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>4A0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e755ff0b-a1df-4188-a4ed-64a0401fbd20">
+    <name>A20</name>
+    <synonym>
+      <key>en</key>
+      <value>2A0</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>2A0</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>2A0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38534510-0ad9-458f-9f96-32e60509f1ae">
+    <name>USLET</name>
+    <synonym>
+      <key>en</key>
+      <value>US Letter</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>US Letter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>US Letter</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="556c7544-cc45-4ca4-b8d9-a6f9433ec1af">
+    <name>USLEG</name>
+    <synonym>
+      <key>en</key>
+      <value>US Legal</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>US Legal</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>US Legal</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69ba5ec0-89f7-42dd-87f7-4a50e88802f4">
+    <name>USLEDGER</name>
+    <synonym>
+      <key>en</key>
+      <value>US Ledger</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>US Ledger</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>US Ledger</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5da10efa-5c53-4d53-8e3f-e65a90af71de">
+    <name>USEXECUTIVE</name>
+    <synonym>
+      <key>en</key>
+      <value>US Executive</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>US Executive</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>US Executive</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2987224b-60d1-488b-891f-c9e907bca2ee">
+  <producedTypes>
+    <objectType typeId="1703e666-3003-4f14-9697-b2c0a2746654" valueTypeId="375a2bb1-f1b0-474c-8d8b-572bb6944200"/>
+    <refType typeId="970b10e9-a8e7-4ca1-a84e-e7a39a1a454b" valueTypeId="116b37e7-a545-43ff-8f3f-97933f1cd858"/>
+    <selectionType typeId="0b40e29b-cbb6-446e-b9d3-4c993caab665" valueTypeId="f4034cce-6caa-43c8-be70-a8caf886e80c"/>
+    <listType typeId="74a4b1e4-7275-4af6-8022-794bcada31be" valueTypeId="3fbc217a-2dbf-4a74-83ed-920fdc8f0fe0"/>
+    <managerType typeId="eb4e8d29-6d28-4b73-b696-57fbdef0a20b" valueTypeId="399df285-7879-43a8-9eb4-ebfe2cbea470"/>
+  </producedTypes>
+  <name>ШтрафыУсловия</name>
+  <synonym>
+    <key>en</key>
+    <value>&quot;No show&quot; and &quot;Late annulation&quot; fee terms</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bedingungen der Vertragsstrafenberechnung für Nichtanreise und späte Annullierung der Reservierung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Условия начисления штрафов за незаезд и позднюю аннуляцию брони</value>
+  </synonym>
+  <inputByString>Catalog.ШтрафыУсловия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШтрафыУсловия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШтрафыУсловия.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ШтрафыУсловия.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ШтрафыУсловия.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ШтрафыУсловия.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="cf222e89-9f92-4698-89e4-82e4a0467d9e">
+    <name>NoShowService</name>
+    <synonym>
+      <key>en</key>
+      <value>&quot;No show&quot; fee service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung &quot;Strafe für Nichtanreise&quot;</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга &quot;Штраф за незаезд&quot;</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c7276332-aabe-49fe-abcf-5e040c8371cc">
+    <name>NoShowFeePercent</name>
+    <synonym>
+      <key>en</key>
+      <value>No show fee percent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Prozent der Vertragsstrafe für Nichtanreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Процент штрафа за незаезд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a9beb9e-7a2c-4893-8c96-0d57c4751a2f">
+    <name>NoShowFeeSum</name>
+    <synonym>
+      <key>en</key>
+      <value>No show fee sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe Vertragsstrafe für Nichtanreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма штрафа за незаезд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac5a5466-f800-4ba8-9128-289df2c8bb4c">
+    <name>NoShowChargeWholePeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Charge no show fee on each day of reservation period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Strafe für die Nichtanreise pro Tag des Reservierungszeitraums anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять штраф за незаезд на каждый день из периода брони</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b6f41d08-0ba5-4ede-b4ec-c86b587a7457">
+    <name>NoShowChargeInPrice</name>
+    <synonym>
+      <key>en</key>
+      <value>Charge no show fee based on the total sum of all in price services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Strafe für die Nichtanreise für alle Tarif-Dienstleistungen (einschließlich Verpflegung) anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять штраф за незаезд на стоимость всех услуг из тарифа (включая услуги питания)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f5769e4-632e-4b2e-9df9-906810b15ac4">
+    <name>LateAnnulationService</name>
+    <synonym>
+      <key>en</key>
+      <value>&quot;Late annulation&quot; fee service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung &quot;Strafe für späte Annullierung&quot;:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга &quot;Штраф за позднюю аннуляцию&quot;</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f73e900-6917-49c8-902f-5d0530988a09">
+    <name>LateAnnulationFeePercent</name>
+    <synonym>
+      <key>en</key>
+      <value>&quot;Late annulation&quot; fee percent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Prozent der Vertragsstrafe für späte Annullierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Процент штрафа за позднюю аннуляцию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c40df5ba-e8c0-47f3-814d-fbd37fc14c0f">
+    <name>LateAnnulationFeeSum</name>
+    <synonym>
+      <key>en</key>
+      <value>&quot;Late annulation&quot; fee sum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe Vertragsstrafe für späte Annullierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма штрафа за позднюю аннуляцию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="087dd5fb-d24a-4434-88f8-cd509397be59">
+    <name>LateAnnulationChargeWholePeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Charge late annulation fee on each day of reservation period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Strafe für die späte Stornierung pro Tag des Reservierungszeitraums anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять штраф за позднюю аннуляцию на каждый день из периода брони</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e022acf2-e6d0-4c9a-b98a-039e1ce35dc3">
+    <name>LateAnnulationChargeInPrice</name>
+    <synonym>
+      <key>en</key>
+      <value>Charge late annulation fee based on the total sum of all in price services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Strafe für die später Stornierung für die Kosten aller Dienstleistungen aus dem Tarif (einschließlich Verpflegung) anrechnen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять штраф за позднюю аннуляцию на стоимость всех услуг из тарифа (включая услуги питания)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8169cd14-fbe2-4a4d-9a3b-e675d431abf6">
+    <name>LateAnnulationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Late annulation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der späten Annullierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус поздней аннуляции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61107c71-fa2f-4646-800d-d218adf19c5d">
+    <name>LateAnnulationPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Late annulation period in days before check-in date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Tagen vor dem Anreisedatum bei später Stornierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во дней до даты заезда при поздней аннуляции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7b3ae0a0-0cb1-448a-8c80-db58f2ce4285">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b749b46-50f5-4698-9b65-44b0de854013">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db1231ca-3dba-45f5-ad7e-675bdc6092bc">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

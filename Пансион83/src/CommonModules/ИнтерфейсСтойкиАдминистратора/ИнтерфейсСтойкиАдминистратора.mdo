@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30c93fa3-4ca5-4075-8b0d-d00ba724a16c">
+  <name>ИнтерфейсСтойкиАдминистратора</name>
+  <synonym>
+    <key>en</key>
+    <value>Reception (with interface functions)</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Belegungen (Schnittstellenfunktionen)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение (интерфейсные функции)</value>
+  </synonym>
+  <global>true</global>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

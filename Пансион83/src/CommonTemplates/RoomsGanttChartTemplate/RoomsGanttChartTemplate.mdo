@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8acbfc0d-bfb9-4d7f-a933-22f6cfe290a6">
+  <name>RoomsGanttChartTemplate</name>
+  <synonym>
+    <key>en</key>
+    <value>Rooms gantt chart template</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон карты номерного фонда</value>
+  </synonym>
+</mdclass:CommonTemplate>

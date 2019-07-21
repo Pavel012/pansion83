@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d39cf8-4a8a-422d-a89c-4ca02a1e641a">
+  <name>InformationMedium</name>
+  <synonym>
+    <key>en</key>
+    <value>Information</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Information</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Информация</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

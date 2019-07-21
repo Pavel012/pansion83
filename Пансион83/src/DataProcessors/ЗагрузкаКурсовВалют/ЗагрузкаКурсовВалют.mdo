@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="502839e7-9c8e-4605-bace-322828d8e193">
+  <producedTypes>
+    <objectType typeId="fdfaf604-3735-4b96-9df1-ee325b75a9d6" valueTypeId="c8dccbef-407b-4a6f-9f31-0fd56b8b052a"/>
+    <managerType typeId="62b13ee3-7192-410d-aee4-01136f72ee4c" valueTypeId="2c48e0b1-9706-4ccd-bf0c-1601572ead5e"/>
+  </producedTypes>
+  <name>ЗагрузкаКурсовВалют</name>
+  <synonym>
+    <key>en</key>
+    <value>Загрузка курсов валют</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Laden der Währungskurse</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка курсов валют</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаКурсовВалют.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a284bccc-c1b4-499e-8f10-d8b53c44b104">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4595064f-713d-4adb-8d53-c660bc575076">
+    <name>CurrencyRatesSource</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency rates source</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Quelle von Währungskursen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Источник курсов валют</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CurrencyRatesSources</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fcdda1d2-e32b-4124-b30c-12e5293fa49c">
+    <name>PeriodFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Period from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeitraum ab</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f952f29-7f70-4447-923f-b44de75c4dc3">
+    <name>PeriodTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Period to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeitraum bis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="faf13fb3-4e2e-464e-8b84-978ecb8f8944">
+    <name>InternetConnectionSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet connection settings</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Internet-Anschlussparameter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры подключения к Интернет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиПодклИнет</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="644485ce-6a2b-4fd6-b5d2-a0f45036f770">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c79bfc18-f776-4e63-991b-4c0c66804a4d">
+    <producedTypes>
+      <objectType typeId="709b5e02-1946-4ab8-bc7c-a0cc7d891ea5" valueTypeId="889a4c1d-d529-4192-9e71-445548d0365c"/>
+      <rowType typeId="696869e9-354c-41ca-b6bc-f862e4897f55" valueTypeId="732b0a90-2db5-4844-a5a1-19e48fe82c68"/>
+    </producedTypes>
+    <name>Currencies</name>
+    <synonym>
+      <key>en</key>
+      <value>Currencies</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Währungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюты</value>
+    </synonym>
+    <attributes uuid="0687d854-f421-48af-808e-4af1157045d0">
+      <name>Currency</name>
+      <synonym>
+        <key>en</key>
+        <value>Currency</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Währung</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="df194d09-d4d6-49aa-9e19-c54b0446ad24">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7834582d-7893-4642-9b73-5bda09a7885a">
+    <name>InternetProxySettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet proxy settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular des Internet Proxy</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек интернет прокси</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

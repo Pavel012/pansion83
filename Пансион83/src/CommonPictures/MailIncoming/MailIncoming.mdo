@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e251483c-b0b8-4447-9e6e-8d4e90e0202b">
+  <name>MailIncoming</name>
+  <synonym>
+    <key>en</key>
+    <value>Incoming mail</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Incoming mail</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Входящее письмо</value>
+  </synonym>
+  <transparentPixel>
+    <x>11</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

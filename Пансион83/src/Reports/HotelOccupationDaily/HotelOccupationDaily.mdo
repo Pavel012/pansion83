@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dcf9811-3718-4311-90aa-b9b5ddefad7b">
+  <producedTypes>
+    <objectType typeId="467a2340-9775-4b8c-ab61-7a411e973da2" valueTypeId="ea755979-8481-413b-b455-ce5cc68c7611"/>
+    <managerType typeId="7078570b-328d-4b68-aca4-4347f0e52c3a" valueTypeId="883547e6-7c37-485c-8713-0cd25d69c0a7"/>
+  </producedTypes>
+  <name>HotelOccupationDaily</name>
+  <synonym>
+    <key>en</key>
+    <value>Гостиница occupation daily</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Ladevorgang des Hotels nach Tagen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка гостиницы по дням</value>
+  </synonym>
+  <defaultForm>Report.HotelOccupationDaily.Form.Form</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>de</lang>
+    </pages>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d212c152-cfeb-4e9b-bcdf-ef08183d19a8">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="61fdcc59-07cc-4ce2-a6de-fae05ea9fef8">
+    <name>OnTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Time to show vacant rooms on</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit, für die Restbestände an freien Zimmern angezeigt werden sollen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время на которое показывать остатки свободных номеров</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a36caf14-c145-4259-b200-c587e7e9408f">
+    <name>DateFrom</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала периода отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report period date from</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a5f5a41a-4e4c-4720-8c55-067b707cb9fc">
+    <name>NumberOfDays</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of days</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Menge an Tagen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf1a4a1a-ed12-4ad6-9bfb-dc22557bb5ef">
+    <name>ShowInBeds</name>
+    <synonym>
+      <key>en</key>
+      <value>Show vacant beds</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Restbestände an freie Betten anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать остатки свободных мест</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="921fbf14-a2e4-4d74-b335-f83f68ea5360">
+    <name>Duration</name>
+    <synonym>
+      <key>en</key>
+      <value>Accommodation duration</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dauer des Aufenthalts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность проживания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7531f4f7-47c1-4edc-b92a-3f46e55193f7">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="717933ed-8ec0-46e0-97b8-ca71971894ab">
+    <name>Report</name>
+    <synonym>
+      <key>en</key>
+      <value>Report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bericht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

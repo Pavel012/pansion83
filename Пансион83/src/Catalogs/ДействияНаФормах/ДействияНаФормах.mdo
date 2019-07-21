@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="129d6d2b-d0f0-4316-8926-a4bc5692e4a8">
+  <producedTypes>
+    <objectType typeId="ab85936e-707e-4d4e-8c23-a399744527c3" valueTypeId="4e92b182-6cb1-4c59-aee7-518b54cb9d03"/>
+    <refType typeId="686ec021-efec-4d1a-b8a8-7d7f5dee9e68" valueTypeId="2dff5076-5f3c-4657-aff9-4d7c2fa5686f"/>
+    <selectionType typeId="5d43d8f6-5825-4ede-88ff-9cc99d113aca" valueTypeId="206475d0-69e0-403f-a841-3bcae2fc2a8f"/>
+    <listType typeId="2d2fd139-98b5-4b57-906b-32a4e96cd620" valueTypeId="d64424ce-a72d-42e3-9830-db6c378b1965"/>
+    <managerType typeId="01794fc5-e029-47e3-9fac-5e99f4df3da4" valueTypeId="b8549ad9-fda2-4e33-849d-d4d8a9839d74"/>
+  </producedTypes>
+  <name>ДействияНаФормах</name>
+  <synonym>
+    <key>en</key>
+    <value>Действия на формах</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Aktion auf Objektformularen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Действия на формах объектов</value>
+  </synonym>
+  <inputByString>Catalog.ДействияНаФормах.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДействияНаФормах.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeSeries>WithinSubordination</codeSeries>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="87ee3ae0-2125-449e-9ae8-3d4d85752c3b">
+      <name>RoomsChangeRoom</name>
+      <description>EN = 'Change room capacity attributes'; RU = 'Изменить параметры номера по загрузке НФ'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="e06a7a50-6e60-402c-b4d5-d0c260e74951">
+      <name>AccommodationChangeRoom</name>
+      <description>EN = 'Change room'; RU = 'Переселить'</description>
+      <code xsi:type="core:StringValue">
+        <value>05   </value>
+      </code>
+    </items>
+    <items id="6a315c07-697d-427f-a597-255e0dbe1457">
+      <name>ReservationCheckInGuestGroup</name>
+      <description>EN = 'Check-in all guest group guests'; RU = 'Заселить всех гостей из группы'</description>
+      <code xsi:type="core:StringValue">
+        <value>11   </value>
+      </code>
+    </items>
+    <items id="3a6c414c-8197-4317-a324-2981cdf17031">
+      <name>ReservationFillAccommodation</name>
+      <description>EN = 'Check-in based on reservation'; RU = 'Заселить по брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="a8e68ccc-65ff-4fa0-990c-2eba2c73da85">
+      <name>ReservationCopyGuestGroupReservations</name>
+      <description>EN = 'Copy guest group reservations'; RU = 'Скопировать резервирования группы гостей'</description>
+      <code xsi:type="core:StringValue">
+        <value>70   </value>
+      </code>
+    </items>
+    <items id="674bfde0-3b0e-4993-99d1-7bdc0fc686f1">
+      <name>ForeignerRegistryRecordPeriodOfStayExtensionCreateNew</name>
+      <description>EN = 'Create new record for the guest period of stay extension'; RU = 'Создать новую запись на период продления срока проживания гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="4e7c80a6-fd96-4e92-ac9e-263085c44a4b">
+      <name>AccommodationFillReservation</name>
+      <description>EN = 'Enter reservation based on accommodation'; RU = 'Ввести бронь по размещению'</description>
+      <code xsi:type="core:StringValue">
+        <value>70   </value>
+      </code>
+    </items>
+    <items id="66c53a4b-e7d5-4964-96c1-670bbb6b1f44">
+      <name>AccommodationGuestGroupFillInvoice</name>
+      <description>EN = 'Fill invoice based on accommodation guest group'; RU = 'Ввод счета-требования по группе гостей размещения'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="32e1ccd3-39db-4fad-895f-b60422cae4a8">
+      <name>AccommodationFillInvoice</name>
+      <description>EN = 'Fill invoice based on accommodation'; RU = 'Ввод счета-требования по размещению'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="07489314-25ed-4e43-949a-12afcae5d149">
+      <name>ReservationGuestGroupFillInvoice</name>
+      <description>EN = 'Fill invoice based on reservation guest group'; RU = 'Ввод счета-требования по группе гостей брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="b1f86402-bc4c-408b-b783-6f5bf62a9a6e">
+      <name>ReservationFillInvoice</name>
+      <description>EN = 'Fill invoice based on reservation'; RU = 'Ввод счета-требования по брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="b7fc6a38-3162-4270-ae83-a7ad53cce719">
+      <name>ResourceReservationGuestGroupFillInvoice</name>
+      <description>EN = 'Fill invoice based on resource reservation guest group'; RU = 'Ввод счета-требования по группе гостей брони ресурсов'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="f954b78b-459b-41b1-a52e-d32547e44146">
+      <name>ResourceReservationFillInvoice</name>
+      <description>EN = 'Fill invoice based on resource reservation'; RU = 'Ввод счета-требования по брони ресурсов'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="892e8dec-5c99-4faf-b987-6673f387992c">
+      <name>AccommodationFillIssueHotelProducts</name>
+      <description>EN = 'Fill issue hotel products based on accommodation'; RU = 'Ввод накладной на отгрузку путевок по размещению'</description>
+      <code xsi:type="core:StringValue">
+        <value>85   </value>
+      </code>
+    </items>
+    <items id="1b57953b-05d4-4a36-83c7-0d355d37fa99">
+      <name>AccommodationGuestGroupFillIssueHotelProducts</name>
+      <description>EN = 'Fill issue hotel products based on guest group from accommodation'; RU = 'Ввод накладной на отгрузку путевок по группе гостей из размещения'</description>
+      <code xsi:type="core:StringValue">
+        <value>80   </value>
+      </code>
+    </items>
+    <items id="73a85914-757e-4cd4-8bb6-969f0d8f94fc">
+      <name>ReservationGuestGroupFillIssueHotelProducts</name>
+      <description>EN = 'Fill issue hotel products based on guest group from reservation'; RU = 'Ввод накладной на отгрузку путевок по группе гостей из брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>80   </value>
+      </code>
+    </items>
+    <items id="6ee830be-859b-4403-be4b-7d9e1b6427bb">
+      <name>ReservationFillIssueHotelProducts</name>
+      <description>EN = 'Fill issue hotel products based on reservation'; RU = 'Ввод накладной на отгрузку путевок по брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>85   </value>
+      </code>
+    </items>
+    <items id="3cdffeca-fb6c-46e9-9782-660da6d2c2f8">
+      <name>AccommodationFillSettlement</name>
+      <description>EN = 'Fill settlement based on accommodation'; RU = 'Ввод акта по размещению'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="aed091b6-097f-4653-a5f2-86e1921d7cc4">
+      <name>AccommodationGuestGroupFillSettlement</name>
+      <description>EN = 'Fill settlement based on accommodations in guest group'; RU = 'Ввод акта по размещениям в группе'</description>
+      <code xsi:type="core:StringValue">
+        <value>35   </value>
+      </code>
+    </items>
+    <items id="3d09fba8-f887-449a-bcff-ee24772731f1">
+      <name>ReservationGuestGroupFillSettlement</name>
+      <description>EN = 'Fill settlement based on reservation guest group'; RU = 'Ввод акта по группе гостей брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>35   </value>
+      </code>
+    </items>
+    <items id="fe267965-17d0-44bd-83e2-aa5e94dc6537">
+      <name>ReservationFillSettlement</name>
+      <description>EN = 'Fill settlement based on reservation'; RU = 'Ввод акта по брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="e02877fd-433f-49c2-9b6d-56970b87c1d9">
+      <name>ResourceReservationGuestGroupFillSettlement</name>
+      <description>EN = 'Fill settlement based on resource reservation guest group'; RU = 'Ввод акта по группе гостей брони ресурсов'</description>
+      <code xsi:type="core:StringValue">
+        <value>35   </value>
+      </code>
+    </items>
+    <items id="bd056211-cbdb-4324-96b8-81c04df5baee">
+      <name>ResourceReservationFillSettlement</name>
+      <description>EN = 'Fill settlement based on resource reservation'; RU = 'Ввод акта по брони ресурсов'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="0a9266f7-6234-4430-a168-6c55d4c48a90">
+      <name>AccommodationMakeIdentificationCard</name>
+      <description>EN = 'Issue client identification card'; RU = 'Выдать карту идентификации клиента'; DE='Ausgabe Kundenidentifikationskarte'</description>
+      <code xsi:type="core:StringValue">
+        <value>77   </value>
+      </code>
+    </items>
+    <items id="5549c7d2-c338-416d-86ec-4d1bd840fead">
+      <name>FolioMakeKeyCard</name>
+      <description>EN = 'Issue key card from folio'; RU = 'Сделать ключ из фолио'; DE = 'Geben Schlüsselkarte aus Folio'</description>
+      <code xsi:type="core:StringValue">
+        <value>80   </value>
+      </code>
+    </items>
+    <items id="ba58b567-d9d0-4968-a8d8-25f9c8235613">
+      <name>AccommodationMakeKeyCard</name>
+      <description>EN = 'Issue key card'; RU = 'Сделать ключ'; DE = 'Geben Schlüsselkarte'</description>
+      <code xsi:type="core:StringValue">
+        <value>75   </value>
+      </code>
+    </items>
+    <items id="b915c719-2247-4dcd-a0b6-4e277da97956">
+      <name>AccommodationOpenForeignerRegistryRecord</name>
+      <description>EN = 'Notification'; RU = 'Уведомление'; DE = 'Mitteilung'</description>
+      <code xsi:type="core:StringValue">
+        <value>15   </value>
+      </code>
+    </items>
+    <items id="98898240-83f1-4f69-ab4b-0e7c0c3d9df5">
+      <name>AccommodationGuestGroupOpenForeignerRegistryRecords</name>
+      <description>EN = 'Open foreigner registry records for all guest in guest group'; RU = 'Открыть записи в журнал регистрации иностранцев для всех гостей в группе'</description>
+      <code xsi:type="core:StringValue">
+        <value>18   </value>
+      </code>
+    </items>
+    <items id="ce6fd255-efd8-4304-8add-e54f2ee9bcee">
+      <name>FolioOpenIdentificationCards</name>
+      <description>EN = 'Open list of client identification cards issued for the folio'; RU = 'Открыть список карт идентификации клиентов по лицевому счету'</description>
+      <code xsi:type="core:StringValue">
+        <value>90   </value>
+      </code>
+    </items>
+    <items id="3deff94c-9203-47dc-a4ee-706c9c404a6c">
+      <name>FolioOpenClientIdentificationCards</name>
+      <description>EN = 'Open list of client identification cards'; RU = 'Открыть список карт идентификации клиента'</description>
+      <code xsi:type="core:StringValue">
+        <value>91   </value>
+      </code>
+    </items>
+    <items id="f048a36d-db04-4dad-ab7e-1b357e5928a1">
+      <name>FolioOpenGuestGroupIdentificationCards</name>
+      <description>EN = 'Open list of guest group identification cards'; RU = 'Открыть список карт идентификации клиентов по группе гостей'</description>
+      <code xsi:type="core:StringValue">
+        <value>92   </value>
+      </code>
+    </items>
+    <items id="f259e876-d963-46e1-a2c9-9589d24da8a6">
+      <name>FolioOpenRoomIdentificationCards</name>
+      <description>EN = 'Open list of room identification cards'; RU = 'Открыть список карт идентификации клиентов по номеру комнаты'</description>
+      <code xsi:type="core:StringValue">
+        <value>93   </value>
+      </code>
+    </items>
+    <items id="1f6ece13-85ba-467d-bcc5-28e25f5ea7f1">
+      <name>ForeignerRegistryRecordOpenNext</name>
+      <description>EN = 'Open next foreigner registry record for the current guest'; RU = 'Открыть следующую запись в журнале регистрации иностранцев для гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="489b8ae5-200b-4e98-9c3c-0dcdd14184ad">
+      <name>ForeignerRegistryRecordOpenPrevious</name>
+      <description>EN = 'Open previous foreigner registry record for the current guest'; RU = 'Открыть предыдущую запись в журнале регистрации иностранцев для гостя'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="105f87fb-97f3-449a-8153-67b4579d0dac">
+      <name>AccommodationPrintCoupons</name>
+      <description>EN = 'Print accommodation coupons'; RU = 'Печать талонов по размещению'</description>
+      <code xsi:type="core:StringValue">
+        <value>90   </value>
+      </code>
+    </items>
+    <items id="f6682bab-dea1-4c6c-b993-b85b18f6d2d1">
+      <name>FolioPrintCoupons</name>
+      <description>EN = 'Print folio coupons'; RU = 'Печать талонов по фолио'</description>
+      <code xsi:type="core:StringValue">
+        <value>95   </value>
+      </code>
+    </items>
+    <items id="58b1a70f-1460-4ae8-9957-d62dcf33d650">
+      <name>AccommodationPrintGuestGroupCoupons</name>
+      <description>EN = 'Print guest group coupons'; RU = 'Печать талонов по группе гостей'</description>
+      <code xsi:type="core:StringValue">
+        <value>94   </value>
+      </code>
+    </items>
+    <items id="7dd45e13-6352-4456-af45-4d10ff1b0d7f">
+      <name>ReservationPrintGuestGroupCoupons</name>
+      <description>EN = 'Print guest group reservation coupons'; RU = 'Печать талонов по группе брони гостей'</description>
+      <code xsi:type="core:StringValue">
+        <value>94   </value>
+      </code>
+    </items>
+    <items id="7b76630a-c4ab-487f-8cd8-f0a8aacc78ee">
+      <name>ResourceReservationPrintGuestGroupCoupons</name>
+      <description>EN = 'Print guest group resource reservation coupons'; RU = 'Печать талонов по группе брони ресурсов'</description>
+      <code xsi:type="core:StringValue">
+        <value>94   </value>
+      </code>
+    </items>
+    <items id="dceb7e27-ba15-446b-851e-fa6e3f3b828c">
+      <name>ReservationPrintCoupons</name>
+      <description>EN = 'Print reservation coupons'; RU = 'Печать талонов по брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>90   </value>
+      </code>
+    </items>
+    <items id="d6441dc3-0ec7-458a-9841-44ae7ec39519">
+      <name>ResourceReservationPrintCoupons</name>
+      <description>EN = 'Print resource reservation coupons'; RU = 'Печать талонов по брони ресурсов'</description>
+      <code xsi:type="core:StringValue">
+        <value>90   </value>
+      </code>
+    </items>
+    <items id="4ff23302-0106-423e-ac97-b942123153b3">
+      <name>AccommodationPrintRoomCoupons</name>
+      <description>EN = 'Print room coupons'; RU = 'Печать талонов по номеру'</description>
+      <code xsi:type="core:StringValue">
+        <value>92   </value>
+      </code>
+    </items>
+    <items id="c3aef7a0-5c24-4ea0-bf98-7684d1c5919f">
+      <name>ReservationPrintRoomCoupons</name>
+      <description>EN = 'Print room reservation coupons'; RU = 'Печать талонов по брони из номера'</description>
+      <code xsi:type="core:StringValue">
+        <value>92   </value>
+      </code>
+    </items>
+    <items id="4df6a2a3-3612-40cb-b43e-3092c1771d85">
+      <name>ForeignerRegistryRecordSaveWithoutNumber</name>
+      <description>EN = 'Save foreigner registry record without number'; RU = 'Сохранить запись в журнал регистрации иностранцев без номера'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="5ccc6270-c36e-4f78-919a-dec7fde05924">
+      <name>AccommodationScanClientData</name>
+      <description>EN = 'Scan client data'; RU = 'Сканировать данные клиента'</description>
+      <code xsi:type="core:StringValue">
+        <value>95   </value>
+      </code>
+    </items>
+    <items id="65ff9778-73ca-4617-9b23-29068b45fa93">
+      <name>ReservationGuestGroupShowInvoices</name>
+      <description>EN = 'Show reservation guest group invoices list'; RU = 'Открыть список счетов-требований по группе гостей брони'</description>
+      <code xsi:type="core:StringValue">
+        <value>28   </value>
+      </code>
+    </items>
+    <items id="97e19a9f-f4e6-4ae2-91f3-ac2123fbeee6">
+      <name>ResourceReservationGuestGroupShowInvoices</name>
+      <description>EN = 'Show resource reservation guest group invoices list'; RU = 'Открыть список счетов-требований по группе гостей брони ресурсов'</description>
+      <code xsi:type="core:StringValue">
+        <value>28   </value>
+      </code>
+    </items>
+    <items id="7652faad-fcb7-4774-9d2a-c9a10e3fc654">
+      <name>AccommodationSwapRoundGuests</name>
+      <description>EN = 'Swap round guests'; RU = 'Поменять местами гостей'</description>
+      <code xsi:type="core:StringValue">
+        <value>60   </value>
+      </code>
+    </items>
+    <items id="c442ebf7-f839-4bd8-9cac-a7b3def76117">
+      <name>FolioBlockGiftCertificate</name>
+      <description>EN='Block gift certificate'; RU='Заблокировать подарочный сертификат'</description>
+      <code xsi:type="core:StringValue">
+        <value>100  </value>
+      </code>
+    </items>
+    <items id="af9413f0-74fd-4ecd-a948-356072a73de7">
+      <name>AccommodationChangeGuestGroup</name>
+      <description>EN='Change attributes of accommodations in guest group'; RU='Изменить реквизиты размещений, которые входят в группу'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="d3395917-6311-4006-85f0-aec63c383aac">
+      <name>ReservationChangeGuestGroup</name>
+      <description>EN='Change attributes of reservations in guest group'; RU='Изменить реквизиты брони, которая входит в группу'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="2f82d32f-0f76-4261-b895-24f452264207">
+      <name>ResourceReservationChangeGuestGroup</name>
+      <description>EN='Change attributes of resource reservations in guest group'; RU='Изменить реквизиты брони ресурсов, которая входит в группу'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="fcbefeb9-6bb7-46ae-b9f3-a800f1a5dfa5">
+      <name>AccommodationCheckOut</name>
+      <description>EN='Check out'; RU='Выселить'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="605e4799-b8d1-4a42-ae37-8483cbe4abcc">
+      <name>SetRoomQuotaDoWriteOff</name>
+      <description>EN='Do room quota write off'; RU='Снять квоту номеров'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="ec2d707a-b4b8-4f53-830c-f7547ac06f24">
+      <name>InvoiceFillCustomerAdvanceDistribution</name>
+      <description>EN='Fill customer advance distribution based on invoice'; RU='Ввод распределения аванса контрагента по счету-требованию'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="87a36929-428c-43c1-accb-2d8ef18e55d2">
+      <name>CustomerFillCustomerInitialBalances</name>
+      <description>EN='Fill customer initial balances'; RU='Ввод начальных остатков по взаиморасчетам с контрагентами'</description>
+      <code xsi:type="core:StringValue">
+        <value>80   </value>
+      </code>
+    </items>
+    <items id="72d61d96-227c-459e-8902-ce8fc09d436e">
+      <name>CustomerFillCustomerPaymentForInvoice</name>
+      <description>EN='Fill customer payment based on customer invoice'; RU='Ввод оплаты от контрагента по счету-требованию контрагента'</description>
+      <code xsi:type="core:StringValue">
+        <value>60   </value>
+      </code>
+    </items>
+    <items id="f40c19ed-041d-463e-8e04-c3d5b472580f">
+      <name>FolioFillCustomerPayment</name>
+      <description>EN='Fill customer payment based on invoice number'; RU='Ввод оплаты от контрагента по номеру счета-требования'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="92645af4-36de-41e9-87c7-6bf57ac45f69">
+      <name>InvoiceFillCustomerPayment</name>
+      <description>EN='Fill customer payment based on invoice'; RU='Ввод платежа контрагента по счету-требованию'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="d1da88db-29e0-4963-af5c-7978f3b5be2f">
+      <name>SettlementFillCustomerPayment</name>
+      <description>EN='Fill customer payment based on settlement'; RU='Ввод платежа контрагента по акту'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="a153daef-a947-40bc-b096-55a3b00f8b30">
+      <name>FolioFillSettlement</name>
+      <description>EN='Fill invoice based on folio'; RU='Ввод акта по фолио'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="10afa44a-34b4-4b5a-bd88-32cc6d33c496">
+      <name>FolioFillInvoice</name>
+      <description>en='Fill invoice based on folio';de='Neu personenkonto Rechnung';ru='Ввод акта и счета на оплату по фолио'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="9ff0f183-087e-4f66-9640-65cf3c314400">
+      <name>IssueHotelProductsFillInvoice</name>
+      <description>EN='Fill invoice based on issue hotel products'; RU='Ввод счета-требования по накладной на отгрузку путевок'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="4e52af10-6c2f-4d93-b883-f22fcf011f19">
+      <name>SettlementFillInvoice</name>
+      <description>EN='Fill invoice based on settlement'; RU='Ввод счета-требования по акту'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="ed805bf8-d04b-48c3-a188-e33f02a3d478">
+      <name>FolioFillProFormaInvoice</name>
+      <description>en='Fill Pro-Forma invoice based on folio';de='Neu Personenkonto Pro-Forma Rechnung';ru='Ввод счета на оплату по фолио'</description>
+      <code xsi:type="core:StringValue">
+        <value>35   </value>
+      </code>
+    </items>
+    <items id="24da4e7c-df3c-4ae1-9ca9-c4834dd208be">
+      <name>SettlementFillVATInvoiceNumber</name>
+      <description>EN='Fill VAT invoice number'; RU='Получить номер счета-фактуры'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="e610fa64-e366-4470-9c0a-1be5b7255c9d">
+      <name>SetRoomQuotaGetBalances</name>
+      <description>EN='Get room quota balances'; RU='Получить остатки по квоте'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="37b505b4-3880-4cee-9f45-9ad683dcf2f6">
+      <name>FolioGroupCharge</name>
+      <description>EN='Group charge'; RU='Групповое начисление'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="2752354a-595b-4e94-8978-666e032cb039">
+      <name>AccommodationGuestGroupCheckOut</name>
+      <description>EN='Group check out'; RU='Групповое выселение'</description>
+      <code xsi:type="core:StringValue">
+        <value>11   </value>
+      </code>
+    </items>
+    <items id="22cd4645-1623-458f-8b06-a26aebcf9f04">
+      <name>ClientHideNameAndNameHistory</name>
+      <description>EN='Hide client names and clear client name history records'; RU='Скрыть ФИО клиента и очистить историю его имени'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="5be584f5-0867-4e9d-925f-ec004ee6d7eb">
+      <name>FolioIssueGiftCertificate</name>
+      <description>EN='Issue gift certificate'; RU='Продать подарочный сертификат'</description>
+      <code xsi:type="core:StringValue">
+        <value>120  </value>
+      </code>
+    </items>
+    <items id="1d9328d2-e98b-48a9-b8e8-241ec76ed025">
+      <name>ClientFillAccommodation</name>
+      <description>EN='New accommodation for client'; RU='Новое размещение для клиента'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="35c5a78e-cb90-4594-a45d-1a73b1d5f553">
+      <name>ContractFillCustomerAdvanceDistribution</name>
+      <description>EN='New contract advance distribution'; RU='Новое распределение аванса по договору контрагента'</description>
+      <code xsi:type="core:StringValue">
+        <value>70   </value>
+      </code>
+    </items>
+    <items id="10f01a8c-d95c-4bb6-826f-3f175a741dfd">
+      <name>CustomerFillCustomerAdvanceDistribution</name>
+      <description>EN='New customer advance distribution'; RU='Новое распределение аванса контрагента'</description>
+      <code xsi:type="core:StringValue">
+        <value>70   </value>
+      </code>
+    </items>
+    <items id="d9351910-9fd0-4e8f-b4a9-abd77512007d">
+      <name>ContractFillCustomerPayment</name>
+      <description>EN='New customer payment for contract'; RU='Новый платеж контрагента по договору'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="bdbe6fcb-694b-4fce-9c75-aab621bbcff5">
+      <name>CustomerFillCustomerPayment</name>
+      <description>EN='New customer payment'; RU='Новый платеж контрагента'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="e0ef1a8b-1cfc-411f-be99-21112ce23d9d">
+      <name>ContractFillInvoice</name>
+      <description>EN='New invoice for contract'; RU='Новый счет-требование по договору'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="6b6e4e0f-78de-43b0-b34f-de5be71cf0b0">
+      <name>CustomerFillInvoice</name>
+      <description>EN='New invoice'; RU='Новый счет-требование'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="9606c9a5-5a5c-4ced-9689-7fac54c18296">
+      <name>ClientFillReservation</name>
+      <description>EN='New reservation for client'; RU='Новая бронь для клиента'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="d0357224-286d-44f7-bdb8-a13904af1be4">
+      <name>ClientFillResourceReservation</name>
+      <description>EN='New resource reservation for client'; RU='Новая бронь ресурсов для клиента'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="0fd8aab7-e048-405d-82ff-d6c6cd4427df">
+      <name>ContractFillSettlement</name>
+      <description>EN='New settlement for contract'; RU='Новый акт по договору'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="6be147b3-4514-4571-8ea1-9fe652191b3b">
+      <name>CustomerFillSettlement</name>
+      <description>EN='New settlement'; RU='Новый акт'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+    <items id="546253d3-f911-46ea-9352-f1ce9fcbec32">
+      <name>CashRegisterOpenCashIncomeOutcomeList</name>
+      <description>EN='Open cash income/outcome list'; RU='Открыть журнал внесений/инкассаций по ККМ'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="768fb079-29f1-4466-a5e3-47ea65cb4e08">
+      <name>ContractOpenInvoicesList</name>
+      <description>EN='Open contract invoices list'; RU='Открыть список счетов-требований по договору'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="61929671-cfc6-46bc-b5e7-94027e4d2ce8">
+      <name>ClientShowForeignerRegistryRecords</name>
+      <description>EN='Open list of client foreigner registry records'; RU='Открыть список записей в журнал регистрации иностранцев'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="4a487f5e-c65f-48a9-b2af-35ca7104e8b2">
+      <name>CashRegisterOpenPaymentSystemServiceFunctionsMenu</name>
+      <description>EN='Open payment system (terminal) service functions menu'; RU='Открыть меню сервисных функций платежной системы (терминала)'</description>
+      <code xsi:type="core:StringValue">
+        <value>70   </value>
+      </code>
+    </items>
+    <items id="321a7d68-4030-44cf-a1ac-a404a0f94795">
+      <name>CustomerOpenInvoicesList</name>
+      <description>EN='Open pro-forma invoices'; RU='Открыть список счетов на оплату'; DE='Liste der Pro-Forma Rechnungen'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="d838f953-dfb8-4662-9954-df8e24b58d1a">
+      <name>CashRegisterPrintDeviceHourXReport</name>
+      <description>EN='Print device hourly X-Report'; RU='Печать почасового X-Отчета по ФР'</description>
+      <code xsi:type="core:StringValue">
+        <value>40   </value>
+      </code>
+    </items>
+    <items id="5ece6f81-6f54-4909-a354-777a0579c350">
+      <name>CashRegisterPrintDeviceXReport</name>
+      <description>EN='Print device X-Report'; RU='Печать X-Отчета по ФР'</description>
+      <code xsi:type="core:StringValue">
+        <value>30   </value>
+      </code>
+    </items>
+    <items id="986d3a7f-04e1-4ddf-bcc2-e0ea44f3e93b">
+      <name>CashRegisterPrintDeviceZReport</name>
+      <description>EN='Print device Z-Report'; RU='Печать Z-Отчета по ФР'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="485652f9-e5f0-4bcc-9cc9-dbbc11996f79">
+      <name>PaymentPrintFolio</name>
+      <description>EN='Print folio after payment'; RU='Печать фолио после оплаты'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="3388c410-54e1-467c-bbe8-42dbb81d4092">
+      <name>ReturnPrintFolio</name>
+      <description>EN='Print folio after return'; RU='Печать фолио после возврата'</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="23002f8c-9de5-4cb4-a448-ee25b9239d3b">
+      <name>CustomerFillCustomerReturn</name>
+      <description>EN='Return customer payment'; RU='Возврат платежа контрагента'</description>
+      <code xsi:type="core:StringValue">
+        <value>50   </value>
+      </code>
+    </items>
+    <items id="5dcfdbcd-1da2-4360-b820-29c5da861fdd">
+      <name>ClientScanClientData</name>
+      <description>EN='Scan client passport data'; RU='Сканировать паспорт клиента'</description>
+      <code xsi:type="core:StringValue">
+        <value>60   </value>
+      </code>
+    </items>
+    <items id="f0d9e300-2d77-4fe5-8926-972766246366">
+      <name>ContractSendInvitationToNewAgent</name>
+      <description>EN='Send invitation to new agent'; RU='Отправить приглашение агенту'</description>
+      <code xsi:type="core:StringValue">
+        <value>25   </value>
+      </code>
+    </items>
+    <items id="5df4b404-3fc7-4976-bbba-a5377f3eff13">
+      <name>CashRegisterSetDeviceTime</name>
+      <description>EN='Set device date and time'; RU='Установить дату и время в ККМ'</description>
+      <code xsi:type="core:StringValue">
+        <value>60   </value>
+      </code>
+    </items>
+    <items id="d2881174-5b10-4b64-9bd8-2cb8597aef17">
+      <name>FolioShowGiftCertificate</name>
+      <description>EN='Show gift certificate'; RU='Показать подарочный сертификат'</description>
+      <code xsi:type="core:StringValue">
+        <value>110  </value>
+      </code>
+    </items>
+    <items id="b728fc4f-24b5-49b5-9c05-396220940abf">
+      <name>CashRegisterSwitchTo</name>
+      <description>EN='Switch to cash register'; RU='Подключить ККМ'</description>
+      <code xsi:type="core:StringValue">
+        <value>20   </value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДействияНаФормах.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ДействияНаФормах.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ДействияНаФормах.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ДействияНаФормах.Form.ChoiceForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ДействияНаФормах.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="8e660bcf-2fa6-4a2a-b4ea-1dee3d838c08">
+    <name>ObjectType</name>
+    <synonym>
+      <key>en</key>
+      <value>Object type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Objekttyp:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17f3f348-2398-4565-8251-fc042d3fbcfb">
+    <name>Language</name>
+    <synonym>
+      <key>en</key>
+      <value>Language</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sprache</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Локализация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="855d2c94-c945-442a-ab29-035503716a5e">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3991d104-cacd-4734-b6c5-b884daf30891">
+    <name>ExternalProcessing</name>
+    <synonym>
+      <key>en</key>
+      <value>External processing</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Externe Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56a964eb-3aed-4f3e-bad9-a5a79ec8e1b6">
+    <name>Parameter</name>
+    <synonym>
+      <key>en</key>
+      <value>Parameter</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Parameter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dccc39dd-4cc0-402f-80b2-9d097d7db58f">
+    <name>AutomaticallyRunOnFirstObjectWrite</name>
+    <synonym>
+      <key>en</key>
+      <value>Run action automatically on first object write</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Aktion automatisch beim ersten Schreiben des Objekts ausführen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять действие автоматически при первой записи объекта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="550fe6f5-886d-4655-ac2e-0dff83750add">
+    <name>ActionIcon</name>
+    <synonym>
+      <key>en</key>
+      <value>Action icon</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aktions-Icon</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Иконка действия</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbce7394-b3c7-4322-96cc-63e9817f2ff0">
+    <name>ObjectFormActionButton</name>
+    <synonym>
+      <key>en</key>
+      <value>Object form action button</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Taste auf dem Objektformular, für die Aktion bestimmt ist</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка на форме объекта, которой назначено действие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ObjectFormActionButtons</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04055953-060e-45c4-b878-8d8c31fd343b">
+    <name>ButtonCaption</name>
+    <synonym>
+      <key>en</key>
+      <value>Button caption</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tastenüberschrift</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок кнопки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7cd782b6-2a7c-40f0-8559-a9d4fda5f98b">
+    <name>ButtonToolTip</name>
+    <synonym>
+      <key>en</key>
+      <value>Button tool tip</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Hinweis Taste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подсказка кнопки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df4b5c95-4c6a-4402-b03d-2d87c5c8e440">
+    <name>ButtonShortcut</name>
+    <synonym>
+      <key>en</key>
+      <value>Button shortcut</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tastenkombination für Schaltfläche</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сочетание клавиш для кнопки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1065fcbb-6486-4eb8-8c1f-4004aaf81323">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90d07b47-efd1-4c2c-a6f4-ad5c69c201e6">
+    <name>IsDefault</name>
+    <synonym>
+      <key>en</key>
+      <value>Is default action</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist eine Standardaktivität</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это действие по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0b033912-80d8-4879-8b28-fcb7ca6435c8">
+    <name>IsActive</name>
+    <synonym>
+      <key>en</key>
+      <value>Is active</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b688eab-6bb5-48b8-9b66-5a512cf35f4a">
+    <name>Settings</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="55cd93ed-90fc-4aa3-8755-bd1464c2be09">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9b1a7691-9570-4de3-91e3-1a196f2e4589">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fee0f734-6ee9-4d2e-b73b-bf21c74367cf">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="251c7e20-d112-4b93-a025-cbf305760fcd">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Choice form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fbb16e30-2e6b-4047-8257-cd32a4735123">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7570c810-ab8d-4b33-8dbc-0a6bb3a9a5fe">
+  <producedTypes>
+    <selectionType typeId="8d58ffd1-90e2-4da2-88d5-c2646e57294d" valueTypeId="09d90397-7b06-49c9-a6e2-c093fb29ff4d"/>
+    <listType typeId="5efd0dff-f181-4e42-be9f-1881613c5c2c" valueTypeId="e1e3c988-d1dd-4bbc-9286-c01a70351956"/>
+    <managerType typeId="4acf5865-70d0-4aed-96d8-70e69d894227" valueTypeId="0ab07f9b-d188-4644-861a-8477f891e771"/>
+    <recordSetType typeId="faf36106-89b7-4cd4-8475-b7133eaf7225" valueTypeId="9cdd601e-3d52-490a-aafc-6833f9ee891a"/>
+    <recordKeyType typeId="2541d9ea-46ba-4b98-9e5f-05b6c5b71513" valueTypeId="2b830455-465b-4e83-bafd-caa063b3b942"/>
+    <recordType typeId="b7892689-bdb9-4e7a-b070-773796b0d943" valueTypeId="40ef9b32-9239-4aab-b3d5-8fa09f745cf2"/>
+    <recordManagerType typeId="959d3181-cca1-460f-8ea2-25969e58c4d8" valueTypeId="5b1c717c-9182-43e6-abf1-168f04c104af"/>
+  </producedTypes>
+  <name>ОтчетыПоРасписанию</name>
+  <synonym>
+    <key>en</key>
+    <value>Отчеты по расписанию</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zeitplanberichte</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты по расписанию</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ОтчетыПоРасписанию.Form.ListForm</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e10b767c-1ed0-4f48-9c04-5cd54d209dc5">
+    <name>ScheduleDateTime</name>
+    <synonym>
+      <key>en</key>
+      <value>Date &amp; time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Uhrzeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7c8170e0-1316-43b2-bde5-d8d62d549787">
+    <name>Key</name>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled report key</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schlüssel des Zeitplanberichts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ отчета по расписанию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0187d9c1-d942-4cd0-868a-9304d7de742e">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

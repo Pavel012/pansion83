@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57b3c8c1-8044-41db-b4ab-470717aaa9e5">
+  <name>ВводАдреса</name>
+  <synonym>
+    <key>en</key>
+    <value>Ввод адреса</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Eingabe der Adresse</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод адреса</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

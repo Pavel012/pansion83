@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a17e7f9d-01af-48f8-a0cd-0c2b63d9df82">
+  <producedTypes>
+    <managerType typeId="aa75109c-27fb-412d-9ea4-9c7f05034830" valueTypeId="9eb81a73-dc1e-4ec4-86f1-434b5a275077"/>
+    <valueManagerType typeId="32bb8e15-7966-422d-b68a-5d677181a8f6" valueTypeId="a17caa7a-6cdf-4612-bcfe-6fe9844b73a3"/>
+    <valueKeyType typeId="0127170d-b57a-5fea-8c89-c6fe1af94081" valueTypeId="82fb6cba-1b58-57ae-99fb-a2503a562bce"/>
+  </producedTypes>
+  <name>КонтрагентПоУмолчанию</name>
+  <synonym>
+    <key>en</key>
+    <value>Контрагент по умолчанию</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verzeichnis Firmen - Privatpersonen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Группа контрагентов - частных лиц</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

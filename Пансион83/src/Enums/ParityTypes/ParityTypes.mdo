@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="841d4228-7f95-4830-9765-20650e83d978">
+  <producedTypes>
+    <refType typeId="71269d75-ce61-41a7-8391-0d99ea0683ed" valueTypeId="8ad41ea5-01c1-4fe4-b68c-80595ee66b75"/>
+    <listType typeId="cf204497-1c70-48d8-9f22-97acffcdc617" valueTypeId="f17cd340-3ecb-464a-bee6-1a2ca373aa22"/>
+    <managerType typeId="72252100-c153-44d4-ae0b-6c80e8abfe3a" valueTypeId="efef94c3-5f15-4670-a99d-1caaf959c7d7"/>
+  </producedTypes>
+  <name>ParityTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Parity types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Teilbarkeitsart</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды четности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="1bdf5d97-9e6b-4395-815f-1e584a432fe6">
+    <name>Odd</name>
+    <synonym>
+      <key>en</key>
+      <value>Odd</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ungerade (Odd)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Нечетный (Odd)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc7bd4be-bae0-498f-952c-da2abe013f3d">
+    <name>Even</name>
+    <synonym>
+      <key>en</key>
+      <value>Even</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>gerade (Even)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Четный (Even)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="706c7282-078d-4683-843d-9a3614139823">
+    <name>None</name>
+    <synonym>
+      <key>en</key>
+      <value>None</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Keine (None)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Нет (None)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8e110f3-ec67-4e00-918a-dd5f526ee7a8">
+    <name>Mark</name>
+    <synonym>
+      <key>en</key>
+      <value>Mark</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erstellt (Mark)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Установлен (Mark)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73935462-3800-44cf-af13-bf84bed369ec">
+    <name>Space</name>
+    <synonym>
+      <key>en</key>
+      <value>Space</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zurückgesetzt (Space)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сброшен (Space)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

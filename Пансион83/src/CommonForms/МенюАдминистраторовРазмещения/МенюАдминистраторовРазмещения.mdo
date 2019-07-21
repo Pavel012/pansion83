@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="856c3564-a7eb-4c77-9ce8-6f4ebaef6f31">
+  <name>МенюАдминистраторовРазмещения</name>
+  <synonym>
+    <key>en</key>
+    <value>Housekeeping Main menu</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Hauptmenü Zimmerservice</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Главное меню службы номеров</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

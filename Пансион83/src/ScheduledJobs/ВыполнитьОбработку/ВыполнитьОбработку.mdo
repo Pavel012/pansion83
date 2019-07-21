@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84b8568d-4c26-4e46-8057-24beaa83eacb">
+  <name>ВыполнитьОбработку</name>
+  <synonym>
+    <key>en</key>
+    <value>Run data processors</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>bearbeiten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить обработку</value>
+  </synonym>
+  <methodName>CommonModule.РеглЗадания.cmRunDataProcessorsByKey</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

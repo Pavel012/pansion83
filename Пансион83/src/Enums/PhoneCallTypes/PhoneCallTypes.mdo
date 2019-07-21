@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="918a4fe0-35d2-4e16-adbe-2ee76c6d4357">
+  <producedTypes>
+    <refType typeId="50521b8a-1d09-415e-9cda-98e4ece8ca46" valueTypeId="8b526c09-aee0-49a4-9899-09f6096916cc"/>
+    <listType typeId="050af802-2a4f-41dc-9a99-69c0a3be8d24" valueTypeId="c390b62b-24ae-4cbb-8429-99bf5fde09e3"/>
+    <managerType typeId="0c2887d7-8998-46f1-b80a-06c019b2612d" valueTypeId="0a365d93-c663-434c-939c-8c21061b9c76"/>
+  </producedTypes>
+  <name>PhoneCallTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Phone call types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen von Telefonanrufen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы телефонных звонков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="351bae41-557d-43be-a2c0-a4570acd5bfa">
+    <name>International</name>
+    <synonym>
+      <key>en</key>
+      <value>International</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>International</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Международный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25f252cc-e2f3-4952-a9d7-eaa5f33ec306">
+    <name>Intercountry</name>
+    <synonym>
+      <key>en</key>
+      <value>Inter-country</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>National</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Междугородний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="373150c7-21d5-4606-b4d3-7de5a0e9fa05">
+    <name>Local</name>
+    <synonym>
+      <key>en</key>
+      <value>Local</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Lokal</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Местный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5255a3a2-5caa-41bd-8bdc-11833fd8e7fa">
+    <name>Internal</name>
+    <synonym>
+      <key>en</key>
+      <value>Internal</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>interner</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b14fb054-3e79-4a20-b328-989a31ac258e">
+    <name>Incoming</name>
+    <synonym>
+      <key>en</key>
+      <value>Incoming</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>eingehend</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eceed885-56c2-41c2-ac76-1e4bfea23092">
+    <name>Cellular</name>
+    <synonym>
+      <key>en</key>
+      <value>Cellular</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zellen-</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сотовый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76c52780-3002-480f-9507-46ba38709a41">
+  <producedTypes>
+    <selectionType typeId="b238c57c-3e95-4024-b581-75aa04d07aae" valueTypeId="0284a51c-0c15-4ae3-bd0e-814a37d10a4b"/>
+    <listType typeId="4ef43788-e187-4797-af21-a0b713540a79" valueTypeId="98ab1766-396a-4047-9179-fca8c2a554e4"/>
+    <managerType typeId="cfdc2410-7aa5-4d91-8ea7-878adb57a5f5" valueTypeId="55785cd3-ab4c-44ab-8e60-583ad695b2ff"/>
+    <recordSetType typeId="7f4243b7-f2e1-45fc-8818-07ffa90d4470" valueTypeId="869884e7-1c5e-4261-8264-5f55dc56a42b"/>
+    <recordKeyType typeId="5637971b-5ef2-4082-895e-4925e56463b7" valueTypeId="91ad7a0f-2970-45ea-b37a-96dbb33b8548"/>
+    <recordType typeId="1b96fa33-8e50-49d5-82e6-0ceb9c84de32" valueTypeId="252a8538-9354-494c-ae6b-e3809ff5f1d2"/>
+  </producedTypes>
+  <name>НакопитСкидки</name>
+  <synonym>
+    <key>en</key>
+    <value>Накопит скидки</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Ressourcen summarischer Preisnachlässe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ресурсы накопительных скидок</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a650040e-6610-4567-975a-1e86233912cf">
+    <name>Ресурс</name>
+    <synonym>
+      <key>en</key>
+      <value>Ресурс</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressource</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8739bd95-38b0-43af-a0ff-b1f815c89418">
+    <name>Бонус</name>
+    <synonym>
+      <key>en</key>
+      <value>Бонус</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Бонус</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бонус</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="85ce08ca-6edb-4717-b7cd-10d37c21a86d">
+    <name>ТипСкидки</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="01f6d791-1e23-4486-a106-b347a764d3b2">
+    <name>ИзмерениеСкидки</name>
+    <synonym>
+      <key>en</key>
+      <value>Измерение скидки</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Messung des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДисконтныеКарты</types>
+      <types>CatalogRef.Договора</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c957c110-5edb-4f9f-9e01-855ea8dbfce2">
+    <name>ГруппаГостей</name>
+    <synonym>
+      <key>en</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

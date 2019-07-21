@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b79afee-c8c1-47fe-b7b6-5abe076f55e8">
+  <producedTypes>
+    <objectType typeId="71fd1203-3d90-465e-ae95-1409e2d9b631" valueTypeId="62d519cc-b758-4280-b575-8e8d00bf804b"/>
+    <managerType typeId="37a159fd-5183-45ce-919a-bc9aceb66694" valueTypeId="13bd7a82-9782-4024-98a2-f23ebf46d543"/>
+  </producedTypes>
+  <name>ОчисткаБазы</name>
+  <synonym>
+    <key>en</key>
+    <value>Очистка базы</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Datenbank löschen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Очистить базу данных</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОчисткаБазы.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b9e9737c-a263-4539-bee9-9766d84cc090">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9be158b6-1603-4193-85b1-b6fd722df18a">
+    <name>Period</name>
+    <synonym>
+      <key>en</key>
+      <value>Delete objects and records not older then date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum, bis zu dem Objekte und Aufzeichnungen entfernt werden sollen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата по которую удалять объекты и записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f684c660-fa99-4848-a983-67c7da5bdb5f">
+    <name>PurgeChargesMarkedForDeletion</name>
+    <synonym>
+      <key>en</key>
+      <value>Purge marked for deletion charges</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die zur Löschung markierten Berechnungen löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять помеченные на удаление начисления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1382c3f-e7b9-4df0-8dbe-88ab5c27eb27">
+    <name>PurgeFoliosMarkedForDeletion</name>
+    <synonym>
+      <key>en</key>
+      <value>Purge marked for deletion folios</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die zur Löschung markierten Personenkonten löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять помеченные на удаление лицевые счета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="64350392-461f-47f9-9a69-a7921af750ff">
+    <name>PurgeChangeHistoryRecords</name>
+    <synonym>
+      <key>en</key>
+      <value>Purge objects change history records</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aufzeichnungen des Bearbeitungsverlaufs von Objekten löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять записи истории изменения объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d5b2b89d-9c1e-47b0-86be-c450a036e7f5">
+    <name>MarkClientsWithoutReferencesDeleted</name>
+    <synonym>
+      <key>en</key>
+      <value>Mark clients without references and passport data as deleted</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Karten der Kunden ohne Verweise auf Reservierung / Unterbringung und ohne Passdaten zum Löschen markieren</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Помечать карточки клиентов без ссылок на бронь/размещение и без паспортных данных на удаление</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa9de0fb-5dc1-4b46-8daa-9e4932b8fccc">
+    <name>PurgeClientDataScans</name>
+    <synonym>
+      <key>en</key>
+      <value>Purge client data scans</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Scans mit Kundendaten löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять сканы данных клиентов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88621701-65b5-40b6-b98b-d4c5df247cd9">
+    <name>SaveClientDataScans2Disc</name>
+    <synonym>
+      <key>en</key>
+      <value>Save client data scans to disk</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitete Dokumentenscans in Order auf der Festplatte speichern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранять обработанные сканы документов в папку на диске</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aace46dc-4122-4eec-91bf-2d03af9b08c6">
+    <name>ClearProcessedOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Clear processed scans only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nur bearbeitete Scans von Dokumenten löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять только обработанные сканы документов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="55174936-d8d4-4511-ae40-572a15417590">
+    <name>PurgeClientIdentificationData</name>
+    <synonym>
+      <key>en</key>
+      <value>Purge client identification data</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Identifikationsdaten der Kunden löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять идентификационные данные клиентов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6bc1c89d-8ac8-4a83-8b54-def2f3152e9c">
+    <name>PurgeMessages</name>
+    <synonym>
+      <key>en</key>
+      <value>Purge program messages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mitteilungen des Programms löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять сообщения программы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5bd566d5-badd-4875-b1bc-a07ca15a58aa">
+    <name>PurgeSMSMessages</name>
+    <synonym>
+      <key>en</key>
+      <value>Purge SMS messages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>SMS-Mitteilungen löschen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять СМС сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71720a33-bed8-4dec-a428-10c292eedc6f">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="22a55942-07a8-4ce7-8a4f-ba05ca7bdc07">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

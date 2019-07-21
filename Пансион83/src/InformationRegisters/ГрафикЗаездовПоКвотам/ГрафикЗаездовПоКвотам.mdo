@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cf1762b-fbde-4639-9d9e-fa29b87442d3">
+  <producedTypes>
+    <selectionType typeId="b6b4e245-f806-44f1-8dec-ad17c96b5646" valueTypeId="b6b49f84-aaef-4007-b727-cff5343a0dca"/>
+    <listType typeId="6e1e6258-54b6-4c0e-b2b1-42ab6274ab87" valueTypeId="55057c2c-86e0-4212-8028-a6f8d5c62704"/>
+    <managerType typeId="39976909-fc0a-422e-977d-a3da91b3550d" valueTypeId="9f90064d-8761-48a6-b238-c44f3b77f2ad"/>
+    <recordSetType typeId="f5c5209d-d749-4db3-ad8d-acdeaed22328" valueTypeId="5bc0e089-f75a-49b8-89ab-bbc932f8dede"/>
+    <recordKeyType typeId="dd51a931-a72e-4fb5-83d7-1339027beaa7" valueTypeId="3d40bcea-19d7-499d-ae6a-1018849eca58"/>
+    <recordType typeId="78a690da-0464-4d9b-aa9e-6031a4617f62" valueTypeId="56e2e7b7-b9da-4dc3-a26a-ed71815da352"/>
+    <recordManagerType typeId="8e8069b1-2a53-4df8-9a6f-15d1a99c9ca2" valueTypeId="d5e560fe-7a9e-4677-8df8-c2a77dd9b09d"/>
+  </producedTypes>
+  <name>ГрафикЗаездовПоКвотам</name>
+  <synonym>
+    <key>en</key>
+    <value>Allotment check-in periods</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Anreisezeitpläne nach Quoten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Графики заездов по квотам</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ГрафикЗаездовПоКвотам.Form.ListForm</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6c9ab8a4-fc78-445c-89c2-3c8f5d6b0140">
+    <name>IsManual</name>
+    <synonym>
+      <key>en</key>
+      <value>Is manual</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Hand-</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c68e7eb1-9147-4f14-ad58-a16d3893514b">
+    <name>IsNotActive</name>
+    <synonym>
+      <key>en</key>
+      <value>Is not active</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Funktioniert nicht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="05a7c189-1106-4f71-9cc8-aecc48439c63">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="92b5fd8c-856b-4c84-993e-68a54250d189">
+    <name>RoomRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Room rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tarif</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тарифы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd9be07a-1279-4141-be6d-7647c72eb239">
+    <name>RoomQuota</name>
+    <synonym>
+      <key>en</key>
+      <value>Room allotment</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerquote</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Квота номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КвотаНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="04332f60-5776-4919-839a-2d5d7a229972">
+    <name>CheckInDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Check-in date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit der Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7b05b548-4bd0-44c3-a7b8-d427d166fd43">
+    <name>Duration</name>
+    <synonym>
+      <key>en</key>
+      <value>Duration</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dauer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="389b542b-2bf9-472b-85ef-79d312d08cbf">
+    <name>CheckOutDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Check-out date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum und Zeit der Abreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время выезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="89d3c542-d676-463c-9021-e9b6bd947422">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="26f4ee84-ed30-4e31-a2a6-25da3fce5f1c">
+    <name>FillWizardForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Fill wizard form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular des Masters zum Vervollständigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма мастера заполнения</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

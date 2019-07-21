@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cf6db96-ffc4-44c6-881e-a789b222537d">
+  <name>СнятиеПросроченнойКвоты</name>
+  <synonym>
+    <key>en</key>
+    <value>Снятие просроченной квоты</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Entfernung verfallener Kontingente der Zimmer</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Снятие просроченных квот номеров</value>
+  </synonym>
+  <methodName>CommonModule.РеглЗадания.cmReleaseExpiredRoomAllotments</methodName>
+  <key>ReleaseExpiredRoomAllotments</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>300</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

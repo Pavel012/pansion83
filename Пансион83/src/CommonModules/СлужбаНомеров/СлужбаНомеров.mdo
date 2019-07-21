@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="212448f9-a845-4723-9424-743cf7ebc67b">
+  <name>СлужбаНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Служба номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Zimmerdienst</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Служба номеров</value>
+  </synonym>
+  <global>true</global>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cb5a330-e336-4736-befb-5d670571ce26">
+  <name>CommonFunctionsOnClient</name>
+  <synonym>
+    <key>en</key>
+    <value>Common functions (on client)</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Allgemeine Funktionen (am Kunden)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Функции общего назначения (на клиенте)</value>
+  </synonym>
+  <global>true</global>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

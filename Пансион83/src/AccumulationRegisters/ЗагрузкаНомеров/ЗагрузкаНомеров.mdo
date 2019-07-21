@@ -1,0 +1,2581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aeb81e75-04ad-4f43-868f-b8ea2669c5d7">
+  <producedTypes>
+    <selectionType typeId="0ccf92f9-ec1b-4f11-b264-9ba2153a3a96" valueTypeId="7035604e-47f9-4434-a030-283eb47a4669"/>
+    <listType typeId="a64e0aba-acf5-401e-977f-bfea65f11dba" valueTypeId="0d71d144-c8ee-49a6-979d-b2ea379e5b15"/>
+    <managerType typeId="319d7dc5-86f2-45bb-9d9d-9f82b08b3ec5" valueTypeId="15e04fef-ec40-454c-90d7-c8ff76729446"/>
+    <recordSetType typeId="b4bec965-d09e-4490-85bc-89024847c7c3" valueTypeId="2d922c74-199d-413b-bcd9-04ead0d7b680"/>
+    <recordKeyType typeId="b50ffa20-8879-49d0-8f4c-b9d739f50779" valueTypeId="1eb567f5-6a2b-4d8c-83f5-d3ade542f43c"/>
+    <recordType typeId="e59adf7f-8317-4f67-8ee1-b37ff745f3ec" valueTypeId="4e4ed2c4-a222-4f6a-8e25-96c79b00a197"/>
+  </producedTypes>
+  <name>ЗагрузкаНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Загрузка номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Laden von Zimmern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка номеров</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c26c8823-5255-4588-91ab-3f27f6c31ff5">
+    <name>ВсегоНомеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Всего номеров</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>gesamt Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Всего номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="78098442-cc9e-4761-848d-af64c2f5109f">
+    <name>ВсегоМест</name>
+    <synonym>
+      <key>en</key>
+      <value>Всего мест</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gesamt Plätze</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Всего мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="76618c52-2232-4ce3-bfd6-ac64e90310ad">
+    <name>ВсегоГостей</name>
+    <synonym>
+      <key>en</key>
+      <value>Всего гостей</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gesamt Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Всего гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="357a8f84-1ec8-4df6-9544-5f74d86b72dc">
+    <name>ЗаблокНомеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Заблок номеров</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer blockiert</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокировано номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="22789c75-f8a9-477f-9281-68c367895c20">
+    <name>ЗаблокМест</name>
+    <synonym>
+      <key>en</key>
+      <value>Заблок мест</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Blockierte Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокировано мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0f95b9b2-b56a-4639-a4f1-fca810dc2b4c">
+    <name>ЗабронНомеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Заброн номеров</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer gebucht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6555a802-1c77-4403-909b-992d4529d767">
+    <name>ЗабронМест</name>
+    <synonym>
+      <key>en</key>
+      <value>Заброн мест</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gebuchte Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="14825aeb-9b8f-4748-8673-e714a04d306e">
+    <name>ЗабронДопМест</name>
+    <synonym>
+      <key>en</key>
+      <value>Заброн доп мест</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zusätzliche Betten gebucht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c1a65555-7280-42d8-953d-4784a4163e9f">
+    <name>ЗабронГостей</name>
+    <synonym>
+      <key>en</key>
+      <value>Заброн гостей</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gäste sind gebucht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f6151a56-0689-45f3-ade2-63f36a7a96a6">
+    <name>ЗаездНомеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд номеров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заезд номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c6a08ac4-cf6c-4137-b7e8-43e2d5eb54ca">
+    <name>BedsCheckedIn</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд мест</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Beds checked in</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="582e6d6b-a020-42ed-ac42-af66451a3046">
+    <name>AdditionalBedsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Additional beds checked in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreise zusätzlicher Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="1f5ebe2f-38ec-40e1-81de-ebd78e215f1e">
+    <name>GuestsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Guests checked in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreise der Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c37dd7c1-e2ba-486c-8b95-242cf98dcee0">
+    <name>InHouseRooms</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовано номеров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In house rooms</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="89e82c01-2db3-4b48-bf8b-dd7bbfb0240b">
+    <name>InHouseBeds</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовано мест</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In house beds</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b65241de-d350-4b05-b86d-f90dbcc482e0">
+    <name>InHouseAdditionalBeds</name>
+    <synonym>
+      <key>en</key>
+      <value>In house additional beds</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zusätzliche Betten verwendet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовано дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="813ef275-b349-4f6b-b478-6867327d1514">
+    <name>InHouseGuests</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проживает гостей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In house guests</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="080a93e2-6e9d-4bc8-aa86-5cebad297a80">
+    <name>RoomsCheckedOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms checked out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abreise Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="def5e7df-be11-4404-b80b-ec0428f48360">
+    <name>BedsCheckedOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Beds checked out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abreise Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="1d417155-319a-4a74-b8b6-3c16c53ef3fb">
+    <name>AdditionalBedsCheckedOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Additional beds checked out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abreise zusätzlicher Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8b0c5abf-a2ea-442e-a22e-3f08a8d5c81f">
+    <name>GuestsCheckedOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Guests checked out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abreise der Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="5d6674d8-44b4-44fb-b651-3f701f20e111">
+    <name>RoomsVacant</name>
+    <synonym>
+      <key>en</key>
+      <value>Rooms vacant</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Freie Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Свободно номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c4b4557e-9287-41d4-8e59-2df23edb9117">
+    <name>BedsVacant</name>
+    <synonym>
+      <key>en</key>
+      <value>Beds vacant</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Freie Plätze </value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Свободно мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6b6b4979-b0d3-4490-812f-8d3bbf9e74b2">
+    <name>GuestsVacant</name>
+    <synonym>
+      <key>en</key>
+      <value>Guests vacant</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gäste können einquartiert werden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Можно поселить гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="eccc845a-68a3-49e7-87e3-b7ffcfd32548">
+    <name>НомеровКвота</name>
+    <synonym>
+      <key>en</key>
+      <value>Номеров квота</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer in der Quote</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номеров в квоте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="5ef59229-224f-43d5-84d4-bbafd59ac988">
+    <name>BedsInQuota</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мест в квоте</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Beds in quota</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="458a6ed8-6d78-4c91-9ecb-e8c77f5b5614">
+    <name>GuaranteedRoomsReserved</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed rooms reserved</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gebuchte garantierte Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано гарантированных номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="4d3b1f20-c2c9-4ae5-8376-4cd8c6575b47">
+    <name>GuaranteedBedsReserved</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed beds reserved</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>gebuchte garantierte Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано гарантированных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="fb289ae6-5408-4f97-95f5-499f26302f78">
+    <name>GuaranteedAdditionalBedsReserved</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed additional beds reserved</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gebuchte garantierte zusätzliche Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано гарантированных дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="99b924f9-f915-4325-bb80-785a37a1b3ff">
+    <name>GuaranteedGuestsReserved</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed guests reserved</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gebuchte garantierte Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано гарантированных гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="68c82683-f2b6-425a-acd6-188666f1e490">
+    <name>ExpectedRoomsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected rooms checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Expected rooms checked-in</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый заезд номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c5fe57b9-109d-4fbe-93ff-20eaa0209a3a">
+    <name>ExpectedBedsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Expected beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый заезд мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="7c8504b3-1b80-4ff4-989e-ea2ea100b2a8">
+    <name>ExpectedAdditionalBedsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected additional beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Expected additional beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый заезд дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="825819ff-3a95-48c0-b13d-5a388a67600d">
+    <name>ExpectedGuestsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected guests checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Expected guests checked-in</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый заезд гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="bd1ad0c3-3520-47a2-bdf8-f2fef29a4b16">
+    <name>ExpectedRoomsCheckedOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected rooms checked out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geplante Abreise der Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый выезд номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="62777090-ae79-44c3-adca-787e958cc1e8">
+    <name>ExpectedBedsCheckedOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected beds checked out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geplante Abreise von Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый выезд мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b9a0e493-11e3-406f-89a7-3dbd603c50ac">
+    <name>ExpectedAdditionalBedsCheckedOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected additional beds checked out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geplante Abreise zusätzlicher Betten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый выезд дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="971c16cd-9b59-45e8-819e-a9a3c7e36f30">
+    <name>ExpectedGuestsCheckedOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Expected guests checked out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geplante Abreise von Gästen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый выезд гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ab03ac63-8cc0-4f97-9c96-58856efb7c9f">
+    <name>GuaranteedExpectedRoomsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed expected rooms checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Guaranteed expected rooms checked-in</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантированный планируемый заезд номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="207a158a-1101-4a0a-af5d-8f4a050ad72a">
+    <name>GuaranteedExpectedBedsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed expected beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Guaranteed expected beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантированный планируемый заезд мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6577c435-3483-4730-af6e-000b9bf7b3e1">
+    <name>GuaranteedExpectedAdditionalBedsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed expected additional beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Guaranteed expected additional beds checked-in</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантированный планируемый заезд дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e4a2153f-0f27-4396-ab4f-18a8a2838a0e">
+    <name>GuaranteedExpectedGuestsCheckedIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed expected guests checked-in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Guaranteed expected guests checked-in</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантированный планируемый заезд гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="7187f02a-e01a-4fa4-a90d-ed9ace802a97">
+    <name>Counter</name>
+    <synonym>
+      <key>en</key>
+      <value>Add room to room inventory documents counter </value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zähler der Dokumente für Eingabe von Zimmern in Benutzung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик документов ввода номеров в эксплуатацию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="36719e57-4ae3-4088-8f9b-18d0857f0b2b">
+    <name>Агент</name>
+    <synonym>
+      <key>en</key>
+      <value>Агент</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertreter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Агент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="46d7e314-d052-46d5-8347-a165acef5625">
+    <name>Контрагент</name>
+    <synonym>
+      <key>en</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a118070e-821d-473e-8bb9-69fb9a84e463">
+    <name>CustomerType</name>
+    <synonym>
+      <key>en</key>
+      <value>Customer type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Partners</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5545cc31-6beb-4bc9-b3e5-0537673eadb1">
+    <name>Contract</name>
+    <synonym>
+      <key>en</key>
+      <value>Contract</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertrag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="491df96b-00c6-47a1-ad1e-cefab59cd05e">
+    <name>ContactPerson</name>
+    <synonym>
+      <key>en</key>
+      <value>Contact person</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kontaktperson</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="95181482-afb2-4654-9864-0ec98c2b823d">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b7f58de9-153f-4429-a252-d38620c4fc30">
+    <name>ДокОснование</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument Begründung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+      <types>DocumentRef.СоставКвоты</types>
+      <types>DocumentRef.Бронирование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7f21fbd5-ddad-40a0-9ba0-43fb95e29b24">
+    <name>Reservation</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Reservierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бронь</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Бронирование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8f9dab74-dd2c-4121-8bfa-8b625df45664">
+    <name>HotelProduct</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница product</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Reisecheck oder Kurkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Путевка или курсовка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПутевкиКурсовки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="74d2c4cb-0818-45bf-8a34-13aaf17eaa80">
+    <name>ReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der Reservierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус брони</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9ed3d55e-f327-41d1-93ca-ca0e6082b0d9">
+    <name>AccommodationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Accommodation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der Unterbringungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус размещения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусРазмещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="daff9aed-b7c8-4664-8fc9-8434ccd4dcad">
+    <name>CheckInDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Check in date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreisedatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e169e2fe-190b-4339-833f-bb7823b17982">
+    <name>Duration</name>
+    <synonym>
+      <key>en</key>
+      <value>Duration in days or hours</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dauer standardmäßig in Tagen oder Stunden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность в днях или часах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e9ecc1c4-80e9-4cf0-8d39-e9e904be978a">
+    <name>CheckOutDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Check out date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abreisedatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7fdc9223-2a6f-4bd0-ac30-0960bd9b7d45">
+    <name>CheckInAccountingDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Check in accounting date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erfassungsdatum der Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ученая дата заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6d112fc6-f96a-4fe5-99a2-804238a90d6b">
+    <name>CheckOutAccountingDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Check out accounting date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erfassungsdatum der Abreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ученая дата выезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ed5d8cfa-b889-424c-a21a-dcc9191c4f7d">
+    <name>WaitTillDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Wait till date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Reservierung bis zum Datum behalten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Держать бронь до даты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="efee26ee-0b75-4a40-80b3-1cef1c5a4ba0">
+    <name>КвотаНомеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Квота номеров</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerquote</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Квота номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КвотаНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ba4d6a00-d554-446f-b11b-4078c5f62e85">
+    <name>AccommodationType</name>
+    <synonym>
+      <key>en</key>
+      <value>Accommodation type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Unterbringungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размещения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРазмещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4ca11e9e-56b6-4c7f-93ab-361f27c89cd1">
+    <name>RoomQuantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Room quantity</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmeranzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b3394174-e992-4c95-bf2b-9c30b241edea">
+    <name>NumberOfBedsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of beds per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="93cfa8da-2cd3-4897-b2f7-a2f4c5f9ddff">
+    <name>NumberOfPersonsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество гостей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="dda37713-d4e8-4591-886d-de3bfbcc0dad">
+    <name>NumberOfPersons</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenanzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество человек</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fdf873d6-599f-444b-a7ce-b3bd0b348a7a">
+    <name>NumberOfRooms</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of rooms</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmeranzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество номеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a856a20e-3801-4255-93ae-a32ae5329077">
+    <name>NumberOfBeds</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of beds</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0ee28d36-a512-4c10-a5a6-aa1f17e97e9d">
+    <name>NumberOfAdditionalBeds</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of additional beds</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl zusätzlicher Plätze</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дополнительных мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b7bad6c8-e7d3-45c1-a53d-d367ee205444">
+    <name>ТипКлиента</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип клиента</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kundentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип клиента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e93ee3ca-3824-454f-b737-646131719ad9">
+    <name>ClientTypeConfirmationText</name>
+    <synonym>
+      <key>en</key>
+      <value>Client type confirmation text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeile für die Bestätigung des Kundentyps</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подтверждения для типа клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="31da10c9-481a-48a5-ac2c-46a0315d7a6f">
+    <name>Guest</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gast</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5d0a0ce3-4c3f-4259-9edf-600273a22e50">
+    <name>MarketingCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Marketing code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Marketingrichtung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Направление маркетинга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КодМаркетинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a6f76828-67af-4206-a7e9-050ddd3ac40d">
+    <name>MarketingCodeConfirmationText</name>
+    <synonym>
+      <key>en</key>
+      <value>Marketing code confirmation text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeile für die Bestätigung der Marketingrichtung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подтверждения для направления маркетинга</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c30b3a41-a4af-489f-98f4-af41e5e9a661">
+    <name>SourceOfBusiness</name>
+    <synonym>
+      <key>en</key>
+      <value>Source of business for hotel</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Quelle von Hotelinformationen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Источник информации о гостинице</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточИнфоГостиница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6d1b7c44-3701-4ca0-8236-72d50b2ee521">
+    <name>Тариф</name>
+    <synonym>
+      <key>en</key>
+      <value>Тариф</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tarif</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тарифы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="972fbeb5-4eef-4678-b0d5-2875a7ccfab3">
+    <name>RoomRateType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room rate type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tariftyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип тарифа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыТарифов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b13e32e0-578f-430b-8616-422f0cc63467">
+    <name>RoomRateServiceGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Room rate service group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungen, die nach Tarif angerechnet werden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Набор услуг начисляемый по тарифу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="485acbb8-063c-4ce8-9bea-b972834cf1ff">
+    <name>DiscountCard</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount card</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Diskontkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконтная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДисконтныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="88abfcb1-1d80-4a7f-b7af-9fea0d8e4e61">
+    <name>DiscountType</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c9f12984-a1fc-43c7-8f00-2dd138f5f21c">
+    <name>DiscountConfirmationText</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount confirmation text</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Grund für die Einräumung des Preisnachlasses</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Основание предоставления скидки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6fb02557-3c92-45a9-a0c0-25177277672e">
+    <name>Discount</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preisnachlass %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Cкидка %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a36a9c55-bd93-47ae-bbda-2c5e60e2ae97">
+    <name>DiscountServiceGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Discount service group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Dienstleistungen, für die Preisnachlässe gelten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа услуг, на которую действует скидка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d0dcd67f-85eb-41f4-97ad-e432a342713f">
+    <name>PricePresentation</name>
+    <synonym>
+      <key>en</key>
+      <value>Price presentation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Darstellung des Preises</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Представление цены</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8c97a5f0-1379-417b-898f-68500f4da346">
+    <name>PlannedPaymentMethod</name>
+    <synonym>
+      <key>en</key>
+      <value>Planned payment method</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geplante Zahlungsmethode</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый способ оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СпособОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="00ea10b3-fd1c-44ff-a14a-77f5f9cfd1bb">
+    <name>Car</name>
+    <synonym>
+      <key>en</key>
+      <value>Car</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Fahrzeug</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9eae07c2-6c09-4d19-b9af-663709b4ca94">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="881da5c8-de02-4778-9c91-5e00f8d900ab">
+    <name>HousekeepingRemarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Housekeeping remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bemerkungen für Hausdame</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания для горничных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="39f5eab5-9e24-4bb5-b9b9-14c04469941d">
+    <name>AgentCommission</name>
+    <synonym>
+      <key>en</key>
+      <value>Agent commission</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vertreterkommission</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссия агента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7d3af2af-21da-4971-b149-af20df561056">
+    <name>AgentCommissionType</name>
+    <synonym>
+      <key>en</key>
+      <value>Agent commission type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Vertreterkommission</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид комиссии агента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.AgentCommissionTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="47db435e-069e-4a36-836c-8ef59432bfbb">
+    <name>AgentCommissionServiceGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Agent commission service group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungen , für die Vertreterkommission berechnet wird</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Набор услуг, по которому начисляется комиссия агентам</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="af92c899-6570-42ce-82ea-65ecd488b4d7">
+    <name>IsMaster</name>
+    <synonym>
+      <key>en</key>
+      <value>Is master in the group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Teamleiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Главный в группе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="bd22536e-8d80-4a09-8bce-8269a26b5997">
+    <name>RoomBlockType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room block type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Nummerblockierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид блокировки номера </value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидБлокНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="896ffd8b-fcfc-4993-964b-be5e44d283a6">
+    <name>IsFinished</name>
+    <synonym>
+      <key>en</key>
+      <value>Is finished</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abgeschlossen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3ff30d66-1198-4357-aba1-2365822cabc9">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="32053fff-3f86-47d1-8ad1-e066a39b5b8a">
+    <name>IsRoomInventory</name>
+    <synonym>
+      <key>en</key>
+      <value>Is room inventory</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist eine Initialisierung/Veränderung von Zimmern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это инициализация/изменение номеров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5317f904-7e37-4388-af44-72b2032e83ff">
+    <name>IsBlocking</name>
+    <synonym>
+      <key>en</key>
+      <value>Is rooms blocking</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist eine Blockierung von Zimmern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это блокирование номеров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ad21bcb0-f275-4cd5-aaa9-b4f0ac09f5e1">
+    <name>IsReservation</name>
+    <synonym>
+      <key>en</key>
+      <value>Is reservation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist eine Reservierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это бронирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e2dd1591-19cc-42df-853b-928c89fabd9b">
+    <name>IsAccommodation</name>
+    <synonym>
+      <key>en</key>
+      <value>Is accommodation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Diese Unterbringung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это размещение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ecdde1f9-5cf0-450e-9c85-240a41e21dc3">
+    <name>IsInHouse</name>
+    <synonym>
+      <key>en</key>
+      <value>Guests are in-house</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gäste sind untergebracht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гости проживают</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ced7355e-f48d-4978-bccd-3b32126651aa">
+    <name>IsCheckIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Is check in</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist eine Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это заезд</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3044738d-4b03-4f95-b279-1125d778689a">
+    <name>IsRoomChange</name>
+    <synonym>
+      <key>en</key>
+      <value>Is room change</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist eine Verlegung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это переселение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b999d1f7-084e-4966-935f-e9425a773bad">
+    <name>IsCheckOut</name>
+    <synonym>
+      <key>en</key>
+      <value>Is check out</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist die Abreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это выезд</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e16aaaf9-d160-415c-bac5-9810616b461c">
+    <name>IsRoomQuota</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это квота</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Is room quota</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0bee4da2-3939-441c-b5f7-b1232729f041">
+    <name>PeriodFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Movement period start date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Movement period start date</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время начала периода движения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="c9bc8bee-1fb9-45b7-93ef-9289b811582b">
+    <name>PeriodDuration</name>
+    <synonym>
+      <key>en</key>
+      <value>Period duration in days or hours</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Period duration in days or hours</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность периода в днях или часах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8b252a75-9287-4325-a6cb-0a88bdce9ca2">
+    <name>PeriodTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Movement period end date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Movement period end date</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время окончания периода движения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="ec26f6e0-ab2c-45aa-87f0-f418bbbc61da">
+    <name>ТипНомераРасчет</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type for upgrade</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp für die Preisberechnung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера для расчета цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0f7bef0b-3f02-45bd-bf04-1f07ad0da4e1">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="187fbf66-3954-47d0-8c0f-925b11f74ee2">
+    <name>ТипНомера</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип номера</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="860bbeda-97f5-4e71-9843-8c52beecca35">
+    <name>Номер</name>
+    <synonym>
+      <key>en</key>
+      <value>Номер</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

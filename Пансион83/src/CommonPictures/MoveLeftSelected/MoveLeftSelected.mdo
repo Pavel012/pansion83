@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c599cefc-fdd2-4648-a13e-466ebb7a2783">
+  <name>MoveLeftSelected</name>
+  <synonym>
+    <key>en</key>
+    <value>Move left selected</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Move left selected</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Перенести выбранные налево</value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+    <y>7</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

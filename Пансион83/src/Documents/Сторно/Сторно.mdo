@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6970ac0-436e-4693-9619-0f73a077c948">
+  <producedTypes>
+    <objectType typeId="62192d2e-0351-4149-849c-9e34e12f4d24" valueTypeId="924e4db3-d12b-4ba6-8dff-51c0a5fcf0ac"/>
+    <refType typeId="0a717941-be47-4605-b2cf-714dc73a6a2e" valueTypeId="3a854ea7-1333-44b5-b50f-31314bc2fb99"/>
+    <selectionType typeId="8c74e641-5b4d-4c9d-a85e-8ff690e06d81" valueTypeId="71142ea7-2f77-4a93-93e8-b8d10323a9ec"/>
+    <listType typeId="6f3bee54-af59-4ebd-b420-0bf466a92ea4" valueTypeId="55ce7629-5fd4-41a9-9835-9cc10da977c9"/>
+    <managerType typeId="f293ecbf-17d8-4dc5-b65e-504e9822ffda" valueTypeId="4e07d3ad-ca97-43ff-8c0d-532c6b8deab4"/>
+  </producedTypes>
+  <name>Сторно</name>
+  <synonym>
+    <key>en</key>
+    <value>Сторно</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Сторно</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сторно</value>
+  </synonym>
+  <inputByString>Document.Сторно.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.Начисление</basedOn>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Сторно.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.Сторно.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Document.Сторно.Form.ListForm</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.ПлатежиУслуги</registerRecords>
+  <registerRecords>AccumulationRegister.РеестрПутевокКурсовок</registerRecords>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>AccumulationRegister.ПродажиПутевокКурсовок</registerRecords>
+  <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccumulationRegister.НакопитСкидки</registerRecords>
+  <registerRecords>AccumulationRegister.РелизацияТекОтчетПериод</registerRecords>
+  <registerRecords>AccumulationRegister.РегистрацияУслуг</registerRecords>
+  <attributes uuid="9fe27465-bb60-4ec4-afc5-78d9851d5ed2">
+    <name>TypeOfStorno</name>
+    <synonym>
+      <key>en</key>
+      <value>Type of storno</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Stornotyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сторно</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CancelActionTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aecd2b58-56fc-4122-8cc2-8e9487366489">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="385081da-8994-4d69-bb1a-cc54e4fbaede">
+    <name>ParentDoc</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument Begründung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+      <types>DocumentRef.СоставКвоты</types>
+      <types>DocumentRef.Бронирование</types>
+      <types>DocumentRef.БроньУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d214a980-e068-4d16-8ba5-be33b77db336">
+    <name>ParentCharge</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent charge</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anrechnung, zu der ein Storno erfolgt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление, по которому делается сторно</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Начисление</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46da9f11-9c18-489d-811b-77a1dcb7f2fa">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13252287-f702-47ec-a9d4-e8c896f928fc">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5c083674-fe29-4177-80f5-da22f86c245d">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokumentformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f174be8-2e1d-4348-97cc-1537ccfe96c9">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

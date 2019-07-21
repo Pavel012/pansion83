@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0839726-706c-4e03-985c-4657a0cdd49a">
+  <name>SavePicture</name>
+  <synonym>
+    <key>en</key>
+    <value>Save picture</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bild speichern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить картинку</value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

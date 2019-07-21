@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa8c697d-4e4b-457c-86e6-484f0debe6d5">
+  <producedTypes>
+    <objectType typeId="7d25fb44-ec98-4984-b398-c7850ac6cfc0" valueTypeId="b7690a10-e3ae-4f37-9083-44235880a012"/>
+    <managerType typeId="9c3910cc-0be6-4a8c-9b91-dc95ebcb8b26" valueTypeId="f6c3c634-1f65-411d-8777-64d587a78a75"/>
+  </producedTypes>
+  <name>MainMenuSummaryIndexesReport</name>
+  <synonym>
+    <key>en</key>
+    <value>Sales</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verkäufe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.MainMenuSummaryIndexesReport.Form.ReportForm</defaultForm>
+  <mainDataCompositionSchema>Report.MainMenuSummaryIndexesReport.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a97ff941-8498-4d23-9c4f-e29a16a789f4">
+    <name>ReportForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="acb720b5-11bc-4348-9389-a01c2859c1c2">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="a5a50a55-dbc0-4dbf-ba5e-f5c970141d62">
+    <name>Template</name>
+    <synonym>
+      <key>en</key>
+      <value>Template</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

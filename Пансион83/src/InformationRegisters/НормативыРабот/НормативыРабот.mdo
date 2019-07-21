@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4734cb7f-fcab-49dc-ab05-1cd474aa0f52">
+  <producedTypes>
+    <selectionType typeId="f419cf52-2768-4337-b4ab-cff30382eb95" valueTypeId="61249702-ca7a-48b7-bb8a-69ff81720674"/>
+    <listType typeId="85fa26f6-38c9-4742-8d42-8b9dafac0bc5" valueTypeId="f48ebbe4-6aef-4756-9aba-9ab0a96450a9"/>
+    <managerType typeId="849db535-19b7-4a69-a4a3-28178ae596a3" valueTypeId="c0602693-9800-4dd6-8e75-150fa2dffb39"/>
+    <recordSetType typeId="ac96e600-dc0b-4836-a5b8-125775bc272f" valueTypeId="5402aed3-3108-40eb-a28c-0cb45ea2ca5e"/>
+    <recordKeyType typeId="be1c335b-b66e-4235-b8ac-229f5cb7d426" valueTypeId="6a413a14-3c91-48f5-a2e9-aa38697ba64b"/>
+    <recordType typeId="e4e90392-66c9-42a7-b159-e09a7e88c652" valueTypeId="a7af7dc0-d3e5-403f-b7c1-a7498808327d"/>
+    <recordManagerType typeId="6d1b2a36-b777-408c-a6a4-cc2e05e3bbce" valueTypeId="02a28652-f018-45b9-a3b0-7076d9b036d6"/>
+  </producedTypes>
+  <name>НормативыРабот</name>
+  <synonym>
+    <key>en</key>
+    <value>Нормативы работ</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Arbeitsnorm</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативы работ</value>
+  </synonym>
+  <defaultListForm>InformationRegister.НормативыРабот.Form.ListForm</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8edf091d-fa62-45df-aa24-ea191b4d58bb">
+    <name>Duration</name>
+    <synonym>
+      <key>en</key>
+      <value>Duration in minutes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Norm in Minuten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Норматив в минутах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="95f57f9a-e172-47bf-82d5-0784beb27daf">
+    <name>RoomSpace</name>
+    <synonym>
+      <key>en</key>
+      <value>Room space</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmerfläche</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь номера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3e44dd2f-4f3b-41ae-846a-08bf99108165">
+    <name>Operation</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Arbeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Работы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a45b7304-4d47-4ec7-ae25-47530594d8c7">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="fbeafe81-f001-42dc-9d2f-01ddd05a772c">
+    <name>RoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="53484c30-a4ee-4f0d-83b2-1329e103c55a">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="a7bc9db8-46c1-47b2-9be8-74341cf41c40">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="411dffb8-61e9-4304-a3ab-8dca8c7301e8">
+  <producedTypes>
+    <selectionType typeId="08a26b81-b97b-4f16-a8d2-0e7d7e7a2367" valueTypeId="85364555-3d75-43b8-96e2-54bc3cdf9c89"/>
+    <listType typeId="776b3111-7cd6-4cc8-8c03-9076758f2474" valueTypeId="82f147aa-bf66-40f2-9aaa-f06f2cd0545b"/>
+    <managerType typeId="cb08a4a0-9dc1-4d3e-859f-c94b8a050509" valueTypeId="c0d95c15-bdff-4d43-8980-db9b0df7a540"/>
+    <recordSetType typeId="302dd3a5-23bc-4245-a1a3-14497c53185a" valueTypeId="88b5159c-541f-48b1-99ee-dcdd1c99bf3c"/>
+    <recordKeyType typeId="9aa7dcee-0c88-4cd1-b527-d7649a589726" valueTypeId="b1fe85b8-a315-442a-a61f-41a81df75adf"/>
+    <recordType typeId="329f7b53-903a-44f0-906b-b2f6d6fab1aa" valueTypeId="056c6e59-115b-43e9-8632-84ed6a24401e"/>
+    <recordManagerType typeId="5b0aa98d-d143-490f-b6e0-ed698705910a" valueTypeId="f4244813-7be2-42d8-9944-cb044fc5eca5"/>
+  </producedTypes>
+  <name>ИсторияЗадач</name>
+  <synonym>
+    <key>en</key>
+    <value>Tasks history</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Aufgaben Geschichte</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>История задач</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ИсторияЗадач.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6c7e0738-b167-4631-96eb-d3d5f822b157">
+    <name>ParentDoc</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent message</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elternmitteilung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Родительское сообщение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="6d8fc9c2-aabb-4c43-b66f-1ac9406c567a">
+    <name>MessageType</name>
+    <synonym>
+      <key>en</key>
+      <value>Task type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aufgabentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="445684ab-88b0-42c8-a9c3-682e14a0f0de">
+    <name>MessageStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Task status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Aufgabenstatus</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус задачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="60e4867b-c4d5-4100-a82a-9d0a27e966ae">
+    <name>ValidFromDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Valid from date and time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt ab dem Datum und der Zeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с даты и времени</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="1baca1fc-e92d-44ef-a59f-ef1a77ff6654">
+    <name>ValidToDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Valid to date and time</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt bis zum Datum und bis zur Zeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует по дату и время</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="18f00e60-81cc-4093-8474-ee796ac4252e">
+    <name>CloseToDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Deadline to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Letzter Termin, um</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Срок исполнения до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="fc075c95-f504-487c-9e51-9ad74551be8b">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mitteilungstext</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1aa0a21e-e68f-4655-a0fd-0d6407a1dfdb">
+    <name>ForEmployee</name>
+    <synonym>
+      <key>en</key>
+      <value>For employee</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Für den Mitarbeiter:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Для сотрудника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="9013f290-93e7-4a59-80c3-7b597db5109d">
+    <name>ForDepartment</name>
+    <synonym>
+      <key>en</key>
+      <value>For department</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Für die Abteilung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Для отдела</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Отделы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="d5463c97-c0ac-473b-a42f-396aac23b4fe">
+    <name>IsClosed</name>
+    <synonym>
+      <key>en</key>
+      <value>Is closed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geschlossen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="e9b7e812-7d8c-4910-aac2-450306bf6b59">
+    <name>PopUp</name>
+    <synonym>
+      <key>en</key>
+      <value>Automatically pop up message when received</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Nachricht bei Erhalt automatisch anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически показать сообщение при получении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="04df4c66-a757-4e79-80c2-de8cdf44d9dc">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="5f9f96af-2bdf-4396-b3ce-e62ddd7206dc">
+    <name>ClosedBy</name>
+    <synonym>
+      <key>en</key>
+      <value>Closed by employee</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geschlossen bei Mitarbeiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыл сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="db0cb68f-6292-4cc4-bea5-c3ae9c18174f">
+    <name>DateWhenClosed</name>
+    <synonym>
+      <key>en</key>
+      <value>Date and time when closed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geschlossen Datum und Zeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="20ee7a62-e2de-4528-b705-1906b8d97f4b">
+    <name>Color</name>
+    <synonym>
+      <key>en</key>
+      <value>Color in the tasks list</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Farbe in der Aufgabenliste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет в списке задач</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="115b71dd-f761-4e7b-bfa9-f199cfbfb506">
+    <name>B24TaskID</name>
+    <synonym>
+      <key>en</key>
+      <value>Bitrix24 task ID</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bitrix24 Aufgabe-ID</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ID задачи в Битрикс24</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="ae83b648-53fa-4000-86c5-6efb822dd5ee">
+    <name>AccountingDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kontrolldatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="aca6175f-4d22-4237-825e-ac413fca84d0">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

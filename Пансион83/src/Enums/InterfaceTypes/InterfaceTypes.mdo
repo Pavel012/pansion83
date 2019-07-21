@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ccf3d29-a137-4a7e-a6ab-7d67a91903b0">
+  <producedTypes>
+    <refType typeId="20209753-9d19-479b-a864-0d3d625d5459" valueTypeId="3c4a6efe-8b18-4318-8e6d-5cc694745b80"/>
+    <listType typeId="c5c6fbb7-a8fd-4150-bd0a-184fc459d470" valueTypeId="e00acbad-c6f6-4e7c-83f9-222ef6dd8829"/>
+    <managerType typeId="931fdfe9-7e3e-400c-85ee-ee98d886f25e" valueTypeId="b5281bdd-6d30-450b-8410-e42f29f35319"/>
+  </producedTypes>
+  <name>InterfaceTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Interface types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Schnittstellentypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы интерфейсов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="5473af2d-f784-4b65-84bd-6fa247207530">
+    <name>Phone</name>
+    <synonym>
+      <key>en</key>
+      <value>Phone</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Telefon</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9790c8f3-5448-4aea-a925-5b418951db87">
+    <name>TV</name>
+    <synonym>
+      <key>en</key>
+      <value>TV</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>TV</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>TV</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d229502-b9a6-4436-be37-23d4b7b76c82">
+    <name>Internet</name>
+    <synonym>
+      <key>en</key>
+      <value>Internet</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Internet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a35143f-a007-42f2-b814-52c3ae9dae8d">
+    <name>Minibar</name>
+    <synonym>
+      <key>en</key>
+      <value>Minibar</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mini-Bar</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Минибар</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

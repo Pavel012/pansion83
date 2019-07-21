@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="856b0073-1b1f-49e3-90f1-185606f1373a">
+  <producedTypes>
+    <refType typeId="3fae72ad-56af-473e-ac30-6b56b38eafa6" valueTypeId="e550073e-e1dd-483a-8972-e41af7397aae"/>
+    <listType typeId="b7a0aa8c-15bc-4bf1-afb7-e369468896a9" valueTypeId="a6df80b6-ba32-4f2e-b511-1c6fd479eee8"/>
+    <managerType typeId="bcc5c0d2-ffb9-4572-b5cd-cefb5bdbc724" valueTypeId="9b09e3c2-7201-40ff-87ce-200783202389"/>
+  </producedTypes>
+  <name>DatesToGetBonusBalance</name>
+  <synonym>
+    <key>en</key>
+    <value>Dates to get bonus balance</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Datum des Erhalts der Bonibilanz</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Даты получения баланса по бонусам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="42a0fe80-5873-4335-b79a-fa8f4c3a2048">
+    <name>CheckInDate</name>
+    <synonym>
+      <key>en</key>
+      <value>At check-in date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zum Anreisedatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>На дату заезда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de7007a3-b8c0-453e-b827-e3688362f470">
+    <name>CurrentDate</name>
+    <synonym>
+      <key>en</key>
+      <value>At current date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zum aktuellen Datum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>На текущую дату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea7da44f-95a1-4bad-b07e-f0b8e3b28881">
+    <name>CheckOutDate</name>
+    <synonym>
+      <key>en</key>
+      <value>At check-out date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zum Abreisedatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>На дату выезда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

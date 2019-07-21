@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a06c72-2206-4bcb-b433-7c697bd6634a">
+  <producedTypes>
+    <refType typeId="46cbcf69-75dc-4a82-99a4-5c973d0f2201" valueTypeId="4b6c18f6-1e86-4b60-9ef8-9ce2f9613893"/>
+    <listType typeId="647bdb6e-5aec-42e7-b30e-fe41bfd2d698" valueTypeId="561a278c-6d1f-48ee-87e5-59f632b01f65"/>
+    <managerType typeId="1c3ab643-3450-4815-ba3d-87dc8acb89f2" valueTypeId="80561340-f4ca-44d2-9769-4e138df73e35"/>
+  </producedTypes>
+  <name>КтоПлатит</name>
+  <synonym>
+    <key>en</key>
+    <value>Кто платит</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Wer zahlt in der Ressourcenreservierung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Кто платит в брони ресурсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6b9b8a33-8735-4f0a-99a2-6fb0756c16dc">
+    <name>Client</name>
+    <synonym>
+      <key>en</key>
+      <value>Client</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kunde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="319c34c8-ce39-4aa7-967c-73d93a11afb8">
+    <name>Customer</name>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Firma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="600c9e11-29de-4a3f-aa02-9d3ec7738b88">
+    <name>Other</name>
+    <synonym>
+      <key>en</key>
+      <value>Other customer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anderer Partner</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Другой контрагент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

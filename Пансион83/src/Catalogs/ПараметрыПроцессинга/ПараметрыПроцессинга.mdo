@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e47434f-47f7-44ca-a1ae-f1002cb5046b">
+  <producedTypes>
+    <objectType typeId="58d1668a-06d5-4ae8-aad1-b9cb0d0dc022" valueTypeId="565ab75b-70fd-452d-8fa3-01dc90eed93c"/>
+    <refType typeId="6c25afad-d83a-4dc4-b402-fdf791b13331" valueTypeId="d473edae-1e0b-42d9-878d-99eb0a59ead3"/>
+    <selectionType typeId="f0653fc2-1826-4fe1-9673-f3dad3f6ca73" valueTypeId="508ea168-4c02-4157-8ec0-6eab54e0a623"/>
+    <listType typeId="65e41337-b5d5-4a09-8035-aa420ff8adbf" valueTypeId="e38d6480-3cf2-40a4-8cd8-bcd6595fb2a0"/>
+    <managerType typeId="aa4a09dd-2811-4303-aff3-bb835570a65a" valueTypeId="d71e737b-9387-479e-9d33-36727b893cb0"/>
+  </producedTypes>
+  <name>ПараметрыПроцессинга</name>
+  <synonym>
+    <key>en</key>
+    <value>Параметры процессинга</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Parameter des Kreditkartenverarbeitungssystems</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры системы процессинга кредитных карт</value>
+  </synonym>
+  <inputByString>Catalog.ПараметрыПроцессинга.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПараметрыПроцессинга.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПараметрыПроцессинга.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ПараметрыПроцессинга.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.ПараметрыПроцессинга.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ПараметрыПроцессинга.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="71980e0a-6e37-4b12-ba71-407bf6d91a65">
+    <name>CreditCardsProcessingSystemType</name>
+    <synonym>
+      <key>en</key>
+      <value>Credit cards processing system type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ des Verarbeitungssystems für Kreditkarten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип системы процессинга кредитных карт</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CreditCardsProcessingSystems</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3b3e5dbc-a0d9-4219-988a-2a1dcc40a47c">
+    <name>SlipCharLineLength</name>
+    <synonym>
+      <key>en</key>
+      <value>Slip line width in chars</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Symbolen Pro Quittung-Zeile</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество символов в строке слипа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="20359c8b-fea1-4242-8ee5-f9a735f6a22e">
+    <name>TerminalNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Terminal number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Terminalnummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер терминала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="febb400c-c7f8-4fd9-97e1-7f48839d650a">
+    <name>CurrentDeviceNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Current logical device number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nummer des genutzten logischen Geräts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер используемого логического устройства</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a29766d1-02d6-4afc-b41b-bb5ec2611640">
+    <name>SaveCreditCardsData</name>
+    <synonym>
+      <key>en</key>
+      <value>Save credit cards data to the data base</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kreditkartendaten in Datenbank speichern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранять данные кредитных карт в базе данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61eaefa8-8868-4726-9c6e-42a8eaeda533">
+    <name>PrintSlipUsingTerminalPrinter</name>
+    <synonym>
+      <key>en</key>
+      <value>Print pay card operation slip at EFTPOS terminal printer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Quittung der Kreditkartenoperationen auf dem Terminaldrucker drucken</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать слип операции по кредитной карте на принтере терминала</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8791ed4-52a2-4c56-b1bd-1f5bbfab7adf">
+    <name>PrintSlipInCheque</name>
+    <synonym>
+      <key>en</key>
+      <value>Print pay card operation slip at cash register printer inside open cheque</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Quittung der Kreditkartenoperationen auf dem Drucker der Registrierkarte  innerhalb des offenen Kassenbons drucken</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать слип операции по кредитной карте на принтере ККМ внутри открытого кассового чека</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82a22a03-d17c-4183-9d0a-c8dfaee79964">
+    <name>MultiTrackReader</name>
+    <synonym>
+      <key>en</key>
+      <value>Multi-track card reader is used</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mehrspur-Kartenleser wird verwendet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Используется многодорожечный считыватель карт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2389263c-6a9c-462a-96ef-d8c6f43618b0">
+    <name>CreditCardsProcessingSystemConnectionParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Credit cards processing system connection parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Parameter für den Anschluss ans Kreditkartenverarbeitungssystem</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры подключения к системе процессинга кредитных карт</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e5b8170b-aba7-4d4e-836b-b7c8abfd379e">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a1dfbdc-9220-40be-8fd0-596323778e9d">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="833b935b-a459-4c9a-9d2e-4f681f642d18">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

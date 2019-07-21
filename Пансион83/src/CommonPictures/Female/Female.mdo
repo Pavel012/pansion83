@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54f4bd2a-11f4-4f4a-83b2-ffd7df65b5b4">
+  <name>Female</name>
+  <synonym>
+    <key>en</key>
+    <value>Female</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Female</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Женщина</value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+    <y>7</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

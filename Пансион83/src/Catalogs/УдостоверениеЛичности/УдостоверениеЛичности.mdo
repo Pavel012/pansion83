@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e93c8c5-2184-445b-b99b-62ba295cf956">
+  <producedTypes>
+    <objectType typeId="5e632087-92db-4e83-88b0-f3e981db9003" valueTypeId="8cefca2a-b349-46b5-a165-f5a0496e7329"/>
+    <refType typeId="0271d41c-4780-4dac-b38f-f833fddf9a60" valueTypeId="48512131-088e-4b90-93be-ebf6a809bdc8"/>
+    <selectionType typeId="ed2ac536-f51f-4ac6-af99-270db8f8c0bb" valueTypeId="e9bf6b4f-bf93-4a40-80cc-938a0f89f1fb"/>
+    <listType typeId="e1536061-41a6-42af-b66e-c308484644bc" valueTypeId="1417a0fd-eff3-4304-b88b-7739270c8fa1"/>
+    <managerType typeId="7e8ca39b-b20e-43e1-a74a-780371abb5c2" valueTypeId="da192d5a-32eb-4a6b-ab23-e44c1ee61b57"/>
+  </producedTypes>
+  <name>УдостоверениеЛичности</name>
+  <synonym>
+    <key>en</key>
+    <value>Удостоверение личности</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Personalausweistypen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов удостоверяющих личность</value>
+  </synonym>
+  <inputByString>Catalog.УдостоверениеЛичности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УдостоверениеЛичности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.УдостоверениеЛичности.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.УдостоверениеЛичности.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="eab10c99-9473-42ed-9bae-57d147f35f2f">
+    <name>ExternalCode</name>
+    <synonym>
+      <key>en</key>
+      <value>External system code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im externen System</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код во внешней системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="939ebdf0-5ed6-4022-8181-fccf5fb9d2b5">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4e77c72a-c8dd-4ba9-8177-97e1f621aca0">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="36e86e46-ba11-4bfb-9422-71c85b33fa47">
+    <name>UMMSCodesRu</name>
+    <synonym>
+      <key>en</key>
+      <value>UMMS codes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>UMMS Codes</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Коды УФМС</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

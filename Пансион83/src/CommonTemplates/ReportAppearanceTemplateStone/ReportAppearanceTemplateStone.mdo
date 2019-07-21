@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6637d705-d3a7-4c51-b8da-0a77c41e80ec">
+  <name>ReportAppearanceTemplateStone</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Камень</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - Stone</value>
+  </synonym>
+</mdclass:CommonTemplate>

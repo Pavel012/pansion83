@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28d8fff0-e74a-41f0-9de8-aebee912c0da">
+  <producedTypes>
+    <refType typeId="87e2da64-ab43-4fd9-94b5-d3499af12ff1" valueTypeId="76fef977-294b-4a55-8212-54225a032e47"/>
+    <listType typeId="db02d14a-ac98-415a-a219-68383c90caa8" valueTypeId="5733cf02-a906-46c5-a403-19362d807640"/>
+    <managerType typeId="02ab0166-70a6-429c-858a-eda02ea6691e" valueTypeId="c5c666aa-75f3-434c-ae4d-a2fe4459d9e4"/>
+  </producedTypes>
+  <name>DurationCalculationRuleTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Accommodation duration calculation rule types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Berechnungsarten der Aufenthaltsdauer</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчета продолжительности проживания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="cbca9ee4-4620-4191-8fdc-b7654abc9188">
+    <name>ByReferenceHour</name>
+    <synonym>
+      <key>en</key>
+      <value>By reference hour</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach der Berechnungsstunde</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По расчетному часу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="900de793-e8c2-4d71-be5e-f35b018aaee0">
+    <name>ByDays</name>
+    <synonym>
+      <key>en</key>
+      <value>By days</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nach Tagen (nach Verpflegung)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По дням (по питанию)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc935e05-b4e2-47b8-9775-3a0809133701">
+    <name>ByNights</name>
+    <synonym>
+      <key>en</key>
+      <value>By nights</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Nächten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По ночам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ace019e2-6070-48bf-af6f-318c24f3c33c">
+    <name>ByHours</name>
+    <synonym>
+      <key>en</key>
+      <value>By hours</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach Stunden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По часам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

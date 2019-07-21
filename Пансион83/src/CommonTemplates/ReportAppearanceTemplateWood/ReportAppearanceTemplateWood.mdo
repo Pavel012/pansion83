@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41db8895-e8f6-436e-8f1d-b9567425fa72">
+  <name>ReportAppearanceTemplateWood</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Дерево</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - Wood</value>
+  </synonym>
+</mdclass:CommonTemplate>

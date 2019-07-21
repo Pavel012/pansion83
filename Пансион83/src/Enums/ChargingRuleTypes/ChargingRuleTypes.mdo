@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="783e26da-822d-46a0-b526-1eaccef515e6">
+  <producedTypes>
+    <refType typeId="260bf765-d485-4b0d-a4ae-c34c9f251b93" valueTypeId="972f676b-810c-4936-ae32-777419a779bb"/>
+    <listType typeId="db7998ab-30ad-42de-ab56-ea6188169fbf" valueTypeId="0964b1a6-460d-49d8-aa18-1df1baaebf92"/>
+    <managerType typeId="792587fe-46ef-4cf1-9cda-c8bff8c29e12" valueTypeId="facd1cd2-eca3-4387-8797-2a394897bcf2"/>
+  </producedTypes>
+  <name>ChargingRuleTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Charging rule types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen von Berechnungsregeln</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы правил начисления </value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="0bc36ad1-27a4-4f29-97ec-659dbd8f5fee">
+    <name>InRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Services included in room rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Im Tarif enthaltene Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги включенные в тариф</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2e944a5-a8e1-4710-862c-3a0cf80b5efd">
+    <name>NotInRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Services not included in room rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nicht im Tarif enthaltene Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги не включенные в тариф</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50acf372-39e1-471e-a8cd-8f904bce6837">
+    <name>InServiceGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Services included in service group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Im Set enthaltene Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги включенные в набор услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b31cd83-7b62-44d0-965f-5a3d6c6ca587">
+    <name>NotInServiceGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Services not included in service group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nicht im Dienstleistungsangebot enthaltene Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги не включенные в набор услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c234bcfe-942c-4636-8438-92c5ac024350">
+    <name>One</name>
+    <synonym>
+      <key>en</key>
+      <value>One particular service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eine gewählte Dienstleitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Одна выбранная услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="267cfd66-725c-43b8-b96b-042158ea8f05">
+    <name>AllButOne</name>
+    <synonym>
+      <key>en</key>
+      <value>All but one service chosen</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Alle außer des gewählten Dienstes</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Все кроме выбранной услуги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8723536f-e7b9-402b-a81b-461fc70689d7">
+    <name>RoomRevenuePrice</name>
+    <synonym>
+      <key>en</key>
+      <value>Room revenue price</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preis für Übernachtung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цена за проживание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46c10377-81db-4afa-bdee-d039a1bee22a">
+    <name>RoomRevenuePricePercent</name>
+    <synonym>
+      <key>en</key>
+      <value>Room revenue price percent</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Prozent des Preises für den Aufenthalt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Процент цены за проживание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfcfb44e-18fe-47b0-9dfd-3f5925124e32">
+    <name>RoomRevenuePriceByRoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room revenue price by room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preis für Übernachtung nach Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цена за проживание по типу номера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a11dabfa-32af-47ee-92d8-f3659a195812">
+    <name>RoomRevenueAmount</name>
+    <synonym>
+      <key>en</key>
+      <value>Room revenue amount</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Summe für den ganzen Aufenthaltszeitraum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма за весь срок проживания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39b254bd-188c-4e0d-a5e4-a151ffa1e2cf">
+    <name>RestOfRoomRevenuePrice</name>
+    <synonym>
+      <key>en</key>
+      <value>Rest of room revenue price</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rest der Unterkunftspreises</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток от цены за проживание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d1b0b98-c16e-478d-a054-031ba062089a">
+    <name>Any</name>
+    <synonym>
+      <key>en</key>
+      <value>Any service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beliebiger Dienst</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Любая услуга</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

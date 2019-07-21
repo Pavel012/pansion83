@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6c96890-588b-44c7-8804-7be1d1981978">
+  <producedTypes>
+    <objectType typeId="e853d376-3a59-4f53-aea9-156f11870949" valueTypeId="0ea50f88-f711-411a-91f9-45c5b6574aec"/>
+    <refType typeId="37d7074e-1640-47f4-a50f-717dd64d9b03" valueTypeId="89d5943a-8759-4ad0-834e-bd61611b6707"/>
+    <selectionType typeId="694907be-31e8-4808-9a0c-1c1980b61c1d" valueTypeId="3343c50e-e0dc-414a-a5be-470562886e4b"/>
+    <listType typeId="1125a2cf-9827-4bd0-a2bb-654a9bfefb80" valueTypeId="b1784a45-e742-4493-ad4c-a212208ead34"/>
+    <managerType typeId="dbdfadd2-9a81-48c0-815a-216db0d3f98e" valueTypeId="dffe8de6-9c81-4e5c-94aa-e3def8a4083d"/>
+  </producedTypes>
+  <name>СканерПараметры</name>
+  <synonym>
+    <key>en</key>
+    <value>Сканер параметры</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Anschlussparameter der Strichcodescanner</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры подключения сканеров штрихкодов</value>
+  </synonym>
+  <inputByString>Catalog.СканерПараметры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СканерПараметры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СканерПараметры.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.СканерПараметры.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.СканерПараметры.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.СканерПараметры.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="a65e2e8a-c2fe-4182-93b6-295c042fdb47">
+    <name>LogicalDeviceNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Logical device number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nummer des logischen Geräts</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер логического устройства</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23b4e61b-936d-4c1e-afeb-d3da865f0683">
+    <name>Port</name>
+    <synonym>
+      <key>en</key>
+      <value>Port</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Port</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90f28a49-4899-4a34-9d3b-e8b2e0ef0bf9">
+    <name>BaudRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Baud rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übertragungsrate</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Скорость обмена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6da9845a-6fe3-4a48-9962-60c42a180237">
+    <name>Parity</name>
+    <synonym>
+      <key>en</key>
+      <value>Parity</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Teilbarkeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Четность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ParityTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7507b7a7-b40b-4b0b-8f70-2fdd69242e44">
+    <name>DataBits</name>
+    <synonym>
+      <key>en</key>
+      <value>Data bits</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datenbits</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Биты данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.DataBits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd0df946-c3a1-4f76-8192-2fabf11173b0">
+    <name>StopBits</name>
+    <synonym>
+      <key>en</key>
+      <value>Stop bits</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Stoppbits</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Стоп биты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.StopBits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42a07240-4e78-4285-960b-5fef742e43e4">
+    <name>Prefix</name>
+    <synonym>
+      <key>en</key>
+      <value>Prefix</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Präfix</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0aa0ec93-564c-4fdb-853f-257a11e42a53">
+    <name>Suffix</name>
+    <synonym>
+      <key>en</key>
+      <value>Suffix</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Suffix</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Суффикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b85657d1-abd9-4777-a11a-a029fb6da16f">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="272d11d4-bb88-4d47-84a6-a4f94547e559">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d6fbc5d1-ac12-4cd8-9392-2789405dd77d">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

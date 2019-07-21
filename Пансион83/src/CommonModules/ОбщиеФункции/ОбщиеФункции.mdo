@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f299796-b67c-4e3e-b3c8-ed6cde9776d5">
+  <name>ОбщиеФункции</name>
+  <synonym>
+    <key>en</key>
+    <value>Общие функции</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Allgemeine Funktionen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Функции общего назначения</value>
+  </synonym>
+  <global>true</global>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa881fda-afae-4c89-b61a-3192386f237a">
+  <producedTypes>
+    <refType typeId="ed41e597-1d0f-46cb-b564-9f23f3c10ce2" valueTypeId="e5e71eb5-0d08-48b1-86b9-e6dcab93d67b"/>
+    <listType typeId="4f37f9f4-2af0-49e6-b554-ca50489131d0" valueTypeId="3e705280-350b-419c-af6a-785dc6596c19"/>
+    <managerType typeId="b809bf0c-2471-4af3-87e9-17005c6399e7" valueTypeId="386833a0-9095-46e4-8622-c48332c77ff8"/>
+  </producedTypes>
+  <name>QuantityRoundingRules</name>
+  <synonym>
+    <key>en</key>
+    <value>Quantity rounding rules</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Mengenrundungsregeln</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Правила округления количества</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="6a394132-8648-4931-995d-bc33fe537ee9">
+    <name>Int</name>
+    <synonym>
+      <key>en</key>
+      <value>Int part of number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ganzes</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Целое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="370cfc66-f184-4afd-80bf-be024f828866">
+    <name>Round</name>
+    <synonym>
+      <key>ru</key>
+      <value>По правилам округления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Round by math rounding rule</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef102625-b606-4db4-a2df-f6a6b31dd84c">
+    <name>Full</name>
+    <synonym>
+      <key>en</key>
+      <value>Full number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Vollständig</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Полное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

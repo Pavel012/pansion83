@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cff0f69d-14dd-48c7-aa5f-883236033ce6">
+  <producedTypes>
+    <objectType typeId="151e80ef-b76a-45ec-98d2-c50d0c5d89d1" valueTypeId="07ab906f-b4cc-487a-95d6-4ab5b1731f26"/>
+    <refType typeId="b67027be-e8a2-4f35-b6ec-7627ba8af270" valueTypeId="6aba5b92-edb5-4794-8478-4a5eca0b2b88"/>
+    <selectionType typeId="132a6ae4-ca51-4b9f-8883-c8c4e10d0e44" valueTypeId="5a52c179-879b-4995-8ecb-abab97202013"/>
+    <listType typeId="348d71a8-1309-4290-8238-bc266ae72470" valueTypeId="81970589-11a7-4cc7-b89b-74cfd3f6c963"/>
+    <managerType typeId="41f07750-8430-4fd8-9e57-6ce6227f6b79" valueTypeId="846cada7-847b-45e9-ad4b-87c216591400"/>
+  </producedTypes>
+  <name>Локализация</name>
+  <synonym>
+    <key>en</key>
+    <value>Локализация</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Sprachen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Локализация</value>
+  </synonym>
+  <inputByString>Catalog.Локализация.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Локализация.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="87f6e2bd-60fa-4f9e-b55b-21bb2f1fd255">
+      <name>DE</name>
+      <description>Deutsch Sprache</description>
+      <code xsi:type="core:StringValue">
+        <value>DE</value>
+      </code>
+    </items>
+    <items id="e1b9e011-7835-4fd1-8bec-ecca558efbab">
+      <name>EN</name>
+      <description>English language</description>
+      <code xsi:type="core:StringValue">
+        <value>EN</value>
+      </code>
+    </items>
+    <items id="4d9c801b-79e0-4131-ba73-42ebec012742">
+      <name>RU</name>
+      <description>Русский язык</description>
+      <code xsi:type="core:StringValue">
+        <value>RU</value>
+      </code>
+    </items>
+  </predefined>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultListForm>Catalog.Локализация.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Локализация.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="051cbffe-c114-4963-bf0c-cc1964df888b">
+    <name>LocalizationCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Localization code (ru_RU, en_US, ...)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code der Lokalisierung (ru_RU, en_US, ...)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код локализации (ru_RU, en_US, ...)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6fa29045-36ae-422b-99b6-af40ed342352">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6623ef6d-d005-4ff4-bd1e-94db18c21eb3">
+  <producedTypes>
+    <objectType typeId="80408143-e0a0-441f-b676-93ca118666ac" valueTypeId="57fd1a99-3bc4-4ce0-a5d8-e08631691479"/>
+    <managerType typeId="76d196ab-ccd9-48b6-a9e3-9ef3f3d82ac7" valueTypeId="b250c9e7-07b7-4637-a071-f3fa74cbbde1"/>
+  </producedTypes>
+  <name>PrintGuestCard</name>
+  <synonym>
+    <key>en</key>
+    <value>Print guest card</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Print guest card</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Печать карты гостя</value>
+  </synonym>
+  <defaultForm>Report.PrintGuestCard.Form.ReportForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="992c75d3-be3f-4b68-9783-41a64233eb11">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8fa56c97-ee09-4e02-abcd-bc0256d36676">
+    <name>Document</name>
+    <synonym>
+      <key>en</key>
+      <value>Document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+      <types>DocumentRef.Бронирование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="78ec55ec-91ff-4cb6-9bd2-9b08636c9504">
+    <name>TypeOfPrintForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Type of print form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Druckform</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип печатной формы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a542ad17-1fec-449c-8ff8-0c13497aed9e">
+    <name>CheckInDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Check-in date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreisedatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="733907d4-7238-4320-891e-e969000787fd">
+    <name>Report</name>
+    <synonym>
+      <key>en</key>
+      <value>Report</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bericht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Отчеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2459ee79-e254-4f85-874c-424c307f5dd6">
+    <name>ReportForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3d0a592c-ac21-4292-b851-afad1136154b">
+    <name>FreeForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Free form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Free form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Свободная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="c322723d-8c90-4711-ba69-ae38e79d5316">
+    <name>Form4G</name>
+    <synonym>
+      <key>en</key>
+      <value>Form 4-G</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form 4-G</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 4-Г</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

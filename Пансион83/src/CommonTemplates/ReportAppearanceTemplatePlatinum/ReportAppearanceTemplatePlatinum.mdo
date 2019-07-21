@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eddf9f3f-90a0-4772-aede-d2f1d815f82b">
+  <name>ReportAppearanceTemplatePlatinum</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Платина</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - Platinum</value>
+  </synonym>
+</mdclass:CommonTemplate>

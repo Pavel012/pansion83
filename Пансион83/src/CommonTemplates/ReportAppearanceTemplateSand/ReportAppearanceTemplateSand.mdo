@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b46aa1fe-fd83-44ff-92ab-1cf44dd34335">
+  <name>ReportAppearanceTemplateSand</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Песок</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - Sand</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,1775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>AccumulationRegs</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetUnion">
+		<name>Sales</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>AccountingDate</dataPath>
+			<field>AccountingDate</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Date</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>de</v8:lang>
+					<v8:content>Datum</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Room</dataPath>
+			<field>Room</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RoomType</dataPath>
+			<field>RoomType</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Service</dataPath>
+			<field>Service</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ServiceType</dataPath>
+			<field>ServiceType</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип услуги</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Service type</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>de</v8:lang>
+					<v8:content>Art der Dienstleistung</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RoomsBlockedClosingBalance</dataPath>
+			<field>RoomsBlockedClosingBalance</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Rooms blocked closing balance</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Гостиница</dataPath>
+			<field>Гостиница</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>BedsCheckedInОборот</dataPath>
+			<field>BedsCheckedInОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RoomBlockType</dataPath>
+			<field>RoomBlockType</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УчетнаяДата</dataPath>
+			<field>УчетнаяДата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаГостей</dataPath>
+			<field>ГруппаГостей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетПроживания</dataPath>
+			<field>СчетПроживания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокОснование</dataPath>
+			<field>ДокОснование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуга</dataPath>
+			<field>Услуга</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Агент</dataPath>
+			<field>Агент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цена</dataPath>
+			<field>Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособОплаты</dataPath>
+			<field>СпособОплаты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипНомера</dataPath>
+			<field>ТипНомера</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСкидки</dataPath>
+			<field>ТипСкидки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПутевкаКурсовка</dataPath>
+			<field>ПутевкаКурсовка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Тариф</dataPath>
+			<field>Тариф</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКлиента</dataPath>
+			<field>ТипКлиента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерРазмещения</dataPath>
+			<field>НомерРазмещения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ресурс</dataPath>
+			<field>Ресурс</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Фирма</dataPath>
+			<field>Фирма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипРесурса</dataPath>
+			<field>ТипРесурса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидРазмещения</dataPath>
+			<field>ВидРазмещения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Скидка</dataPath>
+			<field>Скидка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомиссияАгента</dataPath>
+			<field>КомиссияАгента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидКомиссииАгента</dataPath>
+			<field>ВидКомиссииАгента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтавкаНДС</dataPath>
+			<field>СтавкаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоходДопМестаОборот</dataPath>
+			<field>ДоходДопМестаОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроданоМестОборот</dataPath>
+			<field>ПроданоМестОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроданоНомеровОборот</dataPath>
+			<field>ПроданоНомеровОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаездНомеровОборот</dataPath>
+			<field>ЗаездНомеровОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродажиОборот</dataPath>
+			<field>ПродажиОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроданоДопМестОборот</dataPath>
+			<field>ПроданоДопМестОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоходОтНомеровОборот</dataPath>
+			<field>ДоходОтНомеровОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаездГостейОборот</dataPath>
+			<field>ЗаездГостейОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаездДопМестОборот</dataPath>
+			<field>ЗаездДопМестОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродажиРесурсыОборот</dataPath>
+			<field>ПродажиРесурсыОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточИнфоГостиница</dataPath>
+			<field>ИсточИнфоГостиница</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаретингНапрвл</dataPath>
+			<field>МаретингНапрвл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипДеньКалендарь</dataPath>
+			<field>ТипДеньКалендарь</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПризнакЦены</dataPath>
+			<field>ПризнакЦены</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДисконтКарт</dataPath>
+			<field>ДисконтКарт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКотрагента</dataPath>
+			<field>ТипКотрагента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип котрагента</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<item xsi:type="DataSetQuery">
+			<name>ByDates</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>AccountingDate</dataPath>
+				<field>AccountingDate</field>
+				<role>
+					<dcscom:periodNumber>1</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Room</dataPath>
+				<field>Room</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>RoomType</dataPath>
+				<field>RoomType</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>RoomsBlockedClosingBalance</dataPath>
+				<field>RoomsBlockedClosingBalance</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Rooms blocked closing balance</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Гостиница</dataPath>
+				<field>Гостиница</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>BedsCheckedInОборот</dataPath>
+				<field>BedsCheckedInОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>RoomBlockType</dataPath>
+				<field>RoomBlockType</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УчетнаяДата</dataPath>
+				<field>УчетнаяДата</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГруппаГостей</dataPath>
+				<field>ГруппаГостей</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СчетПроживания</dataPath>
+				<field>СчетПроживания</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокОснование</dataPath>
+				<field>ДокОснование</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Договор</dataPath>
+				<field>Договор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Услуга</dataPath>
+				<field>Услуга</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Агент</dataPath>
+				<field>Агент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Клиент</dataPath>
+				<field>Клиент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Цена</dataPath>
+				<field>Цена</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СпособОплаты</dataPath>
+				<field>СпособОплаты</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипНомера</dataPath>
+				<field>ТипНомера</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипСкидки</dataPath>
+				<field>ТипСкидки</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автор</dataPath>
+				<field>Автор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПутевкаКурсовка</dataPath>
+				<field>ПутевкаКурсовка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Тариф</dataPath>
+				<field>Тариф</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипКлиента</dataPath>
+				<field>ТипКлиента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НомерРазмещения</dataPath>
+				<field>НомерРазмещения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ресурс</dataPath>
+				<field>Ресурс</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Фирма</dataPath>
+				<field>Фирма</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипРесурса</dataPath>
+				<field>ТипРесурса</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидРазмещения</dataPath>
+				<field>ВидРазмещения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Валюта</dataPath>
+				<field>Валюта</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Скидка</dataPath>
+				<field>Скидка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КомиссияАгента</dataPath>
+				<field>КомиссияАгента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидКомиссииАгента</dataPath>
+				<field>ВидКомиссииАгента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтавкаНДС</dataPath>
+				<field>СтавкаНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДоходДопМестаОборот</dataPath>
+				<field>ДоходДопМестаОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПроданоМестОборот</dataPath>
+				<field>ПроданоМестОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПроданоНомеровОборот</dataPath>
+				<field>ПроданоНомеровОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаездНомеровОборот</dataPath>
+				<field>ЗаездНомеровОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПродажиОборот</dataPath>
+				<field>ПродажиОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПроданоДопМестОборот</dataPath>
+				<field>ПроданоДопМестОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДоходОтНомеровОборот</dataPath>
+				<field>ДоходОтНомеровОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаездГостейОборот</dataPath>
+				<field>ЗаездГостейОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаездДопМестОборот</dataPath>
+				<field>ЗаездДопМестОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПродажиРесурсыОборот</dataPath>
+				<field>ПродажиРесурсыОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИсточИнфоГостиница</dataPath>
+				<field>ИсточИнфоГостиница</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МаретингНапрвл</dataPath>
+				<field>МаретингНапрвл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипДеньКалендарь</dataPath>
+				<field>ТипДеньКалендарь</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПризнакЦены</dataPath>
+				<field>ПризнакЦены</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДисконтКарт</dataPath>
+				<field>ДисконтКарт</field>
+			</field>
+			<dataSource>AccumulationRegs</dataSource>
+			<query>ВЫБРАТЬ
+	БлокирНомеровОстаткиИОбороты.Гостиница КАК Гостиница,
+	БлокирНомеровОстаткиИОбороты.Период КАК AccountingDate,
+	-БлокирНомеровОстаткиИОбороты.RoomsBlockedКонечныйОстаток КАК RoomsBlockedClosingBalance,
+	ПродажиОбороты.ПродажиОборот КАК ПродажиОборот,
+	ПродажиОбороты.ПроданоНомеровОборот КАК ПроданоНомеровОборот,
+	ПродажиОбороты.ПроданоМестОборот КАК ПроданоМестОборот,
+	ПродажиОбороты.ПроданоДопМестОборот КАК ПроданоДопМестОборот,
+	ПродажиОбороты.ДоходОтНомеровОборот КАК ДоходОтНомеровОборот,
+	ПродажиОбороты.ДоходДопМестаОборот КАК ДоходДопМестаОборот,
+	ПродажиОбороты.ЗаездГостейОборот КАК ЗаездГостейОборот,
+	ПродажиОбороты.ЗаездНомеровОборот КАК ЗаездНомеровОборот,
+	ПродажиОбороты.ЗаездМестОборот КАК BedsCheckedInОборот,
+	ПродажиОбороты.ЗаездДопМестОборот КАК ЗаездДопМестОборот,
+	ПродажиОбороты.ПродажиРесурсыОборот КАК ПродажиРесурсыОборот
+ИЗ
+	РегистрНакопления.БлокирНомеров.ОстаткиИОбороты(
+			НАЧАЛОПЕРИОДА(&amp;BeginOfPeriod, ДЕНЬ),
+			КОНЕЦПЕРИОДА(&amp;EndOfPeriod, ДЕНЬ),
+			DAY,
+			RegisterRecordsAndPeriodBoundaries,
+			Гостиница = &amp;Гостиница
+				ИЛИ &amp;Гостиница = &amp;EmptyHotel) КАК БлокирНомеровОстаткиИОбороты
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.Продажи.Обороты(
+				НАЧАЛОПЕРИОДА(&amp;BeginOfPeriod, ДЕНЬ),
+				КОНЕЦПЕРИОДА(&amp;EndOfPeriod, ДЕНЬ),
+				DAY,
+				Гостиница = &amp;Гостиница
+					ИЛИ &amp;Гостиница = &amp;EmptyHotel) КАК ПродажиОбороты
+		ПО (ПродажиОбороты.Период = БлокирНомеровОстаткиИОбороты.Период)
+			И (ПродажиОбороты.Гостиница = БлокирНомеровОстаткиИОбороты.Гостиница)</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>ByServices</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Service</dataPath>
+				<field>Service</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ServiceType</dataPath>
+				<field>ServiceType</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Гостиница</dataPath>
+				<field>Гостиница</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УчетнаяДата</dataPath>
+				<field>УчетнаяДата</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГруппаГостей</dataPath>
+				<field>ГруппаГостей</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СчетПроживания</dataPath>
+				<field>СчетПроживания</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокОснование</dataPath>
+				<field>ДокОснование</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Договор</dataPath>
+				<field>Договор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Услуга</dataPath>
+				<field>Услуга</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Агент</dataPath>
+				<field>Агент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Клиент</dataPath>
+				<field>Клиент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Цена</dataPath>
+				<field>Цена</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СпособОплаты</dataPath>
+				<field>СпособОплаты</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автор</dataPath>
+				<field>Автор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПутевкаКурсовка</dataPath>
+				<field>ПутевкаКурсовка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Тариф</dataPath>
+				<field>Тариф</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипКлиента</dataPath>
+				<field>ТипКлиента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НомерРазмещения</dataPath>
+				<field>НомерРазмещения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипНомера</dataPath>
+				<field>ТипНомера</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ресурс</dataPath>
+				<field>Ресурс</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Фирма</dataPath>
+				<field>Фирма</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипРесурса</dataPath>
+				<field>ТипРесурса</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидРазмещения</dataPath>
+				<field>ВидРазмещения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Валюта</dataPath>
+				<field>Валюта</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Скидка</dataPath>
+				<field>Скидка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипСкидки</dataPath>
+				<field>ТипСкидки</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КомиссияАгента</dataPath>
+				<field>КомиссияАгента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидКомиссииАгента</dataPath>
+				<field>ВидКомиссииАгента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтавкаНДС</dataPath>
+				<field>СтавкаНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПродажиОборот</dataPath>
+				<field>ПродажиОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИсточИнфоГостиница</dataPath>
+				<field>ИсточИнфоГостиница</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МаретингНапрвл</dataPath>
+				<field>МаретингНапрвл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипДеньКалендарь</dataPath>
+				<field>ТипДеньКалендарь</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПризнакЦены</dataPath>
+				<field>ПризнакЦены</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДисконтКарт</dataPath>
+				<field>ДисконтКарт</field>
+			</field>
+			<dataSource>AccumulationRegs</dataSource>
+			<query>ВЫБРАТЬ
+	ПродажиОбороты.Гостиница КАК Гостиница,
+	ПродажиОбороты.Услуга.ServiceType КАК ServiceType,
+	ПродажиОбороты.Услуга КАК Service,
+	ПродажиОбороты.ПродажиОборот КАК ПродажиОборот
+ИЗ
+	РегистрНакопления.Продажи.Обороты(
+			НАЧАЛОПЕРИОДА(&amp;BeginOfPeriod, ДЕНЬ),
+			КОНЕЦПЕРИОДА(&amp;EndOfPeriod, ДЕНЬ),
+			PERIOD,
+			Гостиница = &amp;Гостиница
+				ИЛИ &amp;Гостиница = &amp;EmptyHotel) КАК ПродажиОбороты</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>ByCustomers</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Гостиница</dataPath>
+				<field>Гостиница</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УчетнаяДата</dataPath>
+				<field>УчетнаяДата</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГруппаГостей</dataPath>
+				<field>ГруппаГостей</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СчетПроживания</dataPath>
+				<field>СчетПроживания</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокОснование</dataPath>
+				<field>ДокОснование</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Договор</dataPath>
+				<field>Договор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Агент</dataPath>
+				<field>Агент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Клиент</dataPath>
+				<field>Клиент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Услуга</dataPath>
+				<field>Услуга</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Цена</dataPath>
+				<field>Цена</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СпособОплаты</dataPath>
+				<field>СпособОплаты</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автор</dataPath>
+				<field>Автор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПутевкаКурсовка</dataPath>
+				<field>ПутевкаКурсовка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Тариф</dataPath>
+				<field>Тариф</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипКлиента</dataPath>
+				<field>ТипКлиента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НомерРазмещения</dataPath>
+				<field>НомерРазмещения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипНомера</dataPath>
+				<field>ТипНомера</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ресурс</dataPath>
+				<field>Ресурс</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Фирма</dataPath>
+				<field>Фирма</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипРесурса</dataPath>
+				<field>ТипРесурса</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидРазмещения</dataPath>
+				<field>ВидРазмещения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Валюта</dataPath>
+				<field>Валюта</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Скидка</dataPath>
+				<field>Скидка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипСкидки</dataPath>
+				<field>ТипСкидки</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КомиссияАгента</dataPath>
+				<field>КомиссияАгента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидКомиссииАгента</dataPath>
+				<field>ВидКомиссииАгента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтавкаНДС</dataPath>
+				<field>СтавкаНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипКотрагента</dataPath>
+				<field>ТипКотрагента</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Тип котрагента</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДоходОтНомеровОборот</dataPath>
+				<field>ДоходОтНомеровОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИсточИнфоГостиница</dataPath>
+				<field>ИсточИнфоГостиница</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПродажиОборот</dataPath>
+				<field>ПродажиОборот</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МаретингНапрвл</dataPath>
+				<field>МаретингНапрвл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипДеньКалендарь</dataPath>
+				<field>ТипДеньКалендарь</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПризнакЦены</dataPath>
+				<field>ПризнакЦены</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДисконтКарт</dataPath>
+				<field>ДисконтКарт</field>
+			</field>
+			<dataSource>AccumulationRegs</dataSource>
+			<query>ВЫБРАТЬ
+	ПродажиОбороты.Гостиница КАК Гостиница,
+	ПродажиОбороты.Контрагент.ТипКонтрагента КАК ТипКотрагента,
+	ПродажиОбороты.Контрагент КАК Контрагент,
+	ПродажиОбороты.ПродажиОборот КАК ПродажиОборот,
+	ПродажиОбороты.ДоходОтНомеровОборот КАК ДоходОтНомеровОборот
+ИЗ
+	РегистрНакопления.Продажи.Обороты(
+			НАЧАЛОПЕРИОДА(&amp;BeginOfPeriod, ДЕНЬ),
+			КОНЕЦПЕРИОДА(&amp;EndOfPeriod, ДЕНЬ),
+			PERIOD,
+			Гостиница = &amp;Гостиница
+				ИЛИ &amp;Гостиница = &amp;EmptyHotel) КАК ПродажиОбороты</query>
+		</item>
+	</dataSet>
+	<calculatedField>
+		<dataPath>RoomsAvailable</dataPath>
+		<expression>TotalRoomsClosingBalance- RoomsBlockedClosingBalance</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Номеров в продаже</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Rooms available</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>de</v8:lang>
+				<v8:content>Zimmer im Verkauf</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<inputParameters>
+			<dcscor:item>
+				<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ND=10; NFD=0; NZ=; NG=</dcscor:value>
+			</dcscor:item>
+		</inputParameters>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>OccupancyPercent</dataPath>
+		<expression>cmRound(ISNULL(100*RoomsRentedTurnover/(TotalRoomsClosingBalance- RoomsBlockedClosingBalance), 0), 2)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>% Продаж номеров</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Occupancy %</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>de</v8:lang>
+				<v8:content>% der Zimmerverkäufe</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>6</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<inputParameters>
+			<dcscor:item>
+				<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ND=6; NFD=2; NZ=; NG=</dcscor:value>
+			</dcscor:item>
+		</inputParameters>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>RevPAR</dataPath>
+		<expression>cmRound(ISNULL(RoomRevenueTurnover/(TotalRoomsClosingBalance -RoomsBlockedClosingBalance), 0), 2)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сред. доходность номера (RevPAR)</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Rev. per average room (RevPAR)</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>de</v8:lang>
+				<v8:content>durchschnittlicher Ertrag des Zimmers (RevRAR)</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>17</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<inputParameters>
+			<dcscor:item>
+				<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ND=17; NFD=2; NZ=</dcscor:value>
+			</dcscor:item>
+		</inputParameters>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ADR</dataPath>
+		<expression>CASE WHEN RoomsRentedTurnover&lt;&gt;0 And RoomRevenueTurnover&lt;&gt;0 Then cmRound(ISNULL(RoomRevenueTurnover/RoomsRentedTurnover, 0), 2) Else 0 End</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сред. цена за номер (ADR)</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Average Daily Rate (ADR)</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>de</v8:lang>
+				<v8:content>Durchschnittspreis pro Zimmer (ADR)</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>17</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<inputParameters>
+			<dcscor:item>
+				<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ND=17; NFD=2; NZ=</dcscor:value>
+			</dcscor:item>
+		</inputParameters>
+	</calculatedField>
+	<totalField>
+		<dataPath>OccupancyPercent</dataPath>
+		<expression>cmRound(ISNULL(100*Sum(RoomsRentedTurnover)/Sum(RoomsAvailable), 0), 2)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>RevPAR</dataPath>
+		<expression>cmRound(ISNULL(Sum(RoomRevenueTurnover)/Sum(RoomsAvailable), 0), 2)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>RoomsAvailable</dataPath>
+		<expression>cmRound(ISNULL(Sum(RoomsAvailable), 0), 0)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ADR</dataPath>
+		<expression>Sum(ADR)</expression>
+	</totalField>
+	<parameter>
+		<name>BeginOfPeriod</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Begin of period</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>de</v8:lang>
+				<v8:content>Zeitraumbeginn</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>EndOfPeriod</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>End of period</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>de</v8:lang>
+				<v8:content>Zeitraumende</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>EmptyHotel</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Empty hotel</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Гостиницы</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Гостиница</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Гостиница</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Гостиницы</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Default</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной отчет</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Main report</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>de</v8:lang>
+				<v8:content>Hauptbericht</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>AccountingDate</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>AdditionalBedsCheckedInОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>AdditionalBedsRentedОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>BedsCheckedInОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>BedsRentedОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>GuestDaysОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>GuestsCheckedInОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Гостиница</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ResourceRevenueОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>RoomRevenueОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>RoomsRentedОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>SalesОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Service</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>BeginOfPeriod</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisMonth</v8:variant>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>EndOfPeriod</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>SalesTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ExtraBedRevenueTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ResourceRevenueTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>RevPAR</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ADR</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>RoomRevenueTurnover</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ND=17; NFD=2; NZ=</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>ND=17; NFD=2; NZ=</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>de</v8:lang>
+									<v8:content>ND=17; NFD=2; NZ=</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>AccountingDate</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>DF=dd.MM.yyyy</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>DF=dd.MM.yyyy</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>de</v8:lang>
+									<v8:content>DF=dd.MM.yyyy</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>CounterClosingBalance</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Размещение</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Cut</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">0.01</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</dcsset:presentation>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Гостиница</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">AccountingDate</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="v8:StandardBeginningDate">
+								<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+								<v8:date>0001-01-01T00:00:00</v8:date>
+							</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Гостиница.SortCode</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Гостиница.Description</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Гостиница</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>SalesTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>RoomRevenueTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>RoomsAvailable</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>RoomsRentedTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>GuestDaysTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>GuestsCheckedInTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>OccupancyPercent</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>RevPAR</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ADR</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>AccountingDate</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>AccountingDate</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>AccountingDate</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>SalesTurnover</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>RoomRevenueTurnover</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>RoomsAvailable</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>RoomsRentedTurnover</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>GuestDaysTurnover</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>GuestsCheckedInTurnover</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>OccupancyPercent</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>RevPAR</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ADR</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>CounterClosingBalance</dcsset:field>
+							</dcsset:item>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Гостиница</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>AccountingDate</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>SalesTurnover</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>RoomRevenueTurnover</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>RoomsAvailable</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>RoomsRentedTurnover</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>GuestDaysTurnover</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>GuestsCheckedInTurnover</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>OccupancyPercent</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>RevPAR</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ADR</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Заголовок</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Загрузка и продажи по дням</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Room revenue by days</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>de</v8:lang>
+								<v8:content>Auslastung und Verkäufe nach Tagen</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Гостиница</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Service</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Гостиница.SortCode</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Гостиница.Description</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Гостиница</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>SalesTurnover</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ServiceType</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>ServiceType.SortCode</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>ServiceType.Description</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ServiceType</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>SalesTurnover</dcsset:field>
+							</dcsset:item>
+						</dcsset:selection>
+						<dcsset:outputParameters>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:use>false</dcscor:use>
+								<dcscor:parameter>Заголовок</dcscor:parameter>
+								<dcscor:value xsi:type="v8:LocalStringType">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Тип услуги</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Service type</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>de</v8:lang>
+										<v8:content>Art der Dienstleistung</v8:content>
+									</v8:item>
+								</dcscor:value>
+							</dcscor:item>
+						</dcsset:outputParameters>
+						<dcsset:item>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Service</dcsset:field>
+									<dcsset:groupType>Hierarchy</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemField">
+									<dcsset:field>Service.SortCode</dcsset:field>
+									<dcsset:orderType>Asc</dcsset:orderType>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:OrderItemField">
+									<dcsset:field>Service.Description</dcsset:field>
+									<dcsset:orderType>Asc</dcsset:orderType>
+								</dcsset:item>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>Service</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>SalesTurnover</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Гостиница</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Service.ServiceType</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Service</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>SalesTurnover</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТипЗаголовкаПолей</dcscor:parameter>
+						<dcscor:value xsi:type="dcscor:DataCompositionFieldsTitleType">Short</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Заголовок</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Продажи по услугам</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Service sales turnovers</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>de</v8:lang>
+								<v8:content>Verkäufe nach Dienstleistungen</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Гостиница</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Customer</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Гостиница.SortCode</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Гостиница.Description</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Гостиница</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>SalesTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>RoomRevenueTurnover</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>GuestsCheckedInTurnover</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>CustomerType</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>CustomerType.SortCode</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>CustomerType.Description</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>CustomerType</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>SalesTurnover</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>RoomRevenueTurnover</dcsset:field>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>GuestsCheckedInTurnover</dcsset:field>
+							</dcsset:item>
+						</dcsset:selection>
+						<dcsset:outputParameters>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:use>false</dcscor:use>
+								<dcscor:parameter>Заголовок</dcscor:parameter>
+								<dcscor:value xsi:type="v8:LocalStringType">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Тип контрагента</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Customer type</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>de</v8:lang>
+										<v8:content>Typ des Partners</v8:content>
+									</v8:item>
+								</dcscor:value>
+							</dcscor:item>
+						</dcsset:outputParameters>
+						<dcsset:item>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Customer</dcsset:field>
+									<dcsset:groupType>Hierarchy</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemField">
+									<dcsset:field>SalesTurnover</dcsset:field>
+									<dcsset:orderType>Desc</dcsset:orderType>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:OrderItemField">
+									<dcsset:field>Customer.Description</dcsset:field>
+									<dcsset:orderType>Asc</dcsset:orderType>
+								</dcsset:item>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>Customer</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>SalesTurnover</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>RoomRevenueTurnover</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>GuestsCheckedInTurnover</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:row>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Заголовок</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Продажи по контрагентам</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Customer sales turnovers</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>de</v8:lang>
+								<v8:content>Verkäufe nach Vertragspartnern</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

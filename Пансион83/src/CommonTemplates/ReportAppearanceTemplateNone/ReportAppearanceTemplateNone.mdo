@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50aa3da2-784f-4d14-85ce-b3a1515a024e">
+  <name>ReportAppearanceTemplateNone</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Без оформления</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - None</value>
+  </synonym>
+</mdclass:CommonTemplate>

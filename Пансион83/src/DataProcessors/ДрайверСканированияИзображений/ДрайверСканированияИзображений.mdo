@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8b60631-37db-4cbd-a251-3191d5ee1a93">
+  <producedTypes>
+    <objectType typeId="e339b3fb-8c92-4989-a9f3-d18368e3b4af" valueTypeId="21d5632d-da92-4593-ad4e-5605d4ae8799"/>
+    <managerType typeId="59b11ac7-251e-497a-ba33-9bd7e716b5ce" valueTypeId="d0210e39-cf5f-4be5-b221-6842b576e1e6"/>
+  </producedTypes>
+  <name>ДрайверСканированияИзображений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Scan 1C: Драйвер сканирования изображений</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scan 1C: Image scanner driver</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="bcd7672f-3322-48f6-9db8-4cfc7b6cc3aa">
+    <name>ImageScannerConnectionParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Image scanner connection parameters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anschlussparameter des Bildscanners</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры подключения сканера изображений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПараметрыСканера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

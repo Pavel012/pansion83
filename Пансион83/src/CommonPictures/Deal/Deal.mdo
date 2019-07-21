@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="129e1b1d-da59-44a4-bfb9-2f5383e2e6eb">
+  <name>Deal</name>
+  <synonym>
+    <key>en</key>
+    <value>Deal</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Deal</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сделка</value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6890fa2b-d175-44cc-bc2a-d38c05f4f343">
+  <producedTypes>
+    <objectType typeId="1306d3e4-6166-473d-bf9f-a886f81d9357" valueTypeId="096780cc-1f6c-4553-ae68-88688c5288d0"/>
+    <refType typeId="9cfe59db-ac41-4510-a4e0-5953498ae0f1" valueTypeId="fd05b7ad-4b51-4ec3-afd6-90ac787f402c"/>
+    <selectionType typeId="1a9bb5a1-5b26-403c-b4f9-439cbdbcd686" valueTypeId="dd17070f-9f27-43d0-ab58-c3aca175172e"/>
+    <listType typeId="c323e716-4916-4c80-b438-8a7f31f088db" valueTypeId="e2192081-d155-4f99-8bb2-f7a6f2addbb9"/>
+    <managerType typeId="8546940a-c26f-48e1-a0dd-7711eaa836f4" valueTypeId="bddff54e-cb13-4c62-8b2d-a2e760dbea75"/>
+  </producedTypes>
+  <name>Страны</name>
+  <synonym>
+    <key>en</key>
+    <value>Страны</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Länder</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Страны</value>
+  </synonym>
+  <inputByString>Catalog.Страны.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Страны.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Страны.Attribute.ISOCode</inputByString>
+  <inputByString>Catalog.Страны.Attribute.ISOCode3</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Страны.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Страны.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="63cd97b4-1c04-46c6-a06c-73b0995487b2">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc625c61-c24d-4849-a61f-9001fd9edb3c">
+    <name>ISOCode</name>
+    <synonym>
+      <key>en</key>
+      <value>ISO Code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>ISO-Code</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код ISO</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86d6e604-4c68-4451-b0a9-eac2c408d787">
+    <name>ISOCode3</name>
+    <synonym>
+      <key>en</key>
+      <value>ISO Code (3 chars)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>ISO-Code (3 Symbole)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код ISO (3 символа)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="28b7e31d-e20e-4cc3-b314-7c56b0108842">
+    <name>IsVisaNecessaryForEntrance</name>
+    <synonym>
+      <key>en</key>
+      <value>Is visa necessary for entrance</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Für die Einreise ist ein Visum erforderlich</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Необходима виза для въезда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1f7f7b7-4878-4c22-8460-1de6ddb8bc45">
+    <name>Language</name>
+    <synonym>
+      <key>en</key>
+      <value>Language</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sprache</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Локализация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39451730-2f5b-4495-ac4f-37a4bfe70403">
+    <name>CountryPhoneCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Country phone code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Telefon-Ländercode</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Телефонный код страны</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2bc629cc-59e7-4b02-ae62-b588b5223c3c">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c32ae1ed-22b5-4e47-a4c8-8537000a0f0d">
+    <name>CountriesListRU</name>
+    <synonym>
+      <key>en</key>
+      <value>Countries list RU</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Länder ISO</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список стран по классификатору</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

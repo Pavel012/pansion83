@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e776b28-9a42-4c6d-87d9-17841fce9c0a">
+  <producedTypes>
+    <refType typeId="570da8ff-7ad7-4ec9-b119-47ea50072325" valueTypeId="47093bc5-940f-46ee-94c8-e7566b835872"/>
+    <listType typeId="1a73681c-9928-40f6-9c17-f438e66d4d71" valueTypeId="c6813476-7e27-4845-8fbe-21761f39772d"/>
+    <managerType typeId="b59d0879-1ee8-435e-8874-a99e9a219779" valueTypeId="ca40e40a-2bb9-4923-998f-1f46d4598bfc"/>
+  </producedTypes>
+  <name>AdvanceDistributionTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Customer advance distribution types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Verteilungstypen der Anzahlung des Partners</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды распределения аванса контрагента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e08db46-ea9e-4ca3-8dc6-7314c2abce06">
+    <name>ByGroups</name>
+    <synonym>
+      <key>en</key>
+      <value>By guest groups</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nach Gästegruppen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По группам гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b25d1695-4323-4a47-aedf-9f67aabd850d">
+    <name>ByInvoices</name>
+    <synonym>
+      <key>en</key>
+      <value>By invoices</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nach Pro-Forma Rechnungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По счетам на оплату</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

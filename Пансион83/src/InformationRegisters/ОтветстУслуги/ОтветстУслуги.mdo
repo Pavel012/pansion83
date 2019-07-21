@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="505e6ae7-c4e8-4b96-9fba-567a5a0178d1">
+  <producedTypes>
+    <selectionType typeId="af9badc9-c9ff-4276-aed2-b929cabf1edb" valueTypeId="7590a97e-c6dd-4f8d-908d-6019f3c9719c"/>
+    <listType typeId="ed7c934a-d155-4b22-b6d6-08a6932ffdcf" valueTypeId="88b55249-d33d-4aba-810c-23e1c916c290"/>
+    <managerType typeId="25ef058f-8a9b-4b7c-b4fc-7ffece106f35" valueTypeId="4a8d49ba-02e9-4d47-bc53-ba0ae453ea13"/>
+    <recordSetType typeId="f0f28a17-6f83-45fe-8396-0dd53bde2998" valueTypeId="e65e6c80-f4da-4e55-8f93-0fcc37d88e75"/>
+    <recordKeyType typeId="2047c1af-197c-42c4-8d55-6e021048e57a" valueTypeId="206ae52b-1403-4cd0-a3d8-861fafb27ddb"/>
+    <recordType typeId="889ce9fc-baea-454e-886f-7d286c7f3f07" valueTypeId="889323d4-53a8-45f7-84c2-866d787523b9"/>
+    <recordManagerType typeId="0294b4e9-086f-49b6-aae3-3269c2a64077" valueTypeId="f6d01053-975c-4590-89a2-27bda4b77fbb"/>
+  </producedTypes>
+  <name>ОтветстУслуги</name>
+  <synonym>
+    <key>en</key>
+    <value>Ответст услуги</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Bearbeiter nach Dienstleistungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнители по услугам</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ОтветстУслуги.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="12b7401a-2ccf-4b78-8ffa-720a183f81ac">
+    <name>Service</name>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c888243e-7f75-4267-826a-008e73d1e09b">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f0f19578-84f8-424e-9442-d9a3ffb7a9df">
+    <name>Employee</name>
+    <synonym>
+      <key>en</key>
+      <value>Employee</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mitarbeiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5dcd7d6c-6c22-4241-a7e0-33cfdb74cdba">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

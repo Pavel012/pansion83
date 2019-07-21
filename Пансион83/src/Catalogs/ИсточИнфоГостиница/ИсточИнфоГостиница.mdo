@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7df4e30c-7e93-4aae-9f6f-1bdba06945ed">
+  <producedTypes>
+    <objectType typeId="bb56f4e5-2d14-4ec2-9c79-46ea68bce0dd" valueTypeId="2d996078-7314-4286-830b-8c7d287e8c92"/>
+    <refType typeId="61790180-f991-403f-b7b8-dad1ab4f73e8" valueTypeId="0a0dcc85-0a83-4d02-91cf-48e01f8a80a2"/>
+    <selectionType typeId="d728db0d-c0f8-4330-9c2d-d5d680137330" valueTypeId="da15820c-7e4d-4af5-ae58-c2d77401496e"/>
+    <listType typeId="3d9e1b17-1d5c-43b0-bf48-d830b9b11b86" valueTypeId="c2cdf348-eb66-41f7-8613-f52b1811cec3"/>
+    <managerType typeId="228dfb9c-21fe-42e8-ba2d-da96215d2fcb" valueTypeId="d1abdc16-1ee7-4c4f-abaf-eb91e310f32f"/>
+  </producedTypes>
+  <name>ИсточИнфоГостиница</name>
+  <synonym>
+    <key>en</key>
+    <value>Источ инфо гостиница</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Quellen von Hotelinformationen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Источники информации о гостинице</value>
+  </synonym>
+  <inputByString>Catalog.ИсточИнфоГостиница.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточИнфоГостиница.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ИсточИнфоГостиница.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ИсточИнфоГостиница.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="e1538654-03a5-44d9-aaf8-8411e9f81dd0">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d42ca3a0-b06a-48b7-aa02-4c82fc6a7d16">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ef791a37-32af-49a7-b42b-faf5407794c1">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

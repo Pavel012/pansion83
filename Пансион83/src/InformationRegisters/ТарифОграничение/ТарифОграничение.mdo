@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82c96f1b-453a-418f-ac2a-f54d12618486">
+  <producedTypes>
+    <selectionType typeId="8dc2fac9-33f6-4f11-8399-44a2e20a6204" valueTypeId="ff7b3b54-c898-4088-9bc9-6b71f6c82bd9"/>
+    <listType typeId="430e513f-202d-438c-b5f8-a555374e4c7e" valueTypeId="bc61fb66-b89f-488b-ac15-5f93354e019c"/>
+    <managerType typeId="8ed6bdd6-c1af-42ff-808e-880256cca123" valueTypeId="e596c5f9-e29f-4706-8c7f-4f1fd1f2d2ff"/>
+    <recordSetType typeId="c264d0fc-0dc8-4f84-a33f-abfe5bce464c" valueTypeId="def72e77-b4c4-4d56-8a91-b320e74926ff"/>
+    <recordKeyType typeId="99ea4c96-6ac9-4223-8e62-84f0e8113e15" valueTypeId="e9aff09d-7e0c-4760-a6e6-e4f556beea9c"/>
+    <recordType typeId="1334d6c5-5b46-410c-aafd-40d985f45481" valueTypeId="7935f05c-1c10-4d68-ad2b-9b66e2e88d98"/>
+    <recordManagerType typeId="ef9c2cca-81c1-483d-9df8-796727f6e53b" valueTypeId="91b2114b-9140-48b7-9f23-4d32d13a7868"/>
+  </producedTypes>
+  <name>ТарифОграничение</name>
+  <synonym>
+    <key>en</key>
+    <value>Тариф ограничение</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Tarifeinschränkungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничения по тарифам</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ТарифОграничение.Form.ListForm</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0b2a5edc-123e-44ec-8545-7d8eeec2bf01">
+    <name>MLOS</name>
+    <synonym>
+      <key>en</key>
+      <value>Minimum length of stay (MLOS)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Minimale Übernachtungsdauer (MLOS)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная продолжительность проживания (MLOS)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d72f5dad-0c7c-428b-86ba-3652d2598231">
+    <name>MaxLOS</name>
+    <synonym>
+      <key>en</key>
+      <value>Maximum length of stay (MxLOS)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Maximale Übernachtungsdauer (MxLOS)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная продолжительность проживания (MxLOS)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a9ccc27-08e0-4ffd-b7cf-86c307108028">
+    <name>CTA</name>
+    <synonym>
+      <key>en</key>
+      <value>Close to arrival (CTA)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreise verboten (CTA)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заезд запрещен (CTA)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="eb731468-e5af-4cf1-a6ab-234bbcb6047a">
+    <name>CTD</name>
+    <synonym>
+      <key>en</key>
+      <value>Close to departure (CTD)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abreise verboten (CTD)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд запрещен (CTD)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="59fd81b2-6072-446e-aaad-a1bcd99e9cae">
+    <name>MinDaysBeforeCheckIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Minimum days between booking and check-in dates</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mindest Tage zwischen Buchung und Check-in Daten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальное число дней между датой бронирования и датой заезда</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1b10df28-5383-4999-87b7-bc04400ed912">
+    <name>MaxDaysBeforeCheckIn</name>
+    <synonym>
+      <key>en</key>
+      <value>Maximum days between booking and check-in dates</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Maximale Tage zwischen Buchung und Check-in Daten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное число дней между датой бронирования и датой заезда</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8b2638f7-acc9-49ec-8859-954f37891f2e">
+    <name>IsForOnlineOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Is for online only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ist für nur online</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Только для on-line</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d3aafe7f-622b-47a2-890c-e5b69091b9df">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="332cd12e-ad60-4299-937d-01dcea60ea53">
+    <name>RoomRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Room rate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tarif</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тарифы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bf637bff-2028-488c-851e-79fb051c983b">
+    <name>RoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.ТарифОграничение.Dimension.Гостиница</field>
+    </linkByType>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="19cc7037-3ea4-4ba3-b24b-00ad19dc90e1">
+    <name>CalendarDayType</name>
+    <synonym>
+      <key>en</key>
+      <value>Calendar day type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kalendertagestyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дня календаря</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипДневногоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5e66b8aa-3fef-41fb-ae4c-46df26fc0dd4">
+    <name>DayOfWeek</name>
+    <synonym>
+      <key>en</key>
+      <value>Week day</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wochentag</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>День недели</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>7</value>
+    </maxValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="15720237-b526-4cc8-8e19-6860e85c53e6">
+    <name>AccountingDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Accounting date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kontrolldatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="74762aed-de4d-432d-8330-a6db5d748384">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

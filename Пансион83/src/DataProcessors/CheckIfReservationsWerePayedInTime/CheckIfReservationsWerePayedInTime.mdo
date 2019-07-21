@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d483751-eac2-4017-a61a-e9b3c1715f4f">
+  <producedTypes>
+    <objectType typeId="4f06652c-d87e-42fb-a2d3-a8bee4711f1a" valueTypeId="69d49a32-80b2-4961-b50d-f3543dba84f6"/>
+    <managerType typeId="28b7dc7d-9500-4da3-a0ef-5003244d8ddd" valueTypeId="fb587399-ca43-4504-9528-f5c4e1b9f9e7"/>
+  </producedTypes>
+  <name>CheckIfReservationsWerePayedInTime</name>
+  <synonym>
+    <key>en</key>
+    <value>Check if reservations were payed in time</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Eingang der Zahlung nach Buchung überprüfen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить поступление оплаты по брони</value>
+  </synonym>
+  <defaultForm>DataProcessor.CheckIfReservationsWerePayedInTime.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="045f0038-8ae3-46db-a769-b696cde5c161">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c640216d-b039-4548-9c92-0f61ad6b6637">
+    <name>GuaranteedReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed (payed) reservation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der garantierten Reservierung, nach welcher die Bezahlung eingegangen ist</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус гарантированной брони, по которой получена оплата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab9ea418-0e01-4132-b829-b3ddb4e3f411">
+    <name>FullyPaidReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Fully payed reservation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Voll bezahlte Reservierungsstatus</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус полностью оплаченной брони</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ec605f14-47cb-41b4-b6de-bb3c8144af95">
+    <name>GuaranteeType</name>
+    <synonym>
+      <key>en</key>
+      <value>Guarantee type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Garantie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид гарантии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыГарантии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+  </attributes>
+  <attributes uuid="05f01ca0-d232-4c2d-ab42-acf951c403dc">
+    <name>ReplyMessageType</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation status change reply message type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art des Mitteilungsversands über die Veränderung des Reservierungsstatus</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип отправки сообщения об изменении статуса брони</value>
+    </synonym>
+    <type>
+      <types>EnumRef.AttachmentTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="78b5b60a-1272-449a-849e-a9bb0b49a630">
+    <name>PaymentDateExpiredReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment date expired reservation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der Reservierung mit überfälliger Bezahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус брони с просроченной оплатой</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="143d7e85-f28c-42dd-bbf1-2eb978ff5818">
+    <name>NewOnlineReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>New on-line reservation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der mit dem Online-Reservierungsmodul getätigten neuen Reservierung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус новой брони созданной из модуля on-line бронирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="efa1c981-8341-4c17-8087-7aaa4d8a3e04">
+    <name>GuaranteedOnlineReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Guaranteed (payed) status for online reservations</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der garantierten on-line Reservierung, nach welcher die Bezahlung eingegangen ist</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус он-лайн брони, по которой получена оплата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c171703a-2746-438a-8048-df742af64623">
+    <name>PaymentTimeExpiredReservationStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment time expired reservation status</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Status der Reservierung mit überfälliger Bezahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Статус он-лайн брони с просроченной оплатой</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусБрони</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8771f8e2-bca9-468d-b53d-6e7c28481d12">
+    <name>TimeToWaitOnlineReservationPayment</name>
+    <synonym>
+      <key>en</key>
+      <value>Time to wait online reservation payment in minutes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit der Zahlungserwartung zur Online-Reservierung in Minuten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время ожидания оплаты по on-line брони в минутах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="698efa3c-5450-41b3-a1ba-b0002d06f773">
+    <name>DepartmentToSendNotificationsTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Department to send notifications about reservations which payment period is expired</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abteilung, an deren Mitarbeiter Mitteilungen über Reservierungen mit überfälliger Zahlung verschickt werden müssen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел, сотрудникам которого отправлять сообщения о брони с просроченной оплатой</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Отделы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="de6c4368-16b9-458e-9639-9f9a3da48f71">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8e3cec73-b994-431a-bffe-9c2c84603081">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="428b83f9-05ae-4758-b0f0-f1720088ae62">
+  <producedTypes>
+    <refType typeId="077b2586-6e1d-4ff9-8165-edfe03cbf68a" valueTypeId="1a512bc6-da63-42d7-88d9-daae2c28de36"/>
+    <listType typeId="d1ac2fa9-0ab1-4d7d-bc26-8a45f7357ac5" valueTypeId="6c99207e-a697-4624-b38d-32c693bdeb92"/>
+    <managerType typeId="7de5fd03-748c-4507-b149-72006e4a536f" valueTypeId="06f855e3-e842-4a8f-a091-3ef0ec8ed119"/>
+  </producedTypes>
+  <name>SetRoomQuotaTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Set room quota types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen der Bewegung nach Quote</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды движений по квоте</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="92444f75-8cda-4cba-8cbf-7ed42ceb8c56">
+    <name>Add</name>
+    <synonym>
+      <key>en</key>
+      <value>Add rooms to quota</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer zur Quote hinzufügen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить номера в квоту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6afb0e28-51af-40f2-bc3a-0f4054905fa2">
+    <name>Remove</name>
+    <synonym>
+      <key>en</key>
+      <value>Remove rooms from quota</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer aus Kontingent entfernen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Убрать номера из квоты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

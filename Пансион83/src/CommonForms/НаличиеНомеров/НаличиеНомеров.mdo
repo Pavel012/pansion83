@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1aa0b918-9a16-42a5-800e-f7832af85a68">
+  <name>НаличиеНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Наличие номеров</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Nachweis über das Vorhandensein von Zimmern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Справка о наличии номеров</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

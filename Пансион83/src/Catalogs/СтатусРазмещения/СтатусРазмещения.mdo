@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="962531c1-1df9-4e2b-b57f-53aa8e8da2f5">
+  <producedTypes>
+    <objectType typeId="af097d21-8d9e-4d84-b80d-7881fd404fc1" valueTypeId="710b33d4-54c1-4538-b78a-cf63a40ccf4c"/>
+    <refType typeId="c0c60a87-980e-4827-a250-c6322e87b3ed" valueTypeId="cc998706-062b-435f-915b-037769fb39d3"/>
+    <selectionType typeId="1ce63fe5-c481-4899-8411-df52a6ee67c1" valueTypeId="21e5e427-0f55-4921-b5b9-041fb0c6607f"/>
+    <listType typeId="49db4eff-4526-4024-8a79-02a4973130fe" valueTypeId="94efd3eb-d8ef-4ed8-9814-5c21029b30fe"/>
+    <managerType typeId="9820169c-c507-4259-a94a-bc09b4208b12" valueTypeId="96a25d1d-af30-4ffd-9b8b-9ad71ec82d45"/>
+  </producedTypes>
+  <name>СтатусРазмещения</name>
+  <synonym>
+    <key>en</key>
+    <value>Статус размещения</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der Unterbringung der Gäste in Zimmern</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы размещения гостей в номерах</value>
+  </synonym>
+  <inputByString>Catalog.СтатусРазмещения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусРазмещения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатусРазмещения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтатусРазмещения.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.СтатусРазмещения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатусРазмещения.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="08a755fb-69cd-4c5a-9e2b-8f1fa03e0ec5">
+    <name>СортировкаКод</name>
+    <synonym>
+      <key>en</key>
+      <value>Сортировка код</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ec125d7-b834-4a03-a59a-0dfb36fa6ade">
+    <name>Действует</name>
+    <synonym>
+      <key>en</key>
+      <value>Действует</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gilt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22c7ccb8-f2f3-4b77-b125-fbf8b1a6957a">
+    <name>ЭтоГости</name>
+    <synonym>
+      <key>en</key>
+      <value>Is for in-house guests</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gäste sind untergebracht</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гости проживают</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e689f97-5a3d-49f2-880d-197c68c6f0c9">
+    <name>ЭтоЗаезд</name>
+    <synonym>
+      <key>en</key>
+      <value>Это заезд</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist eine Anreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это заезд</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0aab090-1ff9-458c-84f6-22881a975bd4">
+    <name>ЗтоПереселение</name>
+    <synonym>
+      <key>en</key>
+      <value>Зто переселение</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist eine Verlegung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это переселение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc47a1e1-189b-4fdf-876c-4c4a8ded77c9">
+    <name>ЭтоВыезд</name>
+    <synonym>
+      <key>en</key>
+      <value>Это выезд</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist die Abreise</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это выезд</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a56d0c61-b8fa-4b82-b17c-587784d24b81">
+    <name>Примечания</name>
+    <synonym>
+      <key>en</key>
+      <value>Примечания</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="970cf328-e3e5-442d-9bd4-997f8280cdc8">
+    <name>ВиДоставки</name>
+    <synonym>
+      <key>en</key>
+      <value>Ви доставки</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Lieferung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доставки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.DeliveryTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4a367f3d-119d-4fd6-b939-c4ba6036a2e6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f56f1f1-2b2f-488b-a750-b761c457cf1d">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма группы</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="46e23292-d7b2-4ffc-9607-c52480bfd1fb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

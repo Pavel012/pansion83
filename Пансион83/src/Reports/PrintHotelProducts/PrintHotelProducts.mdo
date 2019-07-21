@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba8b437d-a1d7-4692-97cf-5474364f5a6b">
+  <producedTypes>
+    <objectType typeId="f06ce72c-2990-4962-9927-8aed6d005f8e" valueTypeId="becc64d6-b183-4518-976e-0324aa2fbc3d"/>
+    <managerType typeId="0c473eed-6588-43b7-9676-de6d1191a23c" valueTypeId="b979ccbe-9976-4aa7-963c-b81d949449d5"/>
+  </producedTypes>
+  <name>PrintHotelProducts</name>
+  <synonym>
+    <key>en</key>
+    <value>Print hotel products</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Print hotel products</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Печать путевок</value>
+  </synonym>
+  <defaultForm>Report.PrintHotelProducts.Form.ReportForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="9226934f-1476-438a-bda6-6c0895701e97">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e54bb67-27c0-4195-a6c9-2a1fc5981a9f">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d7fc4a1c-b022-4223-b4b2-100b6d964600">
+    <name>CheckInDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Check-in date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anreisedatum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c00edb35-4f9b-4735-8d91-b472efb9782c">
+    <name>Document</name>
+    <synonym>
+      <key>en</key>
+      <value>Document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+      <types>DocumentRef.Бронирование</types>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ec121299-78f6-43a1-a734-f18c0f312f7f">
+    <name>ReportForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c1335783-de2c-4abc-84d0-16dd29820360">
+    <name>Product</name>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Reisecheck</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Путевка</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

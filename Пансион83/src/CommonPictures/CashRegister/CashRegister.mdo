@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d83d3af6-1603-45c3-8741-02ecb20b88d7">
+  <name>CashRegister</name>
+  <synonym>
+    <key>en</key>
+    <value>Cash register</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Registrierkasse</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>ККМ</value>
+  </synonym>
+  <transparentPixel>
+    <x>10</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

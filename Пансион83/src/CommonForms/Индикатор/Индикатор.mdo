@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8265f37b-e9ac-47b6-ae9b-7407096f3568">
+  <name>Индикатор</name>
+  <synonym>
+    <key>en</key>
+    <value>Индикатор</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Fortschrittsindikator</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Индикатор прогресса</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

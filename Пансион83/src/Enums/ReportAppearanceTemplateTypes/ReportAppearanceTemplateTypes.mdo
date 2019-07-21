@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74626f9f-0187-406d-9b63-cb6c9193b76c">
+  <producedTypes>
+    <refType typeId="8d636bf7-0ce2-4f73-b49c-1756857e88b4" valueTypeId="5de79f27-8f2a-4e61-9562-0eb62acdf35f"/>
+    <listType typeId="9943fb7e-0995-4f3c-8e47-1b7fe3830069" valueTypeId="1bf50172-d57f-47e4-ba43-35f6212ff7ad"/>
+    <managerType typeId="4535c97a-f2b4-4c6d-90f7-f2f678b61f98" valueTypeId="4c3b5f58-8ad2-414d-9ae2-1c6a61093e80"/>
+  </producedTypes>
+  <name>ReportAppearanceTemplateTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Vorlagenartenarten für die Gestaltung von Berichten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды шаблонов оформления отчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="da7d0c07-e176-45dd-abf8-c578ca26a917">
+    <name>Interface</name>
+    <synonym>
+      <key>en</key>
+      <value>Interface</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Interface</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Интерфейс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8036bee-4e87-4591-b0c2-8a4383f112d9">
+    <name>Orange</name>
+    <synonym>
+      <key>en</key>
+      <value>Orange</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Orange</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Апельсин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b35fa2d3-bdb7-46cf-ad5f-e3e827891e68">
+    <name>Asphalt</name>
+    <synonym>
+      <key>en</key>
+      <value>Asphalt</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Asphalt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Асфальт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42c21a69-e8c8-4a31-b271-534254a7ae03">
+    <name>Turquoise</name>
+    <synonym>
+      <key>en</key>
+      <value>Turquoise</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Türkis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бирюза</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c82db8fc-12fc-49ad-87a2-b4ab878a5646">
+    <name>Bronze</name>
+    <synonym>
+      <key>en</key>
+      <value>Bronze</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bronze</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бронза</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6c3eaf5-7fe3-4421-8b3b-3756d625e4b8">
+    <name>Spring</name>
+    <synonym>
+      <key>en</key>
+      <value>Spring</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Frühjahr</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Весна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f46859a8-fe3a-40f9-8aa9-55de00eedd3e">
+    <name>Wood</name>
+    <synonym>
+      <key>en</key>
+      <value>Wood</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Baum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ebfe574-f23b-4c8e-a09a-d7609124a879">
+    <name>Winter</name>
+    <synonym>
+      <key>en</key>
+      <value>Winter</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Winter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Зима</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79000d57-5b51-4263-9013-bb1ad8f9a5aa">
+    <name>Stone</name>
+    <synonym>
+      <key>en</key>
+      <value>Stone</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Stein</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Камень</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39b38e98-2bb3-4391-8af4-70d1759e61f9">
+    <name>Classic</name>
+    <synonym>
+      <key>en</key>
+      <value>Classic</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Klassik</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Классика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93b6e2e9-86b1-438b-a22f-0905f5404144">
+    <name>Classic2</name>
+    <synonym>
+      <key>en</key>
+      <value>Classic 2</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Klassik 2</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Классика 2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80611022-0344-4f93-b245-c84c7833054a">
+    <name>Classic3</name>
+    <synonym>
+      <key>en</key>
+      <value>Classic 3</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Klassik 3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Классика 3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2671164-4a8b-4cd7-9d73-358f5ed76c2c">
+    <name>Ice</name>
+    <synonym>
+      <key>en</key>
+      <value>Ice</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eis</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лед</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d33fc04-0331-46fc-946f-097619452230">
+    <name>Summer</name>
+    <synonym>
+      <key>en</key>
+      <value>Summer</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sommer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лето</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="770821c6-f4e7-4c11-a72a-b8105ab6920b">
+    <name>Copper</name>
+    <synonym>
+      <key>en</key>
+      <value>Copper</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kupfer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Медь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="232ba26f-4019-4219-a694-adaf558e11ab">
+    <name>Autumn</name>
+    <synonym>
+      <key>en</key>
+      <value>Autumn</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Herbst</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Осень</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95d3fde1-b36f-4785-bbc4-69c84c204c8b">
+    <name>Sand</name>
+    <synonym>
+      <key>en</key>
+      <value>Sand</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sand</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Песок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="866f0113-2d49-4c57-b882-df0e363df5fa">
+    <name>Platinum</name>
+    <synonym>
+      <key>en</key>
+      <value>Platinum</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Platin</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Платина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffd17342-c42e-4eae-b47f-02d8217ac726">
+    <name>Silver</name>
+    <synonym>
+      <key>en</key>
+      <value>Silver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Silber</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Серебро</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a3ed39b-b8c2-45c1-99ee-f52457602360">
+    <name>Textile</name>
+    <synonym>
+      <key>en</key>
+      <value>Textile</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Textil</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текстиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14f7d67b-50f9-4cce-87c4-a8b8bc6df155">
+    <name>Grass</name>
+    <synonym>
+      <key>en</key>
+      <value>Grass</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kraut</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Трава</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c5dc4fc-8c2d-439a-b966-5e794dfca66d">
+    <name>None</name>
+    <synonym>
+      <key>en</key>
+      <value>None</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ohne Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Без оформления</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

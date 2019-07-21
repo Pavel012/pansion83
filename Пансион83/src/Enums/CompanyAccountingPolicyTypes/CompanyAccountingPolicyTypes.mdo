@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d8c12df-530a-4038-842f-fe8bc45dfa42">
+  <producedTypes>
+    <refType typeId="e5ed0376-cf6e-4c31-a44e-d1c9b5199c83" valueTypeId="e70378f0-1359-4cff-b611-d988bda7305f"/>
+    <listType typeId="ec54083d-a497-47d1-b492-4f0edf10d1d2" valueTypeId="2a061d7a-854b-4dff-a052-62fb5bb586c3"/>
+    <managerType typeId="58db9c78-6826-4b76-8367-fee9bbd68b81" valueTypeId="31c05b8e-c269-4914-814e-2a3bfbfe9e8b"/>
+  </producedTypes>
+  <name>CompanyAccountingPolicyTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Supported company accounting policy types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Unterstützte Typen der Erfassungspolitik der Firmen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поддерживаемые виды учетной политики фирм</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="09d9dcf8-dba6-4320-8863-e287af59a541">
+    <name>ByServicesDone</name>
+    <synonym>
+      <key>en</key>
+      <value>By services done</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nach tatsächlich erbrachten Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По фактически оказанным услугам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33e32f82-4dd8-469c-a9bb-f2bbcb123768">
+    <name>ByCheckedOutGuestsServices</name>
+    <synonym>
+      <key>en</key>
+      <value>By checked out guests services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nach den Dienstleistungen der abgereisten Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По услугам выехавших гостей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcebcdad-b11d-4945-8b91-9c952eda81ef">
+    <name>ByCheckedOutGuestGroupsServices</name>
+    <synonym>
+      <key>en</key>
+      <value>By checked out guest groups services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>nach den Dienstleistungen der vollständig abgereisten Gästegruppen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По услугам полностью выехавших групп гостей</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

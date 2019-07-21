@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52c4aac7-0f9e-4ec8-8746-3440a22501b0">
+  <producedTypes>
+    <objectType typeId="c081f21b-7a2f-4d9a-9ae7-4d3e5e132487" valueTypeId="859ce312-159c-4592-866f-c8b3f58902cc"/>
+    <refType typeId="341f3535-3caa-45ea-96b1-de5bb1d9f59d" valueTypeId="ebc49625-ced4-4035-a81b-cf5647f30f83"/>
+    <selectionType typeId="cb3ffad6-7ff2-4627-9b3a-5e49911f84bd" valueTypeId="a4666df7-7faa-42f5-b676-efb89139f892"/>
+    <listType typeId="beb5ec3e-7589-433f-9c97-de790ce85672" valueTypeId="59433da3-8ab2-44f0-8476-bbe11f6ee450"/>
+    <managerType typeId="67529635-e24f-473d-8c35-9c4a35222d0e" valueTypeId="46647ab7-5947-4184-8cbf-c4c6d37982e0"/>
+  </producedTypes>
+  <name>Услуги</name>
+  <synonym>
+    <key>en</key>
+    <value>Услуги</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Dienstleistungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги</value>
+  </synonym>
+  <comment>Услуги</comment>
+  <inputByString>Catalog.Услуги.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Услуги.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Услуги.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.Услуги.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.Услуги.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Услуги.Form.ListForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.Услуги.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="86b77bcc-125f-437e-940d-0f20cba67025">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="64eb49ea-09bd-4bec-a16a-559968e10e29">
+    <name>GroupByDescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages when other services is grouped into this service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen in dem Falle, wenn die Dienstleistung als (Keine Vorschläge) verwendet wird</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки в случае, когда услуга используется как группирующая услуга</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2dc12afd-8acd-453e-bcc3-a13474d4d9b4">
+    <name>Unit</name>
+    <synonym>
+      <key>en</key>
+      <value>Unit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Maßeinheit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="911f22ce-0796-44d1-96d1-65a361e15506">
+    <name>UnitTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Unit translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Maßeinheiten in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы единиц измерения на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="455cae11-c296-48c5-bff6-150e19337aaa">
+    <name>GetUnitFromRule</name>
+    <synonym>
+      <key>en</key>
+      <value>Get unit from quantity calculation rule</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Maßeinheit nach der Mengenberechnungsregel ermitteln</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Получать единицу измерения по правилам расчета количества</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cfcfdd51-d27f-400e-be9f-c5025fdf0928">
+    <name>AllowChangePrice</name>
+    <synonym>
+      <key>en</key>
+      <value>Allow change price</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preisveränderung erlauben</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить менять цену</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7140665e-d68f-49ff-9be3-bec1e6247926">
+    <name>RecalculatePriceWhenSumChanged</name>
+    <synonym>
+      <key>en</key>
+      <value>Recalculate price when sum being changed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Umrechnung des Preises bei der Änderung der Summe</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчет цены при изменении суммы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a34bfb3-e1ca-436f-8f23-90f1d92b2088">
+    <name>QuantityCalculationRule</name>
+    <synonym>
+      <key>en</key>
+      <value>Default quantity calculation rule</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Mengenberechnungsregel lt. Standard-Einstellung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Правило вычисления количества по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПравилаНачисленияКоличестваУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9936d97e-bbf2-4fad-b960-2838ae1e53a4">
+    <name>IsRoomRevenue</name>
+    <synonym>
+      <key>en</key>
+      <value>Is room revenue by default</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>lt. Standard-Einstellung ist das ein Erlös aus dem Zimmerverkauf</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По умолчанию это доход от продажи номеров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9faef812-54de-40a9-877d-aa0ac5ce3d2b">
+    <name>RoomRevenueAmountsOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Is used to add to room revenue amounts only</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wird nur zur Berechnung des Erlöses für die Unterbringung verwendet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Используется только для расчета дохода за проживание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ccf0bc7-7415-4a8b-9e3c-127617a67470">
+    <name>IsInPrice</name>
+    <synonym>
+      <key>en</key>
+      <value>Is in price by default</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>lt. Standard-Einstellung im Preis enthalten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По умолчанию входит в цену</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0b1afb9c-6f72-47c1-91d0-971afa0525b7">
+    <name>IsResourceRevenue</name>
+    <synonym>
+      <key>en</key>
+      <value>Is resource revenue by default</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>lt. Standard-Einstellung ist das ein Erlös aus dem Ressourcenverkauf</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>По умолчанию это доход от продажи ресурсов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a03a6e3-629d-4ba1-895e-97cd1f3e4b42">
+    <name>DoNotGroupIntoRoomRateOnPrint</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not group into room rate on print</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beim Druck nicht in Unterbringung zusammenklappen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не сворачивать в проживание при печати</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7645a8d9-2d14-4393-be81-e939a964cd3e">
+    <name>SplitToSeparateSettlements</name>
+    <synonym>
+      <key>en</key>
+      <value>Split accounts receivable for this service to the separate settlements</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bei der Bildung einer buchhalterischen Realisierung für diesen Dienst einzelne Vorgänge erstellen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>При формировании бухгалтерской реализации создавать для этой услуги отдельные акты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91714e1d-7056-468a-bba1-a24863ea58e5">
+    <name>DoNotExportToTheAccountingSystem</name>
+    <synonym>
+      <key>en</key>
+      <value>Do not export to the accounting system</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ins Buchhaltungssystem nicht auslagern</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать в бухгалтерскую систему</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93302faa-ba80-45f9-90e2-6380b794cac6">
+    <name>ServiceRegistrationIsTurnedOn</name>
+    <synonym>
+      <key>en</key>
+      <value>Service registration is turned on</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Erfassung der tatsächlichen Erbringung einschalten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Включить регистрацию фактического оказания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e10b3c45-750b-4b72-9165-966d5d646320">
+    <name>MaxOneServicePerDayIsAllowed</name>
+    <synonym>
+      <key>en</key>
+      <value>Max one service per day per guest is allowed to be registered</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Max einen Dienst pro Tag pro Gast darf registriert werden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешена регистрация только одной услуги на гостя в день</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1bc3a5a0-8aca-4c54-b402-591b8518b2b8">
+    <name>ExternalCode</name>
+    <synonym>
+      <key>en</key>
+      <value>External system code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im externen System</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код во внешней системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="676d0b18-388d-42d8-b0f9-81aa0ffc5903">
+    <name>ServiceType</name>
+    <synonym>
+      <key>en</key>
+      <value>Service type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Art der Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип услуги</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f6ddaea-00dd-47b0-98c6-f405780761ff">
+    <name>PaymentSection</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment section</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sektion der Bezahlung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Секция оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтделОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b21d813-e10f-465d-a19e-dcb2fe7459ea">
+    <name>ChargePerPerson</name>
+    <synonym>
+      <key>en</key>
+      <value>Service is charged based on number of persons but not number of rooms/beds</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung wird nach Anzahl der Gäste berechnet, nicht nach Anzahl der Zimmer/Plätze</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга начисляется по числу гостей, а не по числу номеров/мест</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4630f97e-604b-4bb0-aa6c-3158c9f33478">
+    <name>IsStockArticle</name>
+    <synonym>
+      <key>en</key>
+      <value>Is stock article</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist die Ware</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это товар</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5d38a55-9c06-4d65-9022-f5de08f06ab0">
+    <name>IsAgentService</name>
+    <synonym>
+      <key>en</key>
+      <value>Is agent's service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist die AgentenDienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это агентская услуга</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d8c3b28-ec56-4dd7-910b-b1e9d4d1c9ce">
+    <name>IsHotelProductService</name>
+    <synonym>
+      <key>en</key>
+      <value>Is hotel product service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist die Dienstleistung des Reisechecks oder der Kurkarte</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это услуга путевки или курсовки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac514972-a156-4849-9795-9c885b80b3f5">
+    <name>IsPricePerMinute</name>
+    <synonym>
+      <key>en</key>
+      <value>Service price is per minute</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Preis wird pro Minute angegeben</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Цена указывается за минуту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f06782c3-a2e9-4535-a66d-7e66ceb2d3f3">
+    <name>ResourceType</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressourcentyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ресурса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыРесурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ebe03ea0-8d25-4399-94c1-ba62b035a28a">
+    <name>Resource</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressource</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ресурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3dd58683-429b-4a24-b955-8eabbe53f901">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd0505e9-134d-4354-8e58-8247c1b8ee08">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81703964-88fa-45da-a267-0529defb93bb">
+    <name>Composition</name>
+    <synonym>
+      <key>en</key>
+      <value>Composition</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungszusammensetzung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Состав услуги</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7606de7-5b2e-469e-9cf8-55f37e239674">
+    <name>HideIntoServiceOnPrint</name>
+    <synonym>
+      <key>en</key>
+      <value>Hide current service into this service on print</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beim Drucken die aktuelle Leistung mit der ausgewählten zusammenlegen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>При печати свернуть текущую услугу в выбранную</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1ae257d-6f0e-478d-8af2-4ad73bc636c9">
+    <name>BoundService</name>
+    <synonym>
+      <key>en</key>
+      <value>Bound service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gebundene Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Связанная услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a8dff82-af18-4356-9905-fb760febd299">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fc242c7-8c65-41b3-bef5-0ebe890116d8">
+    <name>IsGiftCertificate</name>
+    <synonym>
+      <key>en</key>
+      <value>Is gift certificate</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist ein Geschenkgutschein</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это подарочный сертификат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2fb393d0-860a-49de-bce9-3fc011a10eec">
+    <name>BarCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Bar code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bar code</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Штрих-код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8617527f-fa3e-45b2-ab35-4ef6719b0324">
+    <name>AvailableQuantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Available quantity</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Verfügbare Menge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Доступное количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fe2f9021-d643-4f87-a53e-68890d4f05c0">
+    <producedTypes>
+      <objectType typeId="8f4fc78b-8593-4114-9af1-3335c4cf306c" valueTypeId="8724e8af-f6a3-4b94-abec-58015ba47905"/>
+      <rowType typeId="8f01c80b-e338-45ee-aaff-534cd0b925fa" valueTypeId="dbed35bc-f03f-4387-aa96-02542324e4b6"/>
+    </producedTypes>
+    <name>ServiceItems</name>
+    <synonym>
+      <key>en</key>
+      <value>Service items</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Menüpositionen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Позиции меню</value>
+    </synonym>
+    <attributes uuid="3fe333cb-797f-41c4-9b97-eddc4d03ba9b">
+      <name>ServiceItem</name>
+      <synonym>
+        <key>en</key>
+        <value>Service item</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Menüposition</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Позиция меню</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПозицииМеню</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bcb525a3-0568-466b-9638-4284a4e3ffb2">
+      <name>Output</name>
+      <synonym>
+        <key>en</key>
+        <value>Output</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Ausgabe</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выход</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c9ab9955-8575-46b2-a424-8c65735bf277">
+      <name>Price</name>
+      <synonym>
+        <key>en</key>
+        <value>Price</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Preis</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c4cc6178-e247-4701-9892-a1764262a50c">
+      <name>Currency</name>
+      <synonym>
+        <key>en</key>
+        <value>Currency</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Währung</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b5f03fe9-21d7-4192-81d2-7ad5a8adc374">
+      <name>Quantity</name>
+      <synonym>
+        <key>en</key>
+        <value>Quantity</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Anzahl</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="600283a6-2d9d-490e-834e-600a86080fe3">
+      <name>Unit</name>
+      <synonym>
+        <key>en</key>
+        <value>Unit</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Maßeinheit</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9b869832-0fca-4c6f-8ab6-99c62e2d21dc">
+      <name>Sum</name>
+      <synonym>
+        <key>en</key>
+        <value>Amount</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Summe</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f60a31ad-04ff-4d80-bf79-c1df2c649074">
+      <name>ReplacementIndex</name>
+      <synonym>
+        <key>en</key>
+        <value>Replacement index</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Austauschindex</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс замен</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3a9d4fa7-b397-4539-ae37-645ea2c733b6">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Auswahlformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb5dd228-6e18-43c7-81f0-b459ec5691d7">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der Gruppenauswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a9183ff-9140-4211-b025-4fd896e51c7d">
+    <name>GroupForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="088290e5-91b7-46e9-9345-9ffd38d6e4d3">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e449577-9824-4886-90ff-934cf019ae93">
+    <name>KioskForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Kiosk form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kiosk Form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма киоска</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98e11eb3-1529-4575-b4dc-35f8ddcedffa">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11b0b51d-4215-4a3e-820a-98ec64fba7c8">
+    <name>MultipleChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Multiple choice form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Formular der mehrfachen Auswahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма множественного выбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cd88d472-4174-4ab4-813d-b3f28a4c87ec">
+    <name>tcMultipleChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Services choice</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zusammenstellung der Dienstleistungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор услуг</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

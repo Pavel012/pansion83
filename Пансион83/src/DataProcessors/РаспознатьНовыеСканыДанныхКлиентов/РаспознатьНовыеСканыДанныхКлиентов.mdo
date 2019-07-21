@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f18f996-a898-4722-81b2-85717f776440">
+  <producedTypes>
+    <objectType typeId="480835d1-6616-480d-bd1f-4cf6f531557e" valueTypeId="c95d34bd-d880-4496-8709-27cff4b74d85"/>
+    <managerType typeId="c3e1b076-c406-40b1-a221-b70f77afd9a8" valueTypeId="a1143243-5196-42fd-aafb-9dfbb6160981"/>
+  </producedTypes>
+  <name>РаспознатьНовыеСканыДанныхКлиентов</name>
+  <synonym>
+    <key>en</key>
+    <value>Распознать новые сканы данных клиентов</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Alle neuen Scans von Kundendaten erkennen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Распознать новые сканы данных клиентов</value>
+  </synonym>
+  <defaultForm>DataProcessor.РаспознатьНовыеСканыДанныхКлиентов.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a662accb-6fab-4e64-906e-69b95ddbe613">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aad00dd4-ae0b-46ab-a6d5-f6b42df3d6dc">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fc1d0b44-e300-44b3-97b5-2e1d2b5391b1">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

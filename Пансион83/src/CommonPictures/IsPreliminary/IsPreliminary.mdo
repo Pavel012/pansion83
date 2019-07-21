@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61c6454a-4286-4aa8-8571-3b78042a4f39">
+  <name>IsPreliminary</name>
+  <synonym>
+    <key>en</key>
+    <value>Is preliminary</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Vorangehende</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Предварительная</value>
+  </synonym>
+  <transparentPixel>
+    <x>10</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

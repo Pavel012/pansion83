@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="212ee6c4-b9c8-4db0-9f59-6e76a4bc0f30">
+  <producedTypes>
+    <refType typeId="fa6a2a9a-f00c-4f6b-b0b2-478f36fc866a" valueTypeId="3b56fb0b-1407-48f7-983e-68f33c97b45d"/>
+    <listType typeId="724f6b37-c80f-4a7f-8fbc-c8ebb4a01ff2" valueTypeId="4901d675-a665-4dea-b16e-5bee6ca4e0c7"/>
+    <managerType typeId="f8c91f36-abd3-47a6-ae20-dc0468aa70bd" valueTypeId="3e864f9c-6908-41d8-a270-7239ac4f75eb"/>
+  </producedTypes>
+  <name>POP3AuthenticationTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>POP3 server user authentication types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Identifikationstypen von Nutzern des POP3-Servers</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы идентификации пользователей POP3 сервером</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="5722d546-d56d-48d5-acc4-941bf7d678ba">
+    <name>CramMD5</name>
+    <synonym>
+      <key>en</key>
+      <value>Cram MD5</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Cram MD5</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Cram MD5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b463bbf4-db7a-45cf-87b4-685ab940ae60">
+    <name>APOP</name>
+    <synonym>
+      <key>en</key>
+      <value>APOP</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>APOP</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>APOP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd6c0e0b-5505-4bf8-89c4-b3ec77e4fc7c">
+    <name>General</name>
+    <synonym>
+      <key>en</key>
+      <value>General</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Regulär</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обычная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

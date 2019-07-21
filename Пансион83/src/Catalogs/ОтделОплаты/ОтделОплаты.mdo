@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b356f56f-aa05-46c0-9f90-2a634202f43d">
+  <producedTypes>
+    <objectType typeId="c6510372-0bbc-4ee7-bf85-11e1894d2ff1" valueTypeId="b84bd41e-6c4d-4cfa-afde-71a5dae396c6"/>
+    <refType typeId="398b7405-8854-4daa-aee3-b1a7c79535a6" valueTypeId="fa46dafe-c8dc-4356-a23f-4d5b1a153bed"/>
+    <selectionType typeId="89dc34e9-6f96-4c4f-80c6-1a267f4c3ac5" valueTypeId="9f8b42fa-b3b8-4dbd-9029-8792c4c40522"/>
+    <listType typeId="c2039110-d18f-425d-9bf4-3347d894c7de" valueTypeId="e50b81a4-53d5-4212-a38c-1e10ba5e99f6"/>
+    <managerType typeId="90b1a87f-f980-46fa-8b52-e1252609f95f" valueTypeId="84a4da6d-c748-496f-8c02-db68e36a3635"/>
+  </producedTypes>
+  <name>ОтделОплаты</name>
+  <synonym>
+    <key>en</key>
+    <value>Отдел оплаты</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Sektionen der Bezahlung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Секции оплаты</value>
+  </synonym>
+  <inputByString>Catalog.ОтделОплаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОтделОплаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultListForm>Catalog.ОтделОплаты.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ОтделОплаты.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="a8158edc-bae1-4435-ba7c-0af174b18b96">
+    <name>VATRate</name>
+    <synonym>
+      <key>en</key>
+      <value>VAT Rate %</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rate MwSt. %</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС %</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкаНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="acf4513f-7e02-421f-a32c-77a2e985694c">
+    <name>BonusPaymentsNotAllowed</name>
+    <synonym>
+      <key>en</key>
+      <value>Bonus payments not allowed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bezahlung mit Boni ist untersagt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата бонусами запрещена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34ddfd57-d3f3-4cd6-a416-303d79aaa591">
+    <name>ExternalCode</name>
+    <synonym>
+      <key>en</key>
+      <value>External system code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im externen System</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код во внешней системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="295ca292-65ad-4af9-905f-64756cfba852">
+    <name>IsForHotelProducts</name>
+    <synonym>
+      <key>en</key>
+      <value>Used to pay for vouchers</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Für Reisechecks und Kurkarten zahlen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Для оплаты путевок и курсовок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02ae3746-4bc4-4e93-b2ce-efc52f727b60">
+    <name>IsForHotelProductExtraCharges</name>
+    <synonym>
+      <key>en</key>
+      <value>Used to pay for voucher extra charges</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Für Reisechecks und Kurkarten nachzahlen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Для доплат по путевкам и курсовкам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aceb838a-4d04-4eb7-8dd4-6b8a930d83e5">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5c0b3336-41a5-4a64-9624-95c8f7ff9646">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

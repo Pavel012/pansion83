@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bf6f3d7-029e-4727-9b54-5876219ae39e">
+  <producedTypes>
+    <refType typeId="4b60b48b-c87f-4628-9592-5af80d8b2b3d" valueTypeId="e29e436b-a6ef-42ea-acec-0952cf3ff0e9"/>
+    <listType typeId="2c721914-80b2-4bc1-9096-23ae7e5f606b" valueTypeId="a172ef59-98b2-4381-b3c8-e4bd69daceeb"/>
+    <managerType typeId="bfacef18-793a-4c16-8b19-acca89dabfef" valueTypeId="6f3d0499-0ca2-48da-931b-5aaddbe34eca"/>
+  </producedTypes>
+  <name>PeriodCheckTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Period check types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen der Zeitraumprüfung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды проверки периода</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="22ba715e-04c5-4138-804c-79130f9eb58e">
+    <name>Intersection</name>
+    <synonym>
+      <key>en</key>
+      <value>Intersection</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Überschneidung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пересечение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c89cf7e-3721-4976-8b69-8063d9f394b5">
+    <name>StartsInPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Starts in period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beginnt im Zeitraum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начинается в периоде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b2dce8c-9d17-4906-8cf8-d2f4742e5bf6">
+    <name>EndsInPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Ends in period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Geht zu Ende im Zeitraum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заканчивается в периоде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13da0d11-c620-4381-b480-6b9e72b529e9">
+    <name>StartsOrEndsInPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Starts or ends in period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Beginnt und endet im Zeitraum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начинается или заканчивается в периоде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6eba2bc6-569c-4c0a-aa30-1aa176a8ee3f">
+    <name>DocDateInPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Document creation date in period</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das Erstellungsdatum des Dokuments liegt im Zeitraum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания документа попадает в период</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

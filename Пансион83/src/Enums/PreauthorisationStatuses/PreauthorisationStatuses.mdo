@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c7d6f85-bb1f-4bd8-bdcd-95909a60ea83">
+  <producedTypes>
+    <refType typeId="e2430199-6727-4d72-97ca-d5ea2dd7aaaa" valueTypeId="486d1c80-9612-4c82-946f-0f6005b23b58"/>
+    <listType typeId="69fc125c-608d-42f3-a54e-ac087c3396ca" valueTypeId="2964e89b-ac72-4e5f-8e9c-a3e075e55b45"/>
+    <managerType typeId="ab5cea53-ab41-4ce0-9e9a-8819b963b3f0" valueTypeId="7e95dbf7-8eac-42fa-9ce4-9413455383f9"/>
+  </producedTypes>
+  <name>PreauthorisationStatuses</name>
+  <synonym>
+    <key>en</key>
+    <value>Preauthorisation statuses</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der Vorautorisierung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы преавторизации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="d50e7b5a-3ba3-4796-8d4e-06d71931df31">
+    <name>Authorised</name>
+    <synonym>
+      <key>en</key>
+      <value>Authorised</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autorisiert</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Авторизован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="438b5654-1632-430c-bfed-e0af1e23b55d">
+    <name>Refused</name>
+    <synonym>
+      <key>en</key>
+      <value>Refused</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Absage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e0e3926-4ca8-447b-8ffd-2a1106177f97">
+    <name>Completed</name>
+    <synonym>
+      <key>en</key>
+      <value>Completed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>berechnet</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9109b850-b552-4c38-9a95-c1a69ca25f82">
+    <name>Cancelled</name>
+    <synonym>
+      <key>en</key>
+      <value>Cancelled</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Abbruch</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40a1f044-49dd-40b2-bd2c-904e0bf80e36">
+    <name>Archived</name>
+    <synonym>
+      <key>en</key>
+      <value>Archived</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Im Archiv</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>В архиве</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20dc906d-7af3-4b0d-9b23-9652f44c7853">
+  <producedTypes>
+    <refType typeId="3e50c014-be0a-480a-8efa-f970862a9415" valueTypeId="e6fb8dfc-ada6-4d14-b034-5ca7b99ad375"/>
+    <listType typeId="8f72d96c-e057-4327-87df-84b9b729adbd" valueTypeId="9a09ab48-d00f-4c0d-bc8c-7aa3202af735"/>
+    <managerType typeId="117965b2-56bb-4170-928e-d16341f1b0bb" valueTypeId="35189267-efeb-417f-82bc-d7dc42d7bfc5"/>
+  </producedTypes>
+  <name>ProtectionSystemTypes</name>
+  <synonym>
+    <key>en</key>
+    <value>Protection system types</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen des Schutzsystems</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы системы защиты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="e452c6fa-0cc7-4d08-8a5d-cae7778cf49e">
+    <name>Katran1C10</name>
+    <synonym>
+      <key>en</key>
+      <value>Katran-1C (CLS 1.0)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Katran -1С (SLK 1.0)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Катран-1С (СЛК 1.0)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="198a20be-32b7-4131-b71d-09653e3310f4">
+    <name>Katran1C11</name>
+    <synonym>
+      <key>en</key>
+      <value>Katran-1C (CLS 1.1)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Katran -1С (SLK 1.1)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Катран-1С (СЛК 1.1)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84e8a5bb-b75f-4b2b-9307-c01281990632">
+    <name>Guardant</name>
+    <synonym>
+      <key>en</key>
+      <value>Guardant</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Guardant</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Guardant</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

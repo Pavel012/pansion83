@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f16727c-72de-4023-8a8b-52555689a9bf">
+  <name>AvailableRooms</name>
+  <synonym>
+    <key>en</key>
+    <value>Available rooms</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Was ist frei</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Что свободно</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d805aba3-3520-4a8e-90a3-ad8bf7ff4d48">
+  <producedTypes>
+    <refType typeId="9ab96f82-b9a7-4349-b020-0682a7e15cfc" valueTypeId="2e79f3e7-a902-4428-a17d-b55ffba3d6e3"/>
+    <listType typeId="b075a5e6-0227-4931-9bc2-beeef42a60c8" valueTypeId="acd36d62-645c-43b5-8359-492bbc7b19df"/>
+    <managerType typeId="91bbd286-9036-4b36-9583-ae386d0b215c" valueTypeId="6143c064-b606-450c-bacd-740f799c2149"/>
+  </producedTypes>
+  <name>StopBits</name>
+  <synonym>
+    <key>en</key>
+    <value>Stop bits</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Stoppbits</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Стоп биты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="81f15dd2-93c4-460d-bc7a-121a164225b0">
+    <name>Bits1</name>
+    <synonym>
+      <key>en</key>
+      <value>1 Bits</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>1 Bit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>1 Бит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebae33f2-7765-4295-a3f6-f29f23b71bc9">
+    <name>Bits2</name>
+    <synonym>
+      <key>en</key>
+      <value>2 Bits</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>2 Bit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>2 Бит</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

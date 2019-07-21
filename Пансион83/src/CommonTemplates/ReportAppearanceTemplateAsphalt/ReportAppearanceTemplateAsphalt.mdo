@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2ea5cee-9797-4d64-9494-acb8cdcc6406">
+  <name>ReportAppearanceTemplateAsphalt</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон представления отчетов - Асфальт</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report appearance template - Asphalt</value>
+  </synonym>
+</mdclass:CommonTemplate>

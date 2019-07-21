@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f25bca3-a4fe-4238-a49b-0d415cc1befd">
+  <name>ВзаиморасчетыИнтерфейс</name>
+  <synonym>
+    <key>en</key>
+    <value>Accounts (with interface functions)</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Gegenseitige Abrechnungen (Interface-Funktionen)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты (интерфейсные функции)</value>
+  </synonym>
+  <global>true</global>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

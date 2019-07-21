@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d11cf63-1258-4928-b047-c5ff0ad2735c">
+  <producedTypes>
+    <objectType typeId="1981d658-6fe5-498e-a46d-a7a8270f6d70" valueTypeId="f492e195-2a29-4d65-9540-333d8feff213"/>
+    <managerType typeId="0caaf3fa-c9b9-4190-b89f-af0ec16fdab1" valueTypeId="765bcd9b-6994-44f5-ba77-5805ab41e66a"/>
+  </producedTypes>
+  <name>PrintReturnForms</name>
+  <synonym>
+    <key>en</key>
+    <value>Print return forms</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Print return forms</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Печать документов на возврат</value>
+  </synonym>
+  <defaultForm>Report.PrintReturnForms.Form.ReportForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="01416951-a598-4837-aa34-dfc2d19a755e">
+    <name>Document</name>
+    <synonym>
+      <key>en</key>
+      <value>Document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Платеж</types>
+      <types>DocumentRef.Возврат</types>
+      <types>DocumentRef.ПлатежКонтрагента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a23f40c7-4903-465b-8a2e-07288205a706">
+    <name>ReportForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c17de9b7-e93c-42aa-bf3a-aa24aa97702f">
+    <name>RKO</name>
+    <synonym>
+      <key>en</key>
+      <value>RKO</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>RKO</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>РКО</value>
+    </synonym>
+  </templates>
+  <templates uuid="89bb051c-0f12-434a-b557-1ea04713d375">
+    <name>Application</name>
+    <synonym>
+      <key>en</key>
+      <value>Application</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Application</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление</value>
+    </synonym>
+  </templates>
+  <templates uuid="f13e3355-e21f-45e5-80e2-fcc2cee1d71f">
+    <name>KM3</name>
+    <synonym>
+      <key>en</key>
+      <value>Form KM-3</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form KM-3</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Акт KM-3</value>
+    </synonym>
+  </templates>
+  <templates uuid="4dc934fd-d514-43c5-b79b-1901aab592cf">
+    <name>G8</name>
+    <synonym>
+      <key>en</key>
+      <value>8-G</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>8-G</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>8-Г</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

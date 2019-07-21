@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="409cd6f9-85c8-4fec-bb60-7e8038b70a90">
+  <name>MonitorTemplate</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон монитора</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Monitor template</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eea0ac81-126a-43c0-842f-88bca8fe5fbf">
+  <name>Coins</name>
+  <synonym>
+    <key>en</key>
+    <value>Coins</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Münzen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Монеты</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

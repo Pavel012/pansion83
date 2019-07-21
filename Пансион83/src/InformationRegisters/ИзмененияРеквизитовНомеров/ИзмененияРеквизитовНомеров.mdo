@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10a1e947-0c69-4dbc-a13c-0cdb456cb429">
+  <producedTypes>
+    <selectionType typeId="267befbf-3422-4109-a0b5-bc36600f22b6" valueTypeId="49c91d06-47d8-4fcb-8c08-1c7134248449"/>
+    <listType typeId="d37b0262-3a57-46e8-b257-68b055962960" valueTypeId="5a8e805a-65d2-4208-9d35-40d7a8ae2dba"/>
+    <managerType typeId="cb5a312e-72cb-48f1-a4fc-99e3e16b6a02" valueTypeId="80588c8e-4028-4c98-a94c-73707c846a56"/>
+    <recordSetType typeId="ff81755c-d5ea-4064-90b4-2b89a148b0c8" valueTypeId="d7fae932-6a53-4908-a913-0de6092666ba"/>
+    <recordKeyType typeId="0d49de7d-59f5-459c-9476-3dde7f2ac392" valueTypeId="0e9420c0-a354-4e50-a909-d49e19abbd69"/>
+    <recordType typeId="a74645a7-2ca1-46cf-a759-09f702a165c3" valueTypeId="9664786a-a023-45ea-9524-6be3a4da1bd9"/>
+    <recordManagerType typeId="8ab783d2-7cc7-4a1a-b0b6-65eb8e58f6fd" valueTypeId="21407c74-3812-41bb-a371-b5e87967084c"/>
+  </producedTypes>
+  <name>ИзмененияРеквизитовНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Change history of room attributes</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Änderungsverlauf der Zimmerrequisiten</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>История изменений реквизитов номеров</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ИзмененияРеквизитовНомеров.Form.ListForm</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="445f30db-0555-4a1a-93d0-bd69e74e5d7a">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="313cce9d-f017-4630-a19d-e855c7b77785">
+    <name>RoomGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Room group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4e1c2e37-f82a-4182-a19d-0e49ca59d877">
+    <name>RoomNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Room number</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmernummer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер комнаты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a6133016-4649-487d-a0d4-4280543f5b0b">
+    <name>Floor</name>
+    <synonym>
+      <key>en</key>
+      <value>Floor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Etage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Этаж</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e1d978f9-6139-48de-b058-f304844df2c7">
+    <name>RoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="afad3ca2-5b23-49e3-89c6-fc6470b646b5">
+    <name>NumberOfBedsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of beds per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Plätzen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="21575072-a4fe-4d1b-b0a8-d7bce34ee75c">
+    <name>NumberOfPersonsPerRoom</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons per room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl von Gästen im Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество гостей в номере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cba2dec1-c24e-455d-b62b-e8d188b1aa61">
+    <name>OperationStartDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation start date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Inbetriebnahme des Zimmers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ввода номера в эксплуатацию</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ebf0567a-d1cc-4730-8a10-c7823f3aabbc">
+    <name>OperationEndDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation end date</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datum der Entnahme des Zimmers aus dem Betrieb</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывода номера из эксплуатации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="769d2153-2ecc-474c-aa56-d26119b4c729">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="37b38b06-f30b-48c3-bd37-dcaf62fe438c">
+    <name>RoomSection</name>
+    <synonym>
+      <key>en</key>
+      <value>Room section</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sektion der Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Секция номеров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СекцииНомерногоФонда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="232d7eea-9c22-48ef-81cc-b1e54feba0ef">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cd5717e1-87dd-4f48-9be1-b8b9b124f7c1">
+    <name>LockCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Door lock code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Code im System elektronischer Schlösser:</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код в системе эл. замков</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="28b72604-c75c-4bae-9b2f-99b7fdc52d1c">
+    <name>SecurityCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Security system room code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmercode im Überwachungssystem</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код номера в системе охраны</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ebe27423-1916-471a-bf8f-d777fd757ada">
+    <name>BoardPlace</name>
+    <synonym>
+      <key>en</key>
+      <value>Board place</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Versorgungspunkt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Место питания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ресурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="b752f58c-b498-4975-9dd1-ea99e9620ae1">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="402cd377-8565-4989-a636-bc3cd7e65f19">
+    <name>IsVirtual</name>
+    <synonym>
+      <key>en</key>
+      <value>Is virtual room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Virtuelles Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный номер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="455e30ca-50a3-4a2b-bdb8-ecbce2ac8e44">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Autor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4551f99f-84b6-4916-8be0-d9f76839bf7e">
+    <name>DocRecorder</name>
+    <synonym>
+      <key>en</key>
+      <value>Document recorder</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Registrationsdokument</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ регистратор</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ДобавитьНомер</types>
+      <types>DocumentRef.ПереселениеНомер</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="a4946024-1ad5-4792-ab6a-172b288e3d8e">
+    <name>User</name>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nutzer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1ab6db1f-cda4-47a4-bfd2-05e07542315a">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <comment>Номер</comment>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a2898888-3099-4b6e-a2fa-802285411ed1">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

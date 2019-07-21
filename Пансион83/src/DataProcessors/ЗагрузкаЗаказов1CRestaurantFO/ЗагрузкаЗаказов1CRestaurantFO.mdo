@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e8f5d21-3672-41cc-a4a5-e6e52d3cde71">
+  <producedTypes>
+    <objectType typeId="c9a41e04-579a-4031-88b4-577f9bba7309" valueTypeId="dedf31cc-24ba-4ac0-a09a-804e250ec44e"/>
+    <managerType typeId="0dcb20b0-c421-4f71-b8f2-a68bbd8c1823" valueTypeId="28605dd7-2e45-470c-9bab-4c3e64829136"/>
+  </producedTypes>
+  <name>ЗагрузкаЗаказов1CRestaurantFO</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка заказов из ресторанных Фронт Офисных систем на платформе 1С</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Load restaraunt orders from 1C Restaurant Front Office systems</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаЗаказов1CRestaurantFO.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b37b268d-72db-4f45-baa3-ddb6c3dfc67b">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b6fd92e-1f9b-41ec-9b82-c6ee995fafd1">
+    <name>DataExchangeFile</name>
+    <synonym>
+      <key>en</key>
+      <value>Data exchange file</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Datenaustauschdatei</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Файл обмена данными</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="19922a39-bdcc-4e0f-b8d7-fced64e9a202">
+    <name>DataExchangeFileEncoding</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодировка файла обмена данными</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Data exchange file encoding</value>
+    </synonym>
+    <type>
+      <types>EnumRef.FileEncoding</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4370d94-ffd5-4860-a370-8f6c7a217351">
+    <name>Service</name>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="69c507f3-0aac-4005-81e2-e3eda38375d6">
+    <name>DataExchangeFileCurrency</name>
+    <synonym>
+      <key>en</key>
+      <value>Data exchange file currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Austauschdateiwährung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта файла обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f27b9094-0451-4d96-99b9-d68af17e8f03">
+    <name>HistoryCatalog</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог истории загруженных файлов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>History of loaded orders catalog</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e7dab582-e1fc-486f-958e-585f41ff47de">
+    <name>NumberOfFilesInHistory</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество файлов в истории</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number of files in history</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e1260933-8765-4f1d-98dd-c8405326da9e">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dcf40124-8443-4614-b325-ceebb8352cdd">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

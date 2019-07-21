@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4dedf6c-0fd5-4ed8-a053-30b5904588c2">
+  <producedTypes>
+    <objectType typeId="a8f4bc8d-aad0-4579-919a-0f01961da94d" valueTypeId="b11fb5ac-0030-46ba-9d63-3d852457fd55"/>
+    <refType typeId="d38e2f6f-b44b-477b-89fd-6e15a032939c" valueTypeId="42540583-6324-49e1-9ae8-453c874e96f6"/>
+    <selectionType typeId="0f05c03c-2550-4801-a9b4-8f2ab1c9804a" valueTypeId="aaa33de8-422c-4088-bb96-53e731649dad"/>
+    <listType typeId="d42dc143-411b-432a-85e9-0e0a063a9f8c" valueTypeId="eabd56d0-5853-4217-b8a6-c94291a35031"/>
+    <managerType typeId="a48f80b3-0a44-412e-a208-cf722edef937" valueTypeId="57cf6c29-62e7-4e88-8793-e9628fba527a"/>
+  </producedTypes>
+  <name>Ресурсы</name>
+  <synonym>
+    <key>en</key>
+    <value>Ресурсы</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Ressourcen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ресурсы</value>
+  </synonym>
+  <inputByString>Catalog.Ресурсы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Ресурсы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <owners>Catalog.ТипыРесурсов</owners>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Ресурсы.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.Ресурсы.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Ресурсы.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="fc107513-c9bc-4de3-bd41-5ad30a32dbbd">
+    <name>DescriptionTranslations</name>
+    <synonym>
+      <key>en</key>
+      <value>Description translations on different languages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Übersetzungen der Bezeichnung in verschiedene Sprachen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы наименования на различные языки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11e5d34e-8520-4cd0-a84c-1b629fa5bbb4">
+    <name>RoundTheClockOperation</name>
+    <synonym>
+      <key>en</key>
+      <value>Round-the-clock operation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Arbeit rund um die Uhr</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Круглосуточная работа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="153875dc-8301-4a80-a9e6-6df1e3207c13">
+    <name>ServicePackage</name>
+    <synonym>
+      <key>en</key>
+      <value>Service package</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungspaket</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПакетыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80dde719-c7c7-4e79-8d5b-b7ced1fd2db7">
+    <name>Calendar</name>
+    <synonym>
+      <key>en</key>
+      <value>Resource working time calendar</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressourcenarbeitskalender</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь работы ресурса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Календари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7570e715-b8f5-4f7f-bb19-ad6f74b1f4e5">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1757a6a-b13c-43a8-b1d6-a90a34d12ffc">
+    <name>Company</name>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Kompanie</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="768c91f1-c448-46f0-a654-9f3d7b870f39">
+    <name>RackRate</name>
+    <synonym>
+      <key>en</key>
+      <value>Rack rate per hour in reporting currency</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Basisstundenpreis in der Abrechnungswährung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая цена за час в отчетной валюте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3701773d-3cb1-4d80-a95d-447387366de2">
+    <name>NumberOfPersonsPerResource</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of persons per resource</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Maximale Personenanzahl</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное кол-во человек</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ec9d14c-5e71-4614-a226-f45243b2a824">
+    <name>TemplateFolio</name>
+    <synonym>
+      <key>en</key>
+      <value>Template folio</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Personenkonto - Vorlage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет - шаблон</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетПроживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a127628d-77c1-4c56-b640-39ba76a528d8">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b61468cb-de3e-49bc-94f4-8338dff36982">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7dc89cd8-4ea0-4b3b-a750-ea0a4c7ef96a">
+    <name>Photo</name>
+    <synonym>
+      <key>en</key>
+      <value>Room photo</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Foto des Zimmers</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фото номера</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="006f92ad-03a5-415d-a760-90e529e3fc36">
+    <name>TimeFrom</name>
+    <synonym>
+      <key>en</key>
+      <value>Service period from</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit des Dienstleistungsbeginns</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала услуги</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68c2a7ad-56a0-42e0-a593-4497fa69f0ec">
+    <name>TimeTo</name>
+    <synonym>
+      <key>en</key>
+      <value>Service period to</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeit der Dienstleistungsbeendigung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания услуги</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a603addc-6a2d-44e1-88c1-006965f9256b">
+    <name>ShowPrice</name>
+    <synonym>
+      <key>en</key>
+      <value>Show price in chart header</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Den Preis in der Kopfzeile der graphischen Karte anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать цену в шапке графической карты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1eadfa10-3a97-442a-89b8-31fdfd718900">
+    <name>ShowNumberOfPersonsPerResource</name>
+    <synonym>
+      <key>en</key>
+      <value>Show number of persons per resource in chart header</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die maximale Personenanzahl der Ressource in der Kopfzeile der graphischen Karte anzeigen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать максимальное кол-во человек ресурса в шапке графической карты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba315758-1b5b-42b4-be9f-5665853e2a0e">
+    <name>IsBoardPlace</name>
+    <synonym>
+      <key>en</key>
+      <value>Is board place</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Das ist ein Versorgungsort</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это место питания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="82d95ba0-3bfd-4a4a-a46f-ed6dc05862cc">
+    <producedTypes>
+      <objectType typeId="afa83a40-d783-4f3a-8d22-7ec43838572f" valueTypeId="f251e490-0719-4193-9ed4-042b8476f29c"/>
+      <rowType typeId="a1a7debf-7fd6-4228-aaf8-e218288b5585" valueTypeId="ad8a9221-a616-4b8c-9d24-5994f3b6ee8a"/>
+    </producedTypes>
+    <name>ServicePackages</name>
+    <synonym>
+      <key>en</key>
+      <value>Service packages</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dienstleistungspakete</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пакеты услуг</value>
+    </synonym>
+    <attributes uuid="18c82593-073d-44de-a08c-5995964e2120">
+      <name>ServicePackage</name>
+      <synonym>
+        <key>en</key>
+        <value>Service package</value>
+      </synonym>
+      <synonym>
+        <key>de</key>
+        <value>Dienstleistungspaket</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Пакет услуг</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПакетыУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c3c28399-dc2d-45e4-a3ee-e17867d9cdce">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30b7608d-e9ec-42e0-a133-9d2abc8c273b">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Elementsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3729f5c8-9a4a-4799-8323-b23871d4661a">
+    <name>ResourcesCalendar</name>
+    <synonym>
+      <key>en</key>
+      <value>Resources calendar</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressourcenkalender</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь ресурсов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>en</lang>
+      </pages>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f01aa4d2-f59d-4cc9-b28c-c755f6dbfe00">
+    <name>ResourcesCalendar</name>
+    <synonym>
+      <key>en</key>
+      <value>Resources calendar</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ressourcenkalender</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь ресурсов</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

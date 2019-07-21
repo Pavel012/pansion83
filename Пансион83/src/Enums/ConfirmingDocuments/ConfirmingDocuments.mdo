@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a4004aa-6f7b-4ed8-8f30-9ef8a93d1194">
+  <producedTypes>
+    <refType typeId="963fb40b-fbb9-46d3-8b3e-1068f77cd353" valueTypeId="f3db163d-1a0a-4ff0-9e71-01869ed90a70"/>
+    <listType typeId="f38986ef-495f-4e49-b93c-628d7bd9d410" valueTypeId="44c0b36f-5298-4f97-8fee-15a0f3b7639d"/>
+    <managerType typeId="c43387e5-327e-467c-88b5-b0e9ccdb2331" valueTypeId="bd5ba7e2-b8e5-458e-bf0a-7a88ac0cea46"/>
+  </producedTypes>
+  <name>ConfirmingDocuments</name>
+  <synonym>
+    <key>en</key>
+    <value>Documents confirming the right to stay (residence) of foreign citizens in the Russian Federation</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>¶Der Nachweis über das Recht auf Aufenthalt (Wohnsitz) der ausländischen Bürger in der Russischen Föderation</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Документы, подтверждающие право пребывания (проживания) ИГ на территории РФ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dde14588-0f3f-4506-9519-b1907488e4cc">
+    <name>Visa</name>
+    <synonym>
+      <key>en</key>
+      <value>Visa</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Visum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Виза</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d819378d-3c96-4ad5-928d-6bec12871679">
+    <name>PermResidencePermit</name>
+    <synonym>
+      <key>en</key>
+      <value>Permanent residence permit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Wohnsitz</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид на жительство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d69c647-49cd-4ed2-93c1-7ddda466d9e6">
+    <name>TempResidencePermit</name>
+    <synonym>
+      <key>en</key>
+      <value>Temporary residence permit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Eine befristete Aufenthaltsgenehmigung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение на временное проживание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="708f98b0-cbe2-4861-8c22-e7cbb4159ede">
+    <name>WithoutVisa</name>
+    <synonym>
+      <key>en</key>
+      <value>Without a visa</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ohne Visum</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Без визы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

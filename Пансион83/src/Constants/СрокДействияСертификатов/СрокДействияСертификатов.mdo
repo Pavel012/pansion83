@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffd6367c-5c14-4ecf-847f-e8b2e1b6dccd">
+  <producedTypes>
+    <managerType typeId="5c7b1d33-e879-4b2c-b014-2e138841c878" valueTypeId="30460fb3-2348-48dc-8af2-ab46fba9e0cd"/>
+    <valueManagerType typeId="d06d1920-2907-4812-81ca-45e38ae8025d" valueTypeId="0dd71816-1d91-4c44-8f69-cd0ed94b5cd3"/>
+    <valueKeyType typeId="229c784c-3982-5fa0-9148-999a4478b2d1" valueTypeId="2e7bf95e-8e0b-502d-870b-fd1aa533ce04"/>
+  </producedTypes>
+  <name>СрокДействияСертификатов</name>
+  <synonym>
+    <key>en</key>
+    <value>Number of months when gift certificates are valid</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Anzahl von Monaten der Gültigkeit von Geschenkgutscheinen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Кол-во месяцев действия подарочных сертификатов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <explanation>
+    <key>en</key>
+    <value>This parameter defines default gift certificate validity period. Gift certificate validity period starts from the certificate purchase date. </value>
+  </explanation>
+  <explanation>
+    <key>de</key>
+    <value>Dieser Parameter definiert den standardmäßigen Gültigkeitszeitraum von Geschenkgutscheinen. Wird in Monaten ab Kaufdatum (Bezahlung) des Gutscheins angegeben.</value>
+  </explanation>
+  <explanation>
+    <key>ru</key>
+    <value>Этот параметр определяет период действия подарочных сертификатов по умолчанию. Указывается в месяцах от даты покупки (оплаты) сертификата.</value>
+  </explanation>
+  <toolTip>
+    <key>en</key>
+    <value>This parameter defines default gift certificate validity period. Gift certificate validity period starts from the certificate purchase date. </value>
+  </toolTip>
+  <toolTip>
+    <key>de</key>
+    <value>Dieser Parameter definiert den standardmäßigen Gültigkeitszeitraum von Geschenkgutscheinen. Wird in Monaten ab Kaufdatum (Bezahlung) des Gutscheins angegeben.</value>
+  </toolTip>
+  <toolTip>
+    <key>ru</key>
+    <value>Этот параметр определяет период действия подарочных сертификатов по умолчанию. Указывается в месяцах от даты покупки (оплаты) сертификата.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

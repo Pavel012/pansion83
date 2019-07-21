@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="774db65d-baf0-4b89-8cce-fe3800ba9bfe">
+  <producedTypes>
+    <selectionType typeId="9754b3d4-257d-49fb-95eb-61bec1e78563" valueTypeId="1e48abd7-4e01-4846-83cb-8b3d294730c5"/>
+    <listType typeId="a6a16cd2-be15-4dfe-88dc-51c15177fd51" valueTypeId="ee100070-14a1-4feb-8678-d6e003c000b7"/>
+    <managerType typeId="a715fb30-2ea2-4331-a06c-ebd0260b25ef" valueTypeId="472f2400-3c55-4bdb-a1ea-a2b473c7c8d8"/>
+    <recordSetType typeId="b9b8bc99-b396-424a-8963-b5362020e9ae" valueTypeId="e20b2785-29c6-4da3-bdd3-d33fd0a9ffd9"/>
+    <recordKeyType typeId="e5f7c641-21a4-47b5-ace0-5912a9cebf2e" valueTypeId="0556ac98-4f02-4445-a280-ce11c6674be8"/>
+    <recordType typeId="d01949fa-757e-45bd-b498-20be1f7ecd03" valueTypeId="c69ec547-bff8-4602-9060-0a8cd652c427"/>
+    <recordManagerType typeId="dd029ca5-f4d6-41a5-8a01-03e85e519ae8" valueTypeId="ff36bdd7-7bc5-4e3f-b8bc-292e0ff6cf8e"/>
+  </producedTypes>
+  <name>ОжиданиеБрони</name>
+  <synonym>
+    <key>en</key>
+    <value>Ожидание брони</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Wartelist nach der Reservierung</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Лист ожидания по брони</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ОжиданиеБрони.Form.ListForm</defaultListForm>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="666cef9f-ab49-4758-86ca-37d4527f5e29">
+    <name>Rating</name>
+    <synonym>
+      <key>en</key>
+      <value>Rating</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rating</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="55eb4873-6a1c-46c6-93b4-bc6c06c731b9">
+    <name>Ready</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation could be confirmed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Reservierung kann bestätigt werden</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бронь может быть подтверждена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="b918cfd2-1de0-4f84-863d-fbf56b6157d5">
+    <name>Reservation</name>
+    <synonym>
+      <key>en</key>
+      <value>Reservation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Rücklage</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Резервирование</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Бронирование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="37e1fa4b-9dd6-451b-81b2-2705f0e06f61">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b63accdb-0b59-4f04-8169-43e5db2f859b">
+  <name>LeftPanel</name>
+  <synonym>
+    <key>en</key>
+    <value>Left panel</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Left panel</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Левая панель</value>
+  </synonym>
+  <transparentPixel>
+    <x>11</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

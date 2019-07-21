@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bb25321-891f-4194-a9cd-b295fd926732">
+  <name>ToBePaid</name>
+  <synonym>
+    <key>en</key>
+    <value>To be paid</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>К оплате</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>К оплате</value>
+  </synonym>
+</mdclass:CommonPicture>

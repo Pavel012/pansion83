@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d969349b-83ee-4288-93ff-de06247c2ccf">
+  <name>Unpaid</name>
+  <synonym>
+    <key>en</key>
+    <value>Unpaid</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Unpaid</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Неоплачен</value>
+  </synonym>
+</mdclass:CommonPicture>

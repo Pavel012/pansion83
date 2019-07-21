@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="157f868c-97cd-4593-80c9-a8ed052e739f">
+  <name>Скидки</name>
+  <synonym>
+    <key>en</key>
+    <value>Скидки</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Preisnachlässe</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки</value>
+  </synonym>
+  <global>true</global>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

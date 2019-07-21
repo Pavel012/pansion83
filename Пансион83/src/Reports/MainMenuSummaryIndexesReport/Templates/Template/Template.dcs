@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>DataSource1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>DataSet1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DiscountCard</dataPath>
+			<field>DiscountCard</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Гостиница</dataPath>
+			<field>Гостиница</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RoomsCheckedInОборот</dataPath>
+			<field>RoomsCheckedInОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Агент</dataPath>
+			<field>Агент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CommissionSumОборот</dataPath>
+			<field>CommissionSumОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УчетнаяДата</dataPath>
+			<field>УчетнаяДата</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цена</dataPath>
+			<field>Цена</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетПроживания</dataPath>
+			<field>СчетПроживания</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаГостей</dataPath>
+			<field>ГруппаГостей</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокОснование</dataPath>
+			<field>ДокОснование</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>GuestDaysОборот</dataPath>
+			<field>GuestDaysОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RoomsRentedОборот</dataPath>
+			<field>RoomsRentedОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПутевкаКурсовка</dataPath>
+			<field>ПутевкаКурсовка</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуга</dataPath>
+			<field>Услуга</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Тариф</dataPath>
+			<field>Тариф</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКлиента</dataPath>
+			<field>ТипКлиента</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерРазмещения</dataPath>
+			<field>НомерРазмещения</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>BedsRentedОборот</dataPath>
+			<field>BedsRentedОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипНомера</dataPath>
+			<field>ТипНомера</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидРазмещения</dataPath>
+			<field>ВидРазмещения</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ресурс</dataPath>
+			<field>Ресурс</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипРесурса</dataPath>
+			<field>ТипРесурса</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Скидка</dataPath>
+			<field>Скидка</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>AdditionalBedsRentedОборот</dataPath>
+			<field>AdditionalBedsRentedОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DiscountSumWithoutVATОборот</dataPath>
+			<field>DiscountSumWithoutVATОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСкидки</dataPath>
+			<field>ТипСкидки</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомиссияАгента</dataPath>
+			<field>КомиссияАгента</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RoomRevenueWithoutVATОборот</dataPath>
+			<field>RoomRevenueWithoutVATОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидКомиссииАгента</dataPath>
+			<field>ВидКомиссииАгента</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DiscountSumОборот</dataPath>
+			<field>DiscountSumОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособОплаты</dataPath>
+			<field>СпособОплаты</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>VATSumОборот</dataPath>
+			<field>VATSumОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтавкаНДС</dataPath>
+			<field>СтавкаНДС</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Фирма</dataPath>
+			<field>Фирма</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>BedsCheckedInОборот</dataPath>
+			<field>BedsCheckedInОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>SalesОборот</dataPath>
+			<field>SalesОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>SalesWithoutVATОборот</dataPath>
+			<field>SalesWithoutVATОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RoomRevenueОборот</dataPath>
+			<field>RoomRevenueОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CommissionSumWithoutVATОборот</dataPath>
+			<field>CommissionSumWithoutVATОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>AdditionalBedsCheckedInОборот</dataPath>
+			<field>AdditionalBedsCheckedInОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>GuestsCheckedInОборот</dataPath>
+			<field>GuestsCheckedInОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ResourceRevenueОборот</dataPath>
+			<field>ResourceRevenueОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ResourceRevenueWithoutVATОборот</dataPath>
+			<field>ResourceRevenueWithoutVATОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>HoursRentedОборот</dataPath>
+			<field>HoursRentedОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>QuantityОборот</dataPath>
+			<field>QuantityОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПризнакЦены</dataPath>
+			<field>ПризнакЦены</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипДеньКалендарь</dataPath>
+			<field>ТипДеньКалендарь</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаретингНапрвл</dataPath>
+			<field>МаретингНапрвл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточИнфоГостиница</dataPath>
+			<field>ИсточИнфоГостиница</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДисконтКарт</dataPath>
+			<field>ДисконтКарт</field>
+		</field>
+		<dataSource>DataSource1</dataSource>
+		<query>ВЫБРАТЬ
+	ПродажиОбороты.УчетнаяДата КАК УчетнаяДата,
+	ПродажиОбороты.СчетПроживания КАК СчетПроживания,
+	ПродажиОбороты.ДокОснование КАК ДокОснование,
+	ПродажиОбороты.ГруппаГостей КАК ГруппаГостей,
+	ПродажиОбороты.Контрагент КАК Контрагент,
+	ПродажиОбороты.Договор КАК Договор,
+	ПродажиОбороты.Агент КАК Агент,
+	ПродажиОбороты.Клиент КАК Клиент,
+	ПродажиОбороты.Цена КАК Цена,
+	ПродажиОбороты.Услуга КАК Услуга,
+	ПродажиОбороты.Тариф КАК Тариф,
+	ПродажиОбороты.НомерРазмещения КАК НомерРазмещения,
+	ПродажиОбороты.ТипНомера КАК ТипНомера,
+	ПродажиОбороты.ВидРазмещения КАК ВидРазмещения,
+	ПродажиОбороты.ТипКлиента КАК ТипКлиента,
+	ПродажиОбороты.МаретингНапрвл КАК МаретингНапрвл,
+	ПродажиОбороты.ИсточИнфоГостиница КАК ИсточИнфоГостиница,
+	ПродажиОбороты.Ресурс КАК Ресурс,
+	ПродажиОбороты.ТипРесурса КАК ТипРесурса,
+	ПродажиОбороты.ПутевкаКурсовка КАК ПутевкаКурсовка,
+	ПродажиОбороты.Автор КАК Автор,
+	ПродажиОбороты.Скидка КАК Скидка,
+	ПродажиОбороты.ТипСкидки КАК ТипСкидки,
+	ПродажиОбороты.ДисконтКарт КАК ДисконтКарт,
+	ПродажиОбороты.КомиссияАгента КАК КомиссияАгента,
+	ПродажиОбороты.ВидКомиссииАгента КАК ВидКомиссииАгента,
+	ПродажиОбороты.СпособОплаты КАК СпособОплаты,
+	ПродажиОбороты.СтавкаНДС КАК СтавкаНДС,
+	ПродажиОбороты.Фирма КАК Фирма,
+	ПродажиОбороты.Гостиница КАК Гостиница,
+	ПродажиОбороты.Валюта КАК Валюта,
+	ПродажиОбороты.SalesОборот КАК SalesОборот,
+	ПродажиОбороты.SalesWithoutVATОборот КАК SalesWithoutVATОборот,
+	ПродажиОбороты.RoomRevenueОборот КАК RoomRevenueОборот,
+	ПродажиОбороты.RoomRevenueWithoutVATОборот КАК RoomRevenueWithoutVATОборот,
+	ПродажиОбороты.CommissionSumОборот КАК CommissionSumОборот,
+	ПродажиОбороты.CommissionSumWithoutVATОборот КАК CommissionSumWithoutVATОборот,
+	ПродажиОбороты.DiscountSumОборот КАК DiscountSumОборот,
+	ПродажиОбороты.DiscountSumWithoutVATОборот КАК DiscountSumWithoutVATОборот,
+	ПродажиОбороты.RoomsRentedОборот КАК RoomsRentedОборот,
+	ПродажиОбороты.BedsRentedОборот КАК BedsRentedОборот,
+	ПродажиОбороты.AdditionalBedsRentedОборот КАК AdditionalBedsRentedОборот,
+	ПродажиОбороты.GuestDaysОборот КАК GuestDaysОборот,
+	ПродажиОбороты.GuestsCheckedInОборот КАК GuestsCheckedInОборот,
+	ПродажиОбороты.RoomsCheckedInОборот КАК RoomsCheckedInОборот,
+	ПродажиОбороты.BedsCheckedInОборот КАК BedsCheckedInОборот,
+	ПродажиОбороты.AdditionalBedsCheckedInОборот КАК AdditionalBedsCheckedInОборот,
+	ПродажиОбороты.ResourceRevenueОборот КАК ResourceRevenueОборот,
+	ПродажиОбороты.ResourceRevenueWithoutVATОборот КАК ResourceRevenueWithoutVATОборот,
+	ПродажиОбороты.HoursRentedОборот КАК HoursRentedОборот,
+	ПродажиОбороты.QuantityОборот КАК QuantityОборот,
+	ПродажиОбороты.VATSumОборот КАК VATSumОборот
+ИЗ
+	РегистрНакопления.Продажи.Обороты(, , , ) КАК ПродажиОбороты</query>
+	</dataSet>
+	<parameter>
+		<name>BeginOfPeriod</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Begin of period</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>EndOfPeriod</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>End of period</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Default</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Тариф</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УчетнаяДата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>AdditionalBedsCheckedInОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>AdditionalBedsRentedОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Агент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомиссияАгента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидКомиссииАгента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Автор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>BedsCheckedInОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>BedsRentedОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Клиент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипКлиента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>CommissionSumWithoutVATОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>CommissionSumОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Фирма</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Договор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Скидка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DiscountCard</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DiscountSumWithoutVATОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DiscountSumОборот</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>УчетнаяДата</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Клиент</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Client</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

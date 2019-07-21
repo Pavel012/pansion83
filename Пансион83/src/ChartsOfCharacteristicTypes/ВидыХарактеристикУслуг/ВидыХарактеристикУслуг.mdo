@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a15dd654-fbbe-45ad-b53d-d5e031f8336e">
+  <producedTypes>
+    <objectType typeId="ea9d5ceb-f583-4eee-8425-7db9be4ff20a" valueTypeId="c03246fe-a996-4de3-b0fb-424b4bd00810"/>
+    <refType typeId="9974edf1-1ca4-4f13-838f-45047bbfc9ca" valueTypeId="999aea63-2266-44bc-9fc6-3905b540ede8"/>
+    <selectionType typeId="f8fb0fac-4d4f-4055-97ee-c6e6c477654c" valueTypeId="7254d216-733b-4c2e-ab72-1277c0a6631b"/>
+    <listType typeId="fb368848-51c8-45e3-b2ff-2a49b5630211" valueTypeId="6045e240-96e1-4db5-bfb8-c675b816083e"/>
+    <managerType typeId="f78b663b-471a-4784-856b-a18f70244f5b" valueTypeId="2ec464a4-bc47-4d75-b078-1f1d9c45101a"/>
+    <containerType typeId="3588a6fb-23ae-46db-8148-68ec7bfd09de" valueTypeId="cd47de62-c967-49f9-8302-647edc312fe9"/>
+  </producedTypes>
+  <name>ВидыХарактеристикУслуг</name>
+  <synonym>
+    <key>en</key>
+    <value>Виды характеристик услуг</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Typen der Dienstleistungscharakteristika</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды характеристик услуг</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ВидыХарактеристикУслуг.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыХарактеристикУслуг.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>19</precision>
+      <scale>7</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

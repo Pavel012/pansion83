@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0f350f9-6c08-4691-9b1a-243061f226bf">
+  <producedTypes>
+    <objectType typeId="ea076bd2-29d5-411f-96cb-e48613686b78" valueTypeId="282e2d36-e6cb-464b-b556-1c3369384a9a"/>
+    <managerType typeId="6fe2bfa2-91f6-4c03-9297-8ecda7c30b72" valueTypeId="528bff3b-ec5b-4554-b097-b46f8eb9d688"/>
+  </producedTypes>
+  <name>АвтопродлениеПроживания</name>
+  <synonym>
+    <key>en</key>
+    <value>Автопродление проживания</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Automatische Verlängerung der Aufenthaltsdauer der Gäste</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Автопродление периодов проживания гостей</value>
+  </synonym>
+  <defaultForm>DataProcessor.АвтопродлениеПроживания.Form.SettingsForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="8702acb4-3d0f-4d50-aaca-e0512aa4a9a0">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5804bcb7-b89d-4bce-952c-80268288ba47">
+    <name>FreeOfChargeCheckOutDelay</name>
+    <synonym>
+      <key>en</key>
+      <value>Free of charge check-out delay in minutes</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dauer der kostenlosen Verzögerung des Auszugs von Gästen aus dem Zimmer in Minuten</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность бесплатной задержки выселения гостей из номера в минутах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="96516acb-2cee-412d-8626-6bd1b25674e8">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitung</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8b8e6c07-9707-4a8e-b7ea-1034837981dc">
+    <name>SettingsForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Einstellungsformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

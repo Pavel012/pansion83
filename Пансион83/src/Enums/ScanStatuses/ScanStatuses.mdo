@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47c02824-4153-464e-8604-84d61918242e">
+  <producedTypes>
+    <refType typeId="1548785f-8293-488b-81c2-4da95896ec98" valueTypeId="dcc38e6a-9056-41ff-98ed-d903ec09f35f"/>
+    <listType typeId="429539f3-e4e9-422a-9682-8197fa440828" valueTypeId="17f0c919-c555-427a-872f-7ae99f2b13bb"/>
+    <managerType typeId="d879ae42-b241-4f5b-a369-abfc110a985c" valueTypeId="6e2a8e02-b7d2-4f8b-b84f-0ed266cad887"/>
+  </producedTypes>
+  <name>ScanStatuses</name>
+  <synonym>
+    <key>en</key>
+    <value>Scan statuses</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Status der Scans</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сканов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="287bd3c5-e8c8-4dd0-88b1-0a99fee88e81">
+    <name>IsNew</name>
+    <synonym>
+      <key>en</key>
+      <value>Is new</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Neu</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7827072a-1fcc-4c02-b220-326770b48fb6">
+    <name>IsRecognized</name>
+    <synonym>
+      <key>en</key>
+      <value>Is recognized</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erkannt</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Распознан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa871e05-d5e2-46f4-9eb5-e93d8bc19c43">
+    <name>IsProcessed</name>
+    <synonym>
+      <key>en</key>
+      <value>Is processed</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Bearbeitet vom Mitarbeiter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

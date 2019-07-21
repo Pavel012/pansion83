@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a46c17e-3426-48f8-8c36-18a1b81fb4e4">
+  <name>УпрКлиентФункцииТонкий</name>
+  <synonym>
+    <key>en</key>
+    <value>Client side functions for thin client</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Client side functions for thin client</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Клиентские функции для тонкого клиента</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

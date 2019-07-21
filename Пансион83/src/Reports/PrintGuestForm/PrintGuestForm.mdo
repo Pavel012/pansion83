@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f016be2-edc2-4445-a172-6a850eafa125">
+  <producedTypes>
+    <objectType typeId="9171c116-9ef5-4688-8469-0d74995a8b0b" valueTypeId="2d014f78-297a-4669-a4a4-466c9e6247b5"/>
+    <managerType typeId="7a2ea826-b0d6-4269-b0e7-66e04053c5e7" valueTypeId="f1d859fe-4232-4b1f-8537-07e915e8c8a2"/>
+  </producedTypes>
+  <name>PrintGuestForm</name>
+  <synonym>
+    <key>en</key>
+    <value>Print guest form</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Druck des Gastfragebogens</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Печать анкеты гостя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.PrintGuestForm.Form.ReportForm</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="f3350ec0-3560-4b49-98ee-93b5b404f713">
+    <name>GuestGroup</name>
+    <synonym>
+      <key>en</key>
+      <value>Guest group</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gruppe Gäste</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа гостей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыГостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="218180bf-9122-444c-8fe4-9b624338cedb">
+    <name>Document</name>
+    <synonym>
+      <key>en</key>
+      <value>Document</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Dokument</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Размещение</types>
+      <types>DocumentRef.Бронирование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ebde9e5b-f04e-49f4-a47d-9618ffce9ec9">
+    <name>TypeOfPrintForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Type of print form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Typ der Druckform</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип печатной формы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bd31f039-bafb-4fa8-aaf2-0255f340bb94">
+    <name>Print2On1Page</name>
+    <synonym>
+      <key>en</key>
+      <value>Print 2 forms on 1 page</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>2 Formulare pro Seite drucken</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать 2 формы на странице</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67d68942-29d0-490e-b52b-ea087d95381c">
+    <name>IsInAutomaticMode</name>
+    <synonym>
+      <key>en</key>
+      <value>Is in automatic mode</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Is in automatic mode</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Это автоматическая печать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ba17d122-2fa7-4bb9-9302-ef9e0962e9d4">
+    <name>ReportForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Report form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0fa57c65-4488-40d1-b717-bdcac4ca3fe5">
+    <name>FreeForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Free form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Free form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Свободная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="3c8b811c-5926-4a45-aa84-791bdad1901f">
+    <name>Form1G</name>
+    <synonym>
+      <key>en</key>
+      <value>Form 1-G</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form 1-G</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 1-Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="f43b399c-a59c-46b0-9e22-f73748dc23e1">
+    <name>Form5</name>
+    <synonym>
+      <key>en</key>
+      <value>Form 5</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form 5</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 5</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

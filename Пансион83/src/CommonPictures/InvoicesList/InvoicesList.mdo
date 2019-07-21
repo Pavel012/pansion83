@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0382c46-3a19-4284-8d73-a1d0dfed503a">
+  <name>InvoicesList</name>
+  <synonym>
+    <key>en</key>
+    <value>Invoices list</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Liste der Pro-Forma Rechnungen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Список счетов на оплату</value>
+  </synonym>
+</mdclass:CommonPicture>

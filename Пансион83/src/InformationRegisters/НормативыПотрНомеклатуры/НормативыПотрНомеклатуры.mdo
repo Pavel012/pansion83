@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b210cdde-6d65-4851-9dc0-2802b08022ce">
+  <producedTypes>
+    <selectionType typeId="178d6ec8-eb14-4020-8962-1c10f37ec239" valueTypeId="fabfd62c-a5a9-41b9-a9f9-287067c033dc"/>
+    <listType typeId="5f8e923e-59b0-485c-b142-05898a395e9e" valueTypeId="9ff53158-1701-48a0-9b49-9a04541a3af7"/>
+    <managerType typeId="092d4d04-7753-4487-b02a-4bfebc9419e9" valueTypeId="b677f759-cc96-4406-8632-40713d188134"/>
+    <recordSetType typeId="4f880cdf-b1d1-46e6-a0be-7edca6cab3e6" valueTypeId="73eab4e1-3360-4e40-89b1-6178d5c97677"/>
+    <recordKeyType typeId="ae56c195-e376-458b-b52c-699062fe77cd" valueTypeId="0459bc0a-61ba-48d1-92af-62ea148e379c"/>
+    <recordType typeId="6e2a260b-68fb-4c09-bf5a-b3b5e39cfc17" valueTypeId="8ffd04d0-b0d8-4c79-84b3-7d5cd337dca3"/>
+    <recordManagerType typeId="97e6a10f-ae07-40cd-90b0-1180172a72ac" valueTypeId="45aaea57-b8ea-4e05-8025-dfc39c5c97be"/>
+  </producedTypes>
+  <name>НормативыПотрНомеклатуры</name>
+  <synonym>
+    <key>en</key>
+    <value>Нормативы потр номеклатуры</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Normen des Nomenklaturverbrauchs</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативы потребления номенклатуры</value>
+  </synonym>
+  <defaultListForm>InformationRegister.НормативыПотрНомеклатуры.Form.ListForm</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eb4f6e4a-933e-40a1-bd2d-f164780f04ab">
+    <name>Quantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Quantity in pieces, grams or milliliters</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anzahl in Stück, Gramm und Milliliter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Количество в штуках, граммах или миллилитрах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4068aacc-9a94-438b-b0d5-14bf5b22aa45">
+    <name>Unit</name>
+    <synonym>
+      <key>en</key>
+      <value>Unit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Maßeinheit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8f38ff7c-a1d3-49b4-80b9-cb61552ec6c1">
+    <name>IsPerPerson</name>
+    <synonym>
+      <key>en</key>
+      <value>Is per person (guest)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Pro Person (Gast)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>На каждого человека (гостя)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="866ff6c3-5667-4d00-ba8c-fea5b7dd907f">
+    <name>IsPerRoomSpaceUnit</name>
+    <synonym>
+      <key>en</key>
+      <value>Is per room space unit</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Pro Einheit der Zimmerfläche</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>На единицу площади номера</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1b721298-6e1a-4c24-9b2d-a667a2158ecf">
+    <name>Operation</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Arbeit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Работы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7be52502-f9c7-4120-bf55-b4b96a544c97">
+    <name>Article</name>
+    <synonym>
+      <key>en</key>
+      <value>Article</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Nomenklatur</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="7b57cb87-1133-431b-980f-b013e36c2312">
+    <name>Гостиница</name>
+    <synonym>
+      <key>en</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Гостиница</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гостиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="16f984f4-8a2e-4ffb-b5f9-4a3cf957b112">
+    <name>RoomType</name>
+    <synonym>
+      <key>en</key>
+      <value>Room type</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmertyp</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="e4db684c-9d74-4c6d-9250-fd680b559cb1">
+    <name>Room</name>
+    <synonym>
+      <key>en</key>
+      <value>Room</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zimmer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомернойФонд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="ba7fcc93-7b4d-402c-9b55-e15a051d0fb9">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

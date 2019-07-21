@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c568edbc-922c-4cb2-9036-9e115f31e8e6">
+  <producedTypes>
+    <refType typeId="c72ce6af-51a8-4fc9-be47-1c0a030ceb69" valueTypeId="d6ed619b-b139-4d09-b8d7-98de0afcc25e"/>
+    <listType typeId="f72bec76-b134-41b3-8671-26deb2c82997" valueTypeId="d27882c6-d170-4ea6-b7c9-fd4834f240a1"/>
+    <managerType typeId="76c1211c-9375-48cd-be07-250f74d4ef99" valueTypeId="f6ff358c-559a-4cf9-9b29-df7ca24ad011"/>
+  </producedTypes>
+  <name>CashRegisterDrivers</name>
+  <synonym>
+    <key>en</key>
+    <value>Supported cash register drivers</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Unterstützte Registrierkassentreiber</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поддерживаемые драйверы ККМ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="36d79478-fb1d-46ec-8699-d17ddd48db5e">
+    <name>ArtSoftDatecsCashRegisterDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>ArtSoft: Datecs FP</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>ArtSoft: Datecs FP</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ArtSoft: Datecs FP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39cbd4e8-2aaf-4dee-a176-ce176c5fbac6">
+    <name>AtolCommonCashRegisterDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>Atol: Common cash register driver</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Atol: Allgemeiner Treiber Registrierkasse</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Атол: Общий драйвер ККМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79341f86-c034-4916-b10e-b9a59ac09968">
+    <name>CCSUniversalCashRegisterDriver</name>
+    <synonym>
+      <key>en</key>
+      <value>CCS: Universal cash register driver (version 1.15 and older)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>KKS: der universelle Registrierkassentreiber (version &lt;= 1.15)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ККС: Универсальный драйвер ККМ (версия 1.15 и меньше)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4f22f32-e6a2-4e8c-93db-dbc5c04c2a46">
+    <name>CCSUniversalCashRegisterDriver16</name>
+    <synonym>
+      <key>en</key>
+      <value>CCS: Universal cash register driver (version 1.16 and newer)</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>KKS: der universelle Registrierkassentreiber (version >= 1.16)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ККС: Универсальный драйвер ККМ (версия 1.16 и новее)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44381a8b-4730-4845-8531-4bd1296aa575">
+    <name>ShtrihMDriverFR</name>
+    <synonym>
+      <key>en</key>
+      <value>Shtrih-M: Driver FR</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Strich-М: Treiber Fiskaldrucker</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Штрих-М: Драйвер ФР</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

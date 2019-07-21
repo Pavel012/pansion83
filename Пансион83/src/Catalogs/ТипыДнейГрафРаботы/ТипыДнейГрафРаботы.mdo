@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bef3124e-d793-4592-ae60-33d617ef6321">
+  <producedTypes>
+    <objectType typeId="208a6b78-f55a-41d7-bcaf-13080b21cf51" valueTypeId="dbce4709-bb38-486d-8a78-b8ff30c34456"/>
+    <refType typeId="3e3b2bf0-29eb-4cd3-948f-c738440a7655" valueTypeId="5ec779e9-6766-4709-8857-b904d5d1f000"/>
+    <selectionType typeId="380d18d4-0ddb-45cd-be19-b149fe6c8f5b" valueTypeId="ca7cffff-83e1-403c-8120-a5ee5add00fd"/>
+    <listType typeId="12826012-ab49-4f00-991d-aca5900c59f5" valueTypeId="19bc7d4c-70f8-436c-99b1-dbf7dd9230ba"/>
+    <managerType typeId="8760a0bb-d7ca-45d9-8981-fab16f6683c6" valueTypeId="7cbb6b09-2fd9-4d63-bd52-ff3d42437cdd"/>
+  </producedTypes>
+  <name>ТипыДнейГрафРаботы</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы дней граф работы</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Tagestypen in Arbeitsplänen</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы дней в графиках работы</value>
+  </synonym>
+  <inputByString>Catalog.ТипыДнейГрафРаботы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ТипыДнейГрафРаботы.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыДнейГрафРаботы.Form.ListForm</defaultChoiceForm>
+  <attributes uuid="dacfe6f3-6e32-4328-ad82-e4aa3b512910">
+    <name>SortCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Sort code</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sortierungsreihenfolge</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31bc7e2e-aa2a-4ada-8e00-895efd94c9f7">
+    <name>Remarks</name>
+    <synonym>
+      <key>en</key>
+      <value>Remarks</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Anmerkungen</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8698b5c8-8580-48c0-b5d0-a494bad36171">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Listenformular</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

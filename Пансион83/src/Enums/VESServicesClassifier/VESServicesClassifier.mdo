@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ad66268-8773-427d-be47-b37547955d2f">
+  <producedTypes>
+    <refType typeId="e4ff79da-de9f-4567-9eb7-787193abaed9" valueTypeId="305f8b35-b5df-4155-a304-8f5b9463c367"/>
+    <listType typeId="1bebe2c9-ee6d-488a-9753-922b2542683a" valueTypeId="ac4becca-72eb-4d5a-8e34-61b8204ee688"/>
+    <managerType typeId="5bf4809b-34b2-4816-a053-0e4d0087c04f" valueTypeId="9b733447-3cc3-4a31-9255-7a2ce32f5989"/>
+  </producedTypes>
+  <name>VESServicesClassifier</name>
+  <synonym>
+    <key>en</key>
+    <value>VES services classifier</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Dienstleistungsklassifikator WKU WED (Allrussischer Klassifikator außenwirtschaftlicher Tätigkeit)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор услуг ВКУ ВЭД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="6bf9c43b-545d-41a0-8c52-fa012d38e9ee">
+    <name>HotelServices</name>
+    <synonym>
+      <key>en</key>
+      <value>996411 - Гостиница services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>996411 - Гостиница services</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>996411 - Услуги гостиниц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed51513e-d7cf-492a-a3a8-87064f49056d">
+    <name>MotelServices</name>
+    <synonym>
+      <key>en</key>
+      <value>996412 - Motel services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>996412 - Motel services</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>996412 - Услуги мотелей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31cae073-e77f-4f70-bacb-1fa7fb078008">
+    <name>AccommodationServices</name>
+    <synonym>
+      <key>en</key>
+      <value>996419 - Other accommodation services</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>996419 - Other accommodation services</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>996419 - Услуги прочих мест проживания</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ad6470c-9ff6-40a5-a22c-439a0b2c9230">
+  <name>СлужбаБезопасности</name>
+  <synonym>
+    <key>en</key>
+    <value>User in internal controller division</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Dienst der internen Sicherheit</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Служба внутренней безопасности</value>
+  </synonym>
+</mdclass:Role>
